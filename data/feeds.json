@@ -1,7 +1,151 @@
 {
-  "lastUpdated": "2026-05-18T15:29:25.154181+00:00",
-  "totalArticles": 253,
+  "lastUpdated": "2026-05-19T14:58:48.991517+00:00",
+  "totalArticles": 255,
   "articles": [
+    {
+      "title": "Debugging Python apps on App Service with the new SSH helper aliases",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debugging-python-apps-on-app-service-with-the-new-ssh-helper/ba-p/4520893",
+      "published": "2026-05-19T13:40:19+00:00",
+      "summary": "You shipped a Python app to App Service. It worked in the demo. It works locally. In production, /chat is returning 502s — but /health is green, the deployment succeeded, the logs are quiet, and your laptop can't reproduce it. What you actually need is a shell on the running container so you can...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Building AI Guardian Extension: AI Detection and Enterprise AI Security",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-ai-guardian-extension-ai-detection-and-enterprise-ai/ba-p/4521125",
+      "published": "2026-05-19T11:41:31+00:00",
+      "summary": "Introduction Generative AI tools such as ChatGPT, GitHub Copilot, and Google Gemini are rapidly becoming part of everyday enterprise workflows. Teams use them for code generation, documentation, analysis, support automation, and productivity enhancement. However, this accelerated adoption has also...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ranjsharma"
+    },
+    {
+      "title": "Rundeck – AWS Enterprise Rundeck Integration with Azure Runner",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/rundeck-aws-enterprise-rundeck-integration-with-azure-runner/ba-p/4521080",
+      "published": "2026-05-19T10:08:59+00:00",
+      "summary": "Architecture Overview Rundeck Server (AWS) → https://dev.rundeck.xyz.com Rundeck Runner (Azure Linux VM) Secure Communication over HTTPS (Port 4432) Optional Proxy for enterprise networks 1.Ensure that network connectivity is established between the Rundeck endpoint (dev.rundeck.xyz.com) and the...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ranjsharma"
+    },
+    {
+      "title": "Confidence-Aware RAG: Teaching Your AI Pipeline to Acknowledge Uncertainty",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/confidence-aware-rag-teaching-your-ai-pipeline-to-acknowledge/ba-p/4515061",
+      "published": "2026-05-19T07:00:00+00:00",
+      "summary": "Introduction Retrieval-Augmented Generation (RAG) has become the standard architecture for grounding Large Language Models (LLMs) with enterprise data. By retrieving relevant documents before generating a response, RAG helps reduce hallucinations compared to relying on model knowledge alone....",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "RohitPoddar"
+    },
+    {
+      "title": "Building a Terraform Drift Validator for Azure with Live Portal Verification",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-a-terraform-drift-validator-for-azure-with-live-portal/ba-p/4520952",
+      "published": "2026-05-19T06:18:13+00:00",
+      "summary": "Architecture: This blog describes how to build a practical Terraform Drift Validator for Azure that compares three sources of truth: Excel sheet or design document containing expected Azure configuration Terraform state file representing IaC-managed deployed intent Live Azure configuration,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ranjsharma"
+    },
+    {
+      "title": "Introducing Code Interpreters for Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-code-interpreters-for-logic-apps/ba-p/4519880",
+      "published": "2026-05-18T20:08:36+00:00",
+      "summary": "We have recently introduced support for Code interpreters inside of Azure Logic Apps. When partnered with a LLM, code interpreters allow builders to express their goals or intents via natural language and obtain executable results. These capabilities become powerful in the areas of data analysis,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Safe Rollouts Start with Signals: Introducing Scorecards in Azure App Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/safe-rollouts-start-with-signals-introducing-scorecards-in-azure/ba-p/4520881",
+      "published": "2026-05-18T19:59:18+00:00",
+      "summary": "Applications are rarely changed all at once anymore. Teams use feature flags, targeting rules, and progressive rollout patterns to introduce changes gradually and reduce risk. This rollout model gives teams more than a safer way to control exposure. It also creates the context to understand what...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "mukta"
+    },
+    {
+      "title": "Turn Your App Service Web App Into a Self-Healing Agent: LLMOps Best Practices for Production",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/turn-your-app-service-web-app-into-a-self-healing-agent-llmops/ba-p/4520867",
+      "published": "2026-05-18T18:06:59+00:00",
+      "summary": "A user submits a prompt. The agent burns through 50,000 tokens looping on a malformed tool response. Another user trips a model rate limit and the agent silently fails. A bad prompt update goes out at 4 PM Friday and degrades success rate to 60%. Your APM dashboard shows green the entire time...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Introducing Grok 4.3 on Microsoft Foundry: Latest Generation Agentic Capabilities",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation/ba-p/4517096",
+      "published": "2026-05-18T16:36:40+00:00",
+      "summary": "Customers building advanced AI systems increasingly need models that can reason deeply, act autonomously, and integrate reliably into real‑world workflows—all without compromising on governance or cost efficiency. Grok 4.3, xAI’s latest flagship model, is now available in Microsoft Foundry, giving...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
+    {
+      "title": "Don’t Start Your Application Upgrade by Changing Code",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/don-t-start-your-application-upgrade-by-changing-code/ba-p/4520838",
+      "published": "2026-05-18T16:34:57+00:00",
+      "summary": "The first step of a .NET upgrade isn't code, it's assessment! That sounds obvious, but it isn't. When somebody tells you to upgrade an app, the instinct is to open the repo, bump the TargetFramework, update a few NuGet packages, and start chasing build errors, that feels like progress, but you're...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "PabloLopes"
+    },
+    {
+      "title": "Easy Auth Configuration for Logic App Standard through CI/CD",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/easy-auth-configuration-for-logic-app-standard-through-ci-cd/ba-p/4520539",
+      "published": "2026-05-18T16:32:46+00:00",
+      "summary": "Problem Statement When Easy Auth (Azure App Service’s built-in authentication and authorization) is enabled on a Logic App Standard, users frequently report that they cannot open the run history. Specifically, the inputs and outputs of the trigger and actions fail to load on the run details page,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Arpit_MSFT"
+    },
+    {
+      "title": "Agent 365 connector: Monitor, hunt, and investigate AI agent activity in Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/agent-365-connector-monitor-hunt-and-investigate-ai-agent/ba-p/4520836",
+      "published": "2026-05-18T16:05:15+00:00",
+      "summary": "As enterprises scale the use of AI agents, SOC teams need visibility into AI agent behavior. The Agent 365 connector, now in public preview, streams rich agent telemetry from Agent 365 into Microsoft Sentinel data lake. Agent activity, such as agent data exposure or access drift, is surfaced...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "RGupta"
+    },
+    {
+      "title": "Now in Foundry: Tongyi-MAI Z-Image-Turbo, with FLUX.1-schnell and SDXL base 1.0",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-tongyi-mai-z-image-turbo-with-flux-1-schnell-and/ba-p/4520199",
+      "published": "2026-05-18T16:04:58+00:00",
+      "summary": "This week's Model Mondays edition pairs three models available through the Hugging Face collection in Microsoft Foundry: Tongyi-MAI's Z-Image-Turbo, a new designed for lower latency on a single GPU and native bilingual text rendering; Black Forest Labs' FLUX.1-schnell, a 12B rectified flow...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Osi"
+    },
+    {
+      "title": "You Can Scale MCP Servers Behind a Load Balancer on App Service — Here's How",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/you-can-scale-mcp-servers-behind-a-load-balancer-on-app-service/ba-p/4520824",
+      "published": "2026-05-18T15:49:16+00:00",
+      "summary": "Most MCP servers in the wild are single-instance processes. That's fine when they're driving a local Claude or VS Code session — but it's the wrong shape for a production agent fleet that has to absorb traffic spikes, ride through deploys, and survive instance failures. The good news: the MCP spec...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Host a Microsoft Build //local host Event in Your City",
+      "link": "https://techcommunity.microsoft.com/t5/azure-events/host-a-microsoft-build-local-host-event-in-your-city/ba-p/4514274",
+      "published": "2026-05-18T15:48:57+00:00",
+      "summary": "Content at Microsoft Build will be grounded in technical depth, developer credibility, and hands-on learning and creation. There are a total of 16 sessions available to build your agenda, including 4 labs and 12 breakout sessions, listed below. Labs are approximately 75 minutes in length, while...",
+      "blog": "Azure Events",
+      "blogId": "azure-events",
+      "author": "GalimahB"
+    },
+    {
+      "title": "\"Not Available in Your Region\" Isn't a Dead End: A Security Assessment of Global Deployments",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/quot-not-available-in-your-region-quot-isn-t-a-dead-end-a/ba-p/4509804",
+      "published": "2026-05-18T15:45:46+00:00",
+      "summary": "You want to build with the latest Microsoft Foundry model. You checked the regional availability, and it isn't there yet — only Global Standard. Now you're weighing the capability you actually need against your instinct to keep everything in a regional SKU. This post is for that moment. This is a...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shikhasinha"
+    },
     {
       "title": "Building a Controllable Inference Platform on Kubernetes with AI Runway",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-controllable-inference-platform-on-kubernetes-with-ai/ba-p/4520590",
@@ -352,15 +496,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "simranparkhe"
-    },
-    {
-      "title": "Introducing Grok 4.3 on Microsoft Foundry: Latest Generation Agentic Capabilities",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation/ba-p/4517096",
-      "published": "2026-05-13T16:12:49+00:00",
-      "summary": "Customers building advanced AI systems increasingly need models that can reason deeply, act autonomously, and integrate reliably into real‑world workflows—all without compromising on governance or cost efficiency. Grok 4.3, xAI’s latest flagship model, is now available in Microsoft Foundry, giving...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
     },
     {
       "title": "Agent Skills in Visual Studio: Teach Copilot How Your Team Works",
@@ -1218,15 +1353,6 @@
       "author": "ssinghkalra"
     },
     {
-      "title": "Reimagining Azure Governance with Automation & EPAC",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/reimagining-azure-governance-with-automation-epac/ba-p/4516626",
-      "published": "2026-05-02T19:26:11+00:00",
-      "summary": "🧩 The Challenge: Governance at Scale Managing Azure environments manually introduces: ❌ Policy drift across subscriptions ❌ Inconsistent naming conventions ❌ Delays in compliance enforcement ❌ Human errors in deployments 🔍 Insight: Governance gaps are often not due to lack of policies—but lack of...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "sameenamohammed"
-    },
-    {
       "title": "High-Fidelity Network Observability at Scale— ACNS Metrics Filtering and Log Aggregation Now GA",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/high-fidelity-network-observability-at-scale-acns-metrics/ba-p/4516508",
       "published": "2026-05-01T20:29:20+00:00",
@@ -1270,15 +1396,6 @@
       "blog": "Messaging on Azure",
       "blogId": "messagingonazureblog",
       "author": "ashish-chhabria"
-    },
-    {
-      "title": "AI‑Accelerated AVM Refactoring: Modernizing Legacy IaC Safely and Swiftly",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ai-accelerated-avm-refactoring-modernizing-legacy-iac-safely-and/ba-p/4516437",
-      "published": "2026-05-01T12:14:29+00:00",
-      "summary": "Why AVM refactoring is harder in brownfield Greenfield AVM adoption is straightforward: pick the module, deploy, and iterate. Brownfield is different. You’re refactoring *live* infrastructure — where state, naming conventions, diagnostic settings, and policy baselines already exist. In one...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "HimanshuYadav"
     },
     {
       "title": "From Terminal to Autonomous Coding: Mastering GitHub Copilot CLI ACP Server",
@@ -1369,15 +1486,6 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "jtracey93msft"
-    },
-    {
-      "title": "🚀 From Drift to Diagnosis: AI‑Powered Root Cause Analysis for Azure Infrastructure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-drift-to-diagnosis-ai-powered-root-cause-analysis-for-azure/ba-p/4515436",
-      "published": "2026-04-30T07:08:53+00:00",
-      "summary": "🌍 A Real-World Scenario During a recent production deployment of an enterprise AI platform, everything looked perfectly aligned from an infrastructure perspective: ✅ Infrastructure deployed via IaC (Terraform)✅ Private endpoints enforced✅ Public access disabled for all AI services A few hours...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Pooja_Pradhan"
     },
     {
       "title": "🖼️Streamline Image Generation Workflow in Foundry Toolkit",
@@ -1533,15 +1641,6 @@
       "author": "andrewmathu"
     },
     {
-      "title": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/securing-your-ai-agents-before-they-ship-red-teaming-with/ba-p/4515514",
-      "published": "2026-04-29T08:22:53+00:00",
-      "summary": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT You wouldn't ship a web app without running OWASP ZAP or Snyk. So why are AI agents going to production without a single security scan? Prompt injection, data leakage, system prompt theft — the OWASP Top 10 for LLM...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vsriramdas"
-    },
-    {
       "title": "Making Sense of Azure AI Foundry IQ",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/making-sense-of-azure-ai-foundry-iq/ba-p/4513131",
       "published": "2026-04-29T07:00:00+00:00",
@@ -1549,15 +1648,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Samarpitaa"
-    },
-    {
-      "title": "Building an Enterprise Knowledge Copilot with Foundry IQ and Agentic Retrieval on Azure AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-enterprise-knowledge-copilot-with-foundry-iq-and/ba-p/4512308",
-      "published": "2026-04-29T07:00:00+00:00",
-      "summary": "Every enterprise has the same problem: knowledge scattered across SharePoint, file shares, wikis, and email. This article walks through building a knowledge copilot that unifies that data behind a single conversational interface — using Microsoft's Foundry IQ knowledge bases and the agentic...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Shah_Viral"
     },
     {
       "title": "Transforming Video Content into Structured SOPs Using Graph-based RAG",
@@ -1668,15 +1758,6 @@
       "author": "Niels Laute"
     },
     {
-      "title": "Why Does Azure App Service Return HTTP 404?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-does-azure-app-service-return-http-404/ba-p/4514004",
-      "published": "2026-04-28T06:39:38+00:00",
-      "summary": "When an application deployed to Azure App Service suddenly starts returning HTTP 404 – Not Found, it can be confusing —especially when: The deployment completed successfully The App Service shows as Running No obvious errors appear in the portal This behaviour is more common than it appears and is...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "AmritpalSinghNaroo"
-    },
-    {
       "title": "Extracting and Auditing Azure DevOps Permissions at Scale with PowerShell",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/extracting-and-auditing-azure-devops-permissions-at-scale-with/ba-p/4515274",
       "published": "2026-04-28T06:38:27+00:00",
@@ -1729,33 +1810,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "robcronin"
-    },
-    {
-      "title": "How to Troubleshoot Azure Functions Service Bus Trigger Issues",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-troubleshoot-azure-functions-service-bus-trigger-issues/ba-p/4514006",
-      "published": "2026-04-27T06:01:56+00:00",
-      "summary": "Table of Contents Overview Understanding How the Service Bus Trigger Works Message Processing Flow Key Concepts host.json Configuration Reference Issue Categories Common Causes and Solutions 1. Connection String or Configuration Errors 2. Authentication and Authorization Failures (RBAC / SAS) 3....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vikasgupta5"
-    },
-    {
-      "title": "Microsoft’s New In‑House AI Models (MAI‑Transcribe, MAI‑Voice, MAI‑Image)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-s-new-in-house-ai-models-mai-transcribe-mai-voice-mai/ba-p/4512731",
-      "published": "2026-04-26T11:56:35+00:00",
-      "summary": "What Are the New MAI Models? MAI‑Transcribe‑1 (Speech‑to‑Text) MAI‑Transcribe‑1 is Microsoft’s first‑generation in‑house speech recognition model. It supports 25 languages and is optimized for real‑world, noisy enterprise audio, such as meetings and call centers. Key highlights Enterprise‑grade...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "kumar_rahul"
-    },
-    {
-      "title": "How ACR Artifact Cache Handles Multi-Arch Images: What Gets Cached and When Webhooks Fire",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-acr-artifact-cache-handles-multi-arch-images-what-gets/ba-p/4514744",
-      "published": "2026-04-25T19:37:56+00:00",
-      "summary": "By Johnson Shi (Senior Product Manager), Toddy Mladenov (Principal PM Manager), Luis Dieguez (Principal SWE Manager), Akash Singhal (Senior Software Engineer), Kiran Challa (Senior Software Engineer), Ren Shao (Senior Software Engineer) Introduction Three of the most common questions we hear from...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "johnsonshi_msft"
     },
     {
       "title": "Modernizing Industrial Safety and Inspection with AI-Driven Drone Automation",
@@ -1830,15 +1884,6 @@
       "author": "ankitasarkar"
     },
     {
-      "title": "Host a Microsoft Build //local host Event in Your City",
-      "link": "https://techcommunity.microsoft.com/t5/azure-events/host-a-microsoft-build-local-host-event-in-your-city/ba-p/4514274",
-      "published": "2026-04-23T22:18:07+00:00",
-      "summary": "Content at Microsoft Build will be grounded in technical depth, developer credibility, and hands-on learning and creation. There are a total of 16 sessions available to build your agenda, including 4 labs and 12 breakout sessions, listed below. Labs are approximately 75 minutes in length, while...",
-      "blog": "Azure Events",
-      "blogId": "azure-events",
-      "author": "GalimahB"
-    },
-    {
       "title": "Centralizing Enterprise API Access for Agent-Based Architectures",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/centralizing-enterprise-api-access-for-agent-based-architectures/ba-p/4511792",
       "published": "2026-04-23T21:43:23+00:00",
@@ -1875,15 +1920,6 @@
       "author": "Pierre_Roman"
     },
     {
-      "title": "GPT Capability in Understanding Coordinates: How GPT-5.4 Transforms Spatial Precision",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-capability-in-understanding-coordinates-how-gpt-5-4/ba-p/4506726",
-      "published": "2026-04-23T19:00:00+00:00",
-      "summary": "Why I Ran This Experiment This work started not as a benchmarking exercise, but as a practical problem: I needed to automatically extract panel regions from PDF-format electrical Single-Line Diagram (SLD) drawings using OpenAI models . All experiments were conducted using OpenAI models in Microsoft...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jihyeseo"
-    },
-    {
       "title": "Enabling Agentic Data Governance with Hybrid Cloud Flexibility in Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/enabling-agentic-data-governance-with-hybrid-cloud-flexibility/ba-p/4513511",
       "published": "2026-04-23T18:17:35+00:00",
@@ -1900,15 +1936,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Yohan Lasorsa"
-    },
-    {
-      "title": "Automate Prior Authorization with AI Agents - Now Available as a Foundry Template",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/automate-prior-authorization-with-ai-agents-now-available-as-a/ba-p/4513432",
-      "published": "2026-04-23T16:00:00+00:00",
-      "summary": "By Amit Mukherjee · Principal Solutions Engineer, Microsoft Health & Life Sciences Lindsey Craft-Goins · Technology Leader - Cloud & AI Platforms, Health & Life Sciences Joel Borellis · Director Solutions Engineering - Cloud & AI Platforms, Health & Life Sciences Prior authorization (PA) is one of...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amimukherjee"
     },
     {
       "title": "Introducing the Microsoft Sentinel Training Lab. Hands-On Security Operations in Minutes",
@@ -2269,15 +2296,6 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "NaufalPrawironegoro"
-    },
-    {
-      "title": "What Changed in RC4 with the January 2026 Windows Update and Why it is Important",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/what-changed-in-rc4-with-the-january-2026-windows-update-and-why/ba-p/4504732",
-      "published": "2026-04-19T14:11:51+00:00",
-      "summary": "In case you haven’t heard, RC4 is not secure and has been deprecated. In this article, I will discuss what changed with the January 2026 Windows Update and why it is important to start auditing and remediate RC4 usage is your environment. Starting with the January 13, 2026, Windows security...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "Elanor92"
     }
   ]
 }
