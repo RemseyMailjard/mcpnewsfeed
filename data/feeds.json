@@ -1,7 +1,142 @@
 {
-  "lastUpdated": "2026-05-19T14:58:48.991517+00:00",
-  "totalArticles": 255,
+  "lastUpdated": "2026-05-20T15:00:08.818291+00:00",
+  "totalArticles": 263,
   "articles": [
+    {
+      "title": "Bulk-configure diagnostic settings on Azure Logic Apps Consumptions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/bulk-configure-diagnostic-settings-on-azure-logic-apps/ba-p/4521454",
+      "published": "2026-05-20T08:47:16+00:00",
+      "summary": "Bulk-configure diagnostic settings on Azure Logic Apps — without clicking through the Portal LA-BulkDiag is a small, single-file PowerShell script that does the whole job in one guided run. It enumerates every Consumption Logic App in a resource group, shows you which ones already have settings,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Yanbo_Deng"
+    },
+    {
+      "title": "How to Visualize Your Azure AI Workloads Usage for Observability",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/how-to-visualize-your-azure-ai-workloads-usage-for-observability/ba-p/4517324",
+      "published": "2026-05-20T07:00:00+00:00",
+      "summary": "This article assumes you already have an Azure Foundry project and resource deployed in Microsoft Foundry. The options referenced here are documented in detail in the linked articles; this post serves as a consolidated step by step guide bringing them all together and explaining where each option...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "juneesingh"
+    },
+    {
+      "title": "Golden Image Refresh for Virtual Machines and VM Scale Sets: Driving Consistency at Scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/golden-image-refresh-for-virtual-machines-and-vm-scale-sets/ba-p/4521376",
+      "published": "2026-05-20T02:56:39+00:00",
+      "summary": "Overview: A golden image is a prebuilt, approved system template that represents the ideal baseline for deployment. It includes: Hardened operating system configuration (e.g., RHEL) Preinstalled software and dependencies Security patches and updates Organizational compliance standards Architecture:...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ranjsharma"
+    },
+    {
+      "title": "Applying Site Reliability Engineering to Autonomous AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/applying-site-reliability-engineering-to-autonomous-ai-agents/ba-p/4521357",
+      "published": "2026-05-19T23:12:29+00:00",
+      "summary": "If you practice SRE, you already have a mental model for running reliable production systems. You define SLOs. You track error budgets. You use circuit breakers to stop cascading failures. You run chaos experiments to find weaknesses before customers do. You treat every operational decision as a...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "mosiddi"
+    },
+    {
+      "title": "Deploy with Confidence: Using Rule Impact Analyzer in Azure Virtual Network Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/deploy-with-confidence-using-rule-impact-analyzer-in-azure/ba-p/4521342",
+      "published": "2026-05-19T22:51:45+00:00",
+      "summary": "Introduction In a previous blog post, we described how Azure Virtual Network Manager (AVNM) enables central teams to enforce security admin rules across hundreds of virtual networks—bring consistency and governance to complex enterprise environments. But enforcement at scale introduces a new...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "jl-ms"
+    },
+    {
+      "title": "Simplified access to Hotpatching enabled by Azure Arc for Windows Server 2025",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplified-access-to-hotpatching-enabled-by-azure-arc-for/ba-p/4521251",
+      "published": "2026-05-19T21:18:34+00:00",
+      "summary": "With Windows Server 2025, we introduced hotpatch enabled by Azure Arc, delivering security updates to Windows Server across hybrid and multicloud environments – minimizing downtime (no reboot), accelerating protection, and unifying patch management. We know that keeping your servers updated with...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "sharmajyoti"
+    },
+    {
+      "title": "Public preview: Expanded coverage and unified management for SQL VA Express Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/public-preview-expanded-coverage-and-unified-management-for-sql/ba-p/4514652",
+      "published": "2026-05-19T21:11:13+00:00",
+      "summary": "SQL Vulnerability Assessment (SQL VA) is a core capability in Defender for SQL that helps customers identify possible misconfigurations, excessive permissions, and other deviations from security best practices through continuous scanning of their databases. Traditionally, enabling SQL VA on SQL...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Catalin Esanu"
+    },
+    {
+      "title": "Azure API Center portal is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-center-portal-is-now-generally-available/ba-p/4521339",
+      "published": "2026-05-19T20:43:16+00:00",
+      "summary": "What Is the API Center Portal? The API Center portal is a hosted, provisioned and managed by Azure, where developers across your organization can discover, explore, and consume APIs. The API Center portal provides a multi-gateway, organization-wide view of every API and AI asset (e.g. plugins, MCP...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala"
+    },
+    {
+      "title": "Azure Arc Server April 2026 Forum",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-april-2026-forum/ba-p/4521318",
+      "published": "2026-05-19T18:58:36+00:00",
+      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the April 2026 Azure Arc Server Forum, we discussed: Public Preview of Essential Machine Management, learn more at aka.ms/EMM-blog and sign up at aka.ms/EMM-feedback Engage with product group on exploration of AI on...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Aurnov_Chattopadhyay"
+    },
+    {
+      "title": "Agentic AI for Linux Operations on Azure: The Prompts",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agentic-ai-for-linux-operations-on-azure-the-prompts/ba-p/4520924",
+      "published": "2026-05-19T18:25:43+00:00",
+      "summary": "Try This Yourself: Agentic AI for Linux Operations on Azure At Red Hat Summit 2026, I handed GitHub Copilot CLI a terminal and asked it to deploy a full-stack application to RHEL 10 on Azure. Live. From a single prompt. No scripts, no runbooks, no pre-baked automation. The audience watched every...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "abbottkarl"
+    },
+    {
+      "title": "Metrics Filtering and Log Aggregation Now GA for Advanced Container Networking Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/metrics-filtering-and-log-aggregation-now-ga-for-advanced/ba-p/4516508",
+      "published": "2026-05-19T18:13:31+00:00",
+      "summary": "We are thrilled to announce that Advanced Container Networking Services (ACNS) for Azure Kubernetes Service (AKS) now delivers two powerful observability features in General Availability: container network metrics filtering and container network log filtering and aggregation. Together, these...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "chandanAggarwal"
+    },
+    {
+      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
+      "published": "2026-05-19T16:44:15+00:00",
+      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "simranparkhe"
+    },
+    {
+      "title": "How to run evals for the model router",
+      "link": "https://devblogs.microsoft.com/foundry/how-to-run-evals-for-model-router/",
+      "published": "2026-05-19T16:34:07+00:00",
+      "summary": "Walk through running quality, cost, and latency evaluations for the Foundry model router using an open-source GitHub repo designed for router-aware eval pipelines. The post How to run evals for the model router appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Sanjeev Jagtap, leestott, Marie-Louise Onga Nana"
+    },
+    {
+      "title": "From Prompt to Production: Building Azure Architecture Diagrams with AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-prompt-to-production-building-azure-architecture-diagrams/ba-p/4520336",
+      "published": "2026-05-19T16:32:11+00:00",
+      "summary": "Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Cloud architects spend significant time translating ideas into architecture diagrams. They toggle between Visio, draw.io, pricing calculators, and documentation. According to the 2024 Stack Overflow Developer Survey, 61% of...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "arturoqu"
+    },
+    {
+      "title": "Eliminate LLM Cold starts: Load models up to 6x Faster with Azure Blob Storage and Run:AI Model Streamer",
+      "link": "https://devblogs.microsoft.com/azure-sdk/eliminate-llm-cold-starts-load-models-up-to-6x-faster-with-azure-blob-storage-and-runai-model-streamer/",
+      "published": "2026-05-19T15:00:07+00:00",
+      "summary": "Stop paying for idle GPUs while model weights copy to disk. Stream them straight into GPU memory instead with Run:AI Streamer from Azure Blob Storage. The Problem: Every Cold Start Costs You More Than Money GPU compute is among the most expensive cloud infrastructure, and every second a GPU is...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Vishnu Charan TJ"
+    },
     {
       "title": "Debugging Python apps on App Service with the new SSH helper aliases",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debugging-python-apps-on-app-service-with-the-new-ssh-helper/ba-p/4520893",
@@ -1137,15 +1272,6 @@
       "author": "Sally_Dabbah"
     },
     {
-      "title": "Automating Azure Naming Standards using API and DevOps Pipelines",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-naming-standards-using-api-and-devops-pipelines/ba-p/4516628",
-      "published": "2026-05-05T09:43:42+00:00",
-      "summary": "Introduction In large Azure environments, one of the most overlooked yet critical governance challenges is resource naming consistency. While organizations define naming standards, enforcing them at scale across multiple subscriptions, teams, and pipelines often becomes a manual and inconsistent...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "sameenamohammed"
-    },
-    {
       "title": "Deploying Azure Resources with Managed HSM Keys Using Bicep",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-azure-resources-with-managed-hsm-keys-using-bicep/ba-p/4516971",
       "published": "2026-05-05T09:30:46+00:00",
@@ -1351,15 +1477,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "ssinghkalra"
-    },
-    {
-      "title": "High-Fidelity Network Observability at Scale— ACNS Metrics Filtering and Log Aggregation Now GA",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/high-fidelity-network-observability-at-scale-acns-metrics/ba-p/4516508",
-      "published": "2026-05-01T20:29:20+00:00",
-      "summary": "We are thrilled to announce that Advanced Container Networking Services (ACNS) for Azure Kubernetes Service (AKS) now delivers two powerful observability features in General Availability: container network metrics filtering and container network log filtering and aggregation. Together, these...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "chandanAggarwal"
     },
     {
       "title": "The new Run dialog: faster, cleaner, and more capable",
@@ -1639,15 +1756,6 @@
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "andrewmathu"
-    },
-    {
-      "title": "Making Sense of Azure AI Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/making-sense-of-azure-ai-foundry-iq/ba-p/4513131",
-      "published": "2026-04-29T07:00:00+00:00",
-      "summary": "As enterprise teams build AI agents, the hardest design decisions often have nothing to do with models. Instead, they revolve around a more fundamental question: How should an agent access organizational knowledge in a way that is accurate, secure, and sustainable over time? Azure AI Foundry IQ is...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Samarpitaa"
     },
     {
       "title": "Transforming Video Content into Structured SOPs Using Graph-based RAG",
@@ -2260,42 +2368,6 @@
       "blog": "Azure Virtual Desktop",
       "blogId": "azurevirtualdesktopblog",
       "author": "Steve_Downs"
-    },
-    {
-      "title": "Simplify On-prem File share Migration to Azure: Discover & assess suitability using Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/simplify-on-prem-file-share-migration-to-azure-discover-assess/ba-p/4509195",
-      "published": "2026-04-20T09:49:14+00:00",
-      "summary": "Migrating on‑premises file servers to the cloud is a complex infrastructure transformation—not just a data move. Many organizations lack the visibility needed to decide whether to rehost or modernize file shares spread across Windows and Linux servers. Azure Migrate now extends its discovery and...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "bapic"
-    },
-    {
-      "title": "Discoverable – Observable MCP Server",
-      "link": "https://devblogs.microsoft.com/ise/observable_discoverable_mcp_server/",
-      "published": "2026-04-20T07:00:00+00:00",
-      "summary": "How to build an observable MCP Server with discoverable tools and agents. The post Discoverable – Observable MCP Server appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Colin Desmond"
-    },
-    {
-      "title": "Network Connectivity Check APIs for Logic App Standard",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/network-connectivity-check-apis-for-logic-app-standard/ba-p/4512516",
-      "published": "2026-04-19T18:40:14+00:00",
-      "summary": "Introduction When your Logic App Standard is integrated with a Virtual Network (VNET), you can use these APIs to troubleshoot connectivity issues to downstream resources like SQL databases, Storage Accounts, Service Bus, Key Vault, and more. The checks run directly from the worker hosting your...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Mohammed_Barqawi"
-    },
-    {
-      "title": "Step by Step Guide to Ontology and Plan for Financial Service",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/step-by-step-guide-to-ontology-and-plan-for-financial-service/ba-p/4512708",
-      "published": "2026-04-19T15:06:24+00:00",
-      "summary": "What We Will Build In this guide, we will construct a complete Fabric IQ solution that accomplishes the following: First, a Lakehouse that ingests publicly available data including bank financials, P2P lending statistics, borrower demographics, and licensing information. Second, a Semantic Model...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "NaufalPrawironegoro"
     }
   ]
 }
