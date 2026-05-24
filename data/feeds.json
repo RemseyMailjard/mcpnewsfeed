@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-05-23T13:22:09.203185+00:00",
-  "totalArticles": 242,
+  "lastUpdated": "2026-05-24T13:23:29.442457+00:00",
+  "totalArticles": 235,
   "articles": [
+    {
+      "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
+      "published": "2026-05-24T09:43:53+00:00",
+      "summary": "Services and applications produce massive amounts of telemetry – and making sense of all this data takes effort. Data is often spread across different stores, which means the way to clear insights goes through careful querying, refinement and correlation. The Azure Copilot Observability agent now...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Noa Kuperberg"
+    },
     {
       "title": "Redefining Security for an AI Driven World",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/redefining-security-for-an-ai-driven-world/ba-p/4521961",
@@ -2107,78 +2116,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "kirankumar_manchiwar04"
-    },
-    {
-      "title": "Axios npm Supply Chain Compromise – Guidance for Azure Pipelines Customers",
-      "link": "https://devblogs.microsoft.com/devops/axios-npm-supply-chain-compromise-guidance-for-azure-pipelines-customers/",
-      "published": "2026-04-24T10:40:43+00:00",
-      "summary": "On March 31, 2026, malicious versions of the widely used JavaScript HTTP client library Axios were briefly published to the npm registry as part of a supply chain attack. The affected versions — 1.14.1 and 0.30.4 — included a hidden malicious dependency that executed during installation and...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Josef Sin"
-    },
-    {
-      "title": "When RAG Isn’t Enough: Moving from Retrieval to Relationship-Aware Systems in Enterprise AI:",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/when-rag-isn-t-enough-moving-from-retrieval-to-relationship/ba-p/4514185",
-      "published": "2026-04-24T07:04:57+00:00",
-      "summary": "The Problem In an enterprise AI scenario, the goal was to map structured feature data to relevant sections within large technical documents. At a glance, this appears to be a straightforward semantic matching problem. Initial results using semantic search were promising. However, as the system was...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "ankitasarkar"
-    },
-    {
-      "title": "Centralizing Enterprise API Access for Agent-Based Architectures",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/centralizing-enterprise-api-access-for-agent-based-architectures/ba-p/4511792",
-      "published": "2026-04-23T21:43:23+00:00",
-      "summary": "Problem Statement When building AI agents or automation solutions, calling enterprise APIs directly often means configuring individual HTTP actions within each agent for every API. While this works for simple scenarios, it quickly becomes repetitive and difficult to manage as complexity grows. The...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "sbaskaran"
-    },
-    {
-      "title": "Automatic SSO Takeover in Azure AD B2C Custom Policies",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/automatic-sso-takeover-in-azure-ad-b2c-custom-policies/ba-p/4514167",
-      "published": "2026-04-23T21:34:55+00:00",
-      "summary": "Why This Matters As organizations modernize authentication, many shift toward Single Sign-On (SSO) using providers like Microsoft EntraID. But if you already have users in Azure AD B2C using local accounts (email + password), the transition isn’t straightforward. You’ll run into: Duplicate...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "anammalu"
-    },
-    {
-      "title": "Designing Outbound Connectivity for \"Private Subnets\" in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/designing-outbound-connectivity-for-quot-private-subnets-quot-in/ba-p/4514258",
-      "published": "2026-04-23T21:28:09+00:00",
-      "summary": "Why Private Subnets Change Everything Historically, Azure virtual machines relied on default outbound internet access, where the platform automatically assigned a dynamic SNAT IP from a shared pool. This was convenient but problematic: ❌ No deterministic outbound IP addresses ❌ No traffic...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "alexeyn1"
-    },
-    {
-      "title": "The Microsoft Azure Infra Summit 2026 Schedule Is Live.",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/the-microsoft-azure-infra-summit-2026-schedule-is-live/ba-p/4513538",
-      "published": "2026-04-23T19:08:05+00:00",
-      "summary": "Hello Folks, I promised the full agenda would drop soon. Today’s the day. The schedule is locked in, the approved sessions are on the board, and I want to walk you through what three days of deep-technical, engineering-led Azure content looks like. A quick refresher before we get into the content:...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Enabling Agentic Data Governance with Hybrid Cloud Flexibility in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/enabling-agentic-data-governance-with-hybrid-cloud-flexibility/ba-p/4513511",
-      "published": "2026-04-23T18:17:35+00:00",
-      "summary": "The “Why” Do you manage data in a complex multi-cloud environment? Are you struggling with data silos, evolving regulations, and the pressure to maintain control and compliance across on-prem and multiple clouds? Do you ever wish an intelligent assistant could help shoulder the load of data...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Moaz_Mirza"
-    },
-    {
-      "title": "LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript",
-      "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners",
-      "published": "2026-04-23T17:00:14+00:00",
-      "summary": "Want to build AI agents with JavaScript that go beyond basic chat completions? Agents that reason, call tools, and pull from knowledge bases on their own? We put together a free, open source course to help you get there. LangChain.js for Beginners is 8 chapters and 70+ runnable TypeScript examples....",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Yohan Lasorsa"
     }
   ]
 }
