@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-05-24T13:23:29.442457+00:00",
-  "totalArticles": 235,
+  "lastUpdated": "2026-05-25T14:51:48.626514+00:00",
+  "totalArticles": 231,
   "articles": [
+    {
+      "title": "Building an End-to-End Azure RAG Strategy Agent with MS Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-end-to-end-azure-rag-strategy-agent-with-ms-foundry/ba-p/4516967",
+      "published": "2026-05-25T07:00:00+00:00",
+      "summary": "High-Level Architecture This architecture represents an end-to-end Retrieval-Augmented Generation (RAG) pipeline where raw documents are ingested from Azure Blob Storage, processed using Document Intelligence, transformed into embeddings via Azure OpenAI, and indexed in Azure AI Search for hybrid...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "SHAILESHDEVADIGA"
+    },
+    {
+      "title": "How to use Instance Mix with Azure Virtual Machine Scale Sets",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-use-instance-mix-with-azure-virtual-machine-scale-sets/ba-p/4522574",
+      "published": "2026-05-24T23:38:37+00:00",
+      "summary": "When a Virtual Machine Scale Set needs to scale out, it normally uses a single VM size (also known as SKU). Whilst that is simple, it can also become a constraint. For example the scale out might be limited if that specific size has limited regional capacity, quota pressure, or a price profile that...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "OrinThomas"
+    },
     {
       "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
@@ -1227,15 +1245,6 @@
       "author": "Microsoft"
     },
     {
-      "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-github-copilot-into-a-best-practices-coach-with-copilot/ba-p/4511567",
-      "published": "2026-05-09T10:14:47+00:00",
-      "summary": "Why Copilot Spaces + Markdown repos work so well When you ask Copilot generic questions (“How should we log errors?” “What’s our API versioning approach?”), the model will often respond with reasonable defaults. But reasonable defaults are not the same as your standards. Copilot Spaces solve the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "mohashaikh"
-    },
-    {
       "title": "CHERIoT-Ibex: Closing the door on memory safety vulnerabilities with hardware-enforced protection",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/cheriot-ibex-closing-the-door-on-memory-safety-vulnerabilities/ba-p/4517904",
       "published": "2026-05-09T05:08:11+00:00",
@@ -2071,51 +2080,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "robcronin"
-    },
-    {
-      "title": "Modernizing Industrial Safety and Inspection with AI-Driven Drone Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/modernizing-industrial-safety-and-inspection-with-ai-driven/ba-p/4514284",
-      "published": "2026-04-25T00:07:31+00:00",
-      "summary": "In large-scale manufacturing and infrastructure environments, maintaining structural integrity is a continuous operational challenge. Industrial facilities—from automotive plants to energy and infrastructure sites—depend on thousands of structural connection points such as bolts and fasteners to...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "PeterTHLee"
-    },
-    {
-      "title": "Azure MCP Server now available as an MCP Bundle (.mcpb)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
-      "published": "2026-04-24T20:32:49+00:00",
-      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Azure MCP Server now available as an MCP Bundle (.mcpb) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Victor Colin Amador"
-    },
-    {
-      "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
-      "published": "2026-04-24T18:35:28+00:00",
-      "summary": "Co-authors: Jie Su, Abhinav Dua, Mukthar Ahmed, Dhruv Joshi, Dibyendu Mondal In a previous post, we shared how Azure Automated VM Recovery works to minimize virtual machine downtime through a three-stage approach: Detection, Diagnosis, and Mitigation. This post goes one layer deeper into how our...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Jon_Andoni_Baranda"
-    },
-    {
-      "title": "Designing a Medallion Framework — A Decision Guide",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/designing-a-medallion-framework-a-decision-guide/ba-p/4514349",
-      "published": "2026-04-24T16:11:09+00:00",
-      "summary": "Everyone draws the same picture: Bronze → Silver → Gold. Three boxes, three arrows. Done. What that picture hides is the dozen design decisions you have to make inside each box — and the ones you make at the boundaries between them. Get those right and onboarding the 200th table feels like...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Subhajit1994"
-    },
-    {
-      "title": "Enhancing Enterprise AI Deployments with Zero Trust Networking",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/enhancing-enterprise-ai-deployments-with-zero-trust-networking/ba-p/4513662",
-      "published": "2026-04-24T16:08:22+00:00",
-      "summary": "Problem Statement Azure OpenAI is publicly accessible by default Azure OpenAI frequently asked questions | Microsoft Learn Any application with API access can call it from anywhere Violates: Enterprise security policies Zero Trust architecture Key principles of the Zero Trust network model...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kirankumar_manchiwar04"
     }
   ]
 }
