@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-05-25T14:51:48.626514+00:00",
-  "totalArticles": 231,
+  "lastUpdated": "2026-05-26T15:22:22.611596+00:00",
+  "totalArticles": 232,
   "articles": [
+    {
+      "title": "Visual Studio May Update – Plan, Review, Refine",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-may-update-plan-review-refine/",
+      "published": "2026-05-26T15:00:39+00:00",
+      "summary": "There’s a particular rhythm to good development work: you think, you try, you check, you adjust. This month’s Visual Studio update leans into that rhythm. Whether you’re sketching an approach with the Plan agent before touching a single file, reviewing a wave of changes across many files, or...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "Building an On-Device Voice Assistant with Microsoft Foundry Local",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-on-device-voice-assistant-with-microsoft-foundry/ba-p/4522392",
+      "published": "2026-05-26T07:00:00+00:00",
+      "summary": "Why on-device voice still matters Most \"voice AI\" tutorials assume your audio leaves the machine. You ship a WAV to Whisper-API, your transcript to GPT-4, and a synthesized response back over the wire. That works — but it also means three round trips, three per-token bills, and three places your...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Deploying Existing Agentic Services to Microsoft 365 Copilot via Gateway and OBO",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deploying-existing-agentic-services-to-microsoft-365-copilot-via/ba-p/4504265",
+      "published": "2026-05-25T15:15:00+00:00",
+      "summary": "Deploying an Agentic Service to Microsoft 365 Copilot with Delegated OBO Access You've built an agentic service. It works. It uses the framework you chose — maybe LangChain, maybe Semantic Kernel, maybe the Microsoft Agent Framework, maybe something entirely your own. It talks to your LLM, calls...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JamesN"
+    },
     {
       "title": "Building an End-to-End Azure RAG Strategy Agent with MS Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-end-to-end-azure-rag-strategy-agent-with-ms-foundry/ba-p/4516967",
@@ -1380,15 +1407,6 @@
       "author": "hcamposu"
     },
     {
-      "title": "Building a Scalable Contract Data Extraction Pipeline with Microsoft Foundry and Python",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-scalable-contract-data-extraction-pipeline-with/ba-p/4513681",
-      "published": "2026-05-07T07:00:00+00:00",
-      "summary": "Architecture Overview Alt text: Architecture diagram showing Blob Storage triggering Azure Function, calling Document Intelligence, transforming data, and storing in Cosmos DB Flow: Upload contract files (PDF or ZIP) to Azure Blob Storage Azure Function triggers automatically on file upload Azure...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "tanyabaranwal"
-    },
-    {
       "title": "SQL query generation from natural language",
       "link": "https://devblogs.microsoft.com/ise/llm-sql-query-generation/",
       "published": "2026-05-07T07:00:00+00:00",
@@ -1540,15 +1558,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "micahmckittrick"
-    },
-    {
-      "title": "Introducing OpenAI's newest chat model in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-openai-s-newest-chat-model-in-microsoft-foundry/ba-p/4516848",
-      "published": "2026-05-05T21:42:50+00:00",
-      "summary": "OpenAI's GPT-5.5 Instant (or Chat-latest in the API) begins rolling out in Microsoft Foundry today as GPT-chat-latest. Built on GPT-5.4 and GPT-5.3-chat, the new model delivers measurable gains in factual accuracy, tool calling, and response efficiency. These improvements translate directly into...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
     },
     {
       "title": "Azure Cosmos DB Conf 2026 Recap: Lessons from Production",
