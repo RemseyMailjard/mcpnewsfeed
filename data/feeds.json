@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-05-26T15:22:22.611596+00:00",
-  "totalArticles": 232,
+  "lastUpdated": "2026-05-27T15:38:01.185216+00:00",
+  "totalArticles": 233,
   "articles": [
+    {
+      "title": "Introducing Microsoft Planetary Computer Pro Model Context Protocol Tools on VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/introducing-microsoft-planetary-computer-pro-model-context/ba-p/4522346",
+      "published": "2026-05-27T15:23:32+00:00",
+      "summary": "About Microsoft Planetary Computer Pro MCP Tools The Microsoft Planetary Computer Pro MCP Tools introduces a natural language-driven interface that simplifies how users interact with geospatial data managed with Microsoft Planetary Computer Pro. By integrating directly with GitHub Copilot in VS...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "nelsontam"
+    },
+    {
+      "title": "Multi-Tenant Architecture: Real Challenges and an Azure Design Walkthrough",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/multi-tenant-architecture-real-challenges-and-an-azure-design/ba-p/4517460",
+      "published": "2026-05-27T07:00:00+00:00",
+      "summary": "Azure Multi-Tenant Architecture (B2C Scenario) Let’s start with a reference design commonly used in Azure-based systems. A pretty standard setup looks something like this: Microsoft Entra External ID (Azure AD B2C) for authentication Azure API Management as the entry layer App Service or Functions...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "pranav_pratik"
+    },
+    {
+      "title": "Simplify Virtual WAN Spoke Connectivity at Scale with Azure Virtual Network Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-virtual-wan-spoke-connectivity-at-scale-with-azure/ba-p/4523055",
+      "published": "2026-05-26T20:44:54+00:00",
+      "summary": "With Azure Virtual Network Manager (AVNM) integration, organizations using Virtual WAN for transitive connectivity can simplify spoke connectivity and policy management across large-scale hub-and-spoke deployments. By using a Virtual WAN hub as the hub in an AVNM hub-and-spoke topology,...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Jay-Li"
+    },
+    {
+      "title": "How ACR Runs Multi-Tenancy at Scale: Stamp Rebalancing and Why You Never See It Happen",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-acr-runs-multi-tenancy-at-scale-stamp-rebalancing-and-why/ba-p/4523014",
+      "published": "2026-05-26T18:11:47+00:00",
+      "summary": "By Johnson Shi, Richard Yuan, Yi Zha, Susan Shi, Jeanine Burke, Bin Du, Clark Porter, Bernie Harris, Eric Du Introduction Two of the most common questions we hear from teams running container workloads at scale on Azure Container Registry (ACR) are: \"How does ACR keep my registry's performance...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft"
+    },
+    {
+      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
+      "published": "2026-05-26T16:01:24+00:00",
+      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "simranparkhe"
+    },
     {
       "title": "Visual Studio May Update – Plan, Review, Refine",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-may-update-plan-review-refine/",
@@ -487,15 +532,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "chandanAggarwal"
-    },
-    {
-      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
-      "published": "2026-05-19T16:44:15+00:00",
-      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "simranparkhe"
     },
     {
       "title": "How to run evals for the model router",
@@ -1317,15 +1353,6 @@
       "author": "hcamposu"
     },
     {
-      "title": "From Test Cases to Trust: Elevating Enterprise Quality with GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-test-cases-to-trust-elevating-enterprise-quality-with/ba-p/4512819",
-      "published": "2026-05-08T07:00:00+00:00",
-      "summary": "The Traditional QA Bottleneck In complex enterprise systems, QA teams often face familiar challenges: Time‑consuming test case creation from evolving requirements Repetitive automation scripting and refactoring Heavy regression cycles under tight release timelines Limited bandwidth for deeper risk...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "SagarPatra"
-    },
-    {
       "title": "NVIDIA Dynamo on AKS: Disaggregated LLM Inference with H100 GPUs",
       "link": "https://azureglobalblackbelts.com/2026/05/08/nvidia-dynamo-on-aks",
       "published": "2026-05-08T00:00:00+00:00",
@@ -1893,15 +1920,6 @@
       "author": "jianshn"
     },
     {
-      "title": "Azure SRE Agent for Azure Monitor Alerts: Reduce Alert Fatigue, Investigate What Matters",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-for-azure-monitor-alerts-reduce-alert-fatigue/ba-p/4513458",
-      "published": "2026-04-30T01:28:49+00:00",
-      "summary": "The Alert Problem Organizations running Azure Monitor tend to land in one of two situations: Alert fatigue has set in. Alert rules tend to grow over time — a CPU threshold from two years ago, a health probe check from a migration, a disk alert from an outage that never got cleaned up. These rules...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vineela-Suri"
-    },
-    {
       "title": "Use Data Wrangler to Streamline Your Microsoft Sentinel data lake Notebook Development",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/use-data-wrangler-to-streamline-your-microsoft-sentinel-data/ba-p/4490214",
       "published": "2026-04-29T19:18:17+00:00",
@@ -2080,15 +2098,6 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "troettinger"
-    },
-    {
-      "title": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dissecting-llm-container-cold-start-where-the-time-actually-goes/ba-p/4508831",
-      "published": "2026-04-27T11:36:05+00:00",
-      "summary": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes Cold-start latency determines whether GPU clusters can scale to zero, how fast they can autoscale, and whether bursty or low-QPS workloads are economically viable. Most optimization effort targets the container pull path – faster...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "robcronin"
     }
   ]
 }
