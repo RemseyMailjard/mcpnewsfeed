@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-05-27T15:38:01.185216+00:00",
-  "totalArticles": 233,
+  "lastUpdated": "2026-05-28T15:49:42.135928+00:00",
+  "totalArticles": 231,
   "articles": [
+    {
+      "title": "SQL + AI, hands-on: Join a free workshop near you",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-ai-hands-on-join-a-free-workshop-near-you/",
+      "published": "2026-05-28T13:09:15+00:00",
+      "summary": "If you work with Microsoft SQL regularly, the AI conversation right now probably feels a little exhausting. Every week brings a new platform, a new pattern, a new opinion about how you’re “supposed” to build AI apps. Most of it assumes you’ll start over. You don’t have to. We’re running SQL AI App...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "How to Manage RC4 Hardening – Definitive Guide",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-manage-rc4-hardening-definitive-guide/ba-p/4515923",
+      "published": "2026-05-28T12:20:17+00:00",
+      "summary": "How to Manage RC4 Hardening – Definitive Guide This article is a technical continuation of the RC4 deprecation / Kerberos hardening work I covered in my previous article last month. If you already went through the “why” (risk of RC4, what changes Microsoft is rolling out, and the high-level...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "Elanor92"
+    },
+    {
+      "title": "Building Agentic Systems on Azure: Microsoft Foundry Agents SDK vs Microsoft Agent Framework",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-agentic-systems-on-azure-microsoft-foundry-agents-sdk/ba-p/4517290",
+      "published": "2026-05-28T07:00:00+00:00",
+      "summary": "In my recent experience as a Senior Consultant at Microsoft, I’ve been actively involved in designing and delivering AI-driven solutions, with a strong focus on building intelligent agents using modern frameworks. Along the way, I've built agents using both Microsoft Foundry Agents SDK (hereafter...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "ChaitanyaThalloory"
+    },
+    {
+      "title": "Verification-driven tooling prompts for fast-moving codebases",
+      "link": "https://devblogs.microsoft.com/ise/verification-driven-tooling-prompts/",
+      "published": "2026-05-28T07:00:00+00:00",
+      "summary": "A practical pattern for using GenAI research agents to produce reliable internal tooling by verifying assumptions with detection classes and a final checklist. The post Verification-driven tooling prompts for fast-moving codebases appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Dexter Williams"
+    },
+    {
+      "title": "Access Your SRE Agent from Any IDE, Terminal, or AI Assistant",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/access-your-sre-agent-from-any-ide-terminal-or-ai-assistant/ba-p/4523434",
+      "published": "2026-05-28T01:28:47+00:00",
+      "summary": "Your team already uses an SRE Agent — it monitors your services, learns your architecture, and handles operational tasks. Now developers can talk to that agent in natural language from the interfaces they already use every day: their editor, their terminal, their AI assistant. Check what the agent...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dbandaru"
+    },
+    {
+      "title": "I’m Starting a New Cosmos DB App. What Security Do I Actually Need?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/im-starting-a-new-cosmos-db-app-what-security-do-i-actually-need/",
+      "published": "2026-05-27T20:49:18+00:00",
+      "summary": "You just created a Cosmos DB account. The portal handed you two keys and a connection string, it worked, and you moved on. That’s what most developers do, and it causes problems later. This post is a guide for developers launching a new Cosmos DB app who want a secure default setup without...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sudhanshu Khera, Iria Osara"
+    },
+    {
+      "title": "Inspektor Gadget Completes Its First Independent Security Audit",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/inspektor-gadget-completes-its-first-independent-security-audit/ba-p/4517895",
+      "published": "2026-05-27T19:04:24+00:00",
+      "summary": "One thing I've learned working with Open Source software over the years is that the projects you can trust most are the ones willing to let someone else test and review. That's what's recently happened with Inspektor Gadget, the open source eBPF tool for Kubernetes observability and Linux host...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "Brian Benz"
+    },
+    {
+      "title": "How AI coding agents actually use your technology",
+      "link": "https://devblogs.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology",
+      "published": "2026-05-27T18:30:38+00:00",
+      "summary": "You ship an SDK, a CLI, an API, and developers use it. Now AI coding agents use it too, except they use it differently than humans do. Most of the time you have no idea what’s actually happening between “developer types a prompt” and “agent generates code with your technology.” Is the agent reading...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
     {
       "title": "Introducing Microsoft Planetary Computer Pro Model Context Protocol Tools on VS Code",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/introducing-microsoft-planetary-computer-pro-model-context/ba-p/4522346",
@@ -289,6 +361,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "Saumil-Shrivastava"
+    },
+    {
+      "title": "The AX stack: what’s fixed, where you can win",
+      "link": "https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win",
+      "published": "2026-05-21T17:39:59+00:00",
+      "summary": "AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn’t compile, use a deprecated SDK, or pick the wrong service entirely. Is it you using it wrong? Is it your tech stack? Or is it the tools you haven’t...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "You Can Build a Framework-Agnostic AI Gateway on Azure App Service — Here's How",
@@ -1263,15 +1344,6 @@
       "author": "Paulams732"
     },
     {
-      "title": "From Test Cases to Trusted Automation: Scaling Enterprise Quality with GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-test-cases-to-trusted-automation-scaling-enterprise-quality/ba-p/4512843",
-      "published": "2026-05-11T07:00:00+00:00",
-      "summary": "Automation First, But Trust Is Earned Enterprise QA teams today are automation‑led by default. Regression suites run daily, API tests validate integrations, and UI automation protects critical workflows. Yet, many teams still struggle with: Automation suites that lag behind changing requirements...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "SagarPatra"
-    },
-    {
       "title": "Understanding the deployment quota limitation (800) Error in Azure Bicep and ARM Deployments",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/understanding-the-deployment-quota-limitation-800-error-in-azure/ba-p/4518262",
       "published": "2026-05-11T05:12:56+00:00",
@@ -1324,15 +1396,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Aaron Saidi"
-    },
-    {
-      "title": "Inspektor Gadget Completes Its First Independent Security Audit",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/inspektor-gadget-completes-its-first-independent-security-audit/ba-p/4517895",
-      "published": "2026-05-08T17:56:26+00:00",
-      "summary": "One thing I've learned working with Open Source software over the years is that the projects you can trust most are the ones willing to let someone else test and review. That's what's recently happened with Inspektor Gadget, the open source eBPF tool for Kubernetes observability and Linux host...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "Brian Benz"
     },
     {
       "title": "Safely Migrating Terraform Managed Disks on Azure Using Stable Keys and Copilot",
@@ -1641,15 +1704,6 @@
       "author": "ranjsharma"
     },
     {
-      "title": "Performance Tuning and Scaling Optimization for Large-Scale Azure Workloads",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/performance-tuning-and-scaling-optimization-for-large-scale/ba-p/4516788",
-      "published": "2026-05-05T04:52:06+00:00",
-      "summary": "Summary As cloud-native systems scale, performance challenges rarely stem from a single bottleneck. Instead, they emerge from the interaction between compute, orchestration, and data layers under load. This article captures a practical optimization journey of a high-volume Azure-based workload and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "ruchitapradhan"
-    },
-    {
       "title": "Building Multi-File Refactoring Agents with GitHub Copilot Workspace",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-multi-file-refactoring-agents-with-github-copilot/ba-p/4516932",
       "published": "2026-05-05T03:49:40+00:00",
@@ -1956,15 +2010,6 @@
       "author": "Sokuma"
     },
     {
-      "title": "How to Manage RC4 Hardening – Definitive Guide",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-manage-rc4-hardening-definitive-guide/ba-p/4515923",
-      "published": "2026-04-29T15:59:22+00:00",
-      "summary": "How to Manage RC4 Hardening – Definitive Guide This article is a technical continuation of the RC4 deprecation / Kerberos hardening work I covered in my previous article last month. If you already went through the “why” (risk of RC4, what changes Microsoft is rolling out, and the high-level...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "Elanor92"
-    },
-    {
       "title": "SDK-Style Support for Extension Projects",
       "link": "https://devblogs.microsoft.com/visualstudio/sdk-style-support-for-extension-projects/",
       "published": "2026-04-29T14:00:36+00:00",
@@ -2035,69 +2080,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Swapnil Nagar"
-    },
-    {
-      "title": "Project Pavilion Presence at KubeCon EU 2026",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/project-pavilion-presence-at-kubecon-eu-2026/ba-p/4515518",
-      "published": "2026-04-28T12:50:16+00:00",
-      "summary": "KubeCon + CloudNativeCon Europe 2026 took place from 23 to 26 March at RAI Amsterdam, and it was a strong one. The themes running through the week reflected where the cloud native community is right now: AI moving from experimentation into production, platform engineering continuing to mature, and...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "lexinadolski"
-    },
-    {
-      "title": "Welcome to Azure Cosmos DB Conf 2026",
-      "link": "https://devblogs.microsoft.com/cosmosdb/welcome-to-azure-cosmos-db-conf-2026/",
-      "published": "2026-04-28T12:00:07+00:00",
-      "summary": "Today is the day. Azure Cosmos DB Conf 2026, in partnership with AMD, is a free virtual developer event focused on building modern, scalable applications with Azure Cosmos DB. The agenda features Microsoft engineers, product team leaders, and members of the global developer community sharing...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jay Gordon"
-    },
-    {
-      "title": "PowerToys 0.99 is here: new monitor controls, easier window management, and Dock upgrades",
-      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-99-is-here-new-monitor-controls-easier-window-management-and-dock-upgrades/",
-      "published": "2026-04-28T11:32:59+00:00",
-      "summary": "We’re back with a fresh PowerToys release! This month introduces Power Display for controlling your monitors from the system tray, Grab And Move for quickly moving and resizing windows, and a wave of improvements to Command Palette and the Dock, along with updates across the utility suite. You can...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Niels Laute"
-    },
-    {
-      "title": "Extracting and Auditing Azure DevOps Permissions at Scale with PowerShell",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/extracting-and-auditing-azure-devops-permissions-at-scale-with/ba-p/4515274",
-      "published": "2026-04-28T06:38:27+00:00",
-      "summary": "Introduction Azure DevOps organizations accumulate permissions over time. Groups are created, users are added, Entra (Azure AD) groups are nested into project groups, and team structures evolve. For organizations subject to compliance requirements, security reviews, or simply wanting to understand...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "skissel"
-    },
-    {
-      "title": "Introducing AI Skill Assessment in Azure API Center",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-ai-skill-assessment-in-azure-api-center/ba-p/4515243",
-      "published": "2026-04-27T23:33:09+00:00",
-      "summary": "As AI skills become central to enterprise automation and intelligent workflows, ensuring their quality, safety, and discoverability at scale is a growing challenge. Today, we're excited to announce skills assessment in Azure API Center — a built-in, automated quality scoring system powered by the...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala"
-    },
-    {
-      "title": "Azure Data Studio is retired: Move your Azure SQL workflow to VS Code in 10 minutes",
-      "link": "https://devblogs.microsoft.com/azure-sql/azure-data-studio-is-retired-move-your-azure-sql-workflow-to-vs-code-in-10-minutes/",
-      "published": "2026-04-27T18:20:58+00:00",
-      "summary": "Azure Data Studio (ADS) retired on February 6, 2025, and support ended on February 28, 2026. The recommended path forward is Visual Studio Code with the MSSQL extension. If you used ADS daily, this guide gets you productive quickly in VS Code. The focus is on importing your existing setup,...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Iqra Shaikh"
-    },
-    {
-      "title": "Azure Local expands to sovereign-scale infrastructure with disaggregated deployments",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-local-expands-to-sovereign-scale-infrastructure-with/ba-p/4514338",
-      "published": "2026-04-27T15:45:00+00:00",
-      "summary": "As organizations accelerate digital transformation across datacenters, sovereign environments, and edge locations, infrastructure architectures must evolve to meet new operational and regulatory demands. The first feature update of Azure Local in CY 2026 (version 2604) marks a significant step...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "troettinger"
     }
   ]
 }
