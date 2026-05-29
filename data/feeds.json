@@ -1,7 +1,115 @@
 {
-  "lastUpdated": "2026-05-28T15:49:42.135928+00:00",
-  "totalArticles": 231,
+  "lastUpdated": "2026-05-29T15:24:26.958408+00:00",
+  "totalArticles": 230,
   "articles": [
+    {
+      "title": "Power Pages & SPA: Deploying a Custom React SPA to Microsoft Power Pages",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/power-pages-spa-deploying-a-custom-react-spa-to-microsoft-power/ba-p/4521378",
+      "published": "2026-05-29T07:00:00+00:00",
+      "summary": "Introduction Modern business applications are no longer limited to traditional server-rendered pages or fixed portal layouts. Today’s users expect fast, responsive, highly interactive web experiences - the kind of experience developers commonly build using modern front-end frameworks such as React....",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "aakarshdhawan"
+    },
+    {
+      "title": "From Requirement to Production Code, How Engineering Squad Automates the Full Dev Lifecycle",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-requirement-to-production-code-how-engineering-squad/ba-p/4522698",
+      "published": "2026-05-29T07:00:00+00:00",
+      "summary": "I started wondering: what if instead of one AI assistant generating code snippets, you had an entire squad of specialized AI agents. Each owning a single stage of the delivery pipeline, they could collaborate, self-correct, and produce a complete, traceable output from a plain-text requirement?...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "paggarwal"
+    },
+    {
+      "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
+      "published": "2026-05-29T06:52:47+00:00",
+      "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Training 100B+ Models on a Single GPU: What MegaTrain Changes - and What It Means for Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/training-100b-models-on-a-single-gpu-what-megatrain-changes-and/ba-p/4519562",
+      "published": "2026-05-29T06:08:50+00:00",
+      "summary": "The Paradigm Shift in Model Training The conventional wisdom in deep learning has been simple: bigger models require bigger infrastructure. Training a 100-billion parameter language model traditionally demands massive GPU clusters with terabytes of combined memory, where each GPU holds portions of...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "yuvmaz"
+    },
+    {
+      "title": "[Preview] CIS Benchmarks on Azure; Now for Windows Server",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/preview-cis-benchmarks-on-azure-now-for-windows-server/ba-p/4523432",
+      "published": "2026-05-28T23:33:29+00:00",
+      "summary": "For customers with machines managed by Azure (i.e., Arc-enabled machines and Azure VMs), last year we delivered built-in CIS Benchmarks for Linux. The feedback has been clear: “Excellent, now do Windows.” Today we're announcing that built-in CIS Benchmarks for Windows Server are coming to Azure...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "AmirB"
+    },
+    {
+      "title": "Governing AI Agents Against Every OWASP Agentic Risk: A Deep Dive with the Agent Governance Toolkit",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/governing-ai-agents-against-every-owasp-agentic-risk-a-deep-dive/ba-p/4523749",
+      "published": "2026-05-28T22:04:55+00:00",
+      "summary": "AI agents are moving from prototypes to production. They book flights, write code, negotiate contracts, and operate across enterprise systems with minimal human oversight. The attack surface is not theoretical: OWASP has catalogued the top 10 risks specific to agentic applications, and every one of...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "mosiddi"
+    },
+    {
+      "title": "[Now Generally Available] Customizable Security Baseline Policies in Machine Configuration!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/now-generally-available-customizable-security-baseline-policies/ba-p/4523429",
+      "published": "2026-05-28T19:29:06+00:00",
+      "summary": "Background: Azure Machine Configuration remains committed to enabling greater security and simplicity in at-scale server management for all Azure customers. Machine Configuration (previously known as Azure Policy Guest Configuration) enables both built-in and custom configuration as code allowing...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "mutemwamasheke"
+    },
+    {
+      "title": "Who's Calling Your Service? Designing for Humans and Agents at the Same Time",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/who-s-calling-your-service-designing-for-humans-and-agents-at/ba-p/4523716",
+      "published": "2026-05-28T18:46:18+00:00",
+      "summary": "We're building three interfaces for Azure SRE Agent: an interactive CLI for humans at a terminal, an agent mode for coding agents that spawn it as a subprocess, and an MCP server for humans inside coding agents and for remote agents in other ecosystems. The CLI and agent mode are coming. The MCP...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dbandaru"
+    },
+    {
+      "title": "Claude Opus 4.8 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-4-8-is-now-available-in-microsoft-foundry/ba-p/4523367",
+      "published": "2026-05-28T18:09:00+00:00",
+      "summary": "As AI applications become more complex, teams need models that can handle longer-running work, reason more deeply across complex analysis use tools more reliably across multi-step workflows, and support consistency for production workflows. Claude Opus 4.8 is designed for these demands, with...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
+      "title": "Ansible + Azure Arc: Manage Azure Arc Extensions with New Ansible Modules",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-manage-azure-arc-extensions-with-new-ansible/ba-p/4521689",
+      "published": "2026-05-28T17:24:53+00:00",
+      "summary": "We’re excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to the azure.azcollection on Ansible Galaxy, you can now deploy and manage Azure Arc extensions using familiar, declarative Ansible workflows. These...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "alinetran"
+    },
+    {
+      "title": "[Public Preview] Introducing Customizable Security Baseline Policies in Machine Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-introducing-customizable-security-baseline/ba-p/4469678",
+      "published": "2026-05-28T17:02:04+00:00",
+      "summary": "Background: Azure Machine Configuration remains committed to enabling greater security and simplicity in at-scale server management for all Azure customers. Machine Configuration (previously known as Azure Policy Guest Configuration) enables both built-in and custom configuration as code allowing...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "mutemwamasheke"
+    },
+    {
+      "title": "How Azure Chaos Studio ships with hermetic Aspire end-to-end tests",
+      "link": "https://devblogs.microsoft.com/aspire/hermetic-aspire-tests-chaos-studio/",
+      "published": "2026-05-28T17:00:00+00:00",
+      "summary": "Learn how the Azure Chaos Studio team uses Aspire.Hosting.Testing to run hermetic, per-PR end-to-end tests across four services — with emulators, stubs, and no shared environments. The post How Azure Chaos Studio ships with hermetic Aspire end-to-end tests appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Brent Rusinow"
+    },
     {
       "title": "SQL + AI, hands-on: Join a free workshop near you",
       "link": "https://devblogs.microsoft.com/azure-sql/sql-ai-hands-on-join-a-free-workshop-near-you/",
@@ -478,15 +586,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Samantha_Fernandez"
-    },
-    {
-      "title": "Ansible + Azure Arc: Manage Arc Extensions with New Ansible Modules",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-manage-arc-extensions-with-new-ansible-modules/ba-p/4521689",
-      "published": "2026-05-20T21:56:38+00:00",
-      "summary": "We’re excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to the azure.azcollection on Ansible Galaxy, you can now deploy and manage Azure Arc extensions using familiar, declarative Ansible workflows. These...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran"
     },
     {
       "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
@@ -1191,15 +1290,6 @@
       "author": "PushpendraKumar"
     },
     {
-      "title": "Giving the Copilot SDK Agent a \"hardware-level helmet\" using Kata microVM on AKS",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/giving-the-copilot-sdk-agent-a-quot-hardware-level-helmet-quot/ba-p/4518668",
-      "published": "2026-05-12T08:08:35+00:00",
-      "summary": "A Moment That Made Me Pause I was recently building an Agent service with the GitHub Copilot SDK. After getting it up and running, I went back through the execution logs and something jumped out at me: In a single conversation turn, the Agent had executed a shell command, read several files, and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
       "title": "What’s new in Microsoft Foundry | April 2026",
       "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-apr-2026/",
       "published": "2026-05-12T07:13:15+00:00",
@@ -1207,24 +1297,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Nick Brady"
-    },
-    {
-      "title": "Introducing PII Shield: A Privacy Proxy for Every LLM Call",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-pii-shield-a-privacy-proxy-for-every-llm-call/ba-p/4514726",
-      "published": "2026-05-12T07:00:00+00:00",
-      "summary": "Why do we need a utility like PII Shield? Let’s start with an uncomfortable truth: modern AI systems are swimming in sensitive data - often without us fully realizing the risks we’re taking. The data is sensitive. Names, emails, phone numbers, credit cards, IBANs, SSNs, Aadhaar, PAN, Driving...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "vikas_gautam"
-    },
-    {
-      "title": "Running Foundry Agent Service on Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/running-foundry-agent-service-on-azure-container-apps/ba-p/4518598",
-      "published": "2026-05-12T04:27:25+00:00",
-      "summary": "Microsoft’s Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade agentic platform. Learn best practices from our engineering teams with real-world lessons, architectural patterns, and operational strategies for...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vyomnagrani"
     },
     {
       "title": "Azure Arc AKS Explained: Run Kubernetes Beyond Azure Cloud",
@@ -1576,15 +1648,6 @@
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
       "author": "Yura_Lee"
-    },
-    {
-      "title": "Now in Foundry: IBM Granite 4.1, NVIDIA Nemotron Nano Omni, and Qwen3.6-35B-A3B",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-ibm-granite-4-1-nvidia-nemotron-nano-omni-and/ba-p/4516858",
-      "published": "2026-05-06T16:37:02+00:00",
-      "summary": "This week Microsoft Foundry adds two major model families alongside a reasoning powerhouse that spans the full spectrum from specialized speech and vision to general-purpose coding and long-context analysis. IBM's Granite 4.1 is a famiily of 10: six LLMs across 3B, 8B, and 30B sizes in both...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Osi"
     },
     {
       "title": "Resilient by Design: Azure Databricks Disaster Recovery Strategy",
@@ -2008,78 +2071,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Sokuma"
-    },
-    {
-      "title": "SDK-Style Support for Extension Projects",
-      "link": "https://devblogs.microsoft.com/visualstudio/sdk-style-support-for-extension-projects/",
-      "published": "2026-04-29T14:00:36+00:00",
-      "summary": "Starting in Visual Studio 18.5, you can create and build Visual Studio extensions (VSIX) using an officially supported SDK-style project. This brings VSIX projects into the modern build and deployment pipeline, improving incremental build performance and making the build → deploy → debug workflow...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Matt Clark"
-    },
-    {
-      "title": "Upcoming Compute API Change: Always return non-null securityType",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/upcoming-compute-api-change-always-return-non-null-securitytype/ba-p/4500387",
-      "published": "2026-04-29T09:02:08+00:00",
-      "summary": "Overview Starting with Azure Compute API version 2025‑11‑01, responses for Azure Virtual Machines (VMs) and Virtual Machine Scale Sets (VMSS) will include a non‑null securityType value in all operations. While this is a small behavioral change, it can impact deployments if they rely on null checks...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "AjKundnani"
-    },
-    {
-      "title": "General availability of Default Ruleset (DRS) 2.2 for Web Application Firewall",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-default-ruleset-drs-2-2-for-web/ba-p/4515762",
-      "published": "2026-04-29T08:31:47+00:00",
-      "summary": "Introduction As attackers continue to evolve their techniques, organizations require web application security that keeps pace with emerging threats without disrupting legitimate traffic. Azure Web Application Firewall (WAF) continues to evolve to meet these demands and now supports Default Rule Set...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "andrewmathu"
-    },
-    {
-      "title": "Transforming Video Content into Structured SOPs Using Graph-based RAG",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/transforming-video-content-into-structured-sops-using-graph/ba-p/4515038",
-      "published": "2026-04-29T01:04:53+00:00",
-      "summary": "Introduction In today’s digital-first environments, a large portion of enterprise knowledge lives inside video content, training sessions, onboarding walkthroughs, and recorded operational procedures. While videos are great for learning, they are not ideal for quick reference, compliance, or...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "dikshashakya"
-    },
-    {
-      "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/flexible-cooling-for-ai-growth-how-zonal-architecture-supports/ba-p/4514042",
-      "published": "2026-04-29T00:58:54+00:00",
-      "summary": "By: Ricardo Bianchini, Steve Solomon, Brijesh Warrier, Martin Herbert, Jay Jochim, Husam Alissa, Pulkit Misra, Eric Peterson and Cam Turner Context - Microsoft is pioneering zonal cooling in its next-generation AI datacenters, enabling flexible, performant, efficient, and sustainable thermal...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "stsolo"
-    },
-    {
-      "title": "Updated Sovereign landing zone",
-      "link": "https://www.azurecitadel.com/blog/2026-04-29-slz-2026-04-2/",
-      "published": "2026-04-29T00:00:00+00:00",
-      "summary": "Introduction The platform library has been updated to 2026.04.2. This update brings two notable changes: a new Local management group in the landing zones hierarchy, and a cleaner, layered naming convention for the sovereign policy sets. Details from the Microsoft team are in the Tech Community...",
-      "blog": "Azure Citadel Blog",
-      "blogId": "azurecitadelblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Visual Studio April Update – Cloud Agent Integration",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-april-update-cloud-agent-integration/",
-      "published": "2026-04-28T19:00:04+00:00",
-      "summary": "GitHub Copilot in Visual Studio is becoming more agentic with every release. This update brings cloud agent integration front and center, letting you start remote coding sessions without leaving the IDE. The post Visual Studio April Update – Cloud Agent Integration appeared first on Visual Studio...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie"
-    },
-    {
-      "title": "The problem: All-or-nothing batch processing in Azure Service Bus",
-      "link": "https://devblogs.microsoft.com/azure-sdk/per-message-settlement-azure-service-bus/",
-      "published": "2026-04-28T18:47:37+00:00",
-      "summary": "Azure Functions lets you settle each Service Bus message on its own within a batch. Complete, abandon, dead-letter, or defer messages one by one to avoid duplicate processing and handle errors with precision. The post The problem: All-or-nothing batch processing in Azure Service Bus appeared first...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Swapnil Nagar"
     }
   ]
 }
