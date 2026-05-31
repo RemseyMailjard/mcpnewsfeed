@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-05-30T13:26:15.999310+00:00",
-  "totalArticles": 226,
+  "lastUpdated": "2026-05-31T13:42:24.928619+00:00",
+  "totalArticles": 222,
   "articles": [
+    {
+      "title": "Agents That Build Agents: A SKILL-first Blueprint with MS Agent Framework & Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-that-build-agents-a-skill-first-blueprint-with-ms-agent/ba-p/4523631",
+      "published": "2026-05-31T07:51:50+00:00",
+      "summary": "The single insight that changes everything Most \"build an AI agent\" tutorials collapse two completely different jobs into one tangled mess: the job of building an agent (writing the code, defining its tools, evaluating it, packaging it), and the job of running an agent (planning, reasoning, calling...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry | May 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-may-2026/",
+      "published": "2026-05-31T06:18:28+00:00",
+      "summary": "May ships trace-based evaluation for any agent on any cloud, Grok 4.3 and DeepSeek V4 in the model catalog, GPT-5 Reinforcement Fine-Tuning at gated GA, three Microsoft Research on-device agent models, Managed VNET at GA, project-level cost attribution, Content Understanding improvements reaching...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady"
+    },
     {
       "title": "What’s new in Azure Language in Foundry Tools",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/what-s-new-in-azure-language-in-foundry-tools/ba-p/4521343",
@@ -1272,15 +1290,6 @@
       "author": "Simona Liao"
     },
     {
-      "title": "How to Test AI Agents with LangSmith: A Complete Guide",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/how-to-test-ai-agents-with-langsmith-a-complete-guide/ba-p/4515972",
-      "published": "2026-05-13T10:27:51+00:00",
-      "summary": "Testing AI agents is crucial for ensuring reliability and accuracy in production.Evaluation is a technique to evaluate your agents. Different type of evaluation are # Evaluation Type 1 Task Success (Pass / Fail) 2 Instruction Adherence 3 Correctness / Accuracy 4 Relevance 5 Groundedness...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "syedarshad"
-    },
-    {
       "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
       "published": "2026-05-13T03:37:38+00:00",
@@ -1990,51 +1999,6 @@
       "blog": "Messaging on Azure",
       "blogId": "messagingonazureblog",
       "author": "ashish-chhabria"
-    },
-    {
-      "title": "Azure Developer CLI (azd) – April 2026",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-april-2026/",
-      "published": "2026-05-01T00:53:08+00:00",
-      "summary": "The Azure Developer CLI (azd) shipped five releases in April 2026. The biggest theme this month is multi-language hook support: write azd hooks in Python, JavaScript, TypeScript, or .NET alongside the existing Bash and PowerShell options. Here’s what’s in versions 1.23.14, 1.23.15, 1.24.0, 1.24.1,...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack"
-    },
-    {
-      "title": "AHEAD helps us launch the Strategic Azure Storage Services Partner Program",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/ahead-helps-us-launch-the-strategic-azure-storage-services/ba-p/4516355",
-      "published": "2026-05-01T00:49:28+00:00",
-      "summary": "Authors: Aung Oo, Vice President Azure Storage Product Management Parker Leavitt, Partner Account Manager, AHEAD Special thanks to: Michael Johnson, Vice President, Cloud, AHEAD AHEAD background AHEAD was formed in 2007 and possesses deep expertise in Infrastructure, Cloud Platforms, AI, Analytics,...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "karautenMSFT"
-    },
-    {
-      "title": "Azure NCv6 Virtual Machines: Enhancements and GA Transition",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-ncv6-virtual-machines-enhancements-and-ga-transition/ba-p/4503578",
-      "published": "2026-04-30T18:00:24+00:00",
-      "summary": "NCv6 Virtual Machines are Azure's flexible, next generation platform enabling both leading-edge graphics and generative AI compute workloads. Featuring NVIDIA RTX PRO 6000 Blackwell Server Edition (BSE) GPUs, Intel Xeon™ 6 \"Granite Rapids\" 6900P series CPUs, and a suite of Microsoft Azure...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Fernando_Aznar"
-    },
-    {
-      "title": "TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3",
-      "link": "https://devblogs.microsoft.com/visualstudio/typescript-7-beta-now-enabled-by-default-in-visual-studio-2026-18-6-insiders-3/",
-      "published": "2026-04-30T17:08:44+00:00",
-      "summary": "TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3 In Visual Studio 2026 18.6 Insiders 3 we have updated the built-in TypeScript SDK to TypeScript 7 Beta (native preview). The TypeScript SDK provides the compiler and language service used for TypeScript and JavaScript...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Sayed Ibrahim Hashimi"
-    },
-    {
-      "title": "Public Preview: Managed Identity support for graphical session recording",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/public-preview-managed-identity-support-for-graphical-session/ba-p/4513139",
-      "published": "2026-04-30T14:05:12+00:00",
-      "summary": "Overview Azure Bastion provides secure RDP and SSH access to Azure virtual machines directly via the Azure portal or via the native SSH/RDP client already installed on your local computer. Today, we are introducing public preview for managed identity support for session recording, giving...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "aarontsang"
     }
   ]
 }
