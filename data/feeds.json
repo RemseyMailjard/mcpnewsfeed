@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-05-31T13:42:24.928619+00:00",
-  "totalArticles": 222,
+  "lastUpdated": "2026-06-01T17:36:08.803514+00:00",
+  "totalArticles": 220,
   "articles": [
+    {
+      "title": "Now Generally Available: Microsoft Defender for open source relational databases on AWS RDS",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/now-generally-available-microsoft-defender-for-open-source/ba-p/4514651",
+      "published": "2026-06-01T17:11:16+00:00",
+      "summary": "Securing multicloud databases to help reduce risks Open‑source (OSS) relational databases are becoming increasingly critical and increasingly targeted in organization of all sizes. As organizations adopt multicloud architectures, these databases often run across Azure and Amazon Web Services (AWS),...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "lisetteranga"
+    },
+    {
+      "title": "Aspire 13.4 is here",
+      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-4/",
+      "published": "2026-06-01T17:00:00+00:00",
+      "summary": "Aspire 13.4 is here with TypeScript apphost GA, typed resource commands with results, server-side CLI log and telemetry search, more mature Kubernetes and AKS deployment, and more. The post Aspire 13.4 is here appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Maddy Montaquila"
+    },
+    {
+      "title": "Determinism over magic: the engineering design behind Azure Container Registry Regional Endpoints",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/determinism-over-magic-the-engineering-design-behind-azure/ba-p/4524101",
+      "published": "2026-06-01T15:57:03+00:00",
+      "summary": "By Zoey Li, Huangli Wu, Johnson Shi, Wei Meng Introduction Azure Container Registry (ACR) supports geo-replication: one registry resource with active-active replicas across multiple Azure regions. You push or pull through any replica, and ACR asynchronously replicates content to all others. For...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "zoeyli"
+    },
+    {
+      "title": "Claude Code on Microsoft Foundry in VS Code — A Practical Setup Guide (with the gotchas)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/claude-code-on-microsoft-foundry-in-vs-code-a-practical-setup/ba-p/4524245",
+      "published": "2026-06-01T13:40:49+00:00",
+      "summary": "Enables enterprise-grade governance without changing your developer workflow. The official Microsoft Learn article (Configure Claude Code for Microsoft Foundry) gets you ~80% of the way there. The remaining 20%—VS Code settings shape, tenant mismatches, and configuration conflicts like \"baseURL and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "LZhang"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-may-2026/ba-p/4523419",
+      "published": "2026-06-01T12:48:52+00:00",
+      "summary": "Welcome to the May edition of What's new in Microsoft Sentinel. This month’s updates focus on unified role-based access control (RBAC), ecosystem breadth, AI-agent security, and high-assurance identity. RBAC and row-level scoping are now generally available, giving security teams a single, granular...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Sowmys"
+    },
+    {
+      "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
+      "published": "2026-06-01T11:04:05+00:00",
+      "summary": "Services and applications produce massive amounts of telemetry – and making sense of all this data takes effort. Data is often spread across different stores, which means the way to clear insights goes through careful querying, refinement and correlation. The Azure Copilot Observability agent now...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Noa Kuperberg"
+    },
     {
       "title": "Agents That Build Agents: A SKILL-first Blueprint with MS Agent Framework & Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-that-build-agents-a-skill-first-blueprint-with-ms-agent/ba-p/4523631",
@@ -91,15 +145,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "varghesejoji"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-may-2026/ba-p/4523419",
-      "published": "2026-05-29T16:00:00+00:00",
-      "summary": "Welcome to the May edition of What's new in Microsoft Sentinel. This month’s updates focus on unified role-based access control (RBAC), ecosystem breadth, AI-agent security, and high-assurance identity. RBAC and row-level scoping are now generally available, giving security teams a single, granular...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Sowmys"
     },
     {
       "title": "Load testing hosted MCP servers with Locust and Azure Load Testing",
@@ -397,15 +442,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "OrinThomas"
-    },
-    {
-      "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
-      "published": "2026-05-24T09:43:53+00:00",
-      "summary": "Services and applications produce massive amounts of telemetry – and making sense of all this data takes effort. Data is often spread across different stores, which means the way to clear insights goes through careful querying, refinement and correlation. The Azure Copilot Observability agent now...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Noa Kuperberg"
     },
     {
       "title": "Redefining Security for an AI Driven World",
@@ -1200,15 +1236,6 @@
       "author": "SurenderSinghMalik"
     },
     {
-      "title": "﻿﻿Genie in a Bot: Databricks AI/BI Meets Microsoft Teams",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/genie-in-a-bot-databricks-ai-bi-meets-microsoft-teams/ba-p/4507939",
-      "published": "2026-05-14T07:00:00+00:00",
-      "summary": "The Use Case: Why Genie Needs to Live in Teams Every organization has business users who need data answers — fast. Marketing managers want to know which campaign drove the most conversions last quarter. Finance teams need spend breakdowns by channel. Executives want real-time KPIs before a board...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "vikas_gautam"
-    },
-    {
       "title": "WebAssembly Data Processing at the Edge with Azure IoT Operations",
       "link": "https://devblogs.microsoft.com/ise/wasm-edge-data-processing/",
       "published": "2026-05-14T07:00:00+00:00",
@@ -1261,15 +1288,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "RavinderGupta"
-    },
-    {
-      "title": "Introducing Azure Container Apps Express!",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-express/ba-p/4519150",
-      "published": "2026-05-13T17:42:31+00:00",
-      "summary": "Three years ago, a 15-second cold start was industry-leading. Today, developers and AI agents expect sub-second. The speed bar has moved, and the tooling needs to move with it. After running Azure Container Apps for years, we've learned something important: for most developers, the ACA environment...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj"
     },
     {
       "title": "Announcing the general availability of Azure Integrated Hardware Security Module",
@@ -1963,42 +1981,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "ssinghkalra"
-    },
-    {
-      "title": "The new Run dialog: faster, cleaner, and more capable",
-      "link": "https://devblogs.microsoft.com/commandline/the-new-run-dialog-faster-cleaner-and-more-capable/",
-      "published": "2026-05-01T17:00:39+00:00",
-      "summary": "We’ve shipped the new Run dialog – and we want to say thanks. As the team behind Windows Terminal and PowerToys, we’re excited to bring this to Windows 11, and your feedback helped shape it! Run has been rebuilt from the ground up: Modern design: A refreshed look that matches Fluent Design and...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Clint Rutkas"
-    },
-    {
-      "title": "Shift-Left Governance for AI Agents: How the Agent Governance Toolkit Helps You Catch Violations",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/shift-left-governance-for-ai-agents-how-the-agent-governance/ba-p/4516481",
-      "published": "2026-05-01T16:48:09+00:00",
-      "summary": "In part one of this series, we covered AGT’s runtime governance: the policy engine, zero-trust identity, execution sandboxing, and the OWASP Agentic AI risk mapping. That post focused on what happens when an agent acts: policy evaluation at the moment a tool call fires, trust scoring when agents...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "mosiddi"
-    },
-    {
-      "title": "Introducing langchain-azure-cosmosdb: Build Agentic Apps and RAG with One Database",
-      "link": "https://devblogs.microsoft.com/cosmosdb/langchain-azure-cosmos-db-agents-rag/",
-      "published": "2026-05-01T16:43:29+00:00",
-      "summary": "Build AI Agents and RAG Applications with the New LangChain + LangGraph Connector for Azure Cosmos DB Building AI agents and RAG applications today means stitching together half a dozen services, a vector database, a chat history store, a checkpointer for agent state, a semantic cache, a long-term...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "James Codella, Aayush Kataria"
-    },
-    {
-      "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
-      "published": "2026-05-01T16:11:46+00:00",
-      "summary": "For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always revolved around two states: data at rest and data in transit. Encrypt your storage. Encrypt your network traffic. Check, check. But there's a third...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria"
     }
   ]
 }
