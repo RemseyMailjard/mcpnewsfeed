@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-06-04T14:56:59.394492+00:00",
-  "totalArticles": 273,
+  "lastUpdated": "2026-06-05T14:47:55.487662+00:00",
+  "totalArticles": 271,
   "articles": [
+    {
+      "title": "Regional Endpoints for Azure Container Registry Geo-Replication — Now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/regional-endpoints-for-azure-container-registry-geo-replication/ba-p/4525717",
+      "published": "2026-06-05T06:12:53+00:00",
+      "summary": "By Johnson Shi, Zoey (Zhuyu) Li, Huangli Wu What's new Regional endpoints for geo-replicated Azure Container Registries are now in public preview. See the feature's official MS Learn documentation. If you've been following since the private preview announcement, here's what changed: No feature flag...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft"
+    },
+    {
+      "title": "Preview of multiparty analytics with Azure Confidential Clean Rooms",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/preview-of-multiparty-analytics-with-azure-confidential-clean/ba-p/4523274",
+      "published": "2026-06-05T04:34:11+00:00",
+      "summary": "Today, we are excited to announce the preview of multiparty analytics feature of Azure Confidential Clean Rooms, a fully managed service that allows customers and their partners to securely analyze privacy-sensitive datasets from multiple parties. It uses confidential compute enabled Apache...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "Deepak_JV"
+    },
+    {
+      "title": "Azure Speech at Build 2026: Powering Voice Agents with Real-Time and Life-like Experiences",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-speech-at-build-2026-powering-voice-agents-with-real-time/ba-p/4524638",
+      "published": "2026-06-05T03:14:41+00:00",
+      "summary": "Voice is rapidly becoming the default interface for AI. At Build 2026, Azure Speech is making it dramatically easier to ship production-grade voice experiences that feel real, responsive, and global. From agentic, low-latency Voice Live experiences built natively into Foundry Agent Service, to a...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "DONGLI"
+    },
+    {
+      "title": "Azure Monitor Health Model (Preview): What's New!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-preview-what-s-new/ba-p/4525707",
+      "published": "2026-06-05T01:30:56+00:00",
+      "summary": "Azure Monitor Health Model is a modern observability capability that brings together telemetry, architecture, and business context of your workloads to generate health insights. It continuously aggregates signals across dependencies, producing a single, actionable health state which reduces alert...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shijain13"
+    },
+    {
+      "title": "Pod CIDR Expansion Generally Available and IP Address Planning on Azure CNI Overlay",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/pod-cidr-expansion-generally-available-and-ip-address-planning/ba-p/4521700",
+      "published": "2026-06-05T00:14:24+00:00",
+      "summary": "In networking with Azure CNI Overlay, the cluster-wide pod CIDR is logically partitioned into smaller “node” blocks where each node is assigned a fixed CIDR slice (/24) by Azure. This decouples pod networking from the VNet address space entirely because pods receive addresses from a private CIDR...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Sam_Foo"
+    },
+    {
+      "title": "Frameworks only matter when they force decisions",
+      "link": "https://devblogs.microsoft.com/all-things-azure/frameworks-only-matter-when-they-force-decisions/",
+      "published": "2026-06-04T22:30:25+00:00",
+      "summary": "Frameworks mean nothing, until they change what gets built! In this article we discuss how Git-Ape turns architecture and governance into delivery controls on Azure because, if frameworks do not shape delivery decisions, they are just decoration. Cloud teams do not have a framework problem. They...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels"
+    },
+    {
+      "title": "Hosted MCP Servers in Connector Namespace (Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hosted-mcp-servers-in-connector-namespace-preview/ba-p/4524588",
+      "published": "2026-06-04T21:19:18+00:00",
+      "summary": "Imagine you've built an agent and you want to give it access to tools via MCP servers. Local servers won't work because your agent can't connect to them in production. Wouldn't it be great if you could quickly stand up secure, enterprise-ready remote MCP servers that your agent can use? This is...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "lily-ma"
+    },
+    {
+      "title": "Introducing the New Browser Automation Tool with Toolboxes in Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-the-new-browser-automation-tool-with-toolboxes-in/ba-p/4522790",
+      "published": "2026-06-04T19:37:39+00:00",
+      "summary": "AI agents can reason through complex problems—but they hit a wall when workflows require clicking buttons, filling forms, or navigating web interfaces. The Browser Automation Tool bridges that gap, giving your agents the ability to interact with any website the same way a human would. Here's what's...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "NandiniMuralidharan"
+    },
+    {
+      "title": "Microsoft Defender for Cloud Customer Newsletter",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4525656",
+      "published": "2026-06-04T18:30:12+00:00",
+      "summary": "What's new in Defender for Cloud? Defender for Cloud is now integrated into the Defender portal to bring together cloud security posture management and threat protection in a single experience. Read more about it here. Cloud security reporting in the Defender portal is now in public preview...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Yura_Lee"
+    },
+    {
+      "title": "Giving Developers Claude Code with Azure API Management and Claude Models in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/giving-developers-claude-code-with-azure-api-management-and/ba-p/4525212",
+      "published": "2026-06-04T17:41:20+00:00",
+      "summary": "Summary You want to give your engineering org Claude Code without handing out Anthropic API keys, without per-developer billing sprawl, and without losing visibility into who is spending what. This post shows a battle-tested pattern: Claude models run in Microsoft Foundry, billed through your Azure...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MuraliKumanduri"
+    },
+    {
+      "title": "Aspire Multi-repo Rollout at Scale with Agentic AI",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-windows-365-part2/",
+      "published": "2026-06-04T17:05:00+00:00",
+      "summary": "This is part 2 blog of the windows 365 integration journey with Aspire. This blog focus to show how Windows 365 scaled Aspire adoption with reliability patterns and an agentic AI rollout system across 50+ repos. The post Aspire Multi-repo Rollout at Scale with Agentic AI appeared first on Aspire...",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Jeff Liu, Chuanbo Zhang"
+    },
     {
       "title": "New Capabilities to Observe Agents in Azure Monitor",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/new-capabilities-to-observe-agents-in-azure-monitor/ba-p/4524896",
@@ -27,7 +126,7 @@
       "summary": "Why edge AI development is still hard AI is no longer confined to cloud experiments. Developers are increasingly expected to deliver AI inside apps, devices, and edge systems where responsiveness, privacy, resilience, and local control are essential. But building those experiences for production is...",
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
-      "author": "Dom Robinson, samkemp, Inbal Sagiv"
+      "author": "samkemp, Emma Ning, Inbal Sagiv"
     },
     {
       "title": "What’s new in Microsoft Sentinel: May 2026",
@@ -165,15 +264,6 @@
       "author": "shayoni_seth"
     },
     {
-      "title": "Introducing the New Browser Automation Tool with Toolboxes in Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-the-new-browser-automation-tool-with-toolboxes-in/ba-p/4522790",
-      "published": "2026-06-03T17:04:54+00:00",
-      "summary": "AI agents can reason through complex problems—but they hit a wall when workflows require clicking buttons, filling forms, or navigating web interfaces. The Browser Automation Tool bridges that gap, giving your agents the ability to interact with any website the same way a human would. Here's what's...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "NandiniMuralidharan"
-    },
-    {
       "title": "Expanding the Reach of Document Translation – New Capabilities Announced at Microsoft Build",
       "link": "https://devblogs.microsoft.com/foundry/document-translation-build-2026/",
       "published": "2026-06-03T17:00:00+00:00",
@@ -181,15 +271,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Swetha Machanavajhala"
-    },
-    {
-      "title": "Azure Speech at Build 2026: Powering Voice Agents with Real-Time and Life-like Experiences",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-speech-at-build-2026-powering-voice-agents-with-real-time/ba-p/4524638",
-      "published": "2026-06-03T16:46:43+00:00",
-      "summary": "Voice is rapidly becoming the default interface for AI. At Build 2026, Azure Speech in Foundry Tools is making it dramatically easier to ship production-grade voice experiences that feel real, responsive, and global. From agentic, low-latency Voice Live experiences built natively into Microsoft...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "DONGLI"
     },
     {
       "title": "Your first model deployment on Foundry Local on Azure Local: from catalog to inference in 10 minutes",
@@ -624,15 +705,6 @@
       "author": "coryskimming"
     },
     {
-      "title": "Hosted MCP Servers in Connector Namespace (Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/hosted-mcp-servers-in-connector-namespace-preview/ba-p/4524588",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "Imagine you've built an agent and you want to give it access to tools via MCP servers. Local servers won't work because your agent can't connect to them in production. Wouldn't it be great if you could quickly stand up secure, enterprise-ready remote MCP servers that your agent can use? This is...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma"
-    },
-    {
       "title": "What's new in Azure Container Apps at Build'26",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-container-apps-at-build-26/ba-p/4524184",
       "published": "2026-06-02T19:30:00+00:00",
@@ -829,15 +901,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Sreekanth_Thirthala"
-    },
-    {
-      "title": "Preview of multiparty analytics with Azure Confidential Clean Rooms",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/preview-of-multiparty-analytics-with-azure-confidential-clean/ba-p/4523274",
-      "published": "2026-06-02T19:13:33+00:00",
-      "summary": "Today, we are excited to announce the preview of multiparty analytics feature of Azure Confidential Clean Rooms, a fully managed service that allows customers and their partners to securely analyze privacy-sensitive datasets from multiple parties. It uses confidential compute enabled Apache...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "Deepak_JV"
     },
     {
       "title": "More Control, Less Overhead: Custom Domain Upgrades in Azure API Management v2",
@@ -1515,15 +1578,6 @@
       "author": "GeertVanTeylingen"
     },
     {
-      "title": "Foundry IQ as a Shared Knowledge Brain for Multiple AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-as-a-shared-knowledge-brain-for-multiple-ai-agents/ba-p/4507495",
-      "published": "2026-05-22T15:00:00+00:00",
-      "summary": "When we build AI agents today, the hardest part is often not reasoning or generation — it’s giving agents access to the right knowledge. In many projects, each agent ends up with its own retrieval logic, its own indexed data, or its own RAG pipeline. This quickly becomes hard to manage and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "vmanasa"
-    },
-    {
       "title": "AI Infrastructure Preflight at User space: Validating Multi Node, Multi GPU Slurm Clusters",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-infrastructure-preflight-at-user-space-validating-multi-node/ba-p/4522284",
       "published": "2026-05-22T12:29:15+00:00",
@@ -1803,15 +1857,6 @@
       "author": "ranjsharma"
     },
     {
-      "title": "Easy Auth Configuration for Logic App Standard through CI/CD",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/easy-auth-configuration-for-logic-app-standard-through-ci-cd/ba-p/4520539",
-      "published": "2026-05-18T16:32:46+00:00",
-      "summary": "Problem Statement When Easy Auth (Azure App Service’s built-in authentication and authorization) is enabled on a Logic App Standard, users frequently report that they cannot open the run history. Specifically, the inputs and outputs of the trigger and actions fail to load on the run details page,...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Arpit_MSFT"
-    },
-    {
       "title": "Agent 365 connector: Monitor, hunt, and investigate AI agent activity in Microsoft Sentinel",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/agent-365-connector-monitor-hunt-and-investigate-ai-agent/ba-p/4520836",
       "published": "2026-05-18T16:05:15+00:00",
@@ -1873,15 +1918,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "mosiddi"
-    },
-    {
-      "title": "Azure Monitor Health Model - API Refresh",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-api-refresh/ba-p/4519092",
-      "published": "2026-05-14T19:43:35+00:00",
-      "summary": "API Refresh? Discovery scope extended to include Application Insights Azure Resource Graph query Signals Enhancement for Azure resources Resource health is used as a default signal Recommended signals are available Alert rules can be imported as signals dynamic thresholds for metric signals...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "shijain13"
     },
     {
       "title": "Considering NL2SQL? Should your database really be the prompt? How can SQL MCP Server help?",
@@ -2404,60 +2440,6 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "jithinjose"
-    },
-    {
-      "title": "Operationalizing Responsible AI in Microsoft Foundry within Enterprise Network Boundaries",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/operationalizing-responsible-ai-in-microsoft-foundry-within/ba-p/4516869",
-      "published": "2026-05-06T05:23:44+00:00",
-      "summary": "Strategic Overview Deploying Microsoft Foundry within a VNet-integrated landing zone requires a thoughtful balance between innovation and enterprise-grade security, especially in highly regulated industries like banking. This architecture enforces Responsible AI (RAI) principles and robust content...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Shruti9162"
-    },
-    {
-      "title": "Use Azure Container Registry as an Upstream Source for Artifact Cache",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/use-azure-container-registry-as-an-upstream-source-for-artifact/ba-p/4517102",
-      "published": "2026-05-05T23:29:10+00:00",
-      "summary": "In collaboration with:Luis Dieguez, Principal Software Engineering Manager, Azure Container RegistryAkash Singhal, Senior Software Engineer, Azure Container RegistryKiran Challa, Senior Software Engineer, Azure Container RegistryNathan Anderson, Senior Software Engineer, Azure Container...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "toddysm"
-    },
-    {
-      "title": "Public Preview: Migrate Availability Sets to Virtual Machine Scale Sets",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-migrate-availability-sets-to-virtual-machine/ba-p/4517061",
-      "published": "2026-05-05T22:30:00+00:00",
-      "summary": "We're excited to announce the public preview of availability set to Virtual Machine Scale Set migration for Azure Virtual Machines. This new capability enables you to move your existing VMs from availability sets to Virtual Machine Scale Sets with Flexible orchestration—unlocking higher...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "micahmckittrick"
-    },
-    {
-      "title": "Azure Cosmos DB Conf 2026 Recap: Lessons from Production",
-      "link": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production",
-      "published": "2026-05-05T19:30:25+00:00",
-      "summary": "A team was running at 100% RU utilization. Throttles were compounding into retries. P99 latency was degrading. The assumption was obvious: provision more throughput. They didn’t. Instead, they found a single logical partition absorbing more than 80% of traffic. After fixing the data model—without...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Mark Brown"
-    },
-    {
-      "title": "Update host keys to use SFTP on Azure Blob Storage",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
-      "published": "2026-05-05T18:22:49+00:00",
-      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may receive periodically an alert informing to update host keys to use SFTP on Azure Blob Storage. This article describes the impact this will have on the SFTP blob service and what are the changes needed.Table of Content...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "LuisFilipe"
-    },
-    {
-      "title": "Extending Sentinel Data Integration: Azure Blob Storage Support for CCF Connectors",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/extending-sentinel-data-integration-azure-blob-storage-support/ba-p/4516896",
-      "published": "2026-05-05T16:00:00+00:00",
-      "summary": "As organizations scale their security operations, the ability to ingest, process, and analyze high volumes of data reliably becomes increasingly critical. Microsoft Sentinel continues to expand its ecosystem through the Codeless Connector Framework (CCF), enabling ISVs to build and deliver...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "JesseKopavi"
     }
   ]
 }
