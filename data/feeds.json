@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-06-05T14:47:55.487662+00:00",
-  "totalArticles": 271,
+  "lastUpdated": "2026-06-06T13:29:30.877705+00:00",
+  "totalArticles": 260,
   "articles": [
+    {
+      "title": "Govern AI Agents Using Agent Governance Toolkit and Azure Container App Sandboxes",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/govern-ai-agents-using-agent-governance-toolkit-and-azure/ba-p/4526011",
+      "published": "2026-06-05T22:40:19+00:00",
+      "summary": "When you let a model generate code and you actually execute it, you are handing the model a Python REPL on whatever machine runs the agent. That sounds alarmist — right up until a planner (yours, mine, or anyone else's) produces a snippet that reads as harmless on the first pass: # \"summarize the...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "amolravande"
+    },
+    {
+      "title": "New Capabilities to Observe Agents in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/new-capabilities-to-observe-agents-in-azure-monitor/ba-p/4524896",
+      "published": "2026-06-05T22:09:44+00:00",
+      "summary": "Over the last six months, we have been listening to you and building new capabilities to help you observe your agents. You’ve been sharing with us that quality issues are tricky and evaluation is critical, that agent reasoning needs to be understood, that humans must be in the loop to review select...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "MattMc"
+    },
+    {
+      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
+      "published": "2026-06-05T21:50:11+00:00",
+      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "grace_kim"
+    },
+    {
+      "title": "Ansible + Azure Arc: Use Ansible modules to deploy and manage Azure Arc machine extensions at scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-use-ansible-modules-to-deploy-and-manage-azure/ba-p/4521689",
+      "published": "2026-06-05T18:05:16+00:00",
+      "summary": "We are making Azure Arc extensible and increasing the flexibility of the tooling you can use to operate your machines using Azure’s control plane. We are excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "alinetran"
+    },
+    {
+      "title": "A Multi-Region Microsoft Foundry Pattern for Enterprise Private Networking",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-multi-region-microsoft-foundry-pattern-for-enterprise-private/ba-p/4525696",
+      "published": "2026-06-05T17:30:00+00:00",
+      "summary": "Enterprise AI projects do not move to production on model quality alone. They move when architecture, networking, observability, and evaluation all work together in a way that fits existing enterprise constraints. That is why a multi-region Microsoft Foundry pattern matters: it lets teams deploy...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "pratyushmishra"
+    },
+    {
+      "title": "New MAI models in Microsoft Foundry across text, image, voice, and speech",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and/ba-p/4524632",
+      "published": "2026-06-05T14:50:44+00:00",
+      "summary": "Continuing Microsoft AI momentum in Foundry Since launching MAI-Image-2-Efficient, MAI-Image-2, MAI-Voice-1, MAI-Transcribe-1 in Microsoft Foundry this spring, we've been laser-focused on one thing: giving developers the most complete first-party AI stack to build with. Today, at Microsoft Build...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
     {
       "title": "Regional Endpoints for Azure Container Registry Geo-Replication — Now in Public Preview",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/regional-endpoints-for-azure-container-registry-geo-replication/ba-p/4525717",
@@ -99,16 +153,7 @@
       "summary": "This is part 2 blog of the windows 365 integration journey with Aspire. This blog focus to show how Windows 365 scaled Aspire adoption with reliability patterns and an agentic AI rollout system across 50+ repos. The post Aspire Multi-repo Rollout at Scale with Agentic AI appeared first on Aspire...",
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
-      "author": "Jeff Liu, Chuanbo Zhang"
-    },
-    {
-      "title": "New Capabilities to Observe Agents in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/new-capabilities-to-observe-agents-in-azure-monitor/ba-p/4524896",
-      "published": "2026-06-04T14:36:37+00:00",
-      "summary": "Over the last six months, we have been listening to you and building new capabilities to help you observe your agents. You’ve been sharing with us that quality issues are tricky and evaluation is critical, that agent reasoning needs to be understood, that humans must be in the loop to review select...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "MattMc"
+      "author": "Jeff Liu"
     },
     {
       "title": "Harness-Driven Agents: Secure Podcast Pipeline in Hyperlight MicroVM Sandbox",
@@ -975,15 +1020,6 @@
       "author": "grace_kim"
     },
     {
-      "title": "New MAI models in Microsoft Foundry across text, image, voice, and speech",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and/ba-p/4524632",
-      "published": "2026-06-02T18:10:25+00:00",
-      "summary": "Continuing Microsoft AI momentum in Foundry Since launching MAI-Image-2-Efficient, MAI-Image-2, MAI-Voice-1, MAI-Transcribe-1 in Microsoft Foundry this spring, we've been laser-focused on one thing: giving developers the most complete first-party AI stack to build with. Today, at Microsoft Build...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry",
       "link": "https://devblogs.microsoft.com/foundry/build-2026-foundry-models/",
       "published": "2026-06-02T17:20:00+00:00",
@@ -1344,15 +1380,6 @@
       "author": "amar_badal"
     },
     {
-      "title": "Ansible + Azure Arc: Manage Azure Arc Extensions with New Ansible Modules",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-manage-azure-arc-extensions-with-new-ansible/ba-p/4521689",
-      "published": "2026-05-28T17:24:53+00:00",
-      "summary": "We’re excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to the azure.azcollection on Ansible Galaxy, you can now deploy and manage Azure Arc extensions using familiar, declarative Ansible workflows. These...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran"
-    },
-    {
       "title": "[Public Preview] Introducing Customizable Security Baseline Policies in Machine Configuration",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-introducing-customizable-security-baseline/ba-p/4469678",
       "published": "2026-05-28T17:02:04+00:00",
@@ -1558,15 +1585,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Pamela_Fox"
-    },
-    {
-      "title": "Monitoring & Observability in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/monitoring-observability-in-microsoft-foundry/ba-p/4517250",
-      "published": "2026-05-22T17:30:00+00:00",
-      "summary": "Production AI is a moving target. Once you deploy an AI-powered agent, its behavior can shift without a single line of code being changed. As Microsoft's Foundry team states: \"The hard part isn't getting the agent to work it's keeping it working\". Microsoft addressed this challenge by making...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Kalaivanan"
     },
     {
       "title": "From Scale to Breakthrough: Azure NetApp Files Sets a New Cloud Benchmark for EDA Performance",
@@ -2100,15 +2118,6 @@
       "author": "mohit-kanojia"
     },
     {
-      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
-      "published": "2026-05-12T00:02:58+00:00",
-      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "grace_kim"
-    },
-    {
       "title": "How to Secure Azure Databricks without Public Exposure using WAF + Private Endpoints",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-to-secure-azure-databricks-without-public-exposure-using-waf/ba-p/4517721",
       "published": "2026-05-11T23:37:12+00:00",
@@ -2332,114 +2341,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "divyanshi_varshney"
-    },
-    {
-      "title": "SQL query generation from natural language",
-      "link": "https://devblogs.microsoft.com/ise/llm-sql-query-generation/",
-      "published": "2026-05-07T07:00:00+00:00",
-      "summary": "Evaluating AI agents for NL-to-SQL generation across Azure Databricks AI/BI Genie, GitHub Copilot CLI, and Microsoft Agent Framework. We achieved ~75% accuracy with schema documentation and runtime validation, while discovering that business logic errors represent a fundamental limitation requiring...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Ashley Costigane"
-    },
-    {
-      "title": "Governing Agent Sprawl: A Multi‑Region AI Agent Landing Zone on Azure (Reference Architecture)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/governing-agent-sprawl-a-multi-region-ai-agent-landing-zone-on/ba-p/4516036",
-      "published": "2026-05-07T05:19:02+00:00",
-      "summary": "It doesn’t take long for AI agents to get out of hand. In most enterprises, the first few agents are celebrated. A chatbot here. A document summarizer there. Then another team ships an agent that calls APIs. Someone else connects one to internal data. Within months, IT is staring at dozens—or...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KimVaddi"
-    },
-    {
-      "title": "How Validation‑Driven Terraform Made Our Azure Function Deployments Predictable",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/how-validation-driven-terraform-made-our-azure-function/ba-p/4517375",
-      "published": "2026-05-07T05:12:06+00:00",
-      "summary": "When Terraform deploys Azure Functions, the most expensive failures are rarely “syntax” problems. They’re environmental mismatches discovered too late—during terraform apply, after approvals, after a change window starts, and often after multiple teams are already watching the pipeline. After a few...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "AkshitaBajpai"
-    },
-    {
-      "title": "Cutover Strategy for Azure PaaS Services: A Step-by-Step Guide to Near Zero-Downtime Migrations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/cutover-strategy-for-azure-paas-services-a-step-by-step-guide-to/ba-p/4517261",
-      "published": "2026-05-07T05:07:35+00:00",
-      "summary": "\"In most Azure migrations, infrastructure is the easy part. The real risk — and the real engineering challenge — lies in the cutover.\" Why Cutover Strategy Matters Migrating mission-critical applications to Microsoft Azure — especially PaaS-based systems — requires more than provisioning resources....",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "lapadman"
-    },
-    {
-      "title": "Azure Reserved VM Instances for select VM series will no longer be available starting July 1, 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-reserved-vm-instances-for-select-vm-series-will-no-longer/ba-p/4516505",
-      "published": "2026-05-06T20:11:47+00:00",
-      "summary": "Summary Starting July 1, 2026, Azure will no longer offer new purchases or renewals of certain Azure Reserved Virtual Machine Instances (RIs) for select VM series. This change affects only the ability to buy or renew RIs for the VM series listed below—your existing reservations will continue to...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "kyleikeda"
-    },
-    {
-      "title": "Prefix-scoped access for User Delegation SAS is now generally available for Azure Blob Storage",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/prefix-scoped-access-for-user-delegation-sas-is-now-generally/ba-p/4516010",
-      "published": "2026-05-06T20:01:06+00:00",
-      "summary": "We would like to share that prefix-scoped access for User Delegation SAS for Azure Blob Storage is generally available in all Azure regions. SAS tokens for Blob Storage have historically supported two levels of scope: container and individual blob. With this release, you can now scope access to a...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "despindola"
-    },
-    {
-      "title": "Multitude builds resilient banking platform with PostgreSQL and MySQL on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/multitude-builds-resilient-banking-platform-with-postgresql-and/ba-p/4512470",
-      "published": "2026-05-06T18:53:20+00:00",
-      "summary": "Expanding into new markets is usually a sign that things are going well. For digital banking platforms, however, growth brings a different kind of challenge - more customers, more data, and stricter expectations around availability, security, and regulatory compliance. At Multitude, we operate...",
-      "blog": "Customer Innovation",
-      "blogId": "azure-customer-innovation-blog",
-      "author": "Pooja_Y"
-    },
-    {
-      "title": "Distributing model weights to your AI cluster: a faster pre-flight on AKS and Slurm",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/distributing-model-weights-to-your-ai-cluster-a-faster-pre/ba-p/4517294",
-      "published": "2026-05-06T18:30:00+00:00",
-      "summary": "Why this exists You've provisioned a multi-node GPU cluster on Azure. NDR InfiniBand. The training script is ready. Before any GPU does any useful work, every node needs the same 400 GB model checkpoint on its local NVMe. The naive approach — azcopy (or our Rust equivalent, azcp) on every node, in...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "pauledwards"
-    },
-    {
-      "title": "Better together with Azure WAF + Microsoft Defender for Storage + Defender for Azure SQL Databases",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/better-together-with-azure-waf-microsoft-defender-for-storage/ba-p/4517101",
-      "published": "2026-05-06T17:22:23+00:00",
-      "summary": "Authored by: Fernanda_Vela​ , saikishor​, Yura_Lee​ Reviewed by: YuriDiogenes​, Mohit_Kumar​, Amir_Dahan​, eitanbremler​ , Kitt_Weatherman​ Introduction Often, customers ask why additional workload protection is needed when a web application firewall is already in place. Azure Web Application...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "Yura_Lee"
-    },
-    {
-      "title": "Resilient by Design: Azure Databricks Disaster Recovery Strategy",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/resilient-by-design-azure-databricks-disaster-recovery-strategy/ba-p/4516464",
-      "published": "2026-05-06T16:28:58+00:00",
-      "summary": "Introduction: From Recovery Plans to Resilience Strategy As organizations increasingly rely on Azure Databricks for mission-critical analytics and data engineering workloads, the need for robust disaster recovery (DR) strategies becomes paramount. These platforms are no longer just analytics...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "KonstantinaF"
-    },
-    {
-      "title": "From Chaos to Clarity: Your Databricks Workspace on a Single Pane of Glass",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-chaos-to-clarity-your-databricks-workspace-on-a-single-pane/ba-p/4516805",
-      "published": "2026-05-06T16:25:47+00:00",
-      "summary": "The question that never stays answered — until now As Azure Databricks workspaces evolve, complexity creeps in unnoticed. Every Azure Databricks conversation with customers eventually lands on the same question: “What do we actually have in this workspace?” Over time, clusters multiply, jobs get...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "AmitDamle"
-    },
-    {
-      "title": "Building resilient networks for AI supercomputers",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/building-resilient-networks-for-ai-supercomputers/ba-p/4516919",
-      "published": "2026-05-06T16:25:26+00:00",
-      "summary": "By Valerie Cutts and Jithin Jose Last fall we introduced Fairwater, the world’s most powerful AI datacenter. Delivering a system of this scale required rethinking how Azure designs supercomputers, especially the scale-out network. Today, we are sharing more about the networking innovations that...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "jithinjose"
     }
   ]
 }
