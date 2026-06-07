@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-06-06T13:29:30.877705+00:00",
-  "totalArticles": 260,
+  "lastUpdated": "2026-06-07T13:49:50.430625+00:00",
+  "totalArticles": 254,
   "articles": [
+    {
+      "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/faster-az-login-introducing-skip-subscription-discovery-and/ba-p/4526116",
+      "published": "2026-06-07T07:19:58+00:00",
+      "summary": "TL;DR — If you belong to many tenants, or a tenant holds hundreds or thousands of subscriptions, az login can crawl — it tries to enumerate every subscription in every tenant before it returns. Two flags now let you skip that enumeration and make login near-instant: az login --tenant <TENANT_ID>...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy"
+    },
     {
       "title": "Govern AI Agents Using Agent Governance Toolkit and Azure Container App Sandboxes",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/govern-ai-agents-using-agent-governance-toolkit-and-azure/ba-p/4526011",
@@ -819,7 +828,7 @@
       "summary": "Since announcing the public preview of Foundry Local on Azure Local for single-node, we’ve seen strong adoption in regulated industries and consistent customer demand to expand the platform for scalable deployments. Today, we’re expanding Foundry Local model offering on Azure Local (preview) with...",
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
-      "author": "liranlyabock_microsoft"
+      "author": "LiranLyabock"
     },
     {
       "title": "Announcing Preview of new Azure Lasv5 and Laosv5 VMs based on the AMD EPYC™ ‘Turin’ processor",
@@ -2278,69 +2287,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "shwetayadav"
-    },
-    {
-      "title": "NVIDIA Dynamo on AKS: Disaggregated LLM Inference with H100 GPUs",
-      "link": "https://azureglobalblackbelts.com/2026/05/08/nvidia-dynamo-on-aks",
-      "published": "2026-05-08T00:00:00+00:00",
-      "summary": "Deploy NVIDIA Dynamo on Azure Kubernetes Service with H100 GPU nodes using AKS Managed GPU and the Dynamo Kubernetes operator to run disaggregated LLM inference at scale. Then layer AI Runway on top for a visual dashboard that manages multiple inference runtimes — Dynamo, KAITO, and KubeRay — from...",
-      "blog": "Azure Global Black Belt Blog",
-      "blogId": "gbblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Public Preview: Migrate your regional virtual machines to availability zones",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-migrate-your-regional-virtual-machines-to/ba-p/4517298",
-      "published": "2026-05-07T21:33:43+00:00",
-      "summary": "This new capability enables you to move your existing regional (nonzonal) VMs and VMSS Flex deployments into specific availability zones while preserving the VM names, data disks, and other stateful properties. We're excited to announce the public preview of regional to zonal migration for Azure...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "micahmckittrick"
-    },
-    {
-      "title": "Least privilege AI agents: A new azd template from Curity and Microsoft",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-curity-least-privilege-ai-agents/",
-      "published": "2026-05-07T21:26:27+00:00",
-      "summary": "If you ever built an AI agent demo, you probably had this moment. Everything works: the agent interprets natural language, calls the right tools, and returns the right data. Then you start designing for the real users of the app. You think about data boundaries: what if someone tries to get data...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack"
-    },
-    {
-      "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
-      "published": "2026-05-07T18:15:11+00:00",
-      "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "What’s New in Aspire 13.3",
-      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-3/",
-      "published": "2026-05-07T17:00:00+00:00",
-      "summary": "Aspire 13.3 is here with the Aspireify skill, command results, browser logs, Kubernetes and AKS deployment, and more. The post What’s New in Aspire 13.3 appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Maddy Montaquila"
-    },
-    {
-      "title": "Announcing General Availability of Azure Dl/D/Esv7-series VMs based on Intel® Xeon® 6 processors",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-azure-dl-d-esv7-series-vms/ba-p/4516907",
-      "published": "2026-05-07T16:08:07+00:00",
-      "summary": "We’re excited to announce the general availability of the latest Azure Dlsv7, Dsv7, and Esv7 General Purpose and Memory Optimized Virtual Machines (VMs) powered by the latest Intel® Xeon® 6 processor. Whether you’re modernizing enterprise databases, scaling cloud‑native applications, or...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "RishiGomatam"
-    },
-    {
-      "title": "Building Secure AI Platforms in Banking Using Azure Enterprise Architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-secure-ai-platforms-in-banking-using-azure-enterprise/ba-p/4517531",
-      "published": "2026-05-07T16:03:01+00:00",
-      "summary": "1. Introduction: AI in Banking Is Not Just a Model Problem Modern banking institutions are no longer asking “Can we use AI?”The real question is:“Can we use AI without violating regulatory, security, and data residency constraints?” Unlike public AI applications, banking systems must ensure: No...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "divyanshi_varshney"
     }
   ]
 }
