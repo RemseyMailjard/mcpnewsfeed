@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-06-08T15:48:30.045319+00:00",
-  "totalArticles": 254,
+  "lastUpdated": "2026-06-09T14:47:39.683418+00:00",
+  "totalArticles": 258,
   "articles": [
+    {
+      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
+      "published": "2026-06-09T14:34:48+00:00",
+      "summary": "Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution that aligns with your workload’s specific requirements. As...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Announcing the Path to Production for Agents Webinar Series",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
+      "published": "2026-06-09T12:58:42+00:00",
+      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "brauerblogs"
+    },
+    {
+      "title": "Troubleshooting Azure Container Apps and Jobs for .NET and Django Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-azure-container-apps-and-jobs-for-net-and-django/ba-p/4518303",
+      "published": "2026-06-09T07:58:44+00:00",
+      "summary": "Introduction Deploying to Azure Container Apps feels like a huge step forward — you get serverless containers, automatic scaling, built-in ingress, and managed environments without managing Kubernetes directly. But when something goes wrong and your container refuses to start, or your Container App...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "BhaktiRath95"
+    },
+    {
+      "title": "Any source. Any destination. Ready for AI-era.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/any-source-any-destination-ready-for-ai-era/ba-p/4524886",
+      "published": "2026-06-09T01:43:45+00:00",
+      "summary": "Telemetry is exploding, every new app, edge node, and AI agent is a new firehose, and AI has raised the bar on what that telemetry must be: governed, on open standards, observable at agent scale. Today, most teams answer that by stitching together a stack of disconnected tools, each catering to a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shayoni_seth"
+    },
+    {
+      "title": "What's new in Azure App Service at #MSBuild 2026",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-app-service-at-msbuild-2026/ba-p/4526569",
+      "published": "2026-06-08T22:30:40+00:00",
+      "summary": "At Microsoft Build 2026, Azure App Service introduced a powerful set of updates designed to help organizations accelerate their journey into AI, without increasing complexity or cost. These innovations focus on one clear business outcome: enabling teams to build, deploy, and scale AI-powered...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Mayunk_Jain"
+    },
+    {
+      "title": "Write Logic Apps in C#: introducing the Logic Apps Standard SDK",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/write-logic-apps-in-c-introducing-the-logic-apps-standard-sdk/ba-p/4524277",
+      "published": "2026-06-08T21:52:53+00:00",
+      "summary": "The workflow you always wished you could write in code If you build on Logic Apps Standard, you already know the deal: the runtime is excellent at the unglamorous parts of integration - connecting to systems, retrying, scaling, keeping run history you can actually debug. What you sometimes wanted...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - June 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-june-2026/ba-p/4526525",
+      "published": "2026-06-08T19:10:51+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month June 2026's Ace Aviator: Florian De Langhe LinkedIn: https://www.linkedin.com/in/floriandelanghe/ Florian De Langhe Lead Expert/Team Lead - Microsoft Integration @ delaware What's...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Designing for High Availability: The Operational Reference for Running a Geo-Replicated ACR",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/designing-for-high-availability-the-operational-reference-for/ba-p/4526465",
+      "published": "2026-06-08T18:07:21+00:00",
+      "summary": "By Johnson Shi, Zoey (Zhuyu) Li, Huangli Wu Introduction Three of the most common questions we hear from enterprise teams running geo-replicated Azure Container Registries (ACR) are: \"How do I control which region serves my traffic?\" — When my AKS clusters are spread across regions, can I pin each...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft"
+    },
+    {
+      "title": "Connect Metrics to Traces with Exemplars in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/connect-metrics-to-traces-with-exemplars-in-azure-monitor/ba-p/4525714",
+      "published": "2026-06-08T17:21:43+00:00",
+      "summary": "Following Microsoft’s recent GA announcement for OpenTelemetry (OTel) support, we are excited to announce support for Exemplars for customers instrumenting metrics with Prometheus or OpenTelemetry and traces using OpenTelemetry, enhancing Azure Monitor’s integrated observability experience for...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "sunayanasingh"
+    },
+    {
+      "title": "Driving Stop-and-Go Business Processes to Closure with Foundry Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/driving-stop-and-go-business-processes-to-closure-with-foundry/ba-p/4524135",
+      "published": "2026-06-08T16:30:00+00:00",
+      "summary": "Why This Matters Your AI agent just forgot everything. Again. If you've built agents that need to track work across days or weeks—not just single conversations—you've hit this wall: the agent loop is stateless. Each turn reasons over what it's handed, then forgets. But real business workflows don't...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "srikantan"
+    },
+    {
+      "title": "Enterprise Live Migrations: Moving from Azure DevOps Repo to GitHub with minimal disruption",
+      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations/",
+      "published": "2026-06-08T16:13:26+00:00",
+      "summary": "Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. For many enterprise teams, however, migrating at scale comes with real constraints. Traditional approaches...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Soo Stahl, Bhuvan Shah"
+    },
     {
       "title": "New MAI models in Microsoft Foundry across text, image, voice, and speech",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and/ba-p/4524632",
@@ -354,15 +453,6 @@
       "author": "susaraswat4"
     },
     {
-      "title": "Any source. Any destination. Ready for AI-era.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/any-source-any-destination-ready-for-ai-era/ba-p/4524886",
-      "published": "2026-06-03T17:15:19+00:00",
-      "summary": "Telemetry is exploding, every new app, edge node, and AI agent is a new firehose, and AI has raised the bar on what that telemetry must be: governed, on open standards, observable at agent scale. Today, most teams answer that by stitching together a stack of disconnected tools, each catering to a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "shayoni_seth"
-    },
-    {
       "title": "Expanding the Reach of Document Translation – New Capabilities Announced at Microsoft Build",
       "link": "https://devblogs.microsoft.com/foundry/document-translation-build-2026/",
       "published": "2026-06-03T17:00:00+00:00",
@@ -543,15 +633,6 @@
       "author": "Peyton Fraser, Joe Filcik, Ronak Chokshi"
     },
     {
-      "title": "VNet integration for Azure SRE Agent (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/vnet-integration-for-azure-sre-agent-preview/ba-p/4524287",
-      "published": "2026-06-02T22:54:04+00:00",
-      "summary": "For many production systems, the logs, databases, private endpoints, repositories, and runbooks an SRE Agent needs to do its job are behind network boundaries your security team already governs. VNet integration for Azure SRE Agent, now in preview, puts the agent's outbound traffic under those same...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta"
-    },
-    {
       "title": "The end of patching era for containers: Microsoft Defender for Cloud expands hardened image support",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/the-end-of-patching-era-for-containers-microsoft-defender-for/ba-p/4524798",
       "published": "2026-06-02T22:53:19+00:00",
@@ -597,15 +678,6 @@
       "author": "JasonWeber"
     },
     {
-      "title": "Managed Connectors for SRE Agent (preview)- Govern what your agent can do",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/managed-connectors-for-sre-agent-preview-govern-what-your-agent/ba-p/4524840",
-      "published": "2026-06-02T21:12:53+00:00",
-      "summary": "Giving an agent access to a tool is the easy part. The harder question is what it's allowed to do with that access. \"Can the agent copy a file in OneDrive?\" mostly answers itself. \"Can it copy any file, to any destination, over one that's already there?\" is the one that decides whether the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Dalibor_Kovacevic"
-    },
-    {
       "title": "Private Plugins with Azure SRE Agent",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/private-plugins-with-azure-sre-agent/ba-p/4523763",
       "published": "2026-06-02T21:09:48+00:00",
@@ -649,15 +721,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "bobmital"
-    },
-    {
-      "title": "Write Logic Apps in C#: introducing the Logic Apps Standard SDK",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/write-logic-apps-in-c-introducing-the-logic-apps-standard-sdk/ba-p/4524277",
-      "published": "2026-06-02T20:54:24+00:00",
-      "summary": "The workflow you always wished you could write in code If you build on Logic Apps Standard, you already know the deal: the runtime is excellent at the unglamorous parts of integration - connecting to systems, retrying, scaling, keeping run history you can actually debug. What you sometimes wanted...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     },
     {
       "title": "New AI gateway capabilities in Azure API Management",
@@ -1596,15 +1659,6 @@
       "author": "edgarus71"
     },
     {
-      "title": "Striking the Right Balance: ECN and PFC Thresholds for AI Clusters",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/striking-the-right-balance-ecn-and-pfc-thresholds-for-ai/ba-p/4468629",
-      "published": "2026-05-22T20:30:00+00:00",
-      "summary": "Introduction In large-scale AI training clusters, congestion control is critical to maintaining high GPU utilization and low job completion times. Two key mechanisms in RoCEv2 (RDMA over Converged Ethernet) fabrics are Explicit Congestion Notification (ECN) and Priority Flow Control (PFC). Overly...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SaravSubramanian"
-    },
-    {
       "title": "Regex support for LOB types in T-SQL—available in Azure SQL & SQL Server 2025",
       "link": "https://devblogs.microsoft.com/azure-sql/regex-support-for-lob-types-in-t-sql-available-in-azure-sql-sql-server-2025/",
       "published": "2026-05-22T20:28:15+00:00",
@@ -1657,15 +1711,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "bapic"
-    },
-    {
-      "title": "When RAG Hits the Wall: Designing Systems That Scale from 1,000 to 1 million Documents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-rag-hits-the-wall-designing-systems-that-scale-from-1-000/ba-p/4516085",
-      "published": "2026-05-22T07:00:00+00:00",
-      "summary": "Introduction Retrieval-Augmented Generation (RAG) has quickly become the default architecture for grounding Large Language Models (LLMs) in enterprise data. And at small scale, it works exceptionally well. 100 documents → Excellent accuracy 1,000 documents → Still predictable With around 100...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "himachauhan"
     },
     {
       "title": "Deploy with Confidence: Using Rule Impact Analyzer in Azure Virtual Network Manager",
@@ -1756,15 +1801,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Yanbo_Deng"
-    },
-    {
-      "title": "Run Javascript code on Agent Loop",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/run-javascript-code-on-agent-loop/ba-p/4519880",
-      "published": "2026-05-21T02:10:42+00:00",
-      "summary": "We have recently introduced support for Code interpreters inside of Azure Logic Apps Agent Loop, extending the support we had for Python. When partnered with a LLM, this allow builders to express their goals or intents via natural language and obtain executable results. These capabilities become...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     },
     {
       "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
