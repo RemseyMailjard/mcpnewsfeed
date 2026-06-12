@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-06-11T15:57:36.782881+00:00",
-  "totalArticles": 254,
+  "lastUpdated": "2026-06-12T14:55:16.295205+00:00",
+  "totalArticles": 258,
   "articles": [
+    {
+      "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
+      "published": "2026-06-12T10:13:43+00:00",
+      "summary": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "RohitMadhavKrishnan"
+    },
+    {
+      "title": "Troubleshooting ML Model Loading, GPU Issues, and Memory Pressure in Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-ml-model-loading-gpu-issues-and-memory-pressure/ba-p/4518542",
+      "published": "2026-06-12T07:00:00+00:00",
+      "summary": "Introduction Deploying an AI application to Azure Container Apps is fundamentally different from deploying a web API. When you containerize a Django REST API, the application starts in a few seconds, the memory footprint is predictable, and the CPU usage scales linearly with requests. When you...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "BhaktiRath95"
+    },
+    {
+      "title": "Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs",
+      "link": "https://devblogs.microsoft.com/ise/coordinator-patterns-multi-agent-systems/",
+      "published": "2026-06-12T07:00:00+00:00",
+      "summary": "Real-world lessons from evolving a production chatbot into a coordinator-based multi-agent architecture, including performance trade-offs for enterprise-scale agent reuse. The post Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Lily Jia"
+    },
+    {
+      "title": "June Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-5/",
+      "published": "2026-06-11T21:33:15+00:00",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales"
+    },
+    {
+      "title": "Right‑sizing Azure Savings Plans, one hour at a time",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/right-sizing-azure-savings-plans-one-hour-at-a-time/ba-p/4527507",
+      "published": "2026-06-11T20:21:40+00:00",
+      "summary": "Most of us have, at some point, sized a commitment the same way we order food for a team offsite: estimate, round up, and hope nobody complains. It works for pizza. It is a less robust strategy for a three‑year Savings Plan. Azure Cost Management already produces commitment recommendations for you,...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Dirk_Brinkmann"
+    },
+    {
+      "title": "A deep dive into Azure Bastion session recording",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/a-deep-dive-into-azure-bastion-session-recording/ba-p/4527583",
+      "published": "2026-06-11T19:38:25+00:00",
+      "summary": "If you’ve worked with Azure Bastion’s Premium SKU, you’ve likely encountered one of its most powerful security features: graphical session recording. Capturing RDP and SSH sessions end to end strengthens compliance, supports forensic investigations, and improves operational accountability. How you...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "juquint"
+    },
+    {
+      "title": "Modern VM monitoring, powered by OpenTelemetry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566",
+      "published": "2026-06-11T18:57:11+00:00",
+      "summary": "At Build 2026, we're announcing the general availability of OpenTelemetry (OTel) Guest OS metrics for Azure VMs and Arc-enabled Servers. OTel provides a standards-based foundation for VM monitoring with consistent metrics across Windows and Linux, richer Guest OS and per-process visibility, and...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "viviandiec"
+    },
+    {
+      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
+      "published": "2026-06-11T18:53:37+00:00",
+      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Azure Monitor SLIs now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
+      "published": "2026-06-11T17:18:29+00:00",
+      "summary": "Azure Monitor SLIs are now generally available Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Azure Monitor are now generally available. Teams can now measure reliability based on customer experience, not just infrastructure signals. SLI: A quantitative measure of how well...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Sokuma"
+    },
+    {
+      "title": "Azure Monitor Metrics Export Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-metrics-export-generally-available/ba-p/4523712",
+      "published": "2026-06-11T17:17:35+00:00",
+      "summary": "Today, we’re excited to announce the general availability of Azure Monitor Metrics Export using data collection rules (DCRs). A scalable, flexible way to continuously export platform metrics with dimensional fidelity, lower latency, and more control over what you send downstream. Azure Monitor...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Sokuma"
+    },
     {
       "title": "Copilot Autofix for GitHub Advanced Security for Azure DevOps",
       "link": "https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops/",
@@ -37,6 +127,15 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "Sunita_AZ0708"
+    },
+    {
+      "title": "Microsoft Fabric to Azure Databricks: Another Better Together Story!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/microsoft-fabric-to-azure-databricks-another-better-together/ba-p/4526166",
+      "published": "2026-06-11T13:34:46+00:00",
+      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
     },
     {
       "title": "Dynamic Connection Properties in Azure Logic Apps Standard",
@@ -208,15 +307,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "NihitPokhrel"
-    },
-    {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-06-09T18:48:03+00:00",
-      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Online Meeting Effectiveness Index (OMEI)",
@@ -757,15 +847,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "MengxiWu"
-    },
-    {
-      "title": "Azure SRE Agent at Microsoft Build 2026: Bringing agentic operations to the enterprise",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-at-microsoft-build-2026-bringing-agentic/ba-p/4524669",
-      "published": "2026-06-03T15:46:10+00:00",
-      "summary": "Build 2026 Update When we launched Azure SRE Agent, the promise was simple: reduce operational toil, improve up time, and evolve teams from manual incident response towards AI-powered operations. Since GA in March 2026, that promise has held up in production. Teams are using the agent to diagnose...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati"
     },
     {
       "title": "📢 Announcing Knowledge as a Service for Azure Logic Apps",
@@ -1704,15 +1785,6 @@
       "author": "Elanor92"
     },
     {
-      "title": "Building Agentic Systems on Azure: Microsoft Foundry Agents SDK vs Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-agentic-systems-on-azure-microsoft-foundry-agents-sdk/ba-p/4517290",
-      "published": "2026-05-28T07:00:00+00:00",
-      "summary": "In my recent experience as a Senior Consultant at Microsoft, I’ve been actively involved in designing and delivering AI-driven solutions, with a strong focus on building intelligent agents using modern frameworks. Along the way, I've built agents using both Microsoft Foundry Agents SDK (hereafter...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "ChaitanyaThalloory"
-    },
-    {
       "title": "Verification-driven tooling prompts for fast-moving codebases",
       "link": "https://devblogs.microsoft.com/ise/verification-driven-tooling-prompts/",
       "published": "2026-05-28T07:00:00+00:00",
@@ -2251,42 +2323,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Simona Liao"
-    },
-    {
-      "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
-      "published": "2026-05-13T03:37:38+00:00",
-      "summary": "Today we’re releasing a public preview of cert-manager for Azure Arc-enabled Kubernetes. It’s an Arc extension that automates TLS certificate and trust bundle management for edge Kubernetes clusters. If you’re running Kubernetes at the edge: in factories, retail stores, remote sites, you’ve...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "NicolasMondada"
-    },
-    {
-      "title": "Check This Out! (CTO!) Guide (April 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-april-2026/ba-p/4519149",
-      "published": "2026-05-13T03:25:05+00:00",
-      "summary": "Member: TysonPaul | Microsoft Community Hub Announcing Public Preview for Essential Machine Management Team Blog: Azure Governance and Management Author: Meagan McCrory Published: 04/06/2026 Summary: Microsoft has announced the public preview of Essential Machine Management within Azure’s Compute...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "TysonPaul"
-    },
-    {
-      "title": "Build Smarter, Simpler IoT Messaging with Azure Event Grid MQTT Broker",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/build-smarter-simpler-iot-messaging-with-azure-event-grid-mqtt/ba-p/4518672",
-      "published": "2026-05-12T21:39:49+00:00",
-      "summary": "Why this matters for modern IoT solutions As IoT solutions grow, teams need messaging that is reliable, scalable, and simple enough to operate across devices, apps, and cloud services. Azure Event Grid MQTT broker helps organizations connect devices and applications using standard MQTT patterns...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "Connected-Seth"
-    },
-    {
-      "title": "From Prompt to Production: Open in VS Code for Terraform in Azure Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/from-prompt-to-production-open-in-vs-code-for-terraform-in-azure/ba-p/4494931",
-      "published": "2026-05-12T18:25:34+00:00",
-      "summary": "We’re excited to introduce a new step in the Terraform on Azure experience: Open in VS Code, now available directly from Azure Copilot in the Azure Portal. This capability helps you move seamlessly from AI‑generated Terraform code to real Azure deployments - within a connected, guided workflow...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Jingwei_Wang"
     }
   ]
 }
