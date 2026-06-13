@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-06-12T14:55:16.295205+00:00",
-  "totalArticles": 258,
+  "lastUpdated": "2026-06-13T13:56:46.525069+00:00",
+  "totalArticles": 250,
   "articles": [
+    {
+      "title": "How to Measure Token Impact of MCP Tool Invocation in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-measure-token-impact-of-mcp-tool-invocation-in-microsoft/ba-p/4527338",
+      "published": "2026-06-12T13:00:00+00:00",
+      "summary": "Your MCP-enabled agent just ran, and the token counts don't add up. The API says 773 tokens. The portal trace shows 581/141. The trajectory view displays something else entirely. Before you file a bug report, here's what's actually happening—and how to build an evidence pattern that makes...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vrajakishore"
+    },
     {
       "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
@@ -73,6 +82,15 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Transitioning from Azure Language Features to Foundry Models",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092",
+      "published": "2026-06-11T18:06:43+00:00",
+      "summary": "Azure AI Language in Foundry Tools will begin deprecating eight features: Key Phrase Extraction, Entity Linking, Sentiment Analysis & Opinion Mining, Summarization (document & conversation), Conversational Language Understanding (CLU), Custom Question Answering (CQA), Orchestration Workflow, and...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "renaliu"
     },
     {
       "title": "Azure Monitor SLIs now Generally Available",
@@ -235,15 +253,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Mahesh_Sundaram"
-    },
-    {
-      "title": "Transitioning from Azure Language Features to Foundry Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092",
-      "published": "2026-06-10T16:43:54+00:00",
-      "summary": "Azure AI Language in Foundry Tools will begin deprecating eight features: Key Phrase Extraction, Entity Linking, Sentiment Analysis & Opinion Mining, Summarization (document & conversation), Conversational Language Understanding (CLU), Custom Question Answering (CQA), Orchestration Workflow, and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "renaliu"
     },
     {
       "title": "Announcing the Path to Production for Agents Webinar Series",
@@ -1668,15 +1677,6 @@
       "author": "varghesejoji"
     },
     {
-      "title": "Load testing hosted MCP servers with Locust and Azure Load Testing",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/load-testing-hosted-mcp-servers-with-locust-and-azure-load/ba-p/4522691",
-      "published": "2026-05-29T15:00:00+00:00",
-      "summary": "Agent traffic doesn't look like human traffic. It arrives in bursts, sustains long sessions, and hits the same handful of tools at a parallelism a typical API client never produces. Hosted MCP servers are how AI agents reach the tools and data your product exposes, and as those servers move from...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Krishna-Roy"
-    },
-    {
       "title": "Power Pages & SPA: Deploying a Custom React SPA to Microsoft Power Pages",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/power-pages-spa-deploying-a-custom-react-spa-to-microsoft-power/ba-p/4521378",
       "published": "2026-05-29T07:00:00+00:00",
@@ -2251,78 +2251,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Jim Harrer"
-    },
-    {
-      "title": "Public Preview Update: Azure Copilot Observability Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-update-azure-copilot-observability-agent/ba-p/4517871",
-      "published": "2026-05-14T08:41:01+00:00",
-      "summary": "Modern cloud applications generate massive amounts of telemetry - metrics, logs, traces, alerts, and platform signals. Yet whether you're asking questions about your observability data or responding when things go wrong, discovering insights and root causes requires a deep understanding of the...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "EfratNauerman"
-    },
-    {
-      "title": "WebAssembly Data Processing at the Edge with Azure IoT Operations",
-      "link": "https://devblogs.microsoft.com/ise/wasm-edge-data-processing/",
-      "published": "2026-05-14T07:00:00+00:00",
-      "summary": "Safe, composable dataflow operators for Azure IoT Operations, built as WASM modules using the Component Model, WIT interfaces, and WASI Preview 2. The post WebAssembly Data Processing at the Edge with Azure IoT Operations appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Marcel Bindseil"
-    },
-    {
-      "title": "TLS Certificate Pinning and Best Practices in Azure Open-Source Relational Databases",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/tls-certificate-pinning-and-best-practices-in-azure-open-source/ba-p/4519531",
-      "published": "2026-05-14T00:53:22+00:00",
-      "summary": "TLS certificate pinning in Azure Database for PostgreSQL and MySQL Transport Layer Security (TLS) encrypts data in transit between client applications and the server and authenticates the service endpoint in client-server authentication. Azure Database server certificates are issued by well-known...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "TameikaL"
-    },
-    {
-      "title": "Microsoft SQL Security Across the MAESTRO Stack: Building Secure Agentic AI with Defense-in-Depth",
-      "link": "https://devblogs.microsoft.com/azure-sql/microsoft-sql-security-across-the-maestro-stack-building-secure-agentic-ai-with-defense-in-depth/",
-      "published": "2026-05-13T21:44:08+00:00",
-      "summary": "Artificial Intelligence is evolving rapidly. What began as simple prompt-and-response systems is now transforming into fully autonomous, agentic AI architectures capable of reasoning, orchestrating tools, interacting with enterprise data, and invoking external systems dynamically. While these...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Arun Vijayraghavan"
-    },
-    {
-      "title": "Announcing the General Availability of the Next Generation of Azure Boost",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-the-general-availability-of-the-next-generation-of/ba-p/4519136",
-      "published": "2026-05-13T20:42:57+00:00",
-      "summary": "Starting May 7th, 2026, the new Esv7, Dsv7, and Dlsv7 virtual machines are generally available — and underneath them is a fundamentally new generation of Azure Boost. Not an incremental refresh. A platform that took over five years to build, with custom ASIC-hardened logic, a new network adapter,...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Max_Uritsky"
-    },
-    {
-      "title": "From Pipelines to Agents: Self-Healing CI/CD Workflow",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-pipelines-to-agents-self-healing-ci-cd-workflow/ba-p/4519494",
-      "published": "2026-05-13T20:21:28+00:00",
-      "summary": "The Brain of the Operation: Azure OpenAI. When building a DevOps agent, following are the points which can be considered to select Azure OpenAI as the ideal choice for logical engine: Native Tool Use: It is specifically optimized for function calling, allowing the agent to interact with Azure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "RavinderGupta"
-    },
-    {
-      "title": "Announcing the general availability of Azure Integrated Hardware Security Module",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-the-general-availability-of-azure-integrated-hardware/ba-p/4517103",
-      "published": "2026-05-13T17:23:24+00:00",
-      "summary": "Today we are excited to release general availability for Azure Integrated HSM for AMD v7 Virtual Machines. Azure Integrated HSM is a hardware security module (HSM) cache and crypto offload designed to enhance the security and performance of cryptographic operations in virtual machines. For...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "simranparkhe"
-    },
-    {
-      "title": "Agent Skills in Visual Studio: Teach Copilot How Your Team Works",
-      "link": "https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio/",
-      "published": "2026-05-13T16:00:47+00:00",
-      "summary": "Visual Studio now supports Agent Skills, which are reusable instruction sets that teach Copilot agents how to handle specific tasks like running a build pipeline, generating boilerplate, or following your team’s coding standards. Define a skill once, and the agent applies it automatically whenever...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Simona Liao"
     }
   ]
 }
