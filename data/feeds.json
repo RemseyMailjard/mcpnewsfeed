@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-13T13:56:46.525069+00:00",
-  "totalArticles": 250,
+  "lastUpdated": "2026-06-14T13:59:43.667716+00:00",
+  "totalArticles": 240,
   "articles": [
     {
       "title": "How to Measure Token Impact of MCP Tool Invocation in Microsoft Foundry",
@@ -2161,96 +2161,6 @@
       "blog": "FinOps",
       "blogId": "finopsblog",
       "author": "Michael_Flanakin"
-    },
-    {
-      "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
-      "published": "2026-05-15T08:48:58+00:00",
-      "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "mscagliola"
-    },
-    {
-      "title": "Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions",
-      "link": "https://devblogs.microsoft.com/azure-sdk/exponential-backoff-circuit-breaker-azure-functions/",
-      "published": "2026-05-14T23:04:41+00:00",
-      "summary": "Use exponential backoff and circuit breaker patterns in Azure Functions with Service Bus SDK bindings. Control retry storms, protect dependencies, and degrade gracefully under transient failures. The post Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions appeared...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Swapnil Nagar"
-    },
-    {
-      "title": "After the Agent Acts: Proving What Happened and Who Authorized It",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/after-the-agent-acts-proving-what-happened-and-who-authorized-it/ba-p/4519826",
-      "published": "2026-05-14T22:28:12+00:00",
-      "summary": "In part one of this series, we covered AGT's runtime governance: the policy engine, zero-trust identity, execution sandboxing, and the OWASP Agentic AI risk mapping. In part two, we moved earlier in the lifecycle: shift-left governance, CI/CD gates, attestation workflows, and supply chain...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "mosiddi"
-    },
-    {
-      "title": "Considering NL2SQL? Should your database really be the prompt? How can SQL MCP Server help?",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-nl2sql/",
-      "published": "2026-05-14T19:20:34+00:00",
-      "summary": "You’ve probably experienced both of these, perhaps at the same time. First, that desire to let an agent get at your data. It’s driven by simplification and better experiences for the user and for you: fewer screens, fewer queries, fewer reports, and less code overall. Second, and perhaps more...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Modernizing TCP Applications with Azure Application Gateway Layer 4 TCP/TLS Proxy",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-tcp-applications-with-azure-application-gateway/ba-p/4519840",
-      "published": "2026-05-14T18:51:33+00:00",
-      "summary": "Why TCP/TLS Proxy Matters Modern cloud architectures commonly focus on HTTP/HTTPS traffic management, but many enterprise systems still rely on: Proprietary TCP protocols Financial transaction systems Messaging platforms Legacy middleware applications Secure client-server communication...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "rbhatia"
-    },
-    {
-      "title": "Securing Azure apps with Aspire enterprise networking",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-azure-enterprise-networking/",
-      "published": "2026-05-14T17:23:43+00:00",
-      "summary": "Network security has a funny way of showing up late. You start with a web app, an API, storage, and Key Vault. The app works. The demo works. Everyone is happy. Then the production checklist shows up: Can storage and secrets be taken off the public internet? Can this app run inside our virtual...",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Eric Erhardt"
-    },
-    {
-      "title": "May Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server-3/",
-      "published": "2026-05-14T17:18:24+00:00",
-      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales"
-    },
-    {
-      "title": "From beta to stable: Announcing the Azure SDK for Rust 🎉🦀",
-      "link": "https://devblogs.microsoft.com/azure-sdk/from-beta-to-stable-announcing-the-azure-sdk-for-rust-ga/",
-      "published": "2026-05-14T15:46:19+00:00",
-      "summary": "Announcing the stable release of the Azure SDK for Rust. This release includes stable libraries for Core, Identity, Key Vault (Secrets, Keys, Certificates), and Storage (Blobs, Queues). The post From beta to stable: Announcing the Azure SDK for Rust 🎉🦀 appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Ronnie Geraghty"
-    },
-    {
-      "title": "Decoupling Memory from Startup Time in AKS Sandbox Pods",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/decoupling-memory-from-startup-time-in-aks-sandbox-pods/ba-p/4516307",
-      "published": "2026-05-14T15:29:00+00:00",
-      "summary": "What if a 96GB sandboxed pod could start as fast as a 2GB one? Before recent improvements in AKS Pod Sandboxing, large-memory pods could take over a minute longer to start than smaller ones. For customers running latency-sensitive, autoscaling, AI/ML, or bursty workloads, that startup delay...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "RoaaSakr"
-    },
-    {
-      "title": "VSLive! Microsoft AI Hackathon 2026: Send Your Team Home With Working Code",
-      "link": "https://devblogs.microsoft.com/visualstudio/vslive-microsoft-ai-hackathon-2026-send-your-team-home-with-working-code/",
-      "published": "2026-05-14T15:05:55+00:00",
-      "summary": "If you lead a development team, you already know the pattern. You approve the travel, your developers attend a great conference, they come back energized, and then the work resumes exactly as it was. The ideas don’t survive contact with the backlog. This July at VSLive! @ Microsoft HQ in Redmond,...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Jim Harrer"
     }
   ]
 }
