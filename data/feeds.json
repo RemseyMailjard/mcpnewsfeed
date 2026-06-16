@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-06-15T17:13:57.744083+00:00",
-  "totalArticles": 245,
+  "lastUpdated": "2026-06-16T16:48:40.548222+00:00",
+  "totalArticles": 250,
   "articles": [
+    {
+      "title": "Transform your security operation with a unified experience in Defender",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/transform-your-security-operation-with-a-unified-experience-in/ba-p/4527932",
+      "published": "2026-06-16T16:00:00+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl Security operations teams today are being asked to do more than ever: respond faster, manage increasing data volumes, reduce operational complexity, stay ahead of evolving threats, and balance cost and efficiency. That’s why...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1"
+    },
+    {
+      "title": "Azure Sets a New Performance Record for LLM Training Benchmark at Extreme Scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-sets-a-new-performance-record-for-llm-training-benchmark/ba-p/4523077",
+      "published": "2026-06-16T15:13:23+00:00",
+      "summary": "Azure achieved the most performant MLPerf Training v6.0 result to date for Llama 3.1 405B, with a time-to-train of just over seven minutes according to MLCommons. This loadbearing benchmark measures how communication overhead and system stability dominate training performance, where Azure’s full...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "azinheidarshenas"
+    },
+    {
+      "title": "Azure Databricks at Databricks Data + AI Summit 2026: updates and new announcements",
+      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-at-databricks-data-ai-summit-2026-updates-and/ba-p/4528388",
+      "published": "2026-06-16T13:00:00+00:00",
+      "summary": "Databricks Data + AI Summit brings together the global data and AI community in San Francisco to share product news, technical breakthroughs, and customer stories. This year, as usual, we have a lot of Azure Databricks announcements, a strong presence across the event, and a continued focus on...",
+      "blog": "Azure Databricks",
+      "blogId": "azure-databricks",
+      "author": "AnaviNahar"
+    },
+    {
+      "title": "The Case for an Ontology Layer in Telecoms",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/the-case-for-an-ontology-layer-in-telecoms/ba-p/4527091",
+      "published": "2026-06-16T12:41:49+00:00",
+      "summary": "The Challenge: Data Without Context in the Telco AI Era GenAI and analytics tools and solutions pull data from applications and from downstream and external data sources. However, when data is decontextualized from the applications where it was created, it often loses the business meaning,...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "Alberto_Manuel"
+    },
+    {
+      "title": "Announcing General Availability of the Azure Cosmos DB Built-in Connector for Logic Apps Standard",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-general-availability-of-the-azure-cosmos-db-built-in-connector-for-logic-apps-standard/",
+      "published": "2026-06-16T11:33:42+00:00",
+      "summary": "Today, we’re excited to announce the general availability of the Azure Cosmos DB built-in connector for Azure Logic Apps Standard. This connector gives you a native, high-performance way to integrate Azure Cosmos DB into your Standard logic app workflows, with better throughput, lower latency, and...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay"
+    },
+    {
+      "title": "Network security perimeter for Azure Service Bus & also now available in Azure Gov. Regions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/network-security-perimeter-for-azure-service-bus-also-now/ba-p/4526413",
+      "published": "2026-06-16T10:56:27+00:00",
+      "summary": "TL; DR Network security perimeter support for Azure Service Bus is now Generally Available. With this, you can now place your Service Bus namespace inside a central security boundary and apply perimeter-based governance for inbound/outbound network access—while keeping key PaaS-to-PaaS scenarios...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "shashankamalladi"
+    },
+    {
+      "title": "Azure Function App — Queue-Based Architecture for Long-Running Sync Jobs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/azure-function-app-queue-based-architecture-for-long-running/ba-p/4524474",
+      "published": "2026-06-16T07:00:00+00:00",
+      "summary": "The Problem: HTTP Triggers and Long-Running Jobs Don't Mix Here's a situation you've probably run into: you have a job that needs to loop over dozens of Azure resources, call APIs, and do real work. You wrap it in an HTTP-triggered Azure Function so it can be called on demand. It works great and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Jamesdld23"
+    },
+    {
+      "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/inside-the-observability-agent-how-deep-investigations-and/ba-p/4527102",
+      "published": "2026-06-15T15:57:54+00:00",
+      "summary": "Incidents are rarely explained by one chart. A spike in request failures might be caused by a dependency timeout. A dependency timeout might come from a connection pool issue. And that connection pool issue might trace back to a deployment or a resource health event that started minutes earlier....",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yalavi"
+    },
     {
       "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
@@ -55,6 +127,15 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "GeertVanTeylingen"
+    },
+    {
+      "title": "Agents That Test Agents: A Cloud-Native Skill-Eval Harness on Foundry Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-that-test-agents-a-cloud-native-skill-eval-harness-on/ba-p/4528085",
+      "published": "2026-06-15T07:00:00+00:00",
+      "summary": "Skills are an agent's must-have. So test them. A skill is the lightest way to give an agent durable, reusable behavior: a SKILL.md file you author once, store centrally in Foundry's versioned Skills API, and inject into a Hosted Agent's context — no code change, no redeploy. That's why skills have...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
     },
     {
       "title": "Deploy Anyscale on Azure with Terraform: a step-by-step guide",
@@ -505,15 +586,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "Naomi Moneypenny"
-    },
-    {
-      "title": "GA of NSP for Azure Service Bus & NSP now available in Azure Gov. Regions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/ga-of-nsp-for-azure-service-bus-nsp-now-available-in-azure-gov/ba-p/4526413",
-      "published": "2026-06-08T14:01:28+00:00",
-      "summary": "TL; DR Network Security Perimeter (NSP) support for Azure Service Bus is now Generally Available. With this, you can now place your Service Bus namespace inside a central security boundary and apply perimeter-based governance for inbound/outbound network access—while keeping key PaaS-to-PaaS...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "shashankamalladi"
     },
     {
       "title": "Now in preview: built-in MCP for Azure App Service",
@@ -1353,15 +1425,6 @@
       "author": "Justine Cocchi"
     },
     {
-      "title": "Announcing the Public Preview of Semantic Reranker in Azure Cosmos DB for NoSQL",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-the-public-preview-of-semantic-reranker-in-azure-cosmos-db-for-nosql/",
-      "published": "2026-06-02T19:15:33+00:00",
-      "summary": "Today we’re thrilled to announce the public preview of Semantic Reranker in Azure Cosmos DB for NoSQL,a new AI-powered capability that improves the relevancy of your search results with just a few lines of code. If you’ve ever run a vector, full-text, or hybrid search and wished the most relevant...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "James Codella"
-    },
-    {
       "title": "Introducing GitHub Enterprise Local (Preview): DevOps for Sovereign and Private Cloud Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-github-enterprise-local-preview-devops-for-sovereign/ba-p/4523046",
       "published": "2026-06-02T19:15:00+00:00",
@@ -1729,24 +1792,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "varghesejoji"
-    },
-    {
-      "title": "Power Pages & SPA: Deploying a Custom React SPA to Microsoft Power Pages",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/power-pages-spa-deploying-a-custom-react-spa-to-microsoft-power/ba-p/4521378",
-      "published": "2026-05-29T07:00:00+00:00",
-      "summary": "Introduction Modern business applications are no longer limited to traditional server-rendered pages or fixed portal layouts. Today’s users expect fast, responsive, highly interactive web experiences - the kind of experience developers commonly build using modern front-end frameworks such as React....",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aakarshdhawan"
-    },
-    {
-      "title": "From Requirement to Production Code, How Engineering Squad Automates the Full Dev Lifecycle",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-requirement-to-production-code-how-engineering-squad/ba-p/4522698",
-      "published": "2026-05-29T07:00:00+00:00",
-      "summary": "I started wondering: what if instead of one AI assistant generating code snippets, you had an entire squad of specialized AI agents. Each owning a single stage of the delivery pipeline, they could collaborate, self-correct, and produce a complete, traceable output from a plain-text requirement?...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "paggarwal"
     },
     {
       "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
