@@ -1,7 +1,151 @@
 {
-  "lastUpdated": "2026-06-16T16:48:40.548222+00:00",
-  "totalArticles": 250,
+  "lastUpdated": "2026-06-17T15:24:01.610185+00:00",
+  "totalArticles": 263,
   "articles": [
+    {
+      "title": "Introducing New Additions to Microsoft Sentinel Normalization and ASIM",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-new-additions-to-microsoft-sentinel-normalization/ba-p/4524584",
+      "published": "2026-06-17T15:00:00+00:00",
+      "summary": "TL;DR: New ASIM parsers for Azure Firewall, Key Vault, AWS CloudTrail (EC2, S3, IAM), and 10+ third-party products. Two new schemas — Asset Entities and AI Agent Events. Plus changelogs on GitHub and a heads-up on an upcoming breaking change in ProcessEvent parsers. What's New Security teams deal...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "derricklee"
+    },
+    {
+      "title": "When your agent extensions fight each other",
+      "link": "https://devblogs.microsoft.com/blog/when-your-agent-extensions-fight-each-other",
+      "published": "2026-06-17T14:55:53+00:00",
+      "summary": "This is the fourth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "How to Score a User Simulator: Introducing USR-8",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-score-a-user-simulator-introducing-usr-8/ba-p/4523642",
+      "published": "2026-06-17T14:00:00+00:00",
+      "summary": "Authors: José Santos, Shuo Qiu, Morteza Ziyadi User simulators have become a standard part of the agent-building toolkit: cheaper than real-user pilots, faster than scripted dialogues, and the only way to push an agent through hundreds of plausible conversations between every code change. The hard...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jcasantos"
+    },
+    {
+      "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention/",
+      "published": "2026-06-17T13:58:46+00:00",
+      "summary": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention Picture the first few hours after a serious data incident. A production application is down. Security teams are still trying to understand what happened. Application owners need to know which recovery...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Hans Wieser [MS], Jay Gordon"
+    },
+    {
+      "title": "Introducing GitHub Pre-Purchase Plans: A Simpler Way to Plan Your GitHub Spend",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-github-pre-purchase-plans-a-simpler-way-to-plan-your/ba-p/4528855",
+      "published": "2026-06-17T13:58:28+00:00",
+      "summary": "As AI-powered development scales, more of what organizations pay for on GitHub is shifting from fixed per-seat pricing to usage-based billing. GitHub Copilot, Actions, Codespaces, AI Credits: spend now reflects what teams actually build, and that can vary month to month. For most engineering and...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "kyleikeda"
+    },
+    {
+      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
+      "published": "2026-06-17T12:17:58+00:00",
+      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "AvanishYadav"
+    },
+    {
+      "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-an-automated-sla-risk-agent-with-routines-in-microsoft/ba-p/4528103",
+      "published": "2026-06-17T12:00:00+00:00",
+      "summary": "What if your support team could start every morning with an AI-generated summary of tickets most likely to breach SLA? This tutorial shows you how to build exactly that: a grounded agent in Microsoft Foundry that automatically analyzes your ticket data and surfaces risks. Using Routines in...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LauraVerghote"
+    },
+    {
+      "title": "Security Copilot RBAC for Embedded Experience in Unified Security Platform",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/security-copilot-rbac-for-embedded-experience-in-unified/ba-p/4528833",
+      "published": "2026-06-17T11:10:30+00:00",
+      "summary": "Introduction The evolution of Security Operations Centers (SOC) is increasingly driven by AI-powered capabilities that improve efficiency, accuracy, and response time. Microsoft Security Copilot represents a significant advancement in this space by embedding AI-driven assistance directly within...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "SantoshPargi"
+    },
+    {
+      "title": "Azure Sets a New Performance Record for LLM Training Benchmark at Extreme Scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-sets-a-new-performance-record-for-llm-training-benchmark/ba-p/4523077",
+      "published": "2026-06-17T00:17:30+00:00",
+      "summary": "Azure achieved the most performant MLPerf Training v6.0 result to date for Llama 3.1 405B, with a time-to-train of just over seven minutes according to MLCommons. This loadbearing benchmark measures how communication overhead and system stability dominate training performance, where Azure’s full...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "azinheidarshenas"
+    },
+    {
+      "title": "Closing the loop on container security: From code to runtime in the AI era",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/closing-the-loop-on-container-security-from-code-to-runtime-in/ba-p/4528599",
+      "published": "2026-06-16T23:15:21+00:00",
+      "summary": "Containers are the backbone of modern cloud-native apps — and increasingly, the infrastructure powering AI, from AI assistants to a new wave of intelligent agents. They also blur the line between build, deploy, and runtime: a single code change can become a running workload in minutes. A...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "mahersko"
+    },
+    {
+      "title": "Azure Databricks at Databricks Data + AI Summit 2026: updates and new announcements",
+      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-at-databricks-data-ai-summit-2026-updates-and/ba-p/4528388",
+      "published": "2026-06-16T21:07:43+00:00",
+      "summary": "Databricks Data + AI Summit brings together the global data and AI community in San Francisco to share product news, technical breakthroughs, and customer stories. This year, as usual, we have a lot of Azure Databricks announcements, a strong presence across the event, and a continued focus on...",
+      "blog": "Azure Databricks",
+      "blogId": "azure-databricks",
+      "author": "AnaviNahar"
+    },
+    {
+      "title": "Azure Arc Server May 2026 Forum",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-may-2026-forum/ba-p/4528643",
+      "published": "2026-06-16T20:47:16+00:00",
+      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the May 2026 Azure Arc Server Forum, we discussed: Private Preview of Windows Server 2016 Extended Security Updates (ESUs): Customers with Windows Server 2016 Servers with an NDA and willingness to provide feedback...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Aurnov_Chattopadhyay"
+    },
+    {
+      "title": "Anomaly detection made easy with Dynamic thresholds for Log search alerts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/anomaly-detection-made-easy-with-dynamic-thresholds-for-log/ba-p/4521522",
+      "published": "2026-06-16T17:33:52+00:00",
+      "summary": "We’re excited to announce the General Availability of dynamic thresholds for log search alerts in Azure Monitor. Dynamic thresholds make anomaly detection easier by using machine learning to learn normal behavior from your historical log query results, automatically account for patterns such as...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat"
+    },
+    {
+      "title": "General Availability: Simple log alerts in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/general-availability-simple-log-alerts-in-azure-monitor/ba-p/4521498",
+      "published": "2026-06-16T17:33:31+00:00",
+      "summary": "We are excited to announce the General Availability of Simple log alerts in Azure Monitor! This feature is designed to provide a simplified and more intuitive experience for monitoring and alerting, enhancing your ability to detect and respond to problems in near real-time. Simple log alerts are a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat"
+    },
+    {
+      "title": "Announcing Public Preview: Agent Identities Asset Connector for Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-public-preview-agent-identities-asset-connector-for/ba-p/4527960",
+      "published": "2026-06-16T17:00:01+00:00",
+      "summary": "As organizations accelerate adoption of AI agents across Microsoft 365 and enterprise environments, security teams face a fundamental shift: Agents are becoming first-class identities and securing them requires understanding both their behavior and their identity context. We are excited to announce...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Krishna_Sagar_B_V"
+    },
+    {
+      "title": "Aspire in VS Code: the 13.4 developer loop",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-vscode-extension-13-4/",
+      "published": "2026-06-16T17:00:00+00:00",
+      "summary": "Aspire 13.4 brings more of the local development loop into VS Code: AppHost CodeLens actions, live resource state, dashboard shortcuts, typed resource command prompts, TypeScript AppHost support, and multi-language debugging. The post Aspire in VS Code: the 13.4 developer loop appeared first on...",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Adam Ratzman"
+    },
     {
       "title": "Transform your security operation with a unified experience in Defender",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/transform-your-security-operation-with-a-unified-experience-in/ba-p/4527932",
@@ -12,22 +156,13 @@
       "author": "Mohit_Kumar1"
     },
     {
-      "title": "Azure Sets a New Performance Record for LLM Training Benchmark at Extreme Scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-sets-a-new-performance-record-for-llm-training-benchmark/ba-p/4523077",
-      "published": "2026-06-16T15:13:23+00:00",
-      "summary": "Azure achieved the most performant MLPerf Training v6.0 result to date for Llama 3.1 405B, with a time-to-train of just over seven minutes according to MLCommons. This loadbearing benchmark measures how communication overhead and system stability dominate training performance, where Azure’s full...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "azinheidarshenas"
-    },
-    {
-      "title": "Azure Databricks at Databricks Data + AI Summit 2026: updates and new announcements",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-at-databricks-data-ai-summit-2026-updates-and/ba-p/4528388",
-      "published": "2026-06-16T13:00:00+00:00",
-      "summary": "Databricks Data + AI Summit brings together the global data and AI community in San Francisco to share product news, technical breakthroughs, and customer stories. This year, as usual, we have a lot of Azure Databricks announcements, a strong presence across the event, and a continued focus on...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "AnaviNahar"
+      "title": "Competing against yourself",
+      "link": "https://devblogs.microsoft.com/blog/competing-against-yourself",
+      "published": "2026-06-16T14:55:23+00:00",
+      "summary": "You shipped a new CLI: better developer experience, modern architecture, and optimized for agents. You deprecated the old one, updated the docs, and blogged about it. Developers are migrating. Then someone asks an AI coding agent to scaffold a project, and the agent… uses the old tool. Training...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "The Case for an Ontology Layer in Telecoms",
@@ -66,6 +201,24 @@
       "author": "Jamesdld23"
     },
     {
+      "title": "A Guided Tour of the New Microsoft Foundry Labs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-guided-tour-of-the-new-microsoft-foundry-labs/ba-p/4527908",
+      "published": "2026-06-15T23:41:16+00:00",
+      "summary": "There's a moment every developer chases — the first time you take something genuinely at the edge of what's possible and watch it run on your screen, against your problem. Microsoft Foundry Labs exists to give you that moment on repeat. This is the place where Microsoft's most ambitious AI research...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vaidyas"
+    },
+    {
+      "title": "Intelligent sampling in Microsoft Foundry: the science behind selecting better production traces",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/intelligent-sampling-in-microsoft-foundry-the-science-behind/ba-p/4523722",
+      "published": "2026-06-15T16:00:00+00:00",
+      "summary": "TL;DR Microsoft Foundry's intelligent sampling feature (used when creating an evaluation or fine-tuning dataset from production agent traces) uses a MinHash farthest-first diversity sampler. On WildChat (the primary validation dataset, sampling 100 items from a 5,000-trace pool), diversity sampling...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach"
+    },
+    {
       "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/inside-the-observability-agent-how-deep-investigations-and/ba-p/4527102",
       "published": "2026-06-15T15:57:54+00:00",
@@ -91,6 +244,24 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Mads Kristensen"
+    },
+    {
+      "title": "TLS Certificate Pinning and Best Practices in Azure Open-Source Relational Databases",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/tls-certificate-pinning-and-best-practices-in-azure-open-source/ba-p/4519531",
+      "published": "2026-06-15T13:42:38+00:00",
+      "summary": "TLS certificate pinning in Azure Database for PostgreSQL and MySQL Transport Layer Security (TLS) encrypts data in transit between client applications and the server and authenticates the service endpoint in client-server authentication. Azure Database server certificates are issued by well-known...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "TameikaL"
+    },
+    {
+      "title": "Benchmarks in Microsoft Foundry (preview): Standardized model and agent quality checks",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmarks-in-microsoft-foundry-preview-standardized-model-and/ba-p/4523711",
+      "published": "2026-06-15T13:00:00+00:00",
+      "summary": "Introduction Benchmarks in Microsoft Foundry (preview) make that kind of measurement a first-class part of the development workflow. You can run well-known open-source benchmarks against any model deployment or agent in your project, compare runs side by side in the evaluation group view, and drive...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach"
     },
     {
       "title": "Automating Daily MDE Compliance Monitoring Across Azure VMs",
@@ -226,6 +397,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "renaliu"
+    },
+    {
+      "title": "Your agent just scaffolded a project from 2020",
+      "link": "https://devblogs.microsoft.com/blog/your-agent-just-scaffolded-a-project-from-2020",
+      "published": "2026-06-11T17:54:29+00:00",
+      "summary": "Your agent ran a scaffold command. Project generated, dependencies resolved, no errors. Everything looks fine. Except it’s based on the project structure from 2020, and neither you nor the agent noticed. How npx picks the right-but-wrong version When an agent scaffolds a project or runs a CLI tool,...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Azure Monitor SLIs now Generally Available",
@@ -388,6 +568,24 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Mahesh_Sundaram"
+    },
+    {
+      "title": "Is your agent extension actually working?",
+      "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
+      "published": "2026-06-10T19:06:17+00:00",
+      "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "Spec-Driven Development: A Spec-First Approach to AI-Native Engineering",
+      "link": "https://devblogs.microsoft.com/blog/spec-driven-development-ai-native-engineering",
+      "published": "2026-06-10T16:15:09+00:00",
+      "summary": "AI has made software delivery faster, but speed alone does not guarantee better outcomes. As teams adopt AI-native development, the real challenge is keeping requirements, design, implementation, and validation aligned so the final result still reflects the original intent. Spec-Driven Development...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Apoorv Gupta"
     },
     {
       "title": "Announcing the Path to Production for Agents Webinar Series",
@@ -1029,15 +1227,6 @@
       "author": "insagiv"
     },
     {
-      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
-      "published": "2026-06-03T07:18:18+00:00",
-      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "AvanishYadav"
-    },
-    {
       "title": "Token economics–driven architecture: hybrid models, AI Runway, AKS Kata MicroVM, MCP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-driven-architecture-hybrid-models-ai-runway-aks/ba-p/4524276",
       "published": "2026-06-03T07:00:00+00:00",
@@ -1416,15 +1605,6 @@
       "author": "Abhishek Gupta"
     },
     {
-      "title": "Announcing General Availability of Azure Cosmos DB Global Secondary Indexes",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-general-availability-of-azure-cosmos-db-global-secondary-indexes/",
-      "published": "2026-06-02T19:15:33+00:00",
-      "summary": "Have you ever needed to evolve your read patterns without losing efficiency? Maybe your app started with one access pattern, but now you need three, and the queries that don’t hit your partition key are getting slower and more expensive every month. We built global secondary indexes (GSIs) for...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Justine Cocchi"
-    },
-    {
       "title": "Introducing GitHub Enterprise Local (Preview): DevOps for Sovereign and Private Cloud Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-github-enterprise-local-preview-devops-for-sovereign/ba-p/4523046",
       "published": "2026-06-02T19:15:00+00:00",
@@ -1731,33 +1911,6 @@
       "author": "kinfey"
     },
     {
-      "title": "What’s new in Azure Language in Foundry Tools",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/what-s-new-in-azure-language-in-foundry-tools/ba-p/4521343",
-      "published": "2026-05-29T23:30:00+00:00",
-      "summary": "Every day, your applications process thousands of emails, transcripts, and documents containing sensitive information—names, phone numbers, medical details. Manually identifying and protecting this data doesn't scale. Here's how the latest PII (Personally Identifiable Information) detection...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "renaliu"
-    },
-    {
-      "title": "GPT Realtime in Production: Which Context Strategy Should You Actually Use?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-realtime-in-production-which-context-strategy-should-you/ba-p/4523091",
-      "published": "2026-05-29T22:30:00+00:00",
-      "summary": "Are You Running Azure GPT Realtime in Production? The question that started this: Are you running Azure gpt-realtime in production? If so, you've already run into the question I want to talk about: how should you manage conversation context across turns? It sounds like an implementation detail. It...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Gana_Chandrasekaran"
-    },
-    {
-      "title": "Choosing the Right Language Analyzer for Azure AI Search",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-the-right-language-analyzer-for-azure-ai-search/ba-p/4523080",
-      "published": "2026-05-29T21:15:00+00:00",
-      "summary": "By Abhishree Shetty, Alec Berntson, Lihang LiA language analyzer is a specific type of text analyzer that performs lexical analysis using the linguistic rules of the target language. It applies language-specific rules to convert raw text chunks into searchable terms, handling aspects like word...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "abhishreeshetty"
-    },
-    {
       "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/flexible-cooling-for-ai-growth-how-zonal-architecture-supports/ba-p/4514042",
       "published": "2026-05-29T20:01:33+00:00",
@@ -1767,15 +1920,6 @@
       "author": "stsolo"
     },
     {
-      "title": "Migrating to GPT-5.x Without Breaking GPT-4: A Practical, Backward-Compatible Playbook",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/migrating-to-gpt-5-x-without-breaking-gpt-4-a-practical-backward/ba-p/4522936",
-      "published": "2026-05-29T19:30:00+00:00",
-      "summary": "The first request your service sends after swapping gpt-4o for gpt-5.1 in production will return HTTP 400. Not in two weeks. On the first call. And the parameter the error points to isn't one you set anywhere in your code - it's bound onto the request by a LangChain helper you've used for two...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "__sourav_sahu__"
-    },
-    {
       "title": "Four open source projects to explore at Microsoft Build",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/four-open-source-projects-to-explore-at-microsoft-build/ba-p/4523744",
       "published": "2026-05-29T17:34:29+00:00",
@@ -1783,15 +1927,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "leereilly"
-    },
-    {
-      "title": "AI Observability Starter Kit for Microsoft Foundry agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/ai-observability-starter-kit-for-microsoft-foundry-agents/ba-p/4522751",
-      "published": "2026-05-29T16:45:00+00:00",
-      "summary": "Table of Contents 1. From green dashboards to production-grade AI observability 1.1 How it flows 1.2 Agent definition 2. Deploy and run 2.1 What this starter kit contains 2.2 Running the kit 2.2.1 Post-deployment validation 2.2.2 What a successful deployment looks like 2.2.3 Teardown 2.2.4 Ad-hoc...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "varghesejoji"
     },
     {
       "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
@@ -2233,24 +2368,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "RGupta"
-    },
-    {
-      "title": "Understanding and building an Azure Hybrid Meshed Hub-Spoke Topology",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/understanding-and-building-an-azure-hybrid-meshed-hub-spoke/ba-p/4516879",
-      "published": "2026-05-18T07:15:26+00:00",
-      "summary": "A meshed hybrid hub-spoke topology Azure offers two main approaches to build network architectures. This article focuses on traditional networking (using VNets, peering, route tables, etc.), rather than Azure Virtual WAN. Why a hub-spoke topology? A hub‑spoke topology is the only way to control...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Svenbaeck"
-    },
-    {
-      "title": "Build a Local Microsoft Sentinel Triage Agent in VS Code (Copilot + MCP)",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/build-a-local-microsoft-sentinel-triage-agent-in-vs-code-copilot/ba-p/4520486",
-      "published": "2026-05-18T04:28:02+00:00",
-      "summary": "Modern SOC work is not limited by data—it’s limited by the friction of collecting it. This post shows a local-first workflow that lets you investigate Microsoft Sentinel incidents from inside VS Code using GitHub Copilot Chat for reasoning and a small, deterministic MCP toolset for evidence...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "absharan"
     }
   ]
 }
