@@ -1,7 +1,115 @@
 {
-  "lastUpdated": "2026-06-18T15:21:19.789168+00:00",
-  "totalArticles": 227,
+  "lastUpdated": "2026-06-19T15:12:04.370980+00:00",
+  "totalArticles": 262,
   "articles": [
+    {
+      "title": "Cross-Region Model Connectivity Options in Microsoft Foundry: Supported Patterns and Tradeoffs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cross-region-model-connectivity-options-in-microsoft-foundry/ba-p/4528620",
+      "published": "2026-06-19T15:00:00+00:00",
+      "summary": "Model availability in Microsoft Foundry is region-dependent. The region approved for your project may not be the one where the model or Foundry Agent Service support you need is available. That creates a common cross-region design choice: connect directly to another Foundry resource, or add a...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "rayankhoury"
+    },
+    {
+      "title": "How to Score a User Simulator: Introducing USR-8",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-score-a-user-simulator-introducing-usr-8/ba-p/4523642",
+      "published": "2026-06-19T13:00:00+00:00",
+      "summary": "Authors: José Santos, Shuo Qiu, Morteza Ziyadi User simulators have become a standard part of the agent-building toolkit: cheaper than real-user pilots, faster than scripted dialogues, and the only way to push an agent through hundreds of plausible conversations between every code change. The hard...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jcasantos"
+    },
+    {
+      "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
+      "published": "2026-06-19T07:55:59+00:00",
+      "summary": "Introduction A common pattern in large Azure deployments is to route VNet-to-VNet traffic through Microsoft Enterprise Edge (MSEE) routers. This happens when spoke VNets in a hub-and-spoke topology communicate with each other by hairpinning through the ExpressRoute circuit: traffic exits the Azure...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Jay-Li"
+    },
+    {
+      "title": "Microsoft Leads a New Era of Software Supply Chain Transparency",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-leads-a-new-era-of-software-supply-chain-transparency/ba-p/4528367",
+      "published": "2026-06-19T07:00:00+00:00",
+      "summary": "Microsoft announces the general availability of Microsoft’s Signing Transparency (MST) – a first-of-its-kind capability that brings unprecedented visibility and trust to our software supply chain. With this release, Microsoft is leading the industry by recording the build of critical cloud services...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "ShubhraS"
+    },
+    {
+      "title": "Separating Deterministic Extraction from AI Inference in Industrial Summarization",
+      "link": "https://devblogs.microsoft.com/ise/separating-deterministic-extraction-from-ai-inference/",
+      "published": "2026-06-19T07:00:00+00:00",
+      "summary": "When 100% of our prototype outputs were valid JSON but 0% met the data contract, we discovered the LLM was doing work that software should own. A field classification exercise and 4-pass pipeline brought schema compliance from 0% to 100%. The post Separating Deterministic Extraction from AI...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Viktor Ciroski"
+    },
+    {
+      "title": "Check This Out! (CTO!) Guide (May/June 2026)",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-may-june-2026/ba-p/4529349",
+      "published": "2026-06-18T21:36:23+00:00",
+      "summary": "Member: TysonPaul | Microsoft Community Hub Triggering Azure Functions from Blob Storage Using Event Grid Team Blog: Core Infrastructure and Security Author: AndrewCoughlin Published: 05/11/2026 Summary: The article explains how to trigger Azure Functions from Blob Storage events using Azure Event...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "TysonPaul"
+    },
+    {
+      "title": "Revolutionizing Document Intelligence: Scaling Construction Industries with AI-Driven Extraction",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/revolutionizing-document-intelligence-scaling-construction/ba-p/4522393",
+      "published": "2026-06-18T20:52:34+00:00",
+      "summary": "Introduction Generative AI (GenAI) is poised to transform the construction industry by addressing chronic challenges such as low productivity, cost overruns, schedule delays, and labor shortages. By automating the analysis of drawings, specifications, contracts, and project documentation, GenAI can...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "its_gaurav_bhardwaj"
+    },
+    {
+      "title": "Microsoft Security Copilot: AI-Driven Security Operations at Greater Scale",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/microsoft-security-copilot-ai-driven-security-operations-at/ba-p/4528912",
+      "published": "2026-06-18T20:49:10+00:00",
+      "summary": "At its core, Security Copilot is built to enhance every facet of security operations at machine speed. It translates a vast array of inputs (Microsoft’s cloud-scale telemetry, threat intelligence feeds, security best practices, and enterprise-specific data) into tailored recommendations and...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "edgarus71"
+    },
+    {
+      "title": "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/outcome-driven-learning-systems-enterprise-rl-with-openenv-and-foundry/",
+      "published": "2026-06-18T20:37:18+00:00",
+      "summary": "We shipped a lot at Build 2026: hosted agents, Toolboxes, Foundry IQ, Memory, Managed Compute, fine‑tuning, Frontier Tuning, and a new evaluation and optimization stack. Read as a feature list, it is a lot to hold in your head. So here is a simpler way to see it: these are the parts you need to […]...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Govind Kamtamneni"
+    },
+    {
+      "title": "Introducing GitHub Pre-Purchase Plans: A Simpler Way to Plan Your GitHub Spend",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-github-pre-purchase-plans-a-simpler-way-to-plan-your/ba-p/4528855",
+      "published": "2026-06-18T19:55:04+00:00",
+      "summary": "As AI-powered development scales, more of what organizations pay for on GitHub is shifting from fixed per-seat pricing to usage-based billing. GitHub Copilot, Actions, Codespaces, AI Credits: spend now reflects what teams actually build, and that can vary month to month. For most engineering and...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "kyleikeda"
+    },
+    {
+      "title": "Auto-Generated Rubric Evaluators: Building Context-Aware Evaluators for AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/auto-generated-rubric-evaluators-building-context-aware/ba-p/4524095",
+      "published": "2026-06-18T19:00:00+00:00",
+      "summary": "Authors: Shuo Qiu, Sydney Lister, Ilya Matiach, Ali Mahmoudzadeh, Salma Elshafey, José Santos, Vivek Bhadauria, Morteza Ziyadi, April Kwong Why Your Agent Needs a Task-Specific Evaluator Picture a customer-service agent for a telecom company. A customer messages in asking to switch plans and get a...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Shuo"
+    },
+    {
+      "title": "Detection and automation, reimagined",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
+      "published": "2026-06-18T18:31:03+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl How analytics rules, playbooks, workbooks, and hunting evolve in Defender—and why the new toolbelt makes detection engineering faster, automation richer, and hunting genuinely cross-platform. If you build detections for a...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1"
+    },
     {
       "title": "Controlling Tool Access with APIM MCP Gateway",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/controlling-tool-access-with-apim-mcp-gateway/ba-p/4529225",
@@ -12,6 +120,15 @@
       "author": "samcogan"
     },
     {
+      "title": "Stop overloading your skills",
+      "link": "https://devblogs.microsoft.com/blog/stop-overloading-your-skills",
+      "published": "2026-06-18T14:25:27+00:00",
+      "summary": "You built a skill for your technology. API references, authentication flows, SDK patterns, error handling, version info, all packed into one skill. The agent calls it, gets all that context, and generates code. The kicker? You’ve just wasted a lot of tokens. It already knows Models have ingested...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
       "title": "Enterprise-ready Claude Desktop with Entra ID, APIM, and Microsoft Foundry (No Backend Required)",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/enterprise-ready-claude-desktop-with-entra-id-apim-and-microsoft/ba-p/4528163",
       "published": "2026-06-18T03:47:52+00:00",
@@ -19,6 +136,15 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "LZhang"
+    },
+    {
+      "title": "Intelligent Terminal 0.1.1 is here: bash support, new slash commands, and more customization",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-1-1-is-here-bash-support-new-slash-commands-and-customization/",
+      "published": "2026-06-17T22:31:51+00:00",
+      "summary": "We’re back with the first servicing release of Intelligent Terminal! This update brings auto error detection to Bash and WSL, a new /fix command for on-demand help, an on-the-fly /model picker, a customizable agent pane, and Windows 10 support, along with a round of bug fixes and reliability...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani"
     },
     {
       "title": "Scaling High-Performance CAD on Azure Virtual Desktop with NVIDIA RTX PRO 6000",
@@ -46,6 +172,15 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "malaikanazim"
+    },
+    {
+      "title": "Accelerating AKS troubleshooting with the Azure Copilot Observability Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/accelerating-aks-troubleshooting-with-the-azure-copilot/ba-p/4528517",
+      "published": "2026-06-17T16:27:27+00:00",
+      "summary": "AKS incidents rarely stay within one Kubernetes object, signal, or tool. A latency spike might first appear in application telemetry, but the root cause may sit elsewhere: pod restarts, node pressure, scheduling failures, or a recent configuration change. The Azure Copilot Observability Agent in...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yairgil"
     },
     {
       "title": "Anatomy of the change",
@@ -84,15 +219,6 @@
       "author": "Waldek Mastykarz"
     },
     {
-      "title": "How to Score a User Simulator: Introducing USR-8",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-score-a-user-simulator-introducing-usr-8/ba-p/4523642",
-      "published": "2026-06-17T14:00:00+00:00",
-      "summary": "Authors: José Santos, Shuo Qiu, Morteza Ziyadi User simulators have become a standard part of the agent-building toolkit: cheaper than real-user pilots, faster than scripted dialogues, and the only way to push an agent through hundreds of plausible conversations between every code change. The hard...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jcasantos"
-    },
-    {
       "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
       "link": "https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention/",
       "published": "2026-06-17T13:58:46+00:00",
@@ -100,6 +226,15 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Hans Wieser [MS], Jay Gordon"
+    },
+    {
+      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
+      "published": "2026-06-17T12:17:58+00:00",
+      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "AvanishYadav"
     },
     {
       "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
@@ -154,6 +289,24 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "Aurnov_Chattopadhyay"
+    },
+    {
+      "title": "Anomaly detection made easy with Dynamic thresholds for Log search alerts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/anomaly-detection-made-easy-with-dynamic-thresholds-for-log/ba-p/4521522",
+      "published": "2026-06-16T17:33:52+00:00",
+      "summary": "We’re excited to announce the General Availability of dynamic thresholds for log search alerts in Azure Monitor. Dynamic thresholds make anomaly detection easier by using machine learning to learn normal behavior from your historical log query results, automatically account for patterns such as...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat"
+    },
+    {
+      "title": "General Availability: Simple log alerts in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/general-availability-simple-log-alerts-in-azure-monitor/ba-p/4521498",
+      "published": "2026-06-16T17:33:31+00:00",
+      "summary": "We are excited to announce the General Availability of Simple log alerts in Azure Monitor! This feature is designed to provide a simplified and more intuitive experience for monitoring and alerting, enhancing your ability to detect and respond to problems in near real-time. Simple log alerts are a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat"
     },
     {
       "title": "Announcing Public Preview: Agent Identities Asset Connector for Microsoft Sentinel",
@@ -237,6 +390,15 @@
       "author": "vaidyas"
     },
     {
+      "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/inside-the-observability-agent-how-deep-investigations-and/ba-p/4527102",
+      "published": "2026-06-15T15:57:54+00:00",
+      "summary": "Incidents are rarely explained by one chart. A spike in request failures might be caused by a dependency timeout. A dependency timeout might come from a connection pool issue. And that connection pool issue might trace back to a deployment or a resource health event that started minutes earlier....",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yalavi"
+    },
+    {
       "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
       "published": "2026-06-15T15:24:42+00:00",
@@ -271,6 +433,33 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "SayanRoy"
+    },
+    {
+      "title": "Bringing Enterprise File Data to Users with Azure NetApp Files, Microsoft Foundry, and M365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/bringing-enterprise-file-data-to-users-with-azure-netapp-files/ba-p/4528002",
+      "published": "2026-06-15T07:37:24+00:00",
+      "summary": "Table of Contents Introduction Why the user experience layer matters in enterprise AI Microsoft Foundry: Orchestrating enterprise AI agents The Copilot agent as the enterprise user experience End‑to‑end user query flow Why this pattern works for regulated and complex environments Extending Copilot...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen"
+    },
+    {
+      "title": "From Enterprise File Storage to an AI-Ready Data Foundation using Azure NetApp Files and OneLake",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-enterprise-file-storage-to-an-ai-ready-data-foundation/ba-p/4527999",
+      "published": "2026-06-15T07:37:21+00:00",
+      "summary": "Table of Contents Introduction Why the data foundation matters Expanding beyond collaboration-centric data The zero‑copy data foundation pattern Why OneLake changes the model What this enables Key takeaway Learn more Introduction Enterprise AI is advancing rapidly, but many organizations are...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen"
+    },
+    {
+      "title": "From File Data to AI‑Powered Knowledge Pipelines using Azure NetApp Files object REST API",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-file-data-to-ai-powered-knowledge-pipelines-using-azure/ba-p/4528001",
+      "published": "2026-06-15T07:37:13+00:00",
+      "summary": "Table of Contents Introduction Why a knowledge pipeline is required Retrieval‑augmented generation (RAG) at enterprise scale Knowledge pipeline architecture overview Step 1: Indexing enterprise file content without moving it Step 2: Creating semantic meaning with embeddings Step 3: Retrieval at...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen"
     },
     {
       "title": "Agents That Test Agents: A Cloud-Native Skill-Eval Harness on Foundry Hosted Agents",
@@ -327,6 +516,33 @@
       "author": "Gloridel Morales"
     },
     {
+      "title": "Right‑sizing Azure Savings Plans, one hour at a time",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/right-sizing-azure-savings-plans-one-hour-at-a-time/ba-p/4527507",
+      "published": "2026-06-11T20:21:40+00:00",
+      "summary": "Most of us have, at some point, sized a commitment the same way we order food for a team offsite: estimate, round up, and hope nobody complains. It works for pizza. It is a less robust strategy for a three‑year Savings Plan. Azure Cost Management already produces commitment recommendations for you,...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Dirk_Brinkmann"
+    },
+    {
+      "title": "A deep dive into Azure Bastion session recording",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/a-deep-dive-into-azure-bastion-session-recording/ba-p/4527583",
+      "published": "2026-06-11T19:38:25+00:00",
+      "summary": "If you’ve worked with Azure Bastion’s Premium SKU, you’ve likely encountered one of its most powerful security features: graphical session recording. Capturing RDP and SSH sessions end to end strengthens compliance, supports forensic investigations, and improves operational accountability. How you...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "juquint"
+    },
+    {
+      "title": "Modern VM monitoring, powered by OpenTelemetry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566",
+      "published": "2026-06-11T18:57:11+00:00",
+      "summary": "At Build 2026, we're announcing the general availability of OpenTelemetry (OTel) Guest OS metrics for Azure VMs and Arc-enabled Servers. OTel provides a standards-based foundation for VM monitoring with consistent metrics across Windows and Linux, richer Guest OS and per-process visibility, and...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "viviandiec"
+    },
+    {
       "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
       "published": "2026-06-11T18:53:37+00:00",
@@ -352,6 +568,24 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "Azure Monitor SLIs now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
+      "published": "2026-06-11T17:18:29+00:00",
+      "summary": "Azure Monitor SLIs are now generally available Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Azure Monitor are now generally available. Teams can now measure reliability based on customer experience, not just infrastructure signals. SLI: A quantitative measure of how well...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Sokuma"
+    },
+    {
+      "title": "Azure Monitor Metrics Export Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-metrics-export-generally-available/ba-p/4523712",
+      "published": "2026-06-11T17:17:35+00:00",
+      "summary": "Today, we’re excited to announce the general availability of Azure Monitor Metrics Export using data collection rules (DCRs). A scalable, flexible way to continuously export platform metrics with dimensional fidelity, lower latency, and more control over what you send downstream. Azure Monitor...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Sokuma"
     },
     {
       "title": "Copilot Autofix for GitHub Advanced Security for Azure DevOps",
@@ -489,6 +723,15 @@
       "author": "MuraliKumanduri"
     },
     {
+      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
+      "published": "2026-06-10T19:34:21+00:00",
+      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Mahesh_Sundaram"
+    },
+    {
       "title": "Is your agent extension actually working?",
       "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
       "published": "2026-06-10T19:06:17+00:00",
@@ -615,6 +858,15 @@
       "author": "BhaktiRath95"
     },
     {
+      "title": "Any source. Any destination. Ready for AI-era.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/any-source-any-destination-ready-for-ai-era/ba-p/4524886",
+      "published": "2026-06-09T01:43:45+00:00",
+      "summary": "Telemetry is exploding, every new app, edge node, and AI agent is a new firehose, and AI has raised the bar on what that telemetry must be: governed, on open standards, observable at agent scale. Today, most teams answer that by stitching together a stack of disconnected tools, each catering to a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shayoni_seth"
+    },
+    {
       "title": "What's new in Azure App Service at #MSBuild 2026",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-app-service-at-msbuild-2026/ba-p/4526569",
       "published": "2026-06-08T22:30:40+00:00",
@@ -658,6 +910,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "johnsonshi_msft"
+    },
+    {
+      "title": "Connect Metrics to Traces with Exemplars in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/connect-metrics-to-traces-with-exemplars-in-azure-monitor/ba-p/4525714",
+      "published": "2026-06-08T17:21:43+00:00",
+      "summary": "Following Microsoft’s recent GA announcement for OpenTelemetry (OTel) support, we are excited to announce support for Exemplars for customers instrumenting metrics with Prometheus or OpenTelemetry and traces using OpenTelemetry, enhancing Azure Monitor’s integrated observability experience for...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "sunayanasingh"
     },
     {
       "title": "Driving Stop-and-Go Business Processes to Closure with Foundry Hosted Agents",
@@ -741,6 +1002,24 @@
       "author": "amolravande"
     },
     {
+      "title": "New Capabilities to Observe Agents in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/new-capabilities-to-observe-agents-in-azure-monitor/ba-p/4524896",
+      "published": "2026-06-05T22:09:44+00:00",
+      "summary": "Over the last six months, we have been listening to you and building new capabilities to help you observe your agents. You’ve been sharing with us that quality issues are tricky and evaluation is critical, that agent reasoning needs to be understood, that humans must be in the loop to review select...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "MattMc"
+    },
+    {
+      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
+      "published": "2026-06-05T21:50:11+00:00",
+      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "grace_kim"
+    },
+    {
       "title": "Ansible + Azure Arc: Use Ansible modules to deploy and manage Azure Arc machine extensions at scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-use-ansible-modules-to-deploy-and-manage-azure/ba-p/4521689",
       "published": "2026-06-05T18:05:16+00:00",
@@ -784,6 +1063,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "DONGLI"
+    },
+    {
+      "title": "Azure Monitor Health Model (Preview): What's New!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-preview-what-s-new/ba-p/4525707",
+      "published": "2026-06-05T01:30:56+00:00",
+      "summary": "Azure Monitor Health Model is a modern observability capability that brings together telemetry, architecture, and business context of your workloads to generate health insights. It continuously aggregates signals across dependencies, producing a single, actionable health state which reduces alert...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shijain13"
     },
     {
       "title": "Pod CIDR Expansion Generally Available and IP Address Planning on Azure CNI Overlay",
@@ -876,15 +1164,6 @@
       "author": "Beijie Zhang"
     },
     {
-      "title": "Foundry IQ: Improve recall by up to 54% with knowledge bases",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-improve-recall-by-up-to-54-with-knowledge-bases/ba-p/4524852",
-      "published": "2026-06-04T00:46:26+00:00",
-      "summary": "By Abhishree Shetty, Alec Berntson, Alina Stoica Beck, Amaia Salvador Aguilera, Arnau Quindós Sánchez, Jieyu Cheng, Jim Singh, Jing Zhu, Lihang Li, Matt Gotteiner, Mike Kim, Thibault Gisselbrecht Agents are only valuable for the enterprise when they have access to your organization's knowledge. A...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MattGotteiner"
-    },
-    {
       "title": "Build 2026: From observability to ROI for AI agents on any framework",
       "link": "https://devblogs.microsoft.com/foundry/build-2026-from-observability-to-roi-for-ai-agents-on-any-framework/",
       "published": "2026-06-03T22:44:01+00:00",
@@ -921,6 +1200,15 @@
       "author": "LZhang"
     },
     {
+      "title": "What’s new in Observability at Build 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-observability-at-build-2026/ba-p/4524927",
+      "published": "2026-06-03T19:02:31+00:00",
+      "summary": "Observability for AI and Agent Workloads AI agents are moving from prototype to production. To help teams ship and operate agents with the same rigor as the rest of their stack, Azure Monitor & Azure Copilot Observability agent brings end-to-end agent observability — grounded in OpenTelemetry so...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Priyanka Nanda"
+    },
+    {
       "title": "How Microsoft is migrating repositories to GitHub",
       "link": "https://devblogs.microsoft.com/devops/how-microsoft-is-migrating-repositories-to-github/",
       "published": "2026-06-03T18:48:27+00:00",
@@ -946,6 +1234,24 @@
       "blog": "Messaging on Azure",
       "blogId": "messagingonazureblog",
       "author": "Connected-Seth"
+    },
+    {
+      "title": "Is 94% of your syslog just noise? Now you can filter it out before ingestion.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/is-94-of-your-syslog-just-noise-now-you-can-filter-it-out-before/ba-p/4524600",
+      "published": "2026-06-03T17:19:40+00:00",
+      "summary": "At Microsoft Build 2026, we are announcing the public preview of multi-stage transformations for Azure Monitor Data Collection Rules (DCRs). Multi-stage transformations let you filter, aggregate, parse, and map your logs at the point of collection, before data is ingested into your workspace....",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Ivan_Varnitski"
+    },
+    {
+      "title": "When Telemetry Volume Gets Real: Azure Monitor pipeline’s Performance Story!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/when-telemetry-volume-gets-real-azure-monitor-pipeline-s/ba-p/4524898",
+      "published": "2026-06-03T17:19:17+00:00",
+      "summary": "What is Azure Monitor pipeline? Azure Monitor pipeline provides centralized governance and a single point of control that runs close to your data sources, so you can filter, transform, aggregate, and route telemetry before it's sent to Azure Monitor. This approach helps you reduce ingestion volume,...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "susaraswat4"
     },
     {
       "title": "Expanding the Reach of Document Translation – New Capabilities Announced at Microsoft Build",
@@ -1056,6 +1362,15 @@
       "author": "SolarRezaei"
     },
     {
+      "title": "File share migrations simplified with Azure Copilot Migration Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/file-share-migrations-simplified-with-azure-copilot-migration/ba-p/4524563",
+      "published": "2026-06-03T12:28:05+00:00",
+      "summary": "Building on our earlier announcement of discovery and assessment support for SMB and NFS file shares in Azure Migrate, we are extending the experience to support end-to-end file share migrations within the same workflow. With Azure Copilot Migration Agent, customers can move from discovery and...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "madhurinrao"
+    },
+    {
       "title": "Build, deploy, and govern sovereign AI with Foundry Local on Azure Local",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/build-deploy-and-govern-sovereign-ai-with-foundry-local-on-azure/ba-p/4522945",
       "published": "2026-06-03T07:19:19+00:00",
@@ -1117,6 +1432,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "akashsinghal"
+    },
+    {
+      "title": "Is Your Monitoring Actually Working? What's New in Monitoring Coverage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/is-your-monitoring-actually-working-what-s-new-in-monitoring/ba-p/4524619",
+      "published": "2026-06-02T22:40:52+00:00",
+      "summary": "Monitoring is only useful when the right signals are collected, the right alerts are in place, and the data is actually flowing when teams need it. In large Azure environments, confirming all three across every VM and AKS cluster can still take too much manual work. At Microsoft Ignite, we...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Nathan_Mangum"
     },
     {
       "title": "Introducing the Azure Functions serverless agents runtime (preview)",
@@ -1299,6 +1623,15 @@
       "author": "beenamore"
     },
     {
+      "title": "Azure Monitor Copilot Observability Agent: What’s new at Build",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-copilot-observability-agent-what-s-new-at-build/ba-p/4522927",
+      "published": "2026-06-02T19:30:00+00:00",
+      "summary": "The Observability agent in Azure Copilot is an AI-powered assistant built into Azure Monitor that helps engineers investigate issues and explore their systems using natural language. By grounding its analysis in telemetry data such as metrics, logs, and traces, it supports both open-ended...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "EfratNauerman"
+    },
+    {
       "title": "Microsoft Planetary Computer Pro is Generally Available",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/microsoft-planetary-computer-pro-is-generally-available/ba-p/4523417",
       "published": "2026-06-02T19:30:00+00:00",
@@ -1461,6 +1794,15 @@
       "author": "Sreekanth_Thirthala"
     },
     {
+      "title": "Simpler, scalable file share management in Azure - now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/simpler-scalable-file-share-management-in-azure-now-generally/ba-p/4523035",
+      "published": "2026-06-02T19:07:28+00:00",
+      "summary": "Linux workloads in Azure are scaling faster than ever, powering everything from container platforms, analytics pipelines, SAP environments to line-of-business applications. As these workloads grow, infrastructure teams commonly run into challenges with scale, cost management, complexity and...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "VincentLiu"
+    },
+    {
       "title": "Find what you need, faster: Azure API Center now supports custom metadata filtering",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/find-what-you-need-faster-azure-api-center-now-supports-custom/ba-p/4524672",
       "published": "2026-06-02T19:07:02+00:00",
@@ -1497,22 +1839,13 @@
       "author": "Sreekanth_Thirthala"
     },
     {
-      "title": "A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/build-2026-foundry-models/",
-      "published": "2026-06-02T17:20:00+00:00",
-      "summary": "Learn a practical model lifecycle for Microsoft Foundry: select the right model, evaluate quality, optimize cost, operate safely, and improve as production needs change. The post A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Naomi Moneypenny"
-    },
-    {
-      "title": "Foundry IQ: New governance and enterprise AI security capabilities",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-new-governance-and-enterprise-ai-security/ba-p/4524825",
-      "published": "2026-06-02T17:15:00+00:00",
-      "summary": "Enterprise AI adoption depends on more than retrieval quality. It requires a foundation that enables agents to access business-critical content without weakening the controls already in place to protect it, including source permissions, sensitivity labels, audit trails, private network paths, and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "gia_mondragon"
+      "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
+      "published": "2026-06-02T18:55:03+00:00",
+      "summary": "Enterprises, large and small, rely on Azure Files for secure, scalable, and cost-efficient file storage. Modern workflows today span devices, platforms, and geographies; seamless, and secure access to shared data across every endpoint is critical to keeping teams productive and collaborative. With...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "grace_kim"
     },
     {
       "title": "What’s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements",
@@ -1549,6 +1882,24 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Yo-Lei Chen, Carlos Robles, Tauseef Siddique"
+    },
+    {
+      "title": "Monitor AI coding agents with OpenTelemetry in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/monitor-ai-coding-agents-with-opentelemetry-in-azure-monitor/ba-p/4524049",
+      "published": "2026-06-02T14:41:00+00:00",
+      "summary": "AI coding agents are quickly becoming part of the everyday developer workflow. As teams adopt tools such as GitHub Copilot, Claude Code, and Codex, they need a better way to understand usage, troubleshoot performance, and keep an eye on token consumption and cost. With Azure Monitor’s OpenTelemetry...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "KayodePrince"
+    },
+    {
+      "title": "Direct OpenTelemetry ingestion into Azure Monitor is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/direct-opentelemetry-ingestion-into-azure-monitor-is-now/ba-p/4524044",
+      "published": "2026-06-02T14:39:33+00:00",
+      "summary": "OpenTelemetry is powering a new era of observability. Built on open standards, designed for portability, and made for developers who want flexibility without compromise. And now, you can send OpenTelemetry logs, metrics, and traces straight into Azure Monitor OTLP endpoints and data storage. This...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "KayodePrince"
     },
     {
       "title": "Infrastructure as Code for AI: Building and Deploying Microsoft Hosted Agents with Terraform",
@@ -1659,13 +2010,13 @@
       "author": "Maddy Montaquila"
     },
     {
-      "title": "Claude Code on Microsoft Foundry in VS Code — A Practical Setup Guide (with the gotchas)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/claude-code-on-microsoft-foundry-in-vs-code-a-practical-setup/ba-p/4524245",
-      "published": "2026-06-01T13:40:49+00:00",
-      "summary": "Enables enterprise-grade governance without changing your developer workflow. The official Microsoft Learn article (Configure Claude Code for Microsoft Foundry) gets you ~80% of the way there. The remaining 20%—VS Code settings shape, tenant mismatches, and configuration conflicts like \"baseURL and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "LZhang"
+      "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
+      "published": "2026-06-01T11:04:05+00:00",
+      "summary": "Services and applications produce massive amounts of telemetry – and making sense of all this data takes effort. Data is often spread across different stores, which means the way to clear insights goes through careful querying, refinement and correlation. The Azure Copilot Observability agent now...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Noa Kuperberg"
     },
     {
       "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
@@ -1684,6 +2035,15 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "leereilly"
+    },
+    {
+      "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
+      "published": "2026-05-29T06:52:47+00:00",
+      "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
     },
     {
       "title": "Training 100B+ Models on a Single GPU: What MegaTrain Changes - and What It Means for Azure",
@@ -1866,6 +2226,15 @@
       "author": "arturoqu"
     },
     {
+      "title": "From Scale to Breakthrough: Azure NetApp Files Sets a New Cloud Benchmark for EDA Performance",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-scale-to-breakthrough-azure-netapp-files-sets-a-new-cloud/ba-p/4520890",
+      "published": "2026-05-22T15:00:00+00:00",
+      "summary": "Table of Contents Introduction New benchmark proof with large volume breakthrough mode What is Azure NetApp Files large volume breakthrough mode? Explore the latest Azure NetApp Files SPECstorage® 2020 publications Results that Speak for Themselves Single large volume breakthrough mode Large volume...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen"
+    },
+    {
       "title": "AI Infrastructure Preflight at User space: Validating Multi Node, Multi GPU Slurm Clusters",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-infrastructure-preflight-at-user-space-validating-multi-node/ba-p/4522284",
       "published": "2026-05-22T12:29:15+00:00",
@@ -1873,6 +2242,15 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "vinilv"
+    },
+    {
+      "title": "Simplify On-prem File share Migration to Azure: Discover & assess suitability using Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/simplify-on-prem-file-share-migration-to-azure-discover-assess/ba-p/4509195",
+      "published": "2026-05-22T10:24:28+00:00",
+      "summary": "UPDATE as of 20th May 2026: We are happy to announce that this capability is now GA worldwide. Migrating on‑premises file servers to the cloud is a complex infrastructure transformation—not just a data move. Many organizations lack the visibility needed to decide whether to rehost or modernize file...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "bapic"
     },
     {
       "title": "Deploy with Confidence: Using Rule Impact Analyzer in Azure Virtual Network Manager",
@@ -1981,69 +2359,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "David Fowler"
-    },
-    {
-      "title": "Golden Image Refresh for Virtual Machines and VM Scale Sets: Driving Consistency at Scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/golden-image-refresh-for-virtual-machines-and-vm-scale-sets/ba-p/4521376",
-      "published": "2026-05-20T02:56:39+00:00",
-      "summary": "Overview: A golden image is a prebuilt, approved system template that represents the ideal baseline for deployment. It includes: Hardened operating system configuration (e.g., RHEL) Preinstalled software and dependencies Security patches and updates Organizational compliance standards Architecture:...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ranjsharma"
-    },
-    {
-      "title": "Applying Site Reliability Engineering to Autonomous AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/applying-site-reliability-engineering-to-autonomous-ai-agents/ba-p/4521357",
-      "published": "2026-05-19T23:12:29+00:00",
-      "summary": "If you practice SRE, you already have a mental model for running reliable production systems. You define SLOs. You track error budgets. You use circuit breakers to stop cascading failures. You run chaos experiments to find weaknesses before customers do. You treat every operational decision as a...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "mosiddi"
-    },
-    {
-      "title": "Simplified access to Hotpatching enabled by Azure Arc for Windows Server 2025",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplified-access-to-hotpatching-enabled-by-azure-arc-for/ba-p/4521251",
-      "published": "2026-05-19T21:18:34+00:00",
-      "summary": "With Windows Server 2025, we introduced hotpatch enabled by Azure Arc, delivering security updates to Windows Server across hybrid and multicloud environments – minimizing downtime (no reboot), accelerating protection, and unifying patch management. We know that keeping your servers updated with...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "sharmajyoti"
-    },
-    {
-      "title": "Public preview: Expanded coverage and unified management for SQL VA Express Configuration",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/public-preview-expanded-coverage-and-unified-management-for-sql/ba-p/4514652",
-      "published": "2026-05-19T21:11:13+00:00",
-      "summary": "SQL Vulnerability Assessment (SQL VA) is a core capability in Defender for SQL that helps customers identify possible misconfigurations, excessive permissions, and other deviations from security best practices through continuous scanning of their databases. Traditionally, enabling SQL VA on SQL...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "Catalin Esanu"
-    },
-    {
-      "title": "Azure Arc Server April 2026 Forum",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-april-2026-forum/ba-p/4521318",
-      "published": "2026-05-19T18:58:36+00:00",
-      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the April 2026 Azure Arc Server Forum, we discussed: Public Preview of Essential Machine Management, learn more at aka.ms/EMM-blog and sign up at aka.ms/EMM-feedback Engage with product group on exploration of AI on...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Aurnov_Chattopadhyay"
-    },
-    {
-      "title": "Agentic AI for Linux Operations on Azure: The Prompts",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agentic-ai-for-linux-operations-on-azure-the-prompts/ba-p/4520924",
-      "published": "2026-05-19T18:25:43+00:00",
-      "summary": "Try This Yourself: Agentic AI for Linux Operations on Azure At Red Hat Summit 2026, I handed GitHub Copilot CLI a terminal and asked it to deploy a full-stack application to RHEL 10 on Azure. Live. From a single prompt. No scripts, no runbooks, no pre-baked automation. The audience watched every...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "abbottkarl"
-    },
-    {
-      "title": "Metrics Filtering and Log Aggregation Now GA for Advanced Container Networking Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/metrics-filtering-and-log-aggregation-now-ga-for-advanced/ba-p/4516508",
-      "published": "2026-05-19T18:13:31+00:00",
-      "summary": "We are thrilled to announce that Advanced Container Networking Services (ACNS) for Azure Kubernetes Service (AKS) now delivers two powerful observability features in General Availability: container network metrics filtering and container network log filtering and aggregation. Together, these...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "chandanAggarwal"
     }
   ]
 }
