@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-06-19T15:12:04.370980+00:00",
-  "totalArticles": 262,
+  "lastUpdated": "2026-06-20T13:59:49.016268+00:00",
+  "totalArticles": 265,
   "articles": [
+    {
+      "title": "Batch & Streaming Architecture Designs: Another Better Together Story!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/batch-streaming-architecture-designs-another-better-together/ba-p/4526166",
+      "published": "2026-06-19T21:24:09+00:00",
+      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Unlocking the next frontier of Local AI on Windows for Telecommunications",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/unlocking-the-next-frontier-of-local-ai-on-windows-for/ba-p/4528911",
+      "published": "2026-06-19T20:03:56+00:00",
+      "summary": "At Build 2026, we announced significant new capabilities across our on-device AI platform that expand what’s possible at the edge, in the field, and in the network operations center. This post covers two key areas and what they mean for telecom: new capabilities in Microsoft Foundry on Windows, and...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "OpeSam-Olowu"
+    },
+    {
+      "title": "Announcing the Path to Production for Agents Webinar Series",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
+      "published": "2026-06-19T18:51:28+00:00",
+      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "brauerblogs"
+    },
+    {
+      "title": "Azure Firewall explicit proxy Migration Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-firewall-explicit-proxy-migration-guide/ba-p/4528899",
+      "published": "2026-06-19T18:21:40+00:00",
+      "summary": "Purpose of the blog This blog outlines the key upcoming changes to Azure Firewall explicit proxy and provides detailed migration guidance for customers using PAC file–based configurations. It also covers the supported deployment options for enabling explicit proxy after the changes are released,...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "devanshirastogi"
+    },
+    {
+      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
+      "published": "2026-06-19T17:42:41+00:00",
+      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "ARM MCP Server: A Catalog of 24 PoCs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/arm-mcp-server-a-catalog-of-24-pocs/ba-p/4519069",
+      "published": "2026-06-19T16:57:26+00:00",
+      "summary": "Introduction The Azure Resource Manager MCP Server is a remote Model Context Protocol server that gives AI agents first-class access to Azure infrastructure operations. Six tools is a small surface area, but ARM and Azure Resource Graph are not small control planes. To explore what that surface...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "varghesejoji"
+    },
+    {
+      "title": "Three lessons that make or break your AWS-to-Azure workload migration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/three-lessons-that-make-or-break-your-aws-to-azure-workload/ba-p/4520020",
+      "published": "2026-06-19T16:52:06+00:00",
+      "summary": "Thomas Maurer and Raffaele Garofalo get into this in a new episode of the Azure Essentials Show. Raffaele, a Partner Solution Architect at Microsoft, has seen these migrations up close, and he walks through the three lessons that separate smooth migrations from the ones that stall or fail outright....",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "rhack"
+    },
+    {
+      "title": "Generate at scale code insights in Azure Migrate using GitHub Copilot Modernize CLI (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/generate-at-scale-code-insights-in-azure-migrate-using-github/ba-p/4529120",
+      "published": "2026-06-19T16:47:11+00:00",
+      "summary": "Overview Azure Migrate integrates with GitHub Copilot Modernization (public preview) to deliver at scale code insights. This capability brings together two powerful services: Azure Migrate’s portfolio-level discovery and assessment with GitHub Copilot’s context-aware code analysis. The shared...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "Nikita_Bajaj"
+    },
     {
       "title": "Cross-Region Model Connectivity Options in Microsoft Foundry: Supported Patterns and Tradeoffs",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cross-region-model-connectivity-options-in-microsoft-foundry/ba-p/4528620",
@@ -624,15 +696,6 @@
       "author": "Sunita_AZ0708"
     },
     {
-      "title": "Microsoft Fabric to Azure Databricks: Another Better Together Story!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/microsoft-fabric-to-azure-databricks-another-better-together/ba-p/4526166",
-      "published": "2026-06-11T13:34:46+00:00",
-      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
       "title": "Dynamic Connection Properties in Azure Logic Apps Standard",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/dynamic-connection-properties-in-azure-logic-apps-standard/ba-p/4527525",
       "published": "2026-06-11T13:20:10+00:00",
@@ -750,15 +813,6 @@
       "author": "Apoorv Gupta"
     },
     {
-      "title": "Announcing the Path to Production for Agents Webinar Series",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
-      "published": "2026-06-10T13:54:17+00:00",
-      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "brauerblogs"
-    },
-    {
       "title": "We Gave Ourselves 20 Minutes to Build an AI Agent for a Lumber Company. The Timer's Still on Screen.",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/we-gave-ourselves-20-minutes-to-build-an-ai-agent-for-a-lumber/ba-p/4523428",
       "published": "2026-06-10T07:00:00+00:00",
@@ -802,6 +856,15 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "DanaCozmei"
+    },
+    {
+      "title": "App Routing Gateway API is GA: Here's a Demo",
+      "link": "https://blog.aks.azure.com/2026/06/10/app-routing-gateway-api-ga",
+      "published": "2026-06-10T00:00:00+00:00",
+      "summary": "App Routing's Gateway API implementation is now GA, with built-in Azure DNS and Azure Key Vault TLS integration plus JSON access logs on gateway proxies.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Ginkgo Bioworks and Microsoft Discovery: Bringing agentic AI to biological discovery",
@@ -2323,42 +2386,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Rachel Kang (SHE/HER)"
-    },
-    {
-      "title": "Coordinating AI-Assisted Development with AGENTS.md and Skills",
-      "link": "https://devblogs.microsoft.com/ise/ai-assisted-development-agents-skills-copilot-cli/",
-      "published": "2026-05-21T07:00:00+00:00",
-      "summary": "How to move AI-assisted development from ad-hoc experimentation to a coordinated team-wide capability using AGENTS.md and reusable skills with GitHub Copilot CLI The post Coordinating AI-Assisted Development with AGENTS.md and Skills appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Jimmy Kurian, Destiny Hillis"
-    },
-    {
-      "title": "Clean up idle and always-failing Azure Logic App Consumption",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/clean-up-idle-and-always-failing-azure-logic-app-consumption/ba-p/4521728",
-      "published": "2026-05-21T05:11:18+00:00",
-      "summary": "If you’ve inherited an Azure subscription that’s been collecting Logic Apps Consumption workflows for a couple of years, you already know the shape of the problem: dozens of TestLA, webhook-test-2, poc-for-jira-FINAL workflows in the portal, half of them still Enabled, half of them quietly failing...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Yanbo_Deng"
-    },
-    {
-      "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/summarized-gateway-prefixes-for-route-advertisement-in-azure/ba-p/4521652",
-      "published": "2026-05-20T19:10:30+00:00",
-      "summary": "Background Many Azure deployments follow a hub-and-spoke topology: one VNet is designated as the hub and holds the connection to on-premises (via ExpressRoute Gateway, VPN Gateway, or both), and workload VNets — the spokes — peer to the hub to reach on-premises and shared services. This centralizes...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li"
-    },
-    {
-      "title": "Your dev loop is full of tribal knowledge",
-      "link": "https://devblogs.microsoft.com/aspire/dev-loop-tribal-knowledge/",
-      "published": "2026-05-20T17:00:00+00:00",
-      "summary": "Aspire turns a team's scattered tribal knowledge into an explicit, incrementally-adoptable app model that humans, scripts, and AI agents can all use. The post Your dev loop is full of tribal knowledge appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "David Fowler"
     }
   ]
 }
