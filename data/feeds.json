@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-20T13:59:49.016268+00:00",
-  "totalArticles": 265,
+  "lastUpdated": "2026-06-21T14:07:19.642320+00:00",
+  "totalArticles": 255,
   "articles": [
     {
       "title": "Batch & Streaming Architecture Designs: Another Better Together Story!",
@@ -2296,96 +2296,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "GeertVanTeylingen"
-    },
-    {
-      "title": "AI Infrastructure Preflight at User space: Validating Multi Node, Multi GPU Slurm Clusters",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-infrastructure-preflight-at-user-space-validating-multi-node/ba-p/4522284",
-      "published": "2026-05-22T12:29:15+00:00",
-      "summary": "Every team that operates GPU clusters for AI has seen this pattern. The cluster boots, GPUs are visible, and scheduling works at a basic level. Then the first distributed training run stalls in NCCL initialization, fails during rank rendezvous, or silently maps ranks to the wrong devices. The issue...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "vinilv"
-    },
-    {
-      "title": "Simplify On-prem File share Migration to Azure: Discover & assess suitability using Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/simplify-on-prem-file-share-migration-to-azure-discover-assess/ba-p/4509195",
-      "published": "2026-05-22T10:24:28+00:00",
-      "summary": "UPDATE as of 20th May 2026: We are happy to announce that this capability is now GA worldwide. Migrating on‑premises file servers to the cloud is a complex infrastructure transformation—not just a data move. Many organizations lack the visibility needed to decide whether to rehost or modernize file...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "bapic"
-    },
-    {
-      "title": "Deploy with Confidence: Using Rule Impact Analyzer in Azure Virtual Network Manager",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/deploy-with-confidence-using-rule-impact-analyzer-in-azure/ba-p/4521342",
-      "published": "2026-05-22T06:36:58+00:00",
-      "summary": "Introduction In a previous blog post, we described how Azure Virtual Network Manager (AVNM) enables central teams to enforce security admin rules across hundreds of virtual networks—bring consistency and governance to complex enterprise environments. But enforcement at scale introduces a new...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li"
-    },
-    {
-      "title": "Host a Microsoft Build //local host Event in Your City",
-      "link": "https://techcommunity.microsoft.com/t5/azure-events/host-a-microsoft-build-local-host-event-in-your-city/ba-p/4514274",
-      "published": "2026-05-22T00:42:41+00:00",
-      "summary": "Content at Microsoft Build will be grounded in technical depth, developer credibility, and hands-on learning and creation. There are a total of 16 sessions available to build your agenda, including 4 labs and 12 breakout sessions, listed below. Labs are approximately 75 minutes in length, while...",
-      "blog": "Azure Events",
-      "blogId": "azure-events",
-      "author": "GalimahB"
-    },
-    {
-      "title": "Cloud Native Platforms: Build",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/cloud-native-platforms-build/ba-p/4519605",
-      "published": "2026-05-21T22:41:29+00:00",
-      "summary": "Audience: Cloud architects, platform engineers, engineering leaders making design decisions Reading time: 8 minutes Series: Cloud Native Platforms. Build, Run, Evolve. This is Part 1 of 3. Most engineering teams can build systems. Few can scale them without rebuilding them. As platforms grow,...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KishoreKumarPattabiraman"
-    },
-    {
-      "title": "Cloud Native Platforms: Run",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/cloud-native-platforms-run/ba-p/4520188",
-      "published": "2026-05-21T22:41:09+00:00",
-      "summary": "Audience: SREs (Site Reliability Engineers), platform engineers, engineering managers running production systems Reading time: 8 minutes Series: Cloud Native Platforms. Build, Run, Evolve. This is Part 2 of 3. Most systems are designed thoughtfully. Most operations are inherited reactively. The...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KishoreKumarPattabiraman"
-    },
-    {
-      "title": "Cloud Native Platforms: Evolve",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/cloud-native-platforms-evolve/ba-p/4520195",
-      "published": "2026-05-21T22:40:33+00:00",
-      "summary": "Audience: Engineering leaders, platform architects, senior developers exploring how to operationalise AI in their teams Reading time: 8 minutes Series: Cloud Native Platforms. Build, Run, Evolve. This is Part 3 of 3. Cloud helped us scale infrastructure. AI is starting to do the same thing for the...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KishoreKumarPattabiraman"
-    },
-    {
-      "title": "WAR, Azure Advisor, and Us (Azure Arch Diagram Builder): Three Ways to Score an Azure Architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/war-azure-advisor-and-us-azure-arch-diagram-builder-three-ways/ba-p/4521611",
-      "published": "2026-05-21T18:06:15+00:00",
-      "summary": "Author: Arturo Quiroga, Azure AI services Engineer - Senior Partner Solutions Architect — Microsoft A few days ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. One feature got more follow-up...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "arturoqu"
-    },
-    {
-      "title": "The AX stack: what’s fixed, where you can win",
-      "link": "https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win",
-      "published": "2026-05-21T17:39:59+00:00",
-      "summary": "AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn’t compile, use a deprecated SDK, or pick the wrong service entirely. Is it you using it wrong? Is it your tech stack? Or is it the tools you haven’t...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Plan Before You Build: Introducing the Plan agent in Visual Studio",
-      "link": "https://devblogs.microsoft.com/visualstudio/plan-before-you-build-introducing-the-plan-agent-in-visual-studio/",
-      "published": "2026-05-21T17:17:59+00:00",
-      "summary": "You ask Copilot to tackle something big, it gets to work, and a dozen file changes later you realize you had a completely different approach in mind. The code isn’t wrong… it just isn’t what you were going for. Last year, we introduced planning as a feature in Agent mode to help with exactly this....",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Rachel Kang (SHE/HER)"
     }
   ]
 }
