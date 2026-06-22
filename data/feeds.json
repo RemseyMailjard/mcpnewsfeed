@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-06-21T14:07:19.642320+00:00",
-  "totalArticles": 255,
+  "lastUpdated": "2026-06-22T16:53:17.335450+00:00",
+  "totalArticles": 254,
   "articles": [
+    {
+      "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
+      "published": "2026-06-22T15:45:54+00:00",
+      "summary": "Table of contents Introduction What is nconnect Why it matters How it works Reading the numbers: what the Azure VMware Solution datastore data shows What this unlocks for Azure VMware Solution with Azure NetApp Files Use cases Conclusion Next steps Learn more Introduction For the most demanding...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen"
+    },
+    {
+      "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
+      "link": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/",
+      "published": "2026-06-22T13:21:18+00:00",
+      "summary": "Deep Agents is an agent harness built on LangGraph, for agents that need to work through a task over many steps instead of a single LLM call. The agent runs tools, looks at the results, and uses that to pick the next one, keeping a todo list as it goes. On top of that loop […] The post How to Use...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta"
+    },
+    {
+      "title": "Retirement of Azure DevOps issuer in Workload identity federation service connections",
+      "link": "https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections/",
+      "published": "2026-06-22T09:35:34+00:00",
+      "summary": "We are announcing the deprecation of the Azure DevOps issuer in workload identity federation (WIF) service connections, with planned retirement on July 1, 2027. The Azure DevOps issuer uses the https://vstoken.dev.azure.com prefix in federated credentials. This change is part of Microsoft’s broader...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Eric van Wijk"
+    },
     {
       "title": "Batch & Streaming Architecture Designs: Another Better Together Story!",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/batch-streaming-architecture-designs-another-better-together/ba-p/4526166",
@@ -799,6 +826,15 @@
       "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
       "published": "2026-06-10T19:06:17+00:00",
       "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "Stop skillmaxxing, save your tokens",
+      "link": "https://devblogs.microsoft.com/blog/stop-skillmaxxing-save-your-tokens",
+      "published": "2026-06-10T18:00:15+00:00",
+      "summary": "You built a dozen skills for your technology: authentication, CRUD, error handling, deployment, testing, monitoring. Then you installed a cloud platform bundle with 15 more covering diagnostics, storage, compliance, and cost optimization. A design suite. A marketing pack. Document converters for...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
@@ -1803,15 +1839,6 @@
       "author": "Sajeetharan Sinnathurai"
     },
     {
-      "title": "Announcing General availability of the Azure Cosmos DB vNext emulator",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-general-availability-of-the-azure-cosmos-db-vnext-emulator/",
-      "published": "2026-06-02T19:15:34+00:00",
-      "summary": "The Azure Cosmos DB vNext emulator is generally available today. It ships as a Docker image that runs on Linux, macOS, and Windows, on both x64 and ARM64 architectures, giving you a local Cosmos DB instance you can develop and test against. Use it for inner-loop development on your laptop, in CI...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta"
-    },
-    {
       "title": "Introducing GitHub Enterprise Local (Preview): DevOps for Sovereign and Private Cloud Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-github-enterprise-local-preview-devops-for-sovereign/ba-p/4523046",
       "published": "2026-06-02T19:15:00+00:00",
@@ -2260,42 +2287,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "OrinThomas"
-    },
-    {
-      "title": "Redefining Security for an AI Driven World",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/redefining-security-for-an-ai-driven-world/ba-p/4521961",
-      "published": "2026-05-22T21:14:55+00:00",
-      "summary": "Vendors are being challenged to help customers address these challenges not as a point-solution vendor but as an end-to-end security and AI platform partner. By integrating identity, data governance, threat protection, and AI services into a unified ecosystem, Microsoft can deliver coordinated...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "edgarus71"
-    },
-    {
-      "title": "Regex support for LOB types in T-SQL—available in Azure SQL & SQL Server 2025",
-      "link": "https://devblogs.microsoft.com/azure-sql/regex-support-for-lob-types-in-t-sql-available-in-azure-sql-sql-server-2025/",
-      "published": "2026-05-22T20:28:15+00:00",
-      "summary": "At a glance — Native regular expression (regex) functions in T-SQL now accept varchar(max) and nvarchar(max) inputs of up to 2 MB across all seven regex functions, including the two table-valued functions (REGEXP_MATCHES and REGEXP_SPLIT_TO_TABLE). This capability ships in SQL Server 2025 CU5 and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Abhiman Tiwari"
-    },
-    {
-      "title": "From Prompt to Production: Building Azure Architecture Diagrams with AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-prompt-to-production-building-azure-architecture-diagrams/ba-p/4520336",
-      "published": "2026-05-22T18:35:07+00:00",
-      "summary": "Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Cloud architects spend significant time translating ideas into architecture diagrams. They toggle between Visio, draw.io, pricing calculators, and documentation. According to the 2024 Stack Overflow Developer Survey, 61% of...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "arturoqu"
-    },
-    {
-      "title": "From Scale to Breakthrough: Azure NetApp Files Sets a New Cloud Benchmark for EDA Performance",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-scale-to-breakthrough-azure-netapp-files-sets-a-new-cloud/ba-p/4520890",
-      "published": "2026-05-22T15:00:00+00:00",
-      "summary": "Table of Contents Introduction New benchmark proof with large volume breakthrough mode What is Azure NetApp Files large volume breakthrough mode? Explore the latest Azure NetApp Files SPECstorage® 2020 publications Results that Speak for Themselves Single large volume breakthrough mode Large volume...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen"
     }
   ]
 }
