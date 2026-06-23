@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-06-22T16:53:17.335450+00:00",
-  "totalArticles": 254,
+  "lastUpdated": "2026-06-23T14:45:04.882239+00:00",
+  "totalArticles": 257,
   "articles": [
+    {
+      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
+      "published": "2026-06-23T12:50:37+00:00",
+      "summary": "Updated on June 23 2026: Microsoft Entra ID-based access for Azure Blob Storage SFTP is now Generally Available. GA enhancements: Improved ABAC by resolving inconsistencies with the Storage Blob Data Owner role (eliminating timeout issues) while adding support for sub-operations to enable more...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "JeevanManoj"
+    },
+    {
+      "title": "The Token Economics of the Edge: Running Qwen3 on a Windows NPU with WinML CLI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-token-economics-of-the-edge-running-qwen3-on-a-windows-npu/ba-p/4530054",
+      "published": "2026-06-23T09:35:31+00:00",
+      "summary": "The number that changes the conversation Most \"run an LLM locally\" tutorials start with the model. This one starts with a bill. Every token a cloud LLM generates is metered. One request is rounding-error cheap. But agents don't make one request — they make thousands, in loops, with retries, across...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "From Prompt to Provisioned: A Closer Look at the Azure Deployment Agent",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/from-prompt-to-provisioned-a-closer-look-at-the-azure-deployment/ba-p/4529935",
+      "published": "2026-06-23T07:00:00+00:00",
+      "summary": "Hello Folks! If you sat through this session during the Microsoft Azure Infra Summit 2026, you already know that Anand Guruswami and Arun Rabindar from the Cloud Native Experiences team showed us something I have been waiting to see for a while. An AI agent that does not just spit out a Terraform...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Azure SDK Release (May 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-may-2026/",
+      "published": "2026-06-22T23:37:37+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (May 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt"
+    },
+    {
+      "title": "Build a Sovereign Private Cloud with Azure Local",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/build-a-sovereign-private-cloud-with-azure-local/ba-p/4529931",
+      "published": "2026-06-22T23:37:32+00:00",
+      "summary": "Hello Folks! Picture this. A regulator hands you a one-pager that says, in essence, “this data does not leave the building.” Or your link to Azure decides to take a nap during a critical batch run. Or you are standing up infrastructure in a remote site where connectivity is a coin flip on a good...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Unlocking the next frontier of Local AI on Windows for Telecommunications",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/unlocking-the-next-frontier-of-local-ai-on-windows-for/ba-p/4528911",
+      "published": "2026-06-22T17:48:54+00:00",
+      "summary": "At Build 2026, we announced significant new capabilities across our on-device AI platform that expand what’s possible at the edge, in the field, and in the network operations center. This post covers two key areas and what they mean for telecom: new capabilities in Microsoft Foundry on Windows, and...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "OpeSam-Olowu"
+    },
     {
       "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
@@ -10,6 +64,15 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "GeertVanTeylingen"
+    },
+    {
+      "title": "How Many Copies of Each Layer Does Your Container Registry Actually Need?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-many-copies-of-each-layer-does-your-container-registry/ba-p/4529836",
+      "published": "2026-06-22T15:20:26+00:00",
+      "summary": "Authors: Payal Mahesh and Vicky Lin Azure Container Registry team: Jeanine Burke and Johnson Shi Introduction It's Monday morning. You spin up a fresh 1,000-node AKS cluster for a big training run or a fleet-wide rollout. Every node reaches for the same large container image at the same instant....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "payalmahesh"
     },
     {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
@@ -37,15 +100,6 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Unlocking the next frontier of Local AI on Windows for Telecommunications",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/unlocking-the-next-frontier-of-local-ai-on-windows-for/ba-p/4528911",
-      "published": "2026-06-19T20:03:56+00:00",
-      "summary": "At Build 2026, we announced significant new capabilities across our on-device AI platform that expand what’s possible at the edge, in the field, and in the network operations center. This post covers two key areas and what they mean for telecom: new capabilities in Microsoft Foundry on Windows, and...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "OpeSam-Olowu"
     },
     {
       "title": "Announcing the Path to Production for Agents Webinar Series",
@@ -696,15 +750,6 @@
       "author": "Laura Jiang"
     },
     {
-      "title": "Azure Functions at Build 2026 Update",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-at-build-2026-update/ba-p/4524075",
-      "published": "2026-06-11T15:50:49+00:00",
-      "summary": "Azure Functions took another big leap at Build 2026. It is now the best programming model for event-driven apps and agents, on the best infrastructure to write secure code that scales. The headline features: serverless agents, connectors to M365, Teams, and more, Go, MCP, and Durable Tasks....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nzthiago"
-    },
-    {
       "title": "Review pull requests without leaving Visual Studio",
       "link": "https://devblogs.microsoft.com/visualstudio/review-pull-requests-without-leaving-visual-studio/",
       "published": "2026-06-11T15:00:02+00:00",
@@ -826,15 +871,6 @@
       "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
       "published": "2026-06-10T19:06:17+00:00",
       "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Stop skillmaxxing, save your tokens",
-      "link": "https://devblogs.microsoft.com/blog/stop-skillmaxxing-save-your-tokens",
-      "published": "2026-06-10T18:00:15+00:00",
-      "summary": "You built a dozen skills for your technology: authentication, CRUD, error handling, deployment, testing, monitoring. Then you installed a cloud platform bundle with 15 more covering diagnostics, storage, compliance, and cost optimization. A design suite. A marketing pack. Document converters for...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
@@ -2053,15 +2089,6 @@
       "blog": "Confidential Computing",
       "blogId": "azureconfidentialcomputingblog",
       "author": "Rakeshginjupalli"
-    },
-    {
-      "title": "Building a GitHub Copilot Agent Usage Dashboard",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-github-copilot-agent-usage-dashboard/ba-p/4523529",
-      "published": "2026-06-01T19:00:00+00:00",
-      "summary": "Introduction Working with organisations that are attempting to create GitHub Copilot custom agents, take-up of these agents by their community becomes important to know. Some questions quickly emerge are \"how well are we actually using it?\", \"which agents are getting used and which have not had...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "jometzg"
     },
     {
       "title": "Public preview: Automatic OS Image Upgrades for VMSS Flex",
