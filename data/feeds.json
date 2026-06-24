@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-06-23T14:45:04.882239+00:00",
-  "totalArticles": 257,
+  "lastUpdated": "2026-06-24T14:25:58.059495+00:00",
+  "totalArticles": 259,
   "articles": [
+    {
+      "title": "Deploy an Azure Landing Zone in About Twelve Minutes with the ALZ IaC Accelerator",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/deploy-an-azure-landing-zone-in-about-twelve-minutes-with-the/ba-p/4529937",
+      "published": "2026-06-24T07:00:00+00:00",
+      "summary": "Hello Folks! Welcome back to my coverage of the Microsoft Azure Infra Summit 2026. This session is one I have been looking forward to, because if you have ever stood up an Azure Landing Zone (ALZ) by hand, you know it can eat weeks. Management groups, policy assignments, Hub-and-Spoke networking,...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "A guide to innovating threat hunting with Microsoft Sentinel custom graph",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/a-guide-to-innovating-threat-hunting-with-microsoft-sentinel/ba-p/4530287",
+      "published": "2026-06-23T20:35:15+00:00",
+      "summary": "Microsoft Sentinel platform offers a growing list of tools and features, with graph being a cornerstone capability. Sentinel graph is a relationship-first method for organizing and querying data within Microsoft Sentinel data lake. Activities amongst entities (users, devices, emails, IPs,...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Matt_Lowe"
+    },
+    {
+      "title": "Only 8.5% of MCP Servers Use OAuth — Here's How to Host One Securely on App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/only-8-5-of-mcp-servers-use-oauth-here-s-how-to-host-one/ba-p/4530349",
+      "published": "2026-06-23T19:20:54+00:00",
+      "summary": "The Model Context Protocol exploded onto the scene because it's easy. Stand up a server, expose a few tools, point Claude or VS Code at it, and your agent can suddenly read files, hit APIs, and run code. That same ease is the problem: most MCP servers ship with no authentication at all, and they're...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "MCP Just Went Stateless — What the 2026 Spec Changes About Scaling on App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-just-went-stateless-what-the-2026-spec-changes-about-scaling/ba-p/4530222",
+      "published": "2026-06-23T16:14:36+00:00",
+      "summary": "A couple of months ago I wrote about scaling MCP servers behind App Service's built-in load balancer. The trick back then was to lean on stateless HTTP transport so any instance could serve any request — and to make sure you turned off ARR affinity so the load balancer was actually free to spread...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Defending your Memory in Microsoft Foundry Agent Service against memory poisoning",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/defending-your-memory-in-microsoft-foundry-agent-service-against/ba-p/4529638",
+      "published": "2026-06-23T13:00:00+00:00",
+      "summary": "One of the things that makes agents genuinely useful is that they can remember. Instead of treating every interaction as completely new, an agent can carry context across sessions, recall preferences, and preserve continuity over time. In Microsoft Foundry Agent Service, memory enables exactly...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LauraVerghote"
+    },
     {
       "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
@@ -73,6 +118,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "payalmahesh"
+    },
+    {
+      "title": "Models don’t have preferences, they have context",
+      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context",
+      "published": "2026-06-22T14:53:23+00:00",
+      "summary": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
@@ -876,6 +930,15 @@
       "author": "Waldek Mastykarz"
     },
     {
+      "title": "Stop skillmaxxing, save your tokens",
+      "link": "https://devblogs.microsoft.com/blog/stop-skillmaxxing-save-your-tokens",
+      "published": "2026-06-10T18:00:15+00:00",
+      "summary": "You built a dozen skills for your technology: authentication, CRUD, error handling, deployment, testing, monitoring. Then you installed a cloud platform bundle with 15 more covering diagnostics, storage, compliance, and cost optimization. A design suite. A marketing pack. Document converters for...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
       "title": "Spec-Driven Development: A Spec-First Approach to AI-Native Engineering",
       "link": "https://devblogs.microsoft.com/blog/spec-driven-development-ai-native-engineering",
       "published": "2026-06-10T16:15:09+00:00",
@@ -1596,15 +1659,6 @@
       "author": "JasonWeber"
     },
     {
-      "title": "Improved data processing features in Foundry IQ: Richer content extraction and data enrichment",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/improved-data-processing-features-in-foundry-iq-richer-content/ba-p/4524841",
-      "published": "2026-06-02T21:08:06+00:00",
-      "summary": "Great answers start before retrieval. They depend on how well your data pipeline can reach enterprise content, preserve document structure, and carry text and visual context into the index. As part of the Microsoft Foundry platform, the Foundry IQ (Azure AI Search) 2026-05-01-preview release...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "gia_mondragon"
-    },
-    {
       "title": "Azure Functions MCP Extension: What's New at Build 2026",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-mcp-extension-what-s-new-at-build-2026/ba-p/4524099",
       "published": "2026-06-02T21:02:12+00:00",
@@ -1717,24 +1771,6 @@
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-sandboxes-secure-infrastructure/ba-p/4524131",
       "published": "2026-06-02T19:30:00+00:00",
       "summary": "Today we are announcing the public preview of Azure Container Apps Sandboxes - a new first-class resource type that gives you fast, secure, ephemeral compute environments with built-in suspend and resume. This is the underlying infrastructure on which products like Cloud sandboxes in GitHub...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vyomnagrani"
-    },
-    {
-      "title": "What's new in Azure Kubernetes Service at Microsoft Build 2026",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-kubernetes-service-at-microsoft-build-2026/ba-p/4524862",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "A year ago, teams were still asking whether Kubernetes belonged anywhere near their AI workloads. That question has mostly been answered as the community comes together to . The real challenge now is operational: how to run training and inference at scale when cost, latency, and reliability are...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "coryskimming"
-    },
-    {
-      "title": "What's new in Azure Container Apps at Build'26",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-container-apps-at-build-26/ba-p/4524184",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "Azure Container Apps (ACA) is a fully managed serverless container platform that enables developers to build and deploy microservices and modern applications without requiring container expertise or needing infrastructure management. ACA provides built-in autoscaling (including scale to zero),...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "vyomnagrani"
@@ -2262,15 +2298,6 @@
       "author": "Brian Benz"
     },
     {
-      "title": "How AI coding agents actually use your technology",
-      "link": "https://devblogs.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology",
-      "published": "2026-05-27T18:30:38+00:00",
-      "summary": "You ship an SDK, a CLI, an API, and developers use it. Now AI coding agents use it too, except they use it differently than humans do. Most of the time you have no idea what’s actually happening between “developer types a prompt” and “agent generates code with your technology.” Is the agent reading...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
       "title": "Introducing Microsoft Planetary Computer Pro Model Context Protocol Tools on VS Code",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/introducing-microsoft-planetary-computer-pro-model-context/ba-p/4522346",
       "published": "2026-05-27T15:23:32+00:00",
@@ -2305,15 +2332,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Mark Downie"
-    },
-    {
-      "title": "How to use Instance Mix with Azure Virtual Machine Scale Sets",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-use-instance-mix-with-azure-virtual-machine-scale-sets/ba-p/4522574",
-      "published": "2026-05-24T23:38:37+00:00",
-      "summary": "When a Virtual Machine Scale Set needs to scale out, it normally uses a single VM size (also known as SKU). Whilst that is simple, it can also become a constraint. For example the scale out might be limited if that specific size has limited regional capacity, quota pressure, or a price profile that...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "OrinThomas"
     }
   ]
 }
