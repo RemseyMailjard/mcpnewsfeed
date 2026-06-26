@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-06-25T14:29:33.700183+00:00",
-  "totalArticles": 265,
+  "lastUpdated": "2026-06-26T14:21:31.145109+00:00",
+  "totalArticles": 263,
   "articles": [
+    {
+      "title": "Passing Context Between Agents in Multi-Agent A2A Systems",
+      "link": "https://devblogs.microsoft.com/ise/a2a-context-passing-multi-agent-systems/",
+      "published": "2026-06-26T07:00:00+00:00",
+      "summary": "How we solved the challenge of passing conversational context between independently deployed agents using the A2A protocol's embedded context pattern, keeping domain agents stateless and secure. The post Passing Context Between Agents in Multi-Agent A2A Systems appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Olha Konstantinova, Scott Grosenick"
+    },
     {
       "title": "Which Azure Cosmos DB Role Does My App Need?",
       "link": "https://devblogs.microsoft.com/cosmosdb/which-azure-cosmos-db-role-does-my-app-need/",
@@ -84,6 +93,15 @@
       "author": "Matt_Lowe"
     },
     {
+      "title": "Introducing Cohere Command A+ in Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-cohere-command-a-in-foundry/ba-p/4530376",
+      "published": "2026-06-24T17:57:05+00:00",
+      "summary": "Your enterprise agents need to reason across 48 languages, process documents with images and tables, and orchestrate multi-step workflows all without switching models. Command A+, Cohere's 218B-parameter mixture-of-experts model, is now available in Microsoft Foundry to do exactly that Command A+...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage"
+    },
+    {
       "title": "Inside Llama 3.1 405B MLPerf Training on Azure: System-Level Insights at 8K+ GPU Scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/inside-llama-3-1-405b-mlperf-training-on-azure-system-level/ba-p/4529296",
       "published": "2026-06-24T16:13:35+00:00",
@@ -91,6 +109,15 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "shantanupatankar"
+    },
+    {
+      "title": "When the model has never seen your code",
+      "link": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code",
+      "published": "2026-06-24T14:04:52+00:00",
+      "summary": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "An Operational Toolchain for Microsoft Foundry Private Networks",
@@ -148,7 +175,7 @@
     },
     {
       "title": "Building an Azure architecture that’s ready for every signature",
-      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
+      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
       "published": "2026-06-23T21:07:06+00:00",
       "summary": "At Exclaimer, we help organizations manage email signatures at scale, so every message can carry a consistent, compliant, on-brand signature without IT teams manually updating thousands of mailboxes. This is more difficult than it may seem, especially when you're doing it for more than 80,000...",
       "blog": "Customer Innovation",
@@ -1659,15 +1686,6 @@
       "author": "DivSwa"
     },
     {
-      "title": "Foundry Labs @ Build 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-labs-build-2026/ba-p/4524581",
-      "published": "2026-06-03T15:30:00+00:00",
-      "summary": "We launched Foundry Labs last year as the home for cutting-edge AI experiments from across Microsoft. It is meant to be a place where developers could try, fork, and build with our earliest prototypes. The response from the community has been tremendous, and we're doubling down. Today at Build...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Saumil-Shrivastava"
-    },
-    {
       "title": "File share migrations simplified with Azure Copilot Migration Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/file-share-migrations-simplified-with-azure-copilot-migration/ba-p/4524563",
       "published": "2026-06-03T12:28:05+00:00",
@@ -2298,15 +2316,6 @@
       "author": "mutemwamasheke"
     },
     {
-      "title": "Improve your agentic developer tools by grounding in Microsoft Learn",
-      "link": "https://devblogs.microsoft.com/blog/improve-your-agentic-developer-tools-by-grounding-in-microsoft-learn",
-      "published": "2026-05-28T17:00:52+00:00",
-      "summary": "Development workflows span terminals, IDEs, background agents, and custom assistants. What matters is whether they draw from the same current source. Learn MCP Server gives any MCP-compatible agent direct access to current Microsoft documentation – one endpoint, nothing to install, no...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Pieter de Bruin"
-    },
-    {
       "title": "How Azure Chaos Studio ships with hermetic Aspire end-to-end tests",
       "link": "https://devblogs.microsoft.com/aspire/hermetic-aspire-tests-chaos-studio/",
       "published": "2026-05-28T17:00:00+00:00",
@@ -2359,33 +2368,6 @@
       "blog": "Planetary Computer",
       "blogId": "microsoft-planetary-computer-blog",
       "author": "nelsontam"
-    },
-    {
-      "title": "Simplify Virtual WAN Spoke Connectivity at Scale with Azure Virtual Network Manager",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-virtual-wan-spoke-connectivity-at-scale-with-azure/ba-p/4523055",
-      "published": "2026-05-26T20:44:54+00:00",
-      "summary": "With Azure Virtual Network Manager (AVNM) integration, organizations using Virtual WAN for transitive connectivity can simplify spoke connectivity and policy management across large-scale hub-and-spoke deployments. By using a Virtual WAN hub as the hub in an AVNM hub-and-spoke topology,...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li"
-    },
-    {
-      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
-      "published": "2026-05-26T16:01:24+00:00",
-      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "simranparkhe"
-    },
-    {
-      "title": "Visual Studio May Update – Plan, Review, Refine",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-may-update-plan-review-refine/",
-      "published": "2026-05-26T15:00:39+00:00",
-      "summary": "There’s a particular rhythm to good development work: you think, you try, you check, you adjust. This month’s Visual Studio update leans into that rhythm. Whether you’re sketching an approach with the Plan agent before touching a single file, reviewing a wave of changes across many files, or...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie"
     }
   ]
 }
