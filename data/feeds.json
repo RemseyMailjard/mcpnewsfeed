@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-06-26T14:21:31.145109+00:00",
+  "lastUpdated": "2026-06-27T13:29:12.154158+00:00",
   "totalArticles": 263,
   "articles": [
+    {
+      "title": "MCP for Beginners: Why Every AI Engineer and Developer Should Learn the Model Context Protocol",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-for-beginners-why-every-ai-engineer-and-developer-should/ba-p/4530623",
+      "published": "2026-06-26T22:38:26+00:00",
+      "summary": "If you have spent any time building with large language models in the last year, you have hit the same wall everyone hits: your model is brilliant at reasoning but blind to the real world. It cannot read your database, call your internal API, search your documents, or trigger a deployment unless...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Azure Developer CLI (azd) – May and June 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-may-june-2026/",
+      "published": "2026-06-26T16:53:19+00:00",
+      "summary": "A combined May and June recap. A new azd tool command group, the cross-platform azd exec runner, safer multi-layer provisioning, an interactive Ctrl+C cancel prompt, Go support for Azure Functions, self-contained extension bundles, per-tenant subscription filters, and a long list of correctness...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack"
+    },
+    {
+      "title": "Evaluating Multi-Turn Agents: A Quality Study of Microsoft Foundry’s Multi-Turn Evaluators",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-multi-turn-agents-a-quality-study-of-microsoft/ba-p/4524106",
+      "published": "2026-06-26T14:00:00+00:00",
+      "summary": "Authors: Ali Mahmoudzadeh, Salma Elshafey, Shuo Qiu, José Santos, Ilya Matiach, Vivek Bhadauria, Morteza Ziyadi, April Kwong LLM-as-judge evaluations are a critical part of any agent lifecycle. Single-turn metrics such as relevance, faithfulness, tone… can be straight forward to prompt and analyze,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amah"
+    },
+    {
+      "title": "Best practices for Infrastructure as Code CI/CD on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/best-practices-for-infrastructure-as-code-ci-cd-on-azure/ba-p/4529941",
+      "published": "2026-06-26T07:00:00+00:00",
+      "summary": "Hello Folks! If your IaC repo has a dev folder, a test folder, and a prod folder that all started out identical and have since drifted in three different directions, this session is for you. At the Microsoft Azure Infrastructure Summit 2026, Jack Tracey and Jared Holgate (the team behind Azure...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
     {
       "title": "Passing Context Between Agents in Multi-Agent A2A Systems",
       "link": "https://devblogs.microsoft.com/ise/a2a-context-passing-multi-agent-systems/",
@@ -10,6 +46,60 @@
       "blog": "ISE Developer Blog",
       "blogId": "iseblog",
       "author": "Olha Konstantinova, Scott Grosenick"
+    },
+    {
+      "title": "Practice the Hard Call: Real-Time Voice Training with Live Voice Practice",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/practice-the-hard-call-real-time-voice-training-with-live-voice/ba-p/4530723",
+      "published": "2026-06-26T01:16:13+00:00",
+      "summary": "Customer service runs on conversations that are hard to have and harder to practice. A frustrated customer with a billing charge that was never fixed. A cancellation that turns into a retention call. A confused caller who needs patience more than information. These are the moments that decide...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Paulo_Lacerda"
+    },
+    {
+      "title": "What IT teams need to know about Linux Secure Boot certificates expiring in 2026",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/what-it-teams-need-to-know-about-linux-secure-boot-certificates/ba-p/4530725",
+      "published": "2026-06-26T00:35:08+00:00",
+      "summary": "If your organization does not use UEFI Secure Boot on Linux systems, this transition does not affect your boot path. You can stop reading now. If you do use Secure Boot, here is what you need to know. The Microsoft Corporation UEFI CA (Certificate Authority) 2011 expires on June 27, 2026 (June 26...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "bexelbie"
+    },
+    {
+      "title": "The governance shift: RBAC, URBAC, data lake, and MSSP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-governance-shift-rbac-urbac-data-lake-and-mssp/ba-p/4528607",
+      "published": "2026-06-25T20:11:19+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl Governance is the silent dependency every transition trips on. Read about how roles, data tiering, and multi-tenant operations evolve in Defender, and why each change unlocks something your old model could not. Detection...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1"
+    },
+    {
+      "title": "From inception to Blueprint: Introducing the Oracle AI Database@Azure AI adoption playbook",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/from-inception-to-blueprint-introducing-the-oracle-ai-database/ba-p/4531062",
+      "published": "2026-06-25T19:23:27+00:00",
+      "summary": "Today, we're excited to announce the publication of the Oracle AI Database@Azure - AI adoption playbook. After Microsoft Ignite 2025, the Oracle AI Database@Azure team at Microsoft launched a Forward Deployment Engineering (FDE) program: a hands-on effort to work directly with customers, including...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "RajyaLaxmiYellajosyula"
+    },
+    {
+      "title": "Announcing the Path to Production for Agents Webinar Series",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
+      "published": "2026-06-25T15:49:44+00:00",
+      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "brauerblogs"
+    },
+    {
+      "title": "Building Practical Rowhammer Protection into Azure Cobalt 200",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-practical-rowhammer-protection-into-azure-cobalt-200/ba-p/4529297",
+      "published": "2026-06-25T15:00:00+00:00",
+      "summary": "As memory becomes central to cloud and AI infrastructure, so is the need to protect against memory-based vulnerabilities and attacks at cloud scale. With Azure Cobalt 200, Microsoft’s second-generation Arm-based compute processor, we took the opportunity to re-think how to deliver advanced memory...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ssaroiu"
     },
     {
       "title": "Which Azure Cosmos DB Role Does My App Need?",
@@ -73,15 +163,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Lily Ma"
-    },
-    {
-      "title": "What IT teams need to know about Linux Secure Boot certificates expiring in 2026",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/what-it-teams-need-to-know-about-linux-secure-boot-certificates/ba-p/4530725",
-      "published": "2026-06-24T19:42:51+00:00",
-      "summary": "If your organization does not use UEFI Secure Boot on Linux systems, this transition does not affect your boot path. You can stop reading now. If you do use Secure Boot, here is what you need to know. The Microsoft Corporation UEFI CA (Certificate Authority) 2011 expires on June 27, 2026 (June 26...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "bexelbie"
     },
     {
       "title": "A guide to innovating threat hunting with Microsoft Sentinel custom graph",
@@ -307,15 +388,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Eric van Wijk"
-    },
-    {
-      "title": "Announcing the Path to Production for Agents Webinar Series",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
-      "published": "2026-06-19T18:51:28+00:00",
-      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "brauerblogs"
     },
     {
       "title": "Azure Firewall explicit proxy Migration Guide",
@@ -1047,15 +1119,6 @@
       "author": "j_folberth"
     },
     {
-      "title": "Introducing the New Browser Automation Tool with Toolboxes in Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-the-new-browser-automation-tool-with-toolboxes-in/ba-p/4522790",
-      "published": "2026-06-10T20:05:18+00:00",
-      "summary": "Your AI agent just analyzed 500 invoices—but it can't click the 'Submit' button to process them. AI agents can reason through complex problems, but they hit a wall when workflows require interacting with web interfaces The Browser Automation Tool bridges that gap, giving your agents the ability to...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "NandiniMuralidharan"
-    },
-    {
       "title": "Connecting Claude Clients with Azure API Management and Claude Models in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/connecting-claude-clients-with-azure-api-management-and-claude/ba-p/4525212",
       "published": "2026-06-10T20:02:12+00:00",
@@ -1398,15 +1461,6 @@
       "author": "Deepak_JV"
     },
     {
-      "title": "Azure Speech at Build 2026: Powering Voice Agents with Real-Time and Life-like Experiences",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-speech-at-build-2026-powering-voice-agents-with-real-time/ba-p/4524638",
-      "published": "2026-06-05T03:14:41+00:00",
-      "summary": "Voice is rapidly becoming the default interface for AI. At Build 2026, Azure Speech is making it dramatically easier to ship production-grade voice experiences that feel real, responsive, and global. From agentic, low-latency Voice Live experiences built natively into Foundry Agent Service, to a...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "DONGLI"
-    },
-    {
       "title": "Azure Monitor Health Model (Preview): What's New!",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-preview-what-s-new/ba-p/4525707",
       "published": "2026-06-05T01:30:56+00:00",
@@ -1717,15 +1771,6 @@
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/github-action-for-deploying-hosted-agents/ba-p/4524947",
       "published": "2026-06-03T07:00:00+00:00",
       "summary": "Introduction With Microsoft's introduction to Hosted Agents comes a next logical question. How to implement this? Organizations need a method that is quick, repeatable, and requires minimal adjustments to their existing tooling and processes. Thus, we will walk through how to deploy a Hosted Agent...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "j_folberth"
-    },
-    {
-      "title": "Deploying Foundry Hosted Agents via REST API",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/deploying-foundry-hosted-agents-via-rest-api/ba-p/4524523",
-      "published": "2026-06-03T02:52:44+00:00",
-      "summary": "Introduction At Microsoft Build `26 it was announced that Microsoft Foundry Hosted will soon be generally available. This blog post will outline the deployment process and requirements for creating hosted agents in Foundry. The audience for this blog is designed to range from beginner to more...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "j_folberth"
@@ -2323,51 +2368,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Brent Rusinow"
-    },
-    {
-      "title": "SQL + AI, hands-on: Join a free workshop near you",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-ai-hands-on-join-a-free-workshop-near-you/",
-      "published": "2026-05-28T13:09:15+00:00",
-      "summary": "If you work with Microsoft SQL regularly, the AI conversation right now probably feels a little exhausting. Every week brings a new platform, a new pattern, a new opinion about how you’re “supposed” to build AI apps. Most of it assumes you’ll start over. You don’t have to. We’re running SQL AI App...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Anna Hoffman"
-    },
-    {
-      "title": "How to Manage RC4 Hardening – Definitive Guide",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-manage-rc4-hardening-definitive-guide/ba-p/4515923",
-      "published": "2026-05-28T12:20:17+00:00",
-      "summary": "How to Manage RC4 Hardening – Definitive Guide This article is a technical continuation of the RC4 deprecation / Kerberos hardening work I covered in my previous article last month. If you already went through the “why” (risk of RC4, what changes Microsoft is rolling out, and the high-level...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "Elanor92"
-    },
-    {
-      "title": "Verification-driven tooling prompts for fast-moving codebases",
-      "link": "https://devblogs.microsoft.com/ise/verification-driven-tooling-prompts/",
-      "published": "2026-05-28T07:00:00+00:00",
-      "summary": "A practical pattern for using GenAI research agents to produce reliable internal tooling by verifying assumptions with detection classes and a final checklist. The post Verification-driven tooling prompts for fast-moving codebases appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Dexter Williams"
-    },
-    {
-      "title": "Inspektor Gadget Completes Its First Independent Security Audit",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/inspektor-gadget-completes-its-first-independent-security-audit/ba-p/4517895",
-      "published": "2026-05-27T19:04:24+00:00",
-      "summary": "One thing I've learned working with Open Source software over the years is that the projects you can trust most are the ones willing to let someone else test and review. That's what's recently happened with Inspektor Gadget, the open source eBPF tool for Kubernetes observability and Linux host...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "Brian Benz"
-    },
-    {
-      "title": "Introducing Microsoft Planetary Computer Pro Model Context Protocol Tools on VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/introducing-microsoft-planetary-computer-pro-model-context/ba-p/4522346",
-      "published": "2026-05-27T15:23:32+00:00",
-      "summary": "About Microsoft Planetary Computer Pro MCP Tools The Microsoft Planetary Computer Pro MCP Tools introduces a natural language-driven interface that simplifies how users interact with geospatial data managed with Microsoft Planetary Computer Pro. By integrating directly with GitHub Copilot in VS...",
-      "blog": "Planetary Computer",
-      "blogId": "microsoft-planetary-computer-blog",
-      "author": "nelsontam"
     }
   ]
 }
