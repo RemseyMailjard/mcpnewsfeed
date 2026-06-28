@@ -46,9 +46,7 @@
   // ===== State =====
   var STORAGE_KEYS = {
     bookmarks: "mcpfeed-bookmarks",
-    bookmarksLegacy: "azurefeed-bookmarks",
     theme: "mcpfeed-theme",
-    themeLegacy: "azurefeed-theme",
   };
 
   var articles = [];
@@ -60,7 +58,6 @@
   var bookmarks = new Set(
     JSON.parse(
       localStorage.getItem(STORAGE_KEYS.bookmarks)
-      || localStorage.getItem(STORAGE_KEYS.bookmarksLegacy)
       || "[]"
     )
   );
@@ -114,9 +111,6 @@
     showLoading(true);
     try {
       var response = await fetch("data/mcp-feeds.json");
-      if (!response.ok) {
-        response = await fetch("data/feeds.json");
-      }
       if (!response.ok) throw new Error("Failed to load feeds");
       var data = await response.json();
       articles = data.articles || [];
@@ -469,7 +463,6 @@
   // ===== Theme =====
   function loadTheme() {
     var saved = localStorage.getItem(STORAGE_KEYS.theme)
-      || localStorage.getItem(STORAGE_KEYS.themeLegacy)
       || "light";
     document.documentElement.setAttribute("data-theme", saved);
     themeToggle.textContent = saved === "dark" ? "☀️" : "🌙";

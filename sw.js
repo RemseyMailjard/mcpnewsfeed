@@ -31,7 +31,10 @@ self.addEventListener("fetch", (event) => {
   var url = new URL(event.request.url);
 
   // Network-first for feed data (always get fresh data)
-  if (url.pathname.includes("feeds.json") || url.pathname.includes("feed.xml")) {
+  if (
+    url.pathname.endsWith("/data/mcp-feeds.json")
+    || url.pathname.endsWith("/data/mcp-feed.xml")
+  ) {
     event.respondWith(
       fetch(event.request)
         .then((response) => {

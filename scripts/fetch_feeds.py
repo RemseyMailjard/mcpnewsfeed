@@ -605,7 +605,7 @@ def save_json_output(
 
     logger.info("JSON data saved to %s", output_path)
 
-
+Ik heb de fallback in de app verwijderd; nu maak ik de service worker ook expliciet MCP-only en daarna verwijder ik de oude data-bestanden.
 # ------------------------------------------------------------
 # Main
 # ------------------------------------------------------------
