@@ -2,9 +2,9 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-06-28T10:26:41.154350+00:00",
+  "lastUpdated": "2026-06-28T12:31:34.239656+00:00",
   "daysToKeep": 30,
-  "totalArticles": 9,
+  "totalArticles": 7,
   "keywords": [
     "model context protocol",
     "modelcontextprotocol",
@@ -79,6 +79,28 @@
   ],
   "articles": [
     {
+      "title": "The Zod trap: Why your AI agent is breaking MCPFusion architecture",
+      "link": "https://dev.to/renato_marinho/the-zod-trap-why-your-ai-agent-is-breaking-mcpfusion-architecture-54ko",
+      "published": "2026-06-28T12:29:40+00:00",
+      "publishedDate": "2026-06-28",
+      "summary": "I was reviewing an agent's recent output for a new MCP server implementation, and at first glance, it looked perfect. The TypeScript was clean, the types were explicit, and the logic followed the requirement to list users from a database. Then I actually looked at how it defined the schema. It used...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Renato Marinho",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Using AlterLab as an MCP Tool to Feed Live Web Data into AI Agent Workflows",
+      "link": "https://dev.to/alterlab/using-alterlab-as-an-mcp-tool-to-feed-live-web-data-into-ai-agent-workflows-47f5",
+      "published": "2026-06-28T10:39:18+00:00",
+      "publishedDate": "2026-06-28",
+      "summary": "TL;DR Use AlterLab as a Model Context Protocol tool to provide live web data to AI agents. The API handles anti-bot measures, proxies, and output formatting, letting your agent focus on reasoning rather than scraping mechanics. Why Connect a Scraping API to MCP AI agents often need current...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "AlterLab",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
       "title": "I Built 3 MCP Servers for AI Agents — Here's How They Work",
       "link": "https://dev.to/kenneth_doster_5d86c3cf4f/i-built-3-mcp-servers-for-ai-agents-heres-how-they-work-5dbj",
       "published": "2026-06-28T06:16:10+00:00",
@@ -98,50 +120,6 @@
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
       "author": "Suraj Khaitan",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Talk to Your MySQL Database with Claude — No SQL Required",
-      "link": "https://dev.to/iamdylanngo/talk-to-your-mysql-database-with-claude-no-sql-required-4jh3",
-      "published": "2026-06-28T02:51:14+00:00",
-      "publishedDate": "2026-06-28",
-      "summary": "If you use Claude daily, you already know it's great for writing, coding, and answering questions. But what if Claude could also query your live MySQL database — in plain English? That's exactly what the MySQL MCP Server plugin makes possible. In this tutorial, I'll show you how to install it and...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Dylan Ngo",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "I scanned my MCP setup and it scored 0/100. Here's what was wrong.",
-      "link": "https://dev.to/alih552/i-scanned-my-mcp-setup-and-it-scored-0100-heres-what-was-wrong-28g",
-      "published": "2026-06-28T01:40:10+00:00",
-      "publishedDate": "2026-06-28",
-      "summary": "I've been adding MCP servers to Claude and Cursor for months — GitHub, a filesystem server, a couple of search servers, a little internal HTTP one I wrote. It works great. Then two things bugged me: Some of those servers have no authentication at all. Anyone who can reach the URL can call my tools....",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Ali Al-Jaafari",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "I broke my own governed MCP server by hand, then built the scanner that catches the class",
-      "link": "https://dev.to/alexlaguardia/i-broke-my-own-governed-mcp-server-by-hand-then-built-the-scanner-that-catches-the-class-1ip7",
-      "published": "2026-06-27T23:18:44+00:00",
-      "publishedDate": "2026-06-27",
-      "summary": "A few weeks back I shipped Warden, a governance layer that sits in front of an MCP server and enforces who can read what. Role-based, field-level. The demo had a support role that could list customer accounts but never see their billing tier. The tier field is stripped from everything support gets...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Alex LaGuardia",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Building a RAG System from Scratch — MCP: Exposing pgvector as a Reusable Tool Server",
-      "link": "https://dev.to/hiroki-kameyama/building-a-rag-system-from-scratch-mcp-exposing-pgvector-as-a-reusable-tool-server-2onc",
-      "published": "2026-06-27T22:17:47+00:00",
-      "publishedDate": "2026-06-27",
-      "summary": "In the previous article, we built AI Agents that autonomously search our pgvector database. One limitation remained: the tools were hardcoded inside our Python scripts. Only our code could use them. MCP (Model Context Protocol) fixes this. It turns our search functions into a standalone server that...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Hiroki Kameyama",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
