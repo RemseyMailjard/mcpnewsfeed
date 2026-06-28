@@ -46,33 +46,20 @@ OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 RSS_SITE_LINK = os.environ.get("RSS_SITE_LINK", "https://mcpfeed.news")
 
 MCP_KEYWORDS = [
-    "mcp",
     "model context protocol",
     "modelcontextprotocol",
-    "agent",
-    "agents",
-    "ai agent",
-    "ai agents",
-    "agentic",
-    "tool calling",
-    "function calling",
-    "tools",
     "mcp server",
+    "mcp servers",
     "mcp client",
+    "mcp clients",
     "mcp host",
-    "copilot",
-    "github copilot",
-    "claude",
-    "openai",
-    "anthropic",
-    "oauth",
-    "authorization",
-    "authentication",
-    "prompt injection",
-    "tool poisoning",
-    "enterprise ai",
-    "ai-assisted development",
-    "developer tooling",
+    "mcp hosts",
+]
+
+MCP_REGEX_PATTERNS = [
+    re.compile(r"\bmodel\s+context\s+protocol\b", re.IGNORECASE),
+    re.compile(r"\bmodelcontextprotocol\b", re.IGNORECASE),
+    re.compile(r"\bmcp\s+(?:server|servers|client|clients|host|hosts)\b", re.IGNORECASE),
 ]
 
 
@@ -148,7 +135,7 @@ MCP_FEEDS = [
         id="devto-mcp",
         name="Dev.to MCP",
         url="https://dev.to/feed/tag/mcp",
-        include_all=True,
+        include_all=False,
         default_author="Dev.to",
     ),
     FeedSource(
@@ -318,7 +305,7 @@ def entry_to_article(entry: Any, source: FeedSource) -> dict[str, Any]:
 
 
 def is_mcp_related(article: dict[str, Any]) -> bool:
-    """Check whether an article is related to MCP, agents, tools or enterprise AI."""
+    """Keep only articles that are explicitly about MCP or MCP server/client/host."""
     searchable_text = " ".join(
         [
             article.get("title", ""),
@@ -328,7 +315,10 @@ def is_mcp_related(article: dict[str, Any]) -> bool:
         ]
     ).lower()
 
-    return any(keyword in searchable_text for keyword in MCP_KEYWORDS)
+    if any(keyword in searchable_text for keyword in MCP_KEYWORDS):
+        return True
+
+    return any(pattern.search(searchable_text) for pattern in MCP_REGEX_PATTERNS)
 
 
 def get_article_datetime(article: dict[str, Any]) -> datetime:

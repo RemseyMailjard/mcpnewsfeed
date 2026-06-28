@@ -1,7 +1,7 @@
 {
-  "name": "Azure News Feed",
-  "short_name": "AzureFeed",
-  "description": "Daily updates from Azure blogs — last 30 days",
+  "name": "MCP News Feed",
+  "short_name": "MCPFeed",
+  "description": "Daily updates about Model Context Protocol (MCP) servers and tooling — last 30 days",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0078D4",

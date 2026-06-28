@@ -1,0 +1,181 @@
+{
+  "name": "MCP News Feed",
+  "topic": "Model Context Protocol",
+  "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
+  "lastUpdated": "2026-06-28T10:17:55.962040+00:00",
+  "daysToKeep": 30,
+  "totalArticles": 9,
+  "keywords": [
+    "model context protocol",
+    "modelcontextprotocol",
+    "mcp server",
+    "mcp servers",
+    "mcp client",
+    "mcp clients",
+    "mcp host",
+    "mcp hosts"
+  ],
+  "sources": [
+    {
+      "id": "mcp-official",
+      "name": "Model Context Protocol Blog",
+      "url": "https://blog.modelcontextprotocol.io/index.xml",
+      "includeAll": true
+    },
+    {
+      "id": "mcp-official-rss",
+      "name": "Model Context Protocol Blog RSS",
+      "url": "https://blog.modelcontextprotocol.io/rss.xml",
+      "includeAll": true
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news/rss.xml",
+      "includeAll": false
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "includeAll": false
+    },
+    {
+      "id": "microsoft-developer-blog",
+      "name": "Microsoft Developer Blog",
+      "url": "https://developer.microsoft.com/blog/feed/",
+      "includeAll": false
+    },
+    {
+      "id": "microsoft-devblogs",
+      "name": "Microsoft DevBlogs",
+      "url": "https://devblogs.microsoft.com/feed/",
+      "includeAll": false
+    },
+    {
+      "id": "azure-dev-community",
+      "name": "Azure Dev Community",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog",
+      "includeAll": false
+    },
+    {
+      "id": "devto-mcp",
+      "name": "Dev.to MCP",
+      "url": "https://dev.to/feed/tag/mcp",
+      "includeAll": false
+    },
+    {
+      "id": "devto-ai-agents",
+      "name": "Dev.to AI Agents",
+      "url": "https://dev.to/feed/tag/aiagents",
+      "includeAll": false
+    },
+    {
+      "id": "modelcontextprotocol-security",
+      "name": "Model Context Protocol Security",
+      "url": "https://modelcontextprotocol-security.io/rss.xml",
+      "includeAll": true
+    }
+  ],
+  "articles": [
+    {
+      "title": "I Built 3 MCP Servers for AI Agents — Here's How They Work",
+      "link": "https://dev.to/kenneth_doster_5d86c3cf4f/i-built-3-mcp-servers-for-ai-agents-heres-how-they-work-5dbj",
+      "published": "2026-06-28T06:16:10+00:00",
+      "publishedDate": "2026-06-28",
+      "summary": "What are MCP Servers? The Model Context Protocol (MCP) is an open standard that lets AI agents use external tools through a unified interface. Think of it as USB-C for AI — one protocol connects any AI client (Claude Desktop, Cursor, VS Code with Cline) to any tool or data source. I built three...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Kenneth Doster",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "🔌 I Tried 100 MCP Servers. These Are The Only 12 Worth Installing.",
+      "link": "https://dev.to/suraj_khaitan_f893c243958/i-tried-100-mcp-servers-these-are-the-only-12-worth-installing-4a2g",
+      "published": "2026-06-28T05:37:03+00:00",
+      "publishedDate": "2026-06-28",
+      "summary": "The Model Context Protocol ecosystem exploded to nearly 20,000 servers. Most are noise. I installed, wired up, and stress-tested 100 of them — mostly inside Claude Code — to find the handful that actually earn a permanent slot in your config. Here are the 12 that survived, the ones I uninstalled,...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Suraj Khaitan",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Talk to Your MySQL Database with Claude — No SQL Required",
+      "link": "https://dev.to/iamdylanngo/talk-to-your-mysql-database-with-claude-no-sql-required-4jh3",
+      "published": "2026-06-28T02:51:14+00:00",
+      "publishedDate": "2026-06-28",
+      "summary": "If you use Claude daily, you already know it's great for writing, coding, and answering questions. But what if Claude could also query your live MySQL database — in plain English? That's exactly what the MySQL MCP Server plugin makes possible. In this tutorial, I'll show you how to install it and...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Dylan Ngo",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "I scanned my MCP setup and it scored 0/100. Here's what was wrong.",
+      "link": "https://dev.to/alih552/i-scanned-my-mcp-setup-and-it-scored-0100-heres-what-was-wrong-28g",
+      "published": "2026-06-28T01:40:10+00:00",
+      "publishedDate": "2026-06-28",
+      "summary": "I've been adding MCP servers to Claude and Cursor for months — GitHub, a filesystem server, a couple of search servers, a little internal HTTP one I wrote. It works great. Then two things bugged me: Some of those servers have no authentication at all. Anyone who can reach the URL can call my tools....",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Ali Al-Jaafari",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "I broke my own governed MCP server by hand, then built the scanner that catches the class",
+      "link": "https://dev.to/alexlaguardia/i-broke-my-own-governed-mcp-server-by-hand-then-built-the-scanner-that-catches-the-class-1ip7",
+      "published": "2026-06-27T23:18:44+00:00",
+      "publishedDate": "2026-06-27",
+      "summary": "A few weeks back I shipped Warden, a governance layer that sits in front of an MCP server and enforces who can read what. Role-based, field-level. The demo had a support role that could list customer accounts but never see their billing tier. The tier field is stripped from everything support gets...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Alex LaGuardia",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Building a RAG System from Scratch — MCP: Exposing pgvector as a Reusable Tool Server",
+      "link": "https://dev.to/hiroki-kameyama/building-a-rag-system-from-scratch-mcp-exposing-pgvector-as-a-reusable-tool-server-2onc",
+      "published": "2026-06-27T22:17:47+00:00",
+      "publishedDate": "2026-06-27",
+      "summary": "In the previous article, we built AI Agents that autonomously search our pgvector database. One limitation remained: the tools were hardcoded inside our Python scripts. Only our code could use them. MCP (Model Context Protocol) fixes this. It turns our search functions into a standalone server that...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Hiroki Kameyama",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "MCP for Beginners: Why Every AI Engineer and Developer Should Learn the Model Context Protocol",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-for-beginners-why-every-ai-engineer-and-developer-should/ba-p/4530623",
+      "published": "2026-06-26T22:38:26+00:00",
+      "publishedDate": "2026-06-26",
+      "summary": "If you have spent any time building with large language models in the last year, you have hit the same wall everyone hits: your model is brilliant at reasoning but blind to the real world. It cannot read your database, call your internal API, search your documents, or trigger a deployment unless...",
+      "blog": "Azure Dev Community",
+      "blogId": "azure-dev-community",
+      "author": "Lee_Stott",
+      "sourceUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog"
+    },
+    {
+      "title": "MCP Server Authorization with Azure API Management: From Simple to Advanced",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-server-authorization-with-azure-api-management-from-simple/ba-p/4528869",
+      "published": "2026-06-24T12:50:23+00:00",
+      "publishedDate": "2026-06-24",
+      "summary": "Why put API Management in front of your MCP servers The Model Context Protocol (MCP) has quickly become the standard way for AI agents, such as GitHub Copilot in VS Code, to reach external tools and data. As soon as an MCP server does anything meaningful, the same questions that govern any API...",
+      "blog": "Azure Dev Community",
+      "blogId": "azure-dev-community",
+      "author": "vzisiadis",
+      "sourceUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog"
+    },
+    {
+      "title": "Enterprise-Managed Authorization: Zero-touch OAuth for MCP",
+      "link": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "published": "2026-06-18T17:00:00+00:00",
+      "publishedDate": "2026-06-18",
+      "summary": "The Enterprise-Managed Authorization extension to the Model Context Protocol is now stable, enabling organizations to centrally provision MCP server access through their identity provider so users get connected servers on first login without per-app OAuth.",
+      "blog": "Model Context Protocol Blog",
+      "blogId": "mcp-official",
+      "author": "Model Context Protocol",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/index.xml"
+    }
+  ]
+}

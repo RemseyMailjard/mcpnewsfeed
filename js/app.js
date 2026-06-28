@@ -2,19 +2,55 @@
   "use strict";
 
   // ===== Category Mapping =====
-  var CATEGORIES = {
-    "Compute": ["azurecompute", "aksblog", "azurevirtualdesktopblog", "azurehighperformancecomputingblog"],
-    "Data & AI": ["analyticsonazure", "azure-databricks", "oracleonazureblog", "cosmosdbblog", "azuresqlblog", "foundryblog"],
-    "Infrastructure": ["azureinfrastructureblog", "azurearcblog", "azurestackblog", "azurenetworkingblog", "azurenetworksecurityblog", "azurestorageblog"],
-    "Architecture": ["azurearchitectureblog", "azure-customer-innovation-blog", "iseblog"],
-    "Apps & Platform": ["appsonazureblog", "azurepaasblog", "integrationsonazureblog", "messagingonazureblog", "aspireblog", "azuresdkblog"],
-    "Operations": ["azuregovernanceandmanagementblog", "azureobservabilityblog", "finopsblog", "azuretoolsblog", "azuremigrationblog", "azuredevops"],
-    "Community": ["azuredevcommunityblog", "azure-events", "linuxandopensourceblog", "allthingsazure", "msdevblog", "gbblog", "azurecitadelblog"],
-    "Developer Tools": ["visualstudio", "vscodeblog", "commandline", "developfromthecloud"],
-    "Specialized": ["azurecommunicationservicesblog", "azureconfidentialcomputingblog", "azuremapsblog", "telecommunications-industry-blog", "microsoft-planetary-computer-blog"]
+  var MCP_CATEGORIES = {
+    "Official MCP": ["mcp-official", "mcp-official-rss"],
+    "MCP Security": ["modelcontextprotocol-security"],
+    "Community Builds": ["devto-mcp", "devto-ai-agents"],
+    "Platform Coverage": [
+      "azure-dev-community",
+      "microsoft-devblogs",
+      "microsoft-developer-blog",
+      "github-blog",
+      "anthropic-news"
+    ]
   };
 
+  var categoryMap = {};
+
+  function buildCategoryMap() {
+    var presentBlogIds = {};
+    articles.forEach(function (a) {
+      presentBlogIds[a.blogId] = true;
+    });
+
+    categoryMap = {};
+    Object.keys(MCP_CATEGORIES).forEach(function (catName) {
+      var ids = MCP_CATEGORIES[catName].filter(function (blogId) {
+        return !!presentBlogIds[blogId];
+      });
+
+      if (ids.length > 0) {
+        categoryMap[catName] = ids;
+        ids.forEach(function (id) {
+          delete presentBlogIds[id];
+        });
+      }
+    });
+
+    var uncategorized = Object.keys(presentBlogIds).sort();
+    if (uncategorized.length > 0) {
+      categoryMap["Other MCP Sources"] = uncategorized;
+    }
+  }
+
   // ===== State =====
+  var STORAGE_KEYS = {
+    bookmarks: "mcpfeed-bookmarks",
+    bookmarksLegacy: "azurefeed-bookmarks",
+    theme: "mcpfeed-theme",
+    themeLegacy: "azurefeed-theme",
+  };
+
   var articles = [];
   var filteredArticles = [];
   var currentCategory = "all";
@@ -22,7 +58,11 @@
   var searchQuery = "";
   var sortBy = "date-desc";
   var bookmarks = new Set(
-    JSON.parse(localStorage.getItem("azurefeed-bookmarks") || "[]")
+    JSON.parse(
+      localStorage.getItem(STORAGE_KEYS.bookmarks)
+      || localStorage.getItem(STORAGE_KEYS.bookmarksLegacy)
+      || "[]"
+    )
   );
   var showBookmarksOnly = false;
 
@@ -73,10 +113,14 @@
   async function loadData() {
     showLoading(true);
     try {
-      var response = await fetch("data/feeds.json");
+      var response = await fetch("data/mcp-feeds.json");
+      if (!response.ok) {
+        response = await fetch("data/feeds.json");
+      }
       if (!response.ok) throw new Error("Failed to load feeds");
       var data = await response.json();
       articles = data.articles || [];
+      buildCategoryMap();
 
       // Assign colors to blogs
       var blogs = [];
@@ -144,8 +188,8 @@
       '<button class="category-pill active" data-category="all">All <span class="count">' +
       articles.length + "</span></button>";
 
-    Object.keys(CATEGORIES).forEach(function (catName) {
-      var catBlogs = CATEGORIES[catName];
+    Object.keys(categoryMap).forEach(function (catName) {
+      var catBlogs = categoryMap[catName];
       var catCount = 0;
       catBlogs.forEach(function (blogId) {
         if (blogCounts[blogId]) catCount += blogCounts[blogId].count;
@@ -184,7 +228,7 @@
       blogCounts[a.blogId].count++;
     });
 
-    var catBlogs = CATEGORIES[categoryName] || [];
+    var catBlogs = categoryMap[categoryName] || [];
     var html = '<button class="pill active" data-filter="all">All in ' +
       escapeHtml(categoryName) + "</button>";
     catBlogs.forEach(function (blogId) {
@@ -206,7 +250,7 @@
 
     // Category filter
     if (currentCategory !== "all") {
-      var catBlogs = CATEGORIES[currentCategory] || [];
+      var catBlogs = categoryMap[currentCategory] || [];
       result = result.filter(function (a) {
         return catBlogs.indexOf(a.blogId) !== -1;
       });
@@ -392,7 +436,7 @@
       showToast("⭐ Article bookmarked!");
     }
     localStorage.setItem(
-      "azurefeed-bookmarks",
+      STORAGE_KEYS.bookmarks,
       JSON.stringify(Array.from(bookmarks))
     );
     applyFilters();
@@ -424,7 +468,9 @@
 
   // ===== Theme =====
   function loadTheme() {
-    var saved = localStorage.getItem("azurefeed-theme") || "light";
+    var saved = localStorage.getItem(STORAGE_KEYS.theme)
+      || localStorage.getItem(STORAGE_KEYS.themeLegacy)
+      || "light";
     document.documentElement.setAttribute("data-theme", saved);
     themeToggle.textContent = saved === "dark" ? "☀️" : "🌙";
   }
@@ -433,7 +479,7 @@
     var current = document.documentElement.getAttribute("data-theme");
     var next = current === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next);
-    localStorage.setItem("azurefeed-theme", next);
+    localStorage.setItem(STORAGE_KEYS.theme, next);
     themeToggle.textContent = next === "dark" ? "☀️" : "🌙";
   }
 
