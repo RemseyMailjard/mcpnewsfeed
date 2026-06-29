@@ -54,12 +54,20 @@ MCP_KEYWORDS = [
     "mcp clients",
     "mcp host",
     "mcp hosts",
+    "mcp tool",
+    "mcp integration",
+    "mcp plugin",
+    "mcp protocol",
+    "tool calling",
+    "mcp endpoint",
 ]
 
 MCP_REGEX_PATTERNS = [
     re.compile(r"\bmodel\s+context\s+protocol\b", re.IGNORECASE),
     re.compile(r"\bmodelcontextprotocol\b", re.IGNORECASE),
     re.compile(r"\bmcp\s+(?:server|servers|client|clients|host|hosts)\b", re.IGNORECASE),
+    re.compile(r"\bmcp\s+(?:tool|tools|integration|plugin|plugins|protocol|endpoint)\b", re.IGNORECASE),
+    re.compile(r"\btool\s+calling\b", re.IGNORECASE),
 ]
 
 
@@ -542,72 +550,87 @@ def generate_rss_feed(articles: list[dict[str, Any]]) -> None:
 # AI summary
 # ------------------------------------------------------------
 
-def generate_ai_summary(articles: list[dict[str, Any]]) -> str | None:
-    """Generate an AI summary of today's MCP-related articles using OpenAI."""
-    api_key = os.environ.get("OPENAI_API_KEY", "")
+def _first_sentence(text: str, max_length: int = 150) -> str:
+    """Extract the first sentence from text, capped at max_length characters."""
+    if not text:
+        return ""
+    for i, char in enumerate(text):
+        if i >= max_length:
+            return text[:max_length].rstrip() + "..."
+        if char in ".!?" and i > 0:
+            return text[: i + 1].strip()
+    return text[:max_length].rstrip()
 
-    if not api_key:
-        logger.info("No OPENAI_API_KEY set, skipping AI summary")
+
+def _build_fallback_summary(articles: list[dict[str, Any]], today: str) -> str | None:
+    """Build a bullet-point summary from today's top-5 articles when OpenAI is unavailable."""
+    today_articles = [a for a in articles if a.get("publishedDate") == today][:5]
+    if not today_articles:
         return None
+    lines = []
+    for article in today_articles:
+        title = article.get("title", "")
+        first = _first_sentence(article.get("summary", ""))
+        lines.append(f"• {title}: {first}" if first else f"• {title}")
+    return "\n".join(lines)
 
+
+def generate_ai_summary(articles: list[dict[str, Any]]) -> tuple[str, str] | None:
+    """Return a (text, source) tuple for today's MCP articles, or None if nothing to show.
+
+    source is "ai" when OpenAI generated the text, "fallback" otherwise.
+    """
     today = datetime.now(timezone.utc).date().isoformat()
 
-    today_articles = [
-        article
-        for article in articles
-        if article.get("publishedDate") == today
-    ]
+    api_key = os.environ.get("OPENAI_API_KEY", "")
+    if api_key:
+        today_articles = [a for a in articles if a.get("publishedDate") == today]
+        if not today_articles:
+            logger.info("No articles published today, skipping AI summary")
+        else:
+            try:
+                from openai import OpenAI
 
-    if not today_articles:
-        logger.info("No articles published today, skipping AI summary")
-        return None
+                titles = "\n".join(
+                    [
+                        f"- {article['title']} ({article['blog']})"
+                        for article in today_articles[:20]
+                    ]
+                )
 
-    try:
-        from openai import OpenAI
+                prompt = (
+                    "You are a concise technical news editor. "
+                    "Summarize today's articles about Model Context Protocol, MCP servers, "
+                    "AI agents, tool integrations, developer tooling, security, and enterprise AI adoption. "
+                    "Write 2-3 practical sentences. "
+                    "Focus on what matters for software developers, IT trainers, consultants, "
+                    "and organizations adopting AI-assisted development.\n\n"
+                    f"Articles:\n{titles}"
+                )
 
-        titles = "\n".join(
-            [
-                f"- {article['title']} ({article['blog']})"
-                for article in today_articles[:20]
-            ]
-        )
+                client = OpenAI(api_key=api_key)
+                response = client.chat.completions.create(
+                    model=OPENAI_MODEL,
+                    messages=[{"role": "user", "content": prompt}],
+                    max_tokens=220,
+                )
+                text = response.choices[0].message.content
+                if text and text.strip():
+                    logger.info("AI summary generated")
+                    return (text.strip(), "ai")
 
-        prompt = (
-            "You are a concise technical news editor. "
-            "Summarize today's articles about Model Context Protocol, MCP servers, "
-            "AI agents, tool integrations, developer tooling, security, and enterprise AI adoption. "
-            "Write 2-3 practical sentences. "
-            "Focus on what matters for software developers, IT trainers, consultants, "
-            "and organizations adopting AI-assisted development.\n\n"
-            f"Articles:\n{titles}"
-        )
+            except Exception as exc:
+                logger.exception("AI summary failed, falling back: %s", exc)
 
-        client = OpenAI(api_key=api_key)
+    else:
+        logger.info("No OPENAI_API_KEY set, using fallback summary")
 
-        response = client.chat.completions.create(
-            model=OPENAI_MODEL,
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt,
-                }
-            ],
-            max_tokens=220,
-        )
+    fallback = _build_fallback_summary(articles, today)
+    if fallback:
+        logger.info("Fallback summary generated")
+        return (fallback, "fallback")
 
-        summary = response.choices[0].message.content
-
-        if not summary:
-            return None
-
-        summary = summary.strip()
-
-        logger.info("AI summary generated")
-        return summary
-
-    except Exception as exc:
-        logger.exception("AI summary failed: %s", exc)
-        return None
+    return None
 
 
 # ------------------------------------------------------------
@@ -616,7 +639,7 @@ def generate_ai_summary(articles: list[dict[str, Any]]) -> str | None:
 
 def save_json_output(
     articles: list[dict[str, Any]],
-    summary: str | None = None,
+    summary: tuple[str, str] | None = None,
 ) -> None:
     """Save aggregated MCP articles to a JSON file."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -645,7 +668,8 @@ def save_json_output(
     }
 
     if summary:
-        data["summary"] = summary
+        data["summary"] = summary[0]
+        data["summarySource"] = summary[1]
 
     output_path = os.path.join(OUTPUT_DIR, JSON_OUTPUT_FILE)
 
