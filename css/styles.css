@@ -737,3 +737,39 @@ footer a:hover {
 .ai-summary p:last-child {
   margin-bottom: 0;
 }
+
+.summary-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: var(--azure-blue);
+  color: #fff;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+}
+
+.summary-badge--fallback {
+  background: var(--text-secondary);
+}
+
+.summary-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.summary-list li {
+  margin-bottom: 0.3rem;
+}
+
+.summary-list li:last-child {
+  margin-bottom: 0;
+}
+
+.summary-placeholder {
+  font-style: italic;
+  opacity: 0.65;
+}

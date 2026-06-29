@@ -156,12 +156,26 @@
       }
       totalCount.textContent = articles.length + " articles";
 
-      // Render AI summary if available
+      // Render AI summary (always visible, with fallback badge when auto-generated)
+      var summarySource = data.summarySource || "ai";
       if (data.summary) {
+        var badge = summarySource === "fallback"
+          ? '<span class="summary-badge summary-badge--fallback">Auto-generated</span>'
+          : '<span class="summary-badge">AI Summary</span>';
+        var summaryBody;
+        if (summarySource === "fallback") {
+          var lines = data.summary.split("\n").filter(function (l) { return l.trim(); });
+          summaryBody = "<ul class='summary-list'>" + lines.map(function (l) {
+            return "<li>" + escapeHtml(l.replace(/^•\s*/, "")) + "</li>";
+          }).join("") + "</ul>";
+        } else {
+          summaryBody = "<p>" + escapeHtml(data.summary) + "</p>";
+        }
+        aiSummaryEl.innerHTML = "<h2>🤖 Today's Highlights " + badge + "</h2>" + summaryBody;
+      } else {
         aiSummaryEl.innerHTML =
           "<h2>🤖 Today's Highlights</h2>" +
-          "<p>" + escapeHtml(data.summary) + "</p>";
-        aiSummaryEl.style.display = "block";
+          "<p class='summary-placeholder'>Today's summary is being generated…</p>";
       }
 
       renderFilters();
