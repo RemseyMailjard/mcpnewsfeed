@@ -2,9 +2,9 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-06-29T05:47:46.853608+00:00",
+  "lastUpdated": "2026-06-29T08:43:10.506669+00:00",
   "daysToKeep": 30,
-  "totalArticles": 17,
+  "totalArticles": 16,
   "keywords": [
     "model context protocol",
     "modelcontextprotocol",
@@ -127,6 +127,105 @@
   ],
   "articles": [
     {
+      "title": "Your AI agent keeps rebuilding decisions your team already made. Here's the fix I landed on.",
+      "link": "https://dev.to/ali_abbas_d8086e0f96d8173/your-ai-agent-keeps-rebuilding-decisions-your-team-already-made-heres-the-fix-i-landed-on-f9e",
+      "published": "2026-06-29T07:43:37+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "Coding agents have no memory of why your codebase is the way it is. They re-derive settled decisions every session, confidently redo things your team already ruled out, and burn tokens doing it. I tried the three obvious fixes (a CLAUDE.md file, RAG over our docs, pasting context manually) and each...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Ali Abbas",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "My MCP server had 32 green tests. Not one of them had ever called a tool.",
+      "link": "https://dev.to/achiya-automation/my-mcp-server-had-32-green-tests-not-one-of-them-had-ever-called-a-tool-4jp8",
+      "published": "2026-06-29T07:18:15+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "For weeks my CI badge was green and I believed it. Safari MCP is an open-source tool that lets an AI coding agent drive a real, logged-in Safari — click, type, read the page, switch tabs. It registers 96 tools. The test suite ran on every push across three Node versions and came back 32 passed, 0...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "אחיה כהן",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Connect a Laravel AI Agent to Any MCP Server: A Hands-On Guide",
+      "link": "https://dev.to/hafiz619/connect-a-laravel-ai-agent-to-any-mcp-server-a-hands-on-guide-128h",
+      "published": "2026-06-29T07:01:09+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "Originally published at hafiz.dev Most Laravel MCP tutorials teach you to build a server. You expose your app's tools, an AI client connects, and Claude or Cursor can query your orders table. Useful, and I've covered building an MCP server with Filament before. This post goes the other direction....",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Hafiz",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How to Connect Hermes Agent to MCP with Arcade.dev",
+      "link": "https://dev.to/arcade/secure-connect-hermes-mcp-1f7m",
+      "published": "2026-06-29T06:12:33+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "For developers running Nous Research's Hermes Agent, connecting to a remote Model Context Protocol (MCP) server is straightforward. But as you add more services, you run into real problems: configuration sprawl, credential management, and raw API wrappers that cause the language model to...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Manveer Chawla",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Who gets to decide what the agentic economy becomes?",
+      "link": "https://dev.to/barissozen/who-gets-to-decide-what-the-agentic-economy-becomes-114i",
+      "published": "2026-06-29T06:07:37+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "This isn't an explainer. It's a proposal, and an invitation. Here is the thing almost nobody says out loud: the agentic economy is not a future event we are waiting for. It is being designed right now, in ordinary engineering decisions that almost no one is voting on. When one company decides how...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Baris Sozen",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Model Context Protocol (MCP) for Developers: From Figma Design to Code in Minutes",
+      "link": "https://dev.to/trevorcjustus/model-context-protocol-mcp-for-developers-from-figma-design-to-code-in-minutes-5bh4",
+      "published": "2026-06-29T06:05:11+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "If you've watched developers build an entire React page from a Figma design in minutes, you've probably heard them mention MCP. It has quickly become one of the most talked about tools in AI-assisted development, especially for frontend engineers. This guide explains what MCP is, why it matters in...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Chimamanda Justus",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Un MCP para el fallo más común de la web",
+      "link": "https://dev.to/cec1_c0d/un-mcp-para-el-fallo-mas-comun-de-la-web-5f5",
+      "published": "2026-06-29T06:00:00+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "Hay un algoritmo determinista en el centro de esta historia y un modelo probabilístico en el borde, y la mayor parte de lo que aprendí vive en el espacio que hay entre ellos. Versión corta: una amiga diseñadora, Marta Herrera Hollingsworth, construyó, hace años, un algoritmo que genera paletas...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Ceci Olivera",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "An MCP for the most common failure of the Web",
+      "link": "https://dev.to/cec1_c0d/an-mcp-for-the-most-common-failure-of-the-web-php",
+      "published": "2026-06-29T06:00:00+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "There's a deterministic algorithm at the center of this story and a probabilistic model at the edge of it, and most of what I learned lives in the space between them. Here's the short version: a designer friend of mine, Marta Herrera Hollingsworth, built, years ago, an algorithm that generates...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Ceci Olivera",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How I Found a Silent API Bug in a 3,548-Star MCP Server",
+      "link": "https://dev.to/eshaanagrawal/how-i-found-a-silent-api-bug-in-a-3548-star-mcp-server-1b55",
+      "published": "2026-06-29T05:44:47+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "How I Found a Silent API Bug in a 3,548-Star MCP Server The API accepted your request. Returned HTTP 200. And then quietly did nothing. No error. No stack trace. Just an empty result where your Cypher query should have run. This is the story of how I found that bug in CodeGraphContext — an MCP...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Eshaan Agrawal",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
       "title": "Adding more Claude subagents made my pipeline slower — here's the specific reason why",
       "link": "https://dev.to/riversea/adding-more-claude-subagents-made-my-pipeline-slower-heres-the-specific-reason-why-3n4l",
       "published": "2026-06-29T05:37:12+00:00",
@@ -158,116 +257,6 @@
       "blogId": "devto-mcp",
       "author": "NexGenData",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The state machine your agent runtime is missing: session state as first-class infrastructure",
-      "link": "https://dev.to/aloya/the-state-machine-your-agent-runtime-is-missing-session-state-as-first-class-infrastructure-4g08",
-      "published": "2026-06-29T04:03:47+00:00",
-      "publishedDate": "2026-06-29",
-      "summary": "The state machine your agent runtime is missing: session state as first-class infrastructure Your agent's chat interface is a lie. It looks like a conversation, but every turn resets the state machine. The model doesn't remember what it was doing — it reconstructs it from context. And when...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Aloya",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Email Validator API — 5분 안에 프로젝트에 통합하기",
-      "link": "https://dev.to/lazymac2x/email-validator-api-5bun-ane-peurojegteue-tonghabhagi-270h",
-      "published": "2026-06-29T03:22:50+00:00",
-      "publishedDate": "2026-06-29",
-      "summary": "Email Validator API — 5분 안에 프로젝트에 통합하기 회원가입, 뉴스레터, B2B SaaS — 이메일 품질이 전환율을 결정 프로젝트에 email validator 기능이 필요한데 직접 구현하기엔 시간이 아까운가요? REST API 한 줄이면 됩니다. Quick Start # 즉시 테스트 (API 키 불필요) curl https://api.lazy-mac.com/email/ 실전 예제 Python import requests resp =...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "2x lazymac",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP just deleted the session: what the July 28 spec breaks in your server",
-      "link": "https://dev.to/ravi3divi/mcp-just-deleted-the-session-what-the-july-28-spec-breaks-in-your-server-49c",
-      "published": "2026-06-29T02:32:20+00:00",
-      "publishedDate": "2026-06-29",
-      "summary": "The July 28 MCP rewrite goes stateless. It fixes your load balancer and does nothing for the bill you actually pay: tool-schema context bloat. If you shipped an MCP server in the last year, you built it around a lie the spec told you: that a connection is a thing you can hold onto. On July 28,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Veera Ravindra Divi",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "My Anthropic bill dropped from $312 to $156 after I added two bash hooks to Claude Code",
-      "link": "https://dev.to/riversea/my-anthropic-bill-dropped-from-312-to-156-after-i-added-two-bash-hooks-to-claude-code-4eei",
-      "published": "2026-06-29T01:11:57+00:00",
-      "publishedDate": "2026-06-29",
-      "summary": "60% of a $312 Anthropic bill came from a single pattern: Claude Code hitting a D1 migration failure, then spinning up 7–8 retry Bash calls trying to diagnose what went wrong. Each loop burned 40–60K tokens. Three or four loops per session, and you're looking at $0.50–$0.70 just evaporating. The fix...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "강해수",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Securing MCP Servers: A Practical Guide",
-      "link": "https://dev.to/dockfixlabs/securing-mcp-servers-a-practical-guide-6n7",
-      "published": "2026-06-29T01:00:36+00:00",
-      "publishedDate": "2026-06-29",
-      "summary": "What is MCP and Why Does Security Matter? The Model Context Protocol (MCP) is an open standard that lets AI assistants connect to external tools, databases, and APIs. Claude Code, Cursor, and other AI coding assistants use MCP servers to extend their capabilities. But every MCP server is a...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Dockfix Labs",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Overnight Revenue Engine #001 — $7.00 Cleared, 483 GBP Pending, 0 Subscriptions",
-      "link": "https://dev.to/rumblingb/overnight-revenue-engine-001-700-cleared-483-gbp-pending-0-subscriptions-27n1",
-      "published": "2026-06-28T23:02:53+00:00",
-      "publishedDate": "2026-06-28",
-      "summary": "The numbers Stripe balance: 0 GBP available, 483 GBP pending settlement Cleared revenue: $7.00 USD (charge ch_3Tm9ZmPXcf9g8qGx3bqt4KE8, succeeded) Active subscriptions: 0 PaymentIntents: 5 created, 5 auto-canceled — no 3DS abandonment stuck in funnel this tick What happened The cron tick found one...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Rumblingb",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Your MCP servers are burning 50k+ tokens before you type a word",
-      "link": "https://dev.to/alih552/your-mcp-servers-are-burning-50k-tokens-before-you-type-a-word-2oc6",
-      "published": "2026-06-28T19:41:42+00:00",
-      "publishedDate": "2026-06-28",
-      "summary": "Here is something I did not realize about the Model Context Protocol until my context window kept feeling full for no reason. Every MCP server you connect loads its full set of tool definitions into the context window on every single request. Those schemas are not free. Each tool costs a few...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Ali Al-Jaafari",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How to build your first MCP server in 10 minutes",
-      "link": "https://dev.to/grahamduescn/how-to-build-your-first-mcp-server-in-10-minutes-1dfh",
-      "published": "2026-06-28T18:00:03+00:00",
-      "publishedDate": "2026-06-28",
-      "summary": "I built my first MCP server last week and it was way simpler than I expected. Here is exactly how, no fluff. Prerequisites Node.js 20+ 10 minutes Step 1: Scaffold npx create-mcp-server my-first-server cd my-first-server npm install This generates a complete TypeScript project with one example tool....",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "GrahamduesCN",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Taking my GitHub Stats MCP Server to the Cloud 🚀☁️",
-      "link": "https://dev.to/anajsana95/taking-my-github-stats-mcp-server-to-the-cloud-4m0b",
-      "published": "2026-06-28T17:45:44+00:00",
-      "publishedDate": "2026-06-28",
-      "summary": "👋 This is the third chapter of a series where I document what I'm learning about Model Context Protocol architecture and tool implementations In Chapter 2, I built a GitHub Stats MCP server with CHAOSS security metrics. It worked, it returned real data, and Goose could orchestrate its tools into a...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Ana Jimenez Santamaria",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The Zod trap: Why your AI agent is breaking MCPFusion architecture",
-      "link": "https://dev.to/renato_marinho/the-zod-trap-why-your-ai-agent-is-breaking-mcpfusion-architecture-54ko",
-      "published": "2026-06-28T12:29:40+00:00",
-      "publishedDate": "2026-06-28",
-      "summary": "I was reviewing an agent's recent output for a new MCP server implementation, and at first glance, it looked perfect. The TypeScript was clean, the types were explicit, and the logic followed the requirement to list users from a database. Then I actually looked at how it defined the schema. It used...",
-      "blog": "Dev.to AI Agents",
-      "blogId": "devto-ai-agents",
-      "author": "Renato Marinho",
-      "sourceUrl": "https://dev.to/feed/tag/aiagents"
     },
     {
       "title": "MCP for Beginners: Why Every AI Engineer and Developer Should Learn the Model Context Protocol",
@@ -314,6 +303,6 @@
       "sourceUrl": "https://huggingface.co/blog/feed.xml"
     }
   ],
-  "summary": "• Adding more Claude subagents made my pipeline slower — here's the specific reason why: Scaling from 4 to 8 Claude Code subagents pushed my error rate from 0.\n• I stopped checking my Modal dashboard because my agent does it for me: I used to spend way too much time context-switching between Cursor, my terminal, and the Modal web dashboard.\n• We Just Published 27 MCP Servers to the Official Registry — Here's How to Use Them: The Official MCP Registry is the canonical source of truth for Model Context Protocol servers.\n• The state machine your agent runtime is missing: session state as first-class infrastructure: The state machine your agent runtime is missing: session state as first-class infrastructure Your agent's chat interface is a lie.\n• Email Validator API — 5분 안에 프로젝트에 통합하기: Email Validator API — 5분 안에 프로젝트에 통합하기 회원가입, 뉴스레터, B2B SaaS — 이메일 품질이 전환율을 결정 프로젝트에 email validator 기능이 필요한데 직접 구현하기엔 시간이 아까운가요?",
+  "summary": "• Your AI agent keeps rebuilding decisions your team already made. Here's the fix I landed on.: Coding agents have no memory of why your codebase is the way it is.\n• My MCP server had 32 green tests. Not one of them had ever called a tool.: For weeks my CI badge was green and I believed it.\n• Connect a Laravel AI Agent to Any MCP Server: A Hands-On Guide: Originally published at hafiz.\n• How to Connect Hermes Agent to MCP with Arcade.dev: For developers running Nous Research's Hermes Agent, connecting to a remote Model Context Protocol (MCP) server is straightforward.\n• Who gets to decide what the agentic economy becomes?: This isn't an explainer.",
   "summarySource": "fallback"
 }
