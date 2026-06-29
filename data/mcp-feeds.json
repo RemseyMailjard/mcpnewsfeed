@@ -2,7 +2,7 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-06-29T05:32:35.977624+00:00",
+  "lastUpdated": "2026-06-29T05:47:46.853608+00:00",
   "daysToKeep": 30,
   "totalArticles": 17,
   "keywords": [
@@ -127,6 +127,17 @@
   ],
   "articles": [
     {
+      "title": "Adding more Claude subagents made my pipeline slower — here's the specific reason why",
+      "link": "https://dev.to/riversea/adding-more-claude-subagents-made-my-pipeline-slower-heres-the-specific-reason-why-3n4l",
+      "published": "2026-06-29T05:37:12+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "Scaling from 4 to 8 Claude Code subagents pushed my error rate from 0.8% to 4.3%. The bottleneck wasn't the model. The culprit was a stateful MCP tool called analytics_query that held pagination cursors, mid-aggregation values, and filter chains in instance memory between calls. Cloudflare Workers...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "강해수",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
       "title": "I stopped checking my Modal dashboard because my agent does it for me",
       "link": "https://dev.to/renato_marinho/i-stopped-checking-my-modal-dashboard-because-my-agent-does-it-for-me-1efm",
       "published": "2026-06-29T05:08:05+00:00",
@@ -248,17 +259,6 @@
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "Wiring Django to Claude: Generating an MCP server from OpenAPI",
-      "link": "https://dev.to/shanahansuresh/wiring-django-to-claude-generating-an-mcp-server-from-openapi-1e8a",
-      "published": "2026-06-28T17:19:07+00:00",
-      "publishedDate": "2026-06-28",
-      "summary": "If you build Django APIs, you probably use drf-spectacular to generate your OpenAPI schema. That schema already describes every single endpoint you have. Here is how to automatically transform it into a Model Context Protocol (MCP) server. As well as how to survive the harder engineering problems...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Shanahan",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
       "title": "The Zod trap: Why your AI agent is breaking MCPFusion architecture",
       "link": "https://dev.to/renato_marinho/the-zod-trap-why-your-ai-agent-is-breaking-mcpfusion-architecture-54ko",
       "published": "2026-06-28T12:29:40+00:00",
@@ -314,6 +314,6 @@
       "sourceUrl": "https://huggingface.co/blog/feed.xml"
     }
   ],
-  "summary": "• I stopped checking my Modal dashboard because my agent does it for me: I used to spend way too much time context-switching between Cursor, my terminal, and the Modal web dashboard.\n• We Just Published 27 MCP Servers to the Official Registry — Here's How to Use Them: The Official MCP Registry is the canonical source of truth for Model Context Protocol servers.\n• The state machine your agent runtime is missing: session state as first-class infrastructure: The state machine your agent runtime is missing: session state as first-class infrastructure Your agent's chat interface is a lie.\n• Email Validator API — 5분 안에 프로젝트에 통합하기: Email Validator API — 5분 안에 프로젝트에 통합하기 회원가입, 뉴스레터, B2B SaaS — 이메일 품질이 전환율을 결정 프로젝트에 email validator 기능이 필요한데 직접 구현하기엔 시간이 아까운가요?\n• MCP just deleted the session: what the July 28 spec breaks in your server: The July 28 MCP rewrite goes stateless.",
+  "summary": "• Adding more Claude subagents made my pipeline slower — here's the specific reason why: Scaling from 4 to 8 Claude Code subagents pushed my error rate from 0.\n• I stopped checking my Modal dashboard because my agent does it for me: I used to spend way too much time context-switching between Cursor, my terminal, and the Modal web dashboard.\n• We Just Published 27 MCP Servers to the Official Registry — Here's How to Use Them: The Official MCP Registry is the canonical source of truth for Model Context Protocol servers.\n• The state machine your agent runtime is missing: session state as first-class infrastructure: The state machine your agent runtime is missing: session state as first-class infrastructure Your agent's chat interface is a lie.\n• Email Validator API — 5분 안에 프로젝트에 통합하기: Email Validator API — 5분 안에 프로젝트에 통합하기 회원가입, 뉴스레터, B2B SaaS — 이메일 품질이 전환율을 결정 프로젝트에 email validator 기능이 필요한데 직접 구현하기엔 시간이 아까운가요?",
   "summarySource": "fallback"
 }
