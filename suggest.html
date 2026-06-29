@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suggest a Source — MCP Feed</title>
+  <meta name="description" content="Suggest an RSS feed source or subscribe to the weekly MCP digest.">
+  <meta name="theme-color" content="#0078D4">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .suggest-main {
+      max-width: 640px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem 3rem;
+    }
+
+    .suggest-card {
+      background: var(--bg-secondary);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      padding: 2rem;
+      box-shadow: var(--shadow-md);
+      margin-bottom: 2rem;
+    }
+
+    .suggest-card h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      color: var(--text-primary);
+    }
+
+    .suggest-card .card-description {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .form-group {
+      margin-bottom: 1.1rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.35rem;
+    }
+
+    .form-group label .optional {
+      font-weight: 400;
+      color: var(--text-tertiary);
+      font-size: 0.8rem;
+      margin-left: 0.25rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.6rem 0.85rem;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 0.9rem;
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--azure-blue);
+      box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.12);
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    .submit-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--azure-blue);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 0.65rem 1.4rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background var(--transition), transform var(--transition);
+      margin-top: 0.5rem;
+    }
+
+    .submit-btn:hover {
+      background: var(--azure-blue-dark);
+    }
+
+    .submit-btn:active {
+      transform: scale(0.98);
+    }
+
+    .submit-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .form-feedback {
+      margin-top: 1rem;
+      padding: 0.75rem 1rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.875rem;
+      display: none;
+    }
+
+    .form-feedback.success {
+      background: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+      display: block;
+    }
+
+    .form-feedback.error {
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+      display: block;
+    }
+
+    [data-theme="dark"] .form-feedback.success {
+      background: #1a3a24;
+      color: #75b798;
+      border-color: #2d6a4f;
+    }
+
+    [data-theme="dark"] .form-feedback.error {
+      background: #3a1a1a;
+      color: #f1aeb5;
+      border-color: #6a2d2d;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      color: var(--azure-blue);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <svg width="36" height="36" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M27.2 69.6L47.6 24H58.8L34 69.6H27.2ZM20 69.6L40.4 24H51.6L26.8 69.6H20ZM56.4 69.6L64 54.4L70.4 40L76 69.6H56.4Z" fill="white"/>
+        </svg>
+        <div>
+          <h1>MCP Feed</h1>
+          <span class="subtitle">The daily pulse of Model Context Protocol — curated from 17+ sources</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="theme-toggle" title="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="suggest-main">
+    <a href="index.html" class="back-link">← Back to feed</a>
+
+    <!-- Source suggestion form -->
+    <div class="suggest-card">
+      <h2>📡 Suggest a Source</h2>
+      <p class="card-description">
+        Know an RSS feed that covers MCP news, tools, or integrations? Submit it here
+        and we'll review it for inclusion in the feed.
+      </p>
+
+      <form
+        id="suggest-form"
+        data-endpoint=""
+      >
+        <div class="form-group">
+          <label for="feed-url">RSS / Atom feed URL <span style="color:#c00;">*</span></label>
+          <input
+            type="url"
+            id="feed-url"
+            name="feedUrl"
+            placeholder="https://example.com/feed.xml"
+            required
+            autocomplete="url"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="feed-reason">Why is this relevant? <span class="optional">(optional)</span></label>
+          <textarea
+            id="feed-reason"
+            name="reason"
+            placeholder="This blog regularly covers MCP server integrations and tool development…"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="suggest-name">Your name <span class="optional">(optional)</span></label>
+          <input
+            type="text"
+            id="suggest-name"
+            name="name"
+            placeholder="Jane Doe"
+            autocomplete="name"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="suggest-email">Your email <span class="optional">(optional)</span></label>
+          <input
+            type="email"
+            id="suggest-email"
+            name="email"
+            placeholder="jane@example.com"
+            autocomplete="email"
+          >
+        </div>
+
+        <button type="submit" class="submit-btn" id="suggest-submit">
+          Submit source
+        </button>
+        <div class="form-feedback" id="suggest-feedback"></div>
+      </form>
+    </div>
+
+    <!-- Newsletter subscription form -->
+    <div class="suggest-card">
+      <h2>📬 Weekly Digest</h2>
+      <p class="card-description">
+        Get the top MCP articles of the week in your inbox every Monday. No spam — just signal.
+      </p>
+
+      <form
+        id="subscribe-form"
+        data-endpoint=""
+      >
+        <div class="form-group">
+          <label for="subscribe-email">Email address <span style="color:#c00;">*</span></label>
+          <input
+            type="email"
+            id="subscribe-email"
+            name="email"
+            placeholder="you@example.com"
+            required
+            autocomplete="email"
+          >
+        </div>
+
+        <button type="submit" class="submit-btn" id="subscribe-submit">
+          Subscribe
+        </button>
+        <div class="form-feedback" id="subscribe-feedback"></div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>🧩 MCP Feed &bull; <a href="index.html">Back to feed</a> &bull; <a href="data/mcp-feed.xml" target="_blank" rel="noopener">📡 RSS Feed</a></p>
+  </footer>
+
+  <script>
+    // Theme toggle (same logic as main app)
+    (function () {
+      var toggle = document.getElementById("theme-toggle");
+      var saved = localStorage.getItem("mcpfeed-theme") || "light";
+      document.documentElement.setAttribute("data-theme", saved);
+      toggle.textContent = saved === "dark" ? "☀️" : "🌙";
+      toggle.addEventListener("click", function () {
+        var current = document.documentElement.getAttribute("data-theme");
+        var next = current === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", next);
+        localStorage.setItem("mcpfeed-theme", next);
+        toggle.textContent = next === "dark" ? "☀️" : "🌙";
+      });
+    })();
+
+    function handleForm(formId, submitId, feedbackId, successMessage) {
+      var form = document.getElementById(formId);
+      var submitBtn = document.getElementById(submitId);
+      var feedback = document.getElementById(feedbackId);
+      var endpoint = form.getAttribute("data-endpoint");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        feedback.className = "form-feedback";
+        feedback.textContent = "";
+
+        if (!endpoint) {
+          feedback.className = "form-feedback error";
+          feedback.textContent = "Submission is not configured yet. Please try again later.";
+          return;
+        }
+
+        var data = {};
+        new FormData(form).forEach(function (value, key) {
+          data[key] = value;
+        });
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending…";
+
+        fetch(endpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        })
+          .then(function (res) {
+            if (!res.ok) throw new Error("Server returned " + res.status);
+            feedback.className = "form-feedback success";
+            feedback.textContent = successMessage;
+            form.reset();
+          })
+          .catch(function () {
+            feedback.className = "form-feedback error";
+            feedback.textContent = "Something went wrong. Please try again or email us directly.";
+          })
+          .finally(function () {
+            submitBtn.disabled = false;
+            submitBtn.textContent = formId === "suggest-form" ? "Submit source" : "Subscribe";
+          });
+      });
+    }
+
+    handleForm(
+      "suggest-form",
+      "suggest-submit",
+      "suggest-feedback",
+      "Thanks! We'll review your suggestion and add it if it's a good fit."
+    );
+
+    handleForm(
+      "subscribe-form",
+      "subscribe-submit",
+      "subscribe-feedback",
+      "You're subscribed! Expect your first digest next Monday."
+    );
+  </script>
+</body>
+</html>
