@@ -86,37 +86,37 @@
       "id": "cloudflare-blog",
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
-      "includeAll": true
+      "includeAll": false
     },
     {
       "id": "docker-blog",
       "name": "Docker Blog",
       "url": "https://www.docker.com/blog/feed/",
-      "includeAll": true
+      "includeAll": false
     },
     {
       "id": "huggingface-blog",
       "name": "Hugging Face Blog",
       "url": "https://huggingface.co/blog/feed.xml",
-      "includeAll": true
+      "includeAll": false
     },
     {
       "id": "vercel-blog",
       "name": "Vercel Blog",
       "url": "https://vercel.com/atom",
-      "includeAll": true
+      "includeAll": false
     },
     {
       "id": "thenewstack",
       "name": "The New Stack",
       "url": "https://thenewstack.io/feed/",
-      "includeAll": true
+      "includeAll": false
     },
     {
       "id": "jon-udell",
       "name": "Jon Udell Blog",
       "url": "https://blog.jonudell.net/feed/",
-      "includeAll": true
+      "includeAll": false
     }
   ],
   "articles": [
