@@ -40,6 +40,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          git pull --rebase origin master
+
           git add data/mcp-feeds.json data/mcp-feed.xml
 
           if git diff --staged --quiet; then
@@ -48,6 +50,4 @@ jobs:
           fi
 
           git commit -m "📰 Update MCP feeds - $(date -u '+%Y-%m-%d %H:%M UTC')"
-
-          git pull --rebase origin master
           git push origin master
