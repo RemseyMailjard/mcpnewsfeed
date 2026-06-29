@@ -5,13 +5,24 @@
   var MCP_CATEGORIES = {
     "Official MCP": ["mcp-official", "mcp-official-rss"],
     "MCP Security": ["modelcontextprotocol-security"],
-    "Community Builds": ["devto-mcp", "devto-ai-agents"],
-    "Platform Coverage": [
+    "AI & ML Platforms": ["anthropic-news", "huggingface-blog"],
+    "Cloud & Infrastructure": [
+      "cloudflare-mcp",
+      "cloudflare-blog",
       "azure-dev-community",
-      "microsoft-devblogs",
-      "microsoft-developer-blog",
+      "docker-blog",
+      "vercel-blog"
+    ],
+    "Developer Platforms": [
       "github-blog",
-      "anthropic-news"
+      "microsoft-devblogs",
+      "microsoft-developer-blog"
+    ],
+    "Community & Media": [
+      "devto-mcp",
+      "devto-ai-agents",
+      "thenewstack",
+      "jon-udell"
     ]
   };
 
