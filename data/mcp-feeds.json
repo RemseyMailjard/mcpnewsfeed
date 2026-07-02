@@ -2,9 +2,9 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-07-01T19:36:56.418199+00:00",
+  "lastUpdated": "2026-07-02T08:06:37.377496+00:00",
   "daysToKeep": 30,
-  "totalArticles": 17,
+  "totalArticles": 18,
   "keywords": [
     "model context protocol",
     "modelcontextprotocol",
@@ -127,6 +127,94 @@
   ],
   "articles": [
     {
+      "title": "MCP didn't give AI memory. It gave AI access to memory.",
+      "link": "https://dev.to/fuzzykidoo/mcp-didnt-give-ai-memory-it-gave-ai-access-to-memory-3jh",
+      "published": "2026-07-02T07:21:13+00:00",
+      "publishedDate": "2026-07-02",
+      "summary": "MCP is basically turning AI from ** 🧠 \"Who are you again?\" New chat. New conversation. Everything forgotten. It almost feels like talking to someone with **30 seconds of RAM. into 🧠 \"Welcome back. I found the bug you ignored yesterday, reviewed your GitHub, checked your database, and your coffee...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Dimple",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Real-time price monitoring with MCP and LangGraph",
+      "link": "https://dev.to/buywhere/real-time-price-monitoring-with-mcp-and-langgraph-1cj2",
+      "published": "2026-07-02T07:00:08+00:00",
+      "publishedDate": "2026-07-02",
+      "summary": "Build a price-monitoring agent with MCP and LangGraph Price drops happen fast. This post shows how to build a LangGraph agent that monitors products and notifies you when prices change. The agent pattern We use a stateful LangGraph agent with the BuyWhere MCP server. The agent runs on a schedule,...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "BuyWhere",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Your AI can stop hallucinating math: a real Lean kernel over MCP",
+      "link": "https://dev.to/kattri/your-ai-can-stop-hallucinating-math-a-real-lean-kernel-over-mcp-1eb4",
+      "published": "2026-07-02T05:03:52+00:00",
+      "publishedDate": "2026-07-02",
+      "summary": "I got tired of watching AI assistants confidently misquote theorems, so I built mathlas: an MCP server that gives any agent a real Lean kernel, PSLQ, OEIS matching, and a 3.68M-document theorem index. No LLM inside, no API key, Apache-2.0. The premise is a strict division of labor: the AI is the...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Krishi Attri",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Crypto Trading Signals API — 5분 안에 프로젝트에 통합하기",
+      "link": "https://dev.to/lazymac2x/crypto-trading-signals-api-5bun-ane-peurojegteue-tonghabhagi-50pj",
+      "published": "2026-07-02T03:29:11+00:00",
+      "publishedDate": "2026-07-02",
+      "summary": "Crypto Trading Signals API — 5분 안에 프로젝트에 통합하기 트레이딩 봇, 알림 시스템, 포트폴리오 대시보드 프로젝트에 crypto trading signals 기능이 필요한데 직접 구현하기엔 시간이 아까운가요? REST API 한 줄이면 됩니다. Quick Start # 즉시 테스트 (API 키 불필요) curl https://api.lazy-mac.com/crypto-signal/ 실전 예제 Python import requests resp =...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "2x lazymac",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Top 20 MCP Servers for Claude Desktop in 2026",
+      "link": "https://dev.to/edison_flores_6d2cd381b13/top-20-mcp-servers-for-claude-desktop-in-2026-3i8e",
+      "published": "2026-07-02T03:28:34+00:00",
+      "publishedDate": "2026-07-02",
+      "summary": "Looking for the best MCP servers to install in Claude Desktop, Cursor, or Cline? Here are 20 of the most useful, all Sentinel L1.5 security-scanned on MarketNow. Quick install npx -y @marketnow/install <slug> Or use the MarketNow MCP server to search from inside Claude Desktop: { \"mcpServers\": {...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Edison Flores",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Building the trust layer for agent commerce: 8,560 MCP skills, x402, AP2 mandates",
+      "link": "https://dev.to/edison_flores_6d2cd381b13/building-the-trust-layer-for-agent-commerce-8560-mcp-skills-x402-ap2-mandates-231p",
+      "published": "2026-07-02T03:27:26+00:00",
+      "publishedDate": "2026-07-02",
+      "summary": "When Anthropic donated MCP to the Linux Foundation in December 2025, discovery was solved. But trust was not. An independent analysis found ~64.7 million server entries from just 1,691 unique packages — massive duplication, zero signal, and active supply-chain attacks (npm packages stealing...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Edison Flores",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Nano Banana 2 Lite with Kiro",
+      "link": "https://dev.to/gde/nano-banana-2-lite-with-kiro-3d3n",
+      "published": "2026-07-01T20:26:21+00:00",
+      "publishedDate": "2026-07-01",
+      "summary": "This article covers the MCP setup and configuration for using Google Nano Banana 2 Lite and underlying Gemini LLM with Kiro CLI to enhance and extend image operations over the MCP protocol. What is Google Nano Banana 2 Lite? Nano Banana 2 Lite (officially known as the Gemini 3.1 Flash-Lite Image...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "xbill",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "The Amnesia Tax",
+      "link": "https://dev.to/threadctx_dev/the-amnesia-tax-35h8",
+      "published": "2026-07-01T19:35:13+00:00",
+      "publishedDate": "2026-07-01",
+      "summary": "Why AI coding agents keep re-learning the same lessons — and what that costs a team that runs them all day, every day Anyone running Claude Code or Cursor across a team has watched this happen: one engineer's agent spends ten minutes re-deriving something another engineer's agent already nailed...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "threadctx",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
       "title": "How to build your first MCP server in 10 minutes",
       "link": "https://dev.to/grahamduescn/how-to-build-your-first-mcp-server-in-10-minutes-2l87",
       "published": "2026-07-01T18:00:02+00:00",
@@ -171,50 +259,6 @@
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "MCP Server — Scratch to Production",
-      "link": "https://dev.to/himanshuai/mcp-server-scratch-to-production-5dff",
-      "published": "2026-07-01T15:16:28+00:00",
-      "publishedDate": "2026-07-01",
-      "summary": "Introduction This is a build guide, not a lecture. By the end you will have a Model Context Protocol (MCP) server that starts as a 20-line script and ends as a Dockerized, authenticated, tested, monitored service wired into Claude Desktop, VS Code, and Cursor — plus a CI/CD pipeline that ships it....",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Himanshu Agarwal",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Poland's KRS registry: fields worth checking before LOI",
-      "link": "https://dev.to/openregistry/polands-krs-registry-fields-worth-checking-before-loi-33m4",
-      "published": "2026-07-01T15:01:12+00:00",
-      "publishedDate": "2026-07-01",
-      "summary": "Four filing dates appeared within a two-week span on a Warsaw acquisition target last quarter. The legacy paid databases still listed the old board half a year later. KRS had already published the management change, revised share capital, plus a new supervisory board appointment. That delay becomes...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "OpenRegistry",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP Server or CLI: A Decision Rubric for Developer Tooling",
-      "link": "https://dev.to/bengreenberg/mcp-server-or-cli-a-decision-rubric-for-developer-tooling-2ch6",
-      "published": "2026-07-01T14:29:03+00:00",
-      "publishedDate": "2026-07-01",
-      "summary": "Teams are rushing to make their internal tools available to agents. That is good. It is also where a lot of design mistakes begin. The question usually shows up like this: Should we expose this as an MCP server, or should the agent just use our CLI? That framing makes it sound like one option is...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Ben Greenberg",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Contorium — A Project Cognitive Runtime for AI-Native Development",
-      "link": "https://dev.to/evanlin2026/contorium-a-project-cognitive-runtime-for-ai-native-development-27om",
-      "published": "2026-07-01T13:09:58+00:00",
-      "publishedDate": "2026-07-01",
-      "summary": "Contorium introduces a structured runtime layer for AI-assisted development systems. The goal is simple: Make software projects persistent, structured, and evolution-aware. ⸻ 🧠 Problem Current AI coding workflows (Cursor, Claude Code, Copilot, MCP tools) suffer from a shared limitation: They do not...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "EvanLin | Contorium",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
       "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
       "link": "https://blog.cloudflare.com/monetization-gateway/",
       "published": "2026-07-01T13:00:00+00:00",
@@ -226,48 +270,15 @@
       "sourceUrl": "https://blog.cloudflare.com/rss/"
     },
     {
-      "title": "Contorium — A Project Cognitive Runtime for AI-Native Development",
-      "link": "https://dev.to/evanlin2026/contorium-a-project-cognitive-runtime-for-ai-native-development-45kc",
-      "published": "2026-07-01T12:57:59+00:00",
-      "publishedDate": "2026-07-01",
-      "summary": "Contorium is a local-first system that introduces persistent project cognition into AI-assisted development workflows. Instead of treating AI as a tool that operates on code, Contorium treats the project itself as a structured, evolving system. ⸻ 🧠 Problem Modern AI coding workflows suffer from a...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "EvanLin | Contorium",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How an AI agent analyzes BTC with AlgoVault MCP",
-      "link": "https://dev.to/algovaultlabs/how-an-ai-agent-analyzes-btc-with-algovault-mcp-5fci",
-      "published": "2026-07-01T12:00:06+00:00",
-      "publishedDate": "2026-07-01",
-      "summary": "How an AI agent analyzes BTC with AlgoVault MCP Here's a real-world workflow showing how agents use AlgoVault: 💡 Workflow #1: Quick BTC Check (Beginner) \"Get me a trade call for BTC on the 1h timeframe\" And here's what the live signal returned just now: Tool: get_trade_signal Asset: BTC (Blue Chip)...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "AlgoVault.com",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "FuseGuard: Trip Agent Loops Locally, See Blocks in Your Fleet Console",
-      "link": "https://dev.to/kioiek/fuseguard-trip-agent-loops-locally-see-blocks-in-your-fleet-console-14e4",
-      "published": "2026-07-01T11:51:37+00:00",
-      "publishedDate": "2026-07-01",
-      "summary": "Agents retry forever when a tool schema drifts or a loop never terminates. Your service dashboards look fine. Stripe still charges. Meanwhile the model burns tokens on tools/call that will never succeed — or spins in a loop because nothing enforces a fuse at the edge. FuseGuard is the runtime...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Kioi",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Resend MCP: Send transactional emails directly from your AI agent",
-      "link": "https://dev.to/curatedmcp/resend-mcp-send-transactional-emails-directly-from-your-ai-agent-453f",
-      "published": "2026-07-01T10:26:49+00:00",
-      "publishedDate": "2026-07-01",
-      "summary": "Install guide and config at curatedmcp.com Resend MCP: Send transactional emails directly from your AI agent Building email workflows into AI agents just became frictionless. Resend MCP is the official Model Context Protocol server that gives Claude, Cursor, and other AI tools direct access to...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "curatedmcp",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "link": "https://blog.modelcontextprotocol.io/posts/sdk-betas-2026-07-28/",
+      "published": "2026-06-29T09:00:00+00:00",
+      "publishedDate": "2026-06-29",
+      "summary": "Beta releases of the Python, TypeScript, Go, and C# SDKs are now available with support for the 2026-07-28 MCP specification release candidate. Here is what changes for your server, how to migrate, and how to test before the spec goes final on July 28.",
+      "blog": "Model Context Protocol Blog",
+      "blogId": "mcp-official",
+      "author": "Model Context Protocol",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/index.xml"
     },
     {
       "title": "MCP for Beginners: Why Every AI Engineer and Developer Should Learn the Model Context Protocol",
@@ -314,6 +325,6 @@
       "sourceUrl": "https://huggingface.co/blog/feed.xml"
     }
   ],
-  "summary": "• How to build your first MCP server in 10 minutes: I built my first MCP server last week and it was way simpler than I expected.\n• # MCP and A2A in Agentic BFSI Systems: The Complete Implementation Guide: Banking has a protocol problem.\n• Building a Secure MCP Bridge for ArcGIS Pro and ArcPy: ArcGIS Pro has a powerful Python runtime through ArcPy, but it is not a lightweight dependency.\n• Crypto Trading Signals API — 5분 안에 프로젝트에 통합하기: Crypto Trading Signals API — 5분 안에 프로젝트에 통합하기 트레이딩 봇, 알림 시스템, 포트폴리오 대시보드 프로젝트에 crypto trading signals 기능이 필요한데 직접 구현하기엔 시간이 아까운가요?\n• MCP Server — Scratch to Production: Introduction This is a build guide, not a lecture.",
+  "summary": "• MCP didn't give AI memory. It gave AI access to memory.: MCP is basically turning AI from ** 🧠 \"Who are you again?\n• Real-time price monitoring with MCP and LangGraph: Build a price-monitoring agent with MCP and LangGraph Price drops happen fast.\n• Your AI can stop hallucinating math: a real Lean kernel over MCP: I got tired of watching AI assistants confidently misquote theorems, so I built mathlas: an MCP server that gives any agent a real Lean kernel, PSLQ,...\n• Crypto Trading Signals API — 5분 안에 프로젝트에 통합하기: Crypto Trading Signals API — 5분 안에 프로젝트에 통합하기 트레이딩 봇, 알림 시스템, 포트폴리오 대시보드 프로젝트에 crypto trading signals 기능이 필요한데 직접 구현하기엔 시간이 아까운가요?\n• Top 20 MCP Servers for Claude Desktop in 2026: Looking for the best MCP servers to install in Claude Desktop, Cursor, or Cline?",
   "summarySource": "fallback"
 }
