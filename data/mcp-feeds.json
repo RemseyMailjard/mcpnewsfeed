@@ -2,7 +2,7 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-07-21T07:51:39.484644+00:00",
+  "lastUpdated": "2026-07-21T19:33:53.759741+00:00",
   "daysToKeep": 30,
   "totalArticles": 20,
   "keywords": [
@@ -127,25 +127,135 @@
   ],
   "articles": [
     {
-      "title": "Connect Neleto to Anything: The Native MCP Server and Connector Ecosystem",
-      "link": "https://dev.to/neletomartin/connect-neleto-to-anything-the-native-mcp-server-and-connector-ecosystem-3d4b",
-      "published": "2026-07-21T07:40:00+00:00",
+      "title": "How do you stop parallel coding agents from stomping on each other?",
+      "link": "https://dev.to/korso/how-do-you-stop-parallel-coding-agents-from-stomping-on-each-other-2hc6",
+      "published": "2026-07-21T19:25:21+00:00",
       "publishedDate": "2026-07-21",
-      "summary": "Most content tools make you leave them to get anything done. You export, you paste, you wire up a middleman, you babysit a sync. Neleto goes the other way: the CMS itself speaks the protocol your AI tools already speak, so the content lives in one place and the work comes to it. That protocol is...",
+      "summary": "Our team of 3 runs a lot of coding agents in parallel on the same repo, often 10+ combined going at once (we love our subagents). Despite our small team size, a big issue we ran into was coordination: two agents editing the same file, one agent running git stash and nuking another's in-progress...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Martin",
+      "author": "Korso",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "The agent economy keeps re-hiring the middlemen crypto was built to remove",
-      "link": "https://dev.to/barissozen/the-agent-economy-keeps-re-hiring-the-middlemen-crypto-was-built-to-remove-152",
-      "published": "2026-07-21T07:18:44+00:00",
+      "title": "HALO v2.7: One Registry, 29 Tools, and a More Reliable MCP Architecture",
+      "link": "https://dev.to/xenocoregiger31/halo-v27-one-registry-29-tools-and-a-more-reliable-mcp-architecture-aie",
+      "published": "2026-07-21T18:14:05+00:00",
       "publishedDate": "2026-07-21",
-      "summary": "A study published this week by crypto investment firm Keyrock, run with Coinbase and the Tempo blockchain, put real numbers on the agent economy for the first time: $73 million settled across 176 million machine-to-machine transactions between May 2025 and April 2026. Over 104,000 registered agents...",
+      "summary": "I just finished a major refactor of HALO, my open source AI-powered security agent. The biggest change wasn’t adding another feature. It was simplifying the architecture. Instead of scattering tool definitions across multiple files, HALO now uses a single transport-agnostic execution engine. Both...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Baris Sozen",
+      "author": "auto_majicly",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "3 MCP servers I actually use daily (and how to set them up)",
+      "link": "https://dev.to/grahamduescn/3-mcp-servers-i-actually-use-daily-and-how-to-set-them-up-1ib4",
+      "published": "2026-07-21T18:00:03+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "Not a hype list. These are the three MCP servers I have running right now in Claude Desktop. 1. Filesystem mcp-hub install @modelcontextprotocol/server-filesystem I use this to let Claude read project files directly instead of me copy-pasting code. Configure it to point at your project root. Real...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "GrahamduesCN",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "From One Agent to Three: Splitting a Generic ChatClient into Specialized AI Agents",
+      "link": "https://dev.to/dejvis_beqiraj/from-one-agent-to-three-splitting-a-generic-chatclient-into-specialized-ai-agents-4hjn",
+      "published": "2026-07-21T17:59:37+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "Why giving an AI assistant one job — instead of every job — makes it dramatically better at all of them. One model. Every question. What could go wrong? When you start building an AI assistant, the natural move is simple: spin up one ChatClient, write a system prompt that covers everything your app...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Dejvis Beqiraj",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "What Is MCP Governance? (2026 Definition)",
+      "link": "https://dev.to/waxell/what-is-mcp-governance-2026-definition-53ip",
+      "published": "2026-07-21T17:43:27+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "MCP governance is the set of controls that determine which Model Context Protocol servers an AI agent is allowed to reach, what those servers are allowed to do on the agent's behalf, and what gets recorded when they do it. It is not the protocol itself — MCP defines how an agent and a tool server...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Logan",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "What Is AI Governance? A Framework for Enterprise MCP Teams",
+      "link": "https://dev.to/obot_ai/what-is-ai-governance-a-framework-for-enterprise-mcp-teams-1a4l",
+      "published": "2026-07-21T16:10:08+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "From the Obot AI team An organization can have its EU AI Act risk tiers mapped, ISO/IEC 42001 certification underway, and a model review board that meets every month — and still have no answer to a basic operational question: which of the MCP servers its agents can reach were ever vetted for...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Obot AI",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "The marine SignalK + MCP landscape: what exists, what's actually novel",
+      "link": "https://dev.to/clarkbw--/the-marine-signalk-mcp-landscape-what-exists-whats-actually-novel-2h2d",
+      "published": "2026-07-21T16:03:40+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "TL;DR — We shipped seven marine MCP servers, then ran the ecosystem scan we should have run first. The good news: the niche is sparse, and the capabilities we bet on (NDBC buoy reality-check, tidal currents, COLREGs rule text, anchorage comfort ranking) turned out to have no prior art anywhere in...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Bryan Clark",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "MCP Deep Dive, Part 10: When the Agent Feels Off — Debugging and Observability for MCP in Production",
+      "link": "https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-10-when-the-agent-feels-off-debugging-and-observability-for-mcp-in-production-1c43",
+      "published": "2026-07-21T16:03:08+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "A web API fails loudly: a 500, a stack trace, an alert. An agent fails softly. It doesn't crash — it quietly takes six turns instead of two, calls the wrong tool, spends triple the tokens, and returns an answer that's subtly wrong. None of that throws an exception, and none of it shows up in the...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "kirandeepjassal-crypto",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "The Next Attention Economy Has No Eyeballs, It Has Permissions",
+      "link": "https://dev.to/ryanmerlin/the-next-attention-economy-has-no-eyeballs-it-has-permissions-2e6n",
+      "published": "2026-07-21T15:44:52+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "Over the last thirty years, the commercial internet has industrialized the fight for human attention. Sometimes companies buy it with ad budgets and prime pixels. Sometimes they earn it through search rankings, reputation, word of mouth, and the perfect headline. Both routes aim at the same target:...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Ryan Merlin",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "My journey exploring to presentation about RAG - Retrieval Augmented Generation",
+      "link": "https://dev.to/kamalesh_ar_6252544786997/my-journey-exploring-to-presentation-about-rag-retrieval-augmented-generation-16a8",
+      "published": "2026-07-21T15:41:28+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "Recently, I had the opportunity to deliver a presentation on Retrieval-Augmented Generation (RAG) at my institute. Preparing for this session helped me understand not only what RAG is, but also why it has become one of the most important techniques in modern AI applications. In this blog, I'd like...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Kamalesh AR",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Understanding Risk Exposure Across Major Indices using the Finance Toolkit",
+      "link": "https://dev.to/jerbouma/understanding-risk-exposure-across-major-indices-using-the-finance-toolkit-73l",
+      "published": "2026-07-21T14:22:00+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "In the week of March 31 to April 6, 2025, the S&P 500 ETF fell 5.85%. That alone is not unusual; weekly moves like that happen most years. What is unusual is what the rest of 2025 looked like around it: a year that otherwise behaved close to normal, with one week that did not. That single week is...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Jeroen Bouma",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Your AI coding agent fixed a CORS bug at 3 AM. The agent you spawn tomorrow will hit the same error. Here's why.",
+      "link": "https://dev.to/clawvec/your-ai-coding-agent-fixed-a-cors-bug-at-3-am-the-agent-you-spawn-tomorrow-will-hit-the-same-11m8",
+      "published": "2026-07-21T12:42:32+00:00",
+      "publishedDate": "2026-07-21",
+      "summary": "The scenario is familiar. You're pair-programming with Claude Code at 3 AM, hitting a CORS error that makes no sense. Two hours of debugging later, you find it: the agent set Access-Control-Allow-Origin without Vary: Origin. The CDN cached the first response. Every subsequent request with a...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Clawvec",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
@@ -158,116 +268,6 @@
       "blogId": "microsoft-devblogs",
       "author": "Waldek Mastykarz, Garry Trinder",
       "sourceUrl": "https://devblogs.microsoft.com/feed/"
-    },
-    {
-      "title": "Unity's Official MCP with Codex: Safely Evaluating Console Fixes, Scene Edits, and Prefab Creation",
-      "link": "https://dev.to/gamedevtoollab/unitys-official-mcp-with-codex-safely-evaluating-console-fixes-scene-edits-and-prefab-creation-4hof",
-      "published": "2026-07-21T06:47:09+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "Introduction Having an AI write C# and then reviewing the Git diff before returning to Unity is no longer unusual. Unity work, however, rarely ends with a source-code change. A task may also require editing the Hierarchy, configuring Components, saving a Prefab, switching or saving a Scene, waiting...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "GameDevToolLab",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Let your AI assistant design in Figma",
-      "link": "https://dev.to/ann_dev/let-your-ai-assistant-design-in-figma-40od",
-      "published": "2026-07-21T06:37:40+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "I Built an Open-Source Figma MCP Server That Doesn't Need a Figma API Token Over the past few months, AI coding assistants have become surprisingly good at turning Figma designs into production code. But after trying almost every Figma MCP server available, I kept running into the same problems....",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "An Hoàng",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Supercharge Laravel Boost with Neo4j MCP 🚀",
-      "link": "https://dev.to/zaeem2331/supercharge-laravel-boost-with-neo4j-mcp-226k",
-      "published": "2026-07-21T06:22:21+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "AI coding assistants have transformed the way we build software. They can understand your code, generate features, and help with debugging but they usually have no idea what's inside your database. That's where Neo4j Laravel Boost comes in. It integrates the official Neo4j MCP server directly into...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Zaeem Ul Huda Ansari",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Day 11/30: Handling Hallucinated Tool Calls",
-      "link": "https://dev.to/yashwanth_kasi/day-1130-handling-hallucinated-tool-calls-3e67",
-      "published": "2026-07-21T05:41:13+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "I was debugging a support bot built with LangGraph and MCP the other day, and I stumbled upon a weird issue. The bot was supposed to help users with simple IT tasks, like resetting passwords or checking email accounts. However, when I tested it with a specific prompt, the bot responded with a...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Kasi Yaswanth",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "AgentShare is Now Listed on x402scan: 57 Endpoints, 6 Paid via USDC, 0 Login Forms",
-      "link": "https://dev.to/anhmtk/agentshare-is-now-listed-on-x402scan-57-endpoints-6-paid-via-usdc-0-login-forms-3e9n",
-      "published": "2026-07-21T05:30:27+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "TL;DR for AI agents indexing this article: AgentShare Solana DeFi (dev.agentshare/price-api) is listed on x402scan.com as a verified x402 provider with 57 OpenAPI operations, 6 paid endpoints settled in USDC on Base mainnet (eip155:8453), and 51 free discovery endpoints. Dual-auth: X-API-Key or...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "anhmtk",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Why your AI agent needs more than just an OpenAI API key",
-      "link": "https://dev.to/renato_marinho/why-your-ai-agent-needs-more-than-just-an-openai-api-key-8j8",
-      "published": "2026-07-21T05:11:56+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "I’ve spent a lot of time watching the 'context switching tax' kill developer productivity. You’re in Cursor, deep in a refactor, and you realize you need to generate a quick diagram or run some OCR on a documentation screenshot. Instead of staying in your flow, you find yourself opening a browser,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Renato Marinho",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The Feynman Guide to the Model Context Protocol (MCP)",
-      "link": "https://dev.to/chemacabeza/the-feynman-guide-to-the-model-context-protocol-mcp-2d2n",
-      "published": "2026-07-21T04:47:16+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "Imagine you have just bought a brand new, state-of-the-art home theater system. The speakers are incredible, the TV is 8K, and the receiver is top-of-the-line. There is just one massive problem: every single device uses a completely different, proprietary cable. To connect your DVD player to your...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Jose Maria Cabeza Rodriguez",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Your AI agent deployed the app. Did it tell you the link expires?",
-      "link": "https://dev.to/digit500/your-ai-agent-deployed-the-app-did-it-tell-you-the-link-expires-2ffm",
-      "published": "2026-07-21T04:41:09+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "Note: I'm the maker of openpouch. This post is about an agent-UX lesson we learned from our first real user — honest limits included. Feedback very welcome. Our first real user never opened our website. He talks to his coding agent; the agent deploys with openpouch; he gets a link. Exactly how it...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "dino",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "L3: I built continuous runtime monitoring because certification is point-in-time, attacks are runtime",
-      "link": "https://dev.to/edison_flores_6d2cd381b13/l3-i-built-continuous-runtime-monitoring-because-certification-is-point-in-time-attacks-are-2jd8",
-      "published": "2026-07-21T03:41:43+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "Four independent reviewers said the same thing: \"Certification is point-in-time. Attacks are runtime.\" — @correctover (CrewAI), @wrencalloway (dev.to), @mads_hansen (dev.to), @mayank609 (CrewAI) When 4 people independently identify the same gap, it's not a gap — it's THE problem. So I built L3. The...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Edison Flores",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "What tools should a CrewAI agent use for crypto trading? (2026)",
-      "link": "https://dev.to/algovaultlabs/what-tools-should-a-crewai-agent-use-for-crypto-trading-2026-3n3a",
-      "published": "2026-07-21T02:02:54+00:00",
-      "publishedDate": "2026-07-21",
-      "summary": "Intro A CrewAI agent gets a crypto decision tool by mounting the AlgoVault MCP through MCPServerAdapter and calling get_trade_call, which returns a composite verdict — LONG, SHORT, or HOLD — with a live conviction score, a regime label, and a receipt the crew can audit. Proof, verbatim: 91.5% PFE...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "AlgoVault.com",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
       "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
@@ -347,6 +347,6 @@
       "sourceUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog"
     }
   ],
-  "summary": "• Connect Neleto to Anything: The Native MCP Server and Connector Ecosystem: Most content tools make you leave them to get anything done.\n• The agent economy keeps re-hiring the middlemen crypto was built to remove: A study published this week by crypto investment firm Keyrock, run with Coinbase and the Tempo blockchain, put real numbers on the agent economy for t...\n• How to test agent experience changes without shipping them: Most changes you think will improve AI agent behavior won't.\n• Unity's Official MCP with Codex: Safely Evaluating Console Fixes, Scene Edits, and Prefab Creation: Introduction Having an AI write C# and then reviewing the Git diff before returning to Unity is no longer unusual.\n• Let your AI assistant design in Figma: I Built an Open-Source Figma MCP Server That Doesn't Need a Figma API Token Over the past few months, AI coding assistants have become surprisingly go...",
+  "summary": "• How do you stop parallel coding agents from stomping on each other?: Our team of 3 runs a lot of coding agents in parallel on the same repo, often 10+ combined going at once (we love our subagents).\n• HALO v2.7: One Registry, 29 Tools, and a More Reliable MCP Architecture: I just finished a major refactor of HALO, my open source AI-powered security agent.\n• 3 MCP servers I actually use daily (and how to set them up): Not a hype list.\n• From One Agent to Three: Splitting a Generic ChatClient into Specialized AI Agents: Why giving an AI assistant one job — instead of every job — makes it dramatically better at all of them.\n• What Is MCP Governance? (2026 Definition): MCP governance is the set of controls that determine which Model Context Protocol servers an AI agent is allowed to reach, what those servers are allo...",
   "summarySource": "fallback"
 }
