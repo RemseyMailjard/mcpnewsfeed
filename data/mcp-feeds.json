@@ -2,9 +2,9 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-07-23T19:33:06.432091+00:00",
+  "lastUpdated": "2026-07-24T07:51:21.015613+00:00",
   "daysToKeep": 30,
-  "totalArticles": 23,
+  "totalArticles": 22,
   "keywords": [
     "model context protocol",
     "modelcontextprotocol",
@@ -127,6 +127,138 @@
   ],
   "articles": [
     {
+      "title": "Unlocking Peak Performance: A Deep Dive into GPU Passthrough and Auto-Scaling for Containerized AI Agents",
+      "link": "https://dev.to/robertpelloni/unlocking-peak-performance-a-deep-dive-into-gpu-passthrough-and-auto-scaling-for-containerized-ai-1hd5",
+      "published": "2026-07-24T06:55:44+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "Unlocking Peak Performance: A Deep Dive into GPU Passthrough and Auto-Scaling for Containerized AI Agents Master container resource management for AI workloads. Learn practical techniques for GPU passthrough, strict memory limits, and building a self-healing, auto-scaling infrastructure for your...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Robert Pelloni",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "MCP server security checklist before you publish",
+      "link": "https://dev.to/mcpcustoms/mcp-server-security-checklist-before-you-publish-5gel",
+      "published": "2026-07-24T06:40:40+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "MCP server security checklist before you publish You've built an MCP server. You've tested it locally, written the README, and you're ready to submit it to the MCP registry or push it to npm. Before you do — here's a 7-point checklist worth running through. This isn't about being paranoid. It's...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "mcpcustoms",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Build an AI Agent That Reads Invoices and Pays Them: A CAI Tutorial",
+      "link": "https://dev.to/cailab/build-an-ai-agent-that-reads-invoices-and-pays-them-a-cai-tutorial-1i35",
+      "published": "2026-07-24T06:35:45+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "Build an AI Agent That Reads Invoices and Pays Them: A CAI Tutorial Most AI agents today can reason, plan, and call APIs. But give one a PDF invoice and ask it to pay the bill, and it stops cold. The agent can't read your email to find the invoice. It can't check its wallet balance. It has no...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "CAI",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Why Your AI Coding Assistant Needs a Control Plane: From Raw SQL to Orchestrated Intelligence",
+      "link": "https://dev.to/robertpelloni/why-your-ai-coding-assistant-needs-a-control-plane-from-raw-sql-to-orchestrated-intelligence-3l76",
+      "published": "2026-07-24T06:04:20+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "Why Your AI Coding Assistant Needs a Control Plane: From Raw SQL to Orchestrated Intelligence Discover why connecting directly to an LLM API for your AI coding assistant is like writing raw SQL at scale—unmanageable and risky. Learn how an AI control plane transforms agent orchestration into a...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Robert Pelloni",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "You're Still Alt-Tabbing to a Security Tool",
+      "link": "https://dev.to/humanbound_ai/youre-still-alt-tabbing-to-a-security-tool-285j",
+      "published": "2026-07-24T05:33:03+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "Security engineer working in a terminal with AI-assisted tools integrated into their workflow The interface for AI agent security is changing and it matters more than the tooling itself. There's a moment every security engineer knows. You've got your terminal open, you're deep in a workflow, and...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Sofia Aliferi",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "What Is AI Agent Tool Calling? MCP, Function Calling, and A2A Explained (2026)",
+      "link": "https://dev.to/arcade/ai-agent-tool-calling-mcp-a2a-23l6",
+      "published": "2026-07-24T04:11:49+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "Connecting an LLM to external systems has converged on an established set of open protocols that standardize communication between autonomous agents and enterprise infrastructure. However, as organizations move beyond chat interfaces into deploying multi-user production agents, a new bottleneck has...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Manveer Chawla",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Your MCP Pin Blocks Every Update. Most Never Broke You.",
+      "link": "https://dev.to/alex_spinov/your-mcp-pin-blocks-every-update-most-never-broke-you-3g66",
+      "published": "2026-07-24T03:47:33+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "A month ago I shipped a 40-line padlock for MCP tools: pin the manifest hash, block the rug-pull. It works. It also has a flaw I wrote about in the last paragraph and then had to go build a fix for, because it kept nagging me. The pin fires on any change to a tool's definition. A server that...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Alexey Spinov",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "The Problem with AI-Generated 'Shadow' Duplication",
+      "link": "https://dev.to/renato_marinho/the-problem-with-ai-generated-shadow-duplication-2gi3",
+      "published": "2026-07-24T03:44:07+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "AI agents are incredible at writing functions. They're even better at accidentally duplicating your entire business logic without you realizing it. If you use Claude Code, Cursor, or any LLM-based agent to refactor code, you’ve probably seen the pattern. You ask it to 'extract this logic into a...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Renato Marinho",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "I Fixed a Timeout Bug Two Days Ago. The Copy of That Code Inside My MCP Server Still Has It.",
+      "link": "https://dev.to/enjoy_kumawat/i-fixed-a-timeout-bug-two-days-ago-the-copy-of-that-code-inside-my-mcp-server-still-has-it-13bo",
+      "published": "2026-07-24T03:37:07+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "Two days ago I found a real bug in git_commit.py, the standalone script that turns a staged diff into a commit message: the subprocess.check_output([\"claude\", \"-p\", prompt], text=True) call had no timeout. If the claude CLI hung — no network, no auth, a stuck OAuth refresh — git commit would just...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Enjoy Kumawat",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Building the Ultimate Offline AI Development Stack: LM Studio, Ollama, and TormentNexus",
+      "link": "https://dev.to/robertpelloni/building-the-ultimate-offline-ai-development-stack-lm-studio-ollama-and-tormentnexus-19gn",
+      "published": "2026-07-24T02:04:28+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "Building the Ultimate Offline AI Development Stack: LM Studio, Ollama, and TormentNexus Eliminate cloud dependency and build a fully local AI coding environment. This walkthrough integrates LM Studio, Ollama, and TormentNexus for secure, high-performance offline AI development. The Cloud Dependency...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Robert Pelloni",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Which MCP server gives your agent crypto trade calls, not data? (2026)",
+      "link": "https://dev.to/algovaultlabs/which-mcp-server-gives-your-agent-crypto-trade-calls-not-data-2026-52ca",
+      "published": "2026-07-24T02:02:57+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "Intro One MCP server returns a decision your agent can act on — not raw indicators to reconcile. AlgoVault's get_trade_call answers in one call with a composite {verdict, confidence, regime, factors}, interpreted server-side across the live derivatives venues. The proof: 91.8% PFE win rate across...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "AlgoVault.com",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Beyond the Cloud: Why Your 2026 Development Stack Needs a Local-First AI Foundation",
+      "link": "https://dev.to/robertpelloni/beyond-the-cloud-why-your-2026-development-stack-needs-a-local-first-ai-foundation-4kd0",
+      "published": "2026-07-24T01:55:30+00:00",
+      "publishedDate": "2026-07-24",
+      "summary": "Beyond the Cloud: Why Your 2026 Development Stack Needs a Local-First AI Foundation Discover how a local-first AI infrastructure strategy in 2026 boosts developer velocity, guarantees data privacy, and ensures unparalleled uptime. We explore the technical shift from cloud-dependent LLMs to private...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Robert Pelloni",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
       "title": "Agents that narrate their work are the best team players",
       "link": "https://blog.jonudell.net/2026/07/23/agents-that-narrate-their-work-are-the-best-team-players/",
       "published": "2026-07-23T19:28:22+00:00",
@@ -136,149 +268,6 @@
       "blogId": "jon-udell",
       "author": "Jon Udell",
       "sourceUrl": "https://blog.jonudell.net/feed/"
-    },
-    {
-      "title": "Your LLM can scrape the web — locally, without writing throwaway code",
-      "link": "https://dev.to/pxyup/your-llm-can-scrape-the-web-locally-without-writing-throwaway-code-3lj",
-      "published": "2026-07-23T18:49:12+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "Every time you ask an AI assistant to \"get data from this website\", one of two things happens: it hallucinates the data, or it writes a one-off Python script you'll never run again. Both are wasteful. The model already knows where the data lives and how to select it — what's missing is a safe,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Iurii Panarin",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The MCP Marketplace Is Booming: Inside Remote OpenClaw's 13,000+ Server Ecosystem for AI Coding Agents",
-      "link": "https://dev.to/tekmag/the-mcp-marketplace-is-booming-inside-remote-openclaws-13000-server-ecosystem-for-ai-coding-5692",
-      "published": "2026-07-23T18:24:04+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "The Model Context Protocol (MCP) is an open standard for connecting AI applications to external systems that has gone from a niche Anthropic experiment to a $97-million-monthly-download ecosystem in under two years. At the center of this explosion is Remote OpenClaw, a directory service claiming...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Hamza",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP Deep Dive, Part 11: The Protocol Was Never the Blocker — Rolling MCP Across the Enterprise",
-      "link": "https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-11-the-protocol-was-never-the-blocker-rolling-mcp-across-the-enterprise-1fam",
-      "published": "2026-07-23T18:06:23+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "There are already tens of thousands of MCP servers in the world. Getting even one of them into a real company still tends to mean per-user OAuth, a consent screen, and an IT ticket — per connector, per employee. That's the actual blocker, and it was never the protocol. It's identity. This is Part...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "kirandeepjassal-crypto",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP in 2026: The numbers behind the ecosystem explosion",
-      "link": "https://dev.to/grahamduescn/mcp-in-2026-the-numbers-behind-the-ecosystem-explosion-3526",
-      "published": "2026-07-23T18:00:03+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "I spent an afternoon digging through the MCP ecosystem numbers. Here is what I found. The numbers 13,000+ MCP servers on npm and GitHub (as of May 2026) 97 million monthly SDK downloads — that is 3x from 6 months ago 400% YoY growth in new server registrations Anthropic official servers reach...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "GrahamduesCN",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Build MCP Servers Before Agents: The Enterprise Shift AI Teams Need",
-      "link": "https://dev.to/aws-heroes/build-mcp-servers-before-agents-the-enterprise-shift-ai-teams-need-2cjc",
-      "published": "2026-07-23T17:27:54+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "A team builds a support agent in an agent framework. Another team builds a finance agent. A third builds a sales operations agent. Each demo is impressive. Each agent has a prompt, a model, some memory, a few tools, and a nice workflow graph. Then the enterprise reality arrives. The support agent...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Guy",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Teaching Claude Code to Direct: A Stateful Video-Editing Skill Built on Gemini's Interactions API and MCP",
-      "link": "https://dev.to/gde/teaching-claude-code-to-direct-a-stateful-video-editing-skill-built-on-geminis-interactions-api-2h7l",
-      "published": "2026-07-23T17:17:43+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "TL;DR: omni-skill-claude wraps Google's gemini-omni-flash-preview model (Omni Flash) in a tiny FastMCP server and packages it as a Claude Code skill. You type \"generate a video of a fox running through snow\" into Claude Code, and it just... does it. Then you say \"make it nighttime with snowfall\"...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "xbill",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "What it actually takes to post to 8 social networks",
-      "link": "https://dev.to/manuel-alves/what-it-actually-takes-to-post-to-8-social-networks-3ckn",
-      "published": "2026-07-23T16:44:14+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "Someone asks you to add \"share to social\" to your product. You look at it and think: seven or eight REST calls, a week of work. I want to lay out what is actually behind that estimate, network by network, with current numbers. Not to talk you out of building it. Some of you should. But the cost is...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Manuel Alves",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "One REST API for 8 messaging channels: now with MCP access for AI agents",
-      "link": "https://dev.to/sendseven/one-rest-api-for-8-messaging-channels-now-with-mcp-access-for-ai-agents-4lhg",
-      "published": "2026-07-23T16:20:05+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "Every messaging channel has its own API, its own SDK, its own webhook format. Wire up WhatsApp, then SMS, then email, then Instagram… and you've built four integrations that all behave differently. We built SendSeven so you don't have to: one REST API for 8 channels — WhatsApp, SMS, email,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Kai Viertel",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The AWS Cleanup We Keep Putting Off (I Let an Agent Do It)",
-      "link": "https://dev.to/aws/the-aws-cleanup-we-keep-putting-off-i-let-an-agent-do-it-3nc1",
-      "published": "2026-07-23T15:49:22+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "It started with a billing alert. Estimated charges had crossed $250. Not scary money, but enough to make me look. And what actually caught my attention wasn't the number, it was the alert itself. I'd clearly set this up at some point, and the threshold felt stale. So I went looking for where the...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Rohini Gaonkar",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The data model I ended up with after trying to publish one post everywhere",
-      "link": "https://dev.to/rodrgds/the-data-model-i-ended-up-with-after-trying-to-publish-one-post-everywhere-4fp2",
-      "published": "2026-07-23T14:05:25+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "A social post looks like a string until you try to send it to more than one platform. That was roughly where OpenPost started. There was some source content, a list of accounts, and a queue that would publish it later. For a normal text post, that model is fine. Then I started adding real formats....",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Rodrigo Dias",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Your agent's output is invalid and you'll find out the expensive way",
-      "link": "https://dev.to/foxy_grandpa/your-agents-output-is-invalid-and-youll-find-out-the-expensive-way-269d",
-      "published": "2026-07-23T13:47:21+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "I build agent pipelines on the side. The failure mode that kept costing me actual money was never the dramatic one — it was always downstream and quiet: the agent generates JSON, an API response, or a SQL query; something subtly invalid slips through (a missing required field, a string where a...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Foxy_Grandpa",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "I Built an MCP Server That Gives AI Agents Real A-Share Quant Power — Here's How",
-      "link": "https://dev.to/keith_liu/i-built-an-mcp-server-that-gives-ai-agents-real-a-share-quant-power-heres-how-3ii8",
-      "published": "2026-07-23T13:03:57+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "I Built an MCP Server That Gives AI Agents Real A-Share Quant Power — Here's How Give Claude Code and Cursor access to professional-grade China A-stock analysis. Factor scoring, industry chains, and live trading signals — all through MCP. tl;dr: npx opc-a-stock-mcp → 3 MCP tools → instant quant...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "keith liu",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Bring Your App to the Agent",
-      "link": "https://dev.to/javieraguilarai/bring-your-app-to-the-agent-1fja",
-      "published": "2026-07-23T09:41:47+00:00",
-      "publishedDate": "2026-07-23",
-      "summary": "This morning I asked my AI assistant when I should go outside for vitamin D. It answered with data from my own app — the synthesis window, the best hour, the minutes I'd need — and at no point did I open the app. The assistant called it directly, through the MCP server I recently shipped for it....",
-      "blog": "Dev.to AI Agents",
-      "blogId": "devto-ai-agents",
-      "author": "JaviMaligno",
-      "sourceUrl": "https://dev.to/feed/tag/aiagents"
     },
     {
       "title": "Vercel MCP can now deploy code",
@@ -296,11 +285,11 @@
       "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
       "published": "2026-07-21T07:15:12+00:00",
       "publishedDate": "2026-07-21",
-      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production. The...",
-      "blog": "Microsoft DevBlogs",
-      "blogId": "microsoft-devblogs",
-      "author": "Waldek Mastykarz, Garry Trinder",
-      "sourceUrl": "https://devblogs.microsoft.com/feed/"
+      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
+      "blog": "Microsoft Developer Blog",
+      "blogId": "microsoft-developer-blog",
+      "author": "Waldek Mastykarz",
+      "sourceUrl": "https://developer.microsoft.com/blog/feed/"
     },
     {
       "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
@@ -380,6 +369,6 @@
       "sourceUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog"
     }
   ],
-  "summary": "• Agents that narrate their work are the best team players: Agents like Claude Codex and Codex run in your terminal.\n• Your LLM can scrape the web — locally, without writing throwaway code: Every time you ask an AI assistant to \"get data from this website\", one of two things happens: it hallucinates the data, or it writes a one-off Python...\n• The MCP Marketplace Is Booming: Inside Remote OpenClaw's 13,000+ Server Ecosystem for AI Coding Agents: The Model Context Protocol (MCP) is an open standard for connecting AI applications to external systems that has gone from a niche Anthropic experimen...\n• MCP Deep Dive, Part 11: The Protocol Was Never the Blocker — Rolling MCP Across the Enterprise: There are already tens of thousands of MCP servers in the world.\n• MCP in 2026: The numbers behind the ecosystem explosion: I spent an afternoon digging through the MCP ecosystem numbers.",
+  "summary": "• Unlocking Peak Performance: A Deep Dive into GPU Passthrough and Auto-Scaling for Containerized AI Agents: Unlocking Peak Performance: A Deep Dive into GPU Passthrough and Auto-Scaling for Containerized AI Agents Master container resource management for AI...\n• MCP server security checklist before you publish: MCP server security checklist before you publish You've built an MCP server.\n• Build an AI Agent That Reads Invoices and Pays Them: A CAI Tutorial: Build an AI Agent That Reads Invoices and Pays Them: A CAI Tutorial Most AI agents today can reason, plan, and call APIs.\n• Why Your AI Coding Assistant Needs a Control Plane: From Raw SQL to Orchestrated Intelligence: Why Your AI Coding Assistant Needs a Control Plane: From Raw SQL to Orchestrated Intelligence Discover why connecting directly to an LLM API for your...\n• You're Still Alt-Tabbing to a Security Tool: Security engineer working in a terminal with AI-assisted tools integrated into their workflow The interface for AI agent security is changing and it m...",
   "summarySource": "fallback"
 }
