@@ -2,7 +2,7 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-07-28T07:54:57.475002+00:00",
+  "lastUpdated": "2026-07-28T19:34:42.448467+00:00",
   "daysToKeep": 30,
   "totalArticles": 23,
   "keywords": [
@@ -127,6 +127,149 @@
   ],
   "articles": [
     {
+      "title": "I built an MCP server so Claude can run my Google Ads accounts (and what broke along the way)",
+      "link": "https://dev.to/quinten_vanmeirvenne_2fd/i-built-an-mcp-server-so-claude-can-run-my-google-ads-accounts-and-what-broke-along-the-way-n4i",
+      "published": "2026-07-28T19:04:08+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "I'm a growth marketing consultant, not a professional developer. I manage Google Ads and Meta accounts for e-commerce brands, and until last year my reporting routine was fourteen browser tabs, a spreadsheet export and an afternoon I never got back. Then MCP happened. The Model Context Protocol...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Quinten Van Meirvenne",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Building an MCP Server on 31 Million Rows of Financial Data",
+      "link": "https://dev.to/crichter/building-an-mcp-server-on-31-million-rows-of-financial-data-1p8f",
+      "published": "2026-07-28T18:54:46+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "This is the architecture of Shibui Finance, an MCP server that gives Claude direct SQL access to 64 years of US stock market data. About 10,000 symbols, 31 million daily price records, quarterly financials back to 1990, 56 pre-computed technical indicators, and 6.4 million SEC filing records. Free...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Christian Richter",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How to build your first MCP server in 10 minutes",
+      "link": "https://dev.to/grahamduescn/how-to-build-your-first-mcp-server-in-10-minutes-4i09",
+      "published": "2026-07-28T18:00:03+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "I built my first MCP server last week and it was way simpler than I expected. Here is exactly how, no fluff. Prerequisites Node.js 20+ 10 minutes Step 1: Scaffold npx create-mcp-server my-first-server cd my-first-server npm install This generates a complete TypeScript project with one example tool....",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "GrahamduesCN",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "One Repo Became Three — Quietly, Then Publicl",
+      "link": "https://dev.to/yujisuzuki/one-repo-became-three-quietly-then-publicl-4ofd",
+      "published": "2026-07-28T16:56:47+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "One Repo Became Three — Quietly, Then Publicly ai #docker #security #mcp Previously Back in February, I published AI Sandbox Environment + DockMCP — a single repo that isolated AI coding agents in a Docker container, hid .env files and secrets at the filesystem level, and gave AI a controlled path...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Yuji Suzuki",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "The Anatomy of a Cold Email Engine: Building a Full-Stack AI Marketing Agent",
+      "link": "https://dev.to/hypernexus/the-anatomy-of-a-cold-email-engine-building-a-full-stack-ai-marketing-agent-1en9",
+      "published": "2026-07-28T16:29:03+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "The Anatomy of a Cold Email Engine: Building a Full-Stack AI Marketing Agent We architected an end-to-end AI system to automate developer outreach at scale. This technical deep-dive explores our five-stage pipeline, from web scraping to CRM sync, and how we achieved 150+ personalized emails per...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "HyperNexus",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "MCP configs: what actually differs between Claude Code and Claude Desktop",
+      "link": "https://dev.to/tony5435945/mcp-configs-what-actually-differs-between-claude-code-and-claude-desktop-39ba",
+      "published": "2026-07-28T16:03:33+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "I've got 11 MCP servers running in Claude Code right now - GitHub, web fetch, search, a few local ones. Took way longer to wire up than it should have. Not because the docs are bad, more because a config can look completely right and just... not work, and it won't tell you why. A few things I wish...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Ashtton",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "MCP Is Your Production Bottleneck: How the Standard Became Your Infrastructure",
+      "link": "https://dev.to/paultwist/mcp-is-your-production-bottleneck-how-the-standard-became-your-infrastructure-486i",
+      "published": "2026-07-28T16:02:19+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "MCP Is Your Production Bottleneck: How the Standard Became Your Infrastructure Here's the honest truth about agent scaling in 2026: model capability is no longer the bottleneck. Integration is. Your agent works brilliantly on a demo. Claude Code can summarize a file, query a database, make an API...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Paul Twist",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "The 50K-Token Trap: How Progressive MCP Tool Routing Saves Your Agents",
+      "link": "https://dev.to/hypernexus/the-50k-token-trap-how-progressive-mcp-tool-routing-saves-your-agents-1moj",
+      "published": "2026-07-28T15:53:47+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "The 50K-Token Trap: How Progressive MCP Tool Routing Saves Your Agents Your AI agent is drowning in 50,000 tokens of tool definitions. This cripples latency and accuracy. Learn how progressive MCP tool routing injects only the 3-4 relevant tools per request, slashing token budgets by over 99% and...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "HyperNexus",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "The App Store Moment: Why 11K+ MCP Servers Signal AI Tooling's Tipping Point in 2026",
+      "link": "https://dev.to/hypernexus/the-app-store-moment-why-11k-mcp-servers-signal-ai-toolings-tipping-point-in-2026-291m",
+      "published": "2026-07-28T15:48:10+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "The App Store Moment: Why 11K+ MCP Servers Signal AI Tooling's Tipping Point in 2026 Discover how TormentNexus's catalog of over 11,000 indexed MCP servers represents the critical mass for AI tooling. We explore the pre-2026 fragmentation, the power of the MCP standard, and why this unified...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "HyperNexus",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Inside the Swarm: Orchestrating Planner, Implementer, Tester, and Critic Agents for Automated Code Refactoring",
+      "link": "https://dev.to/hypernexus/inside-the-swarm-orchestrating-planner-implementer-tester-and-critic-agents-for-automated-code-pap",
+      "published": "2026-07-28T15:45:43+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "Inside the Swarm: Orchestrating Planner, Implementer, Tester, and Critic Agents for Automated Code Refactoring Explore how a multi-agent swarm of specialized AI roles—Planner, Implementer, Tester, and Critic—collaborates autonomously in a single chatroom to execute complex code reviews and...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "HyperNexus",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Container-Native AI: Mastering GPU Passthrough, Memory Limits, and Auto-Scaling for Your Agent Infrastructure",
+      "link": "https://dev.to/hypernexus/container-native-ai-mastering-gpu-passthrough-memory-limits-and-auto-scaling-for-your-agent-49ig",
+      "published": "2026-07-28T15:35:58+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "Container-Native AI: Mastering GPU Passthrough, Memory Limits, and Auto-Scaling for Your Agent Infrastructure Unlock peak performance for your AI agents by mastering container resource management. This guide details Docker AI configurations for GPU passthrough, precise memory limits, and dynamic...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "HyperNexus",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "We Built an MCP Registry That Agents Can List Themselves — x402, Analytics, and Smart Tags",
+      "link": "https://dev.to/anhmtk/we-built-an-mcp-registry-that-agents-can-list-themselves-x402-analytics-and-smart-tags-4amg",
+      "published": "2026-07-28T15:33:42+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "AgentShare MCP Registry is a canonical, curated directory of Model Context Protocol (MCP) servers designed for autonomous AI agents and developers. It features machine-readable discovery via agent.json, owner analytics, agent-native submission via x402 micropayments, and content-aware tag...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "anhmtk",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "The 2026-07-28 Specification",
+      "link": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "published": "2026-07-28T09:00:00+00:00",
+      "publishedDate": "2026-07-28",
+      "summary": "The 2026-07-28 Model Context Protocol specification is out, bringing a stateless protocol core, Multi Round-Trip Requests, header-based routing, cacheable list results, authorization hardening, a formal extensions framework, and updated Tier 1 SDKs.",
+      "blog": "Model Context Protocol Blog",
+      "blogId": "mcp-official",
+      "author": "Model Context Protocol",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/index.xml"
+    },
+    {
       "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
       "published": "2026-07-28T07:35:06+00:00",
@@ -136,149 +279,6 @@
       "blogId": "azure-dev-community",
       "author": "Pamela_Fox",
       "sourceUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog"
-    },
-    {
-      "title": "What is an 'agent'? A class/instance definition, stress-tested against the 2026-07-28 MCP spec",
-      "link": "https://dev.to/langensjonathan/what-is-an-agent-a-classinstance-definition-stress-tested-against-the-2026-07-28-mcp-spec-5akp",
-      "published": "2026-07-28T07:28:30+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "Industry standards In the Gen AI / LLM space, two standards have emerged as the de facto choice in their domains: A2A (v1.0, Linux Foundation) defines how agents integrate and communicate with their peers. It defines the interface of an agent, but not the agent itself. MCP (2026-07-28 spec,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Jonathan Langens",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP Tasks in 2026: build long-running, resumable agent tools",
-      "link": "https://dev.to/mr_manushukla/mcp-tasks-in-2026-build-long-running-resumable-agent-tools-7gp",
-      "published": "2026-07-28T07:19:00+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "MCP Tasks in 2026: build long-running, resumable agent tools Summary. On 28 July 2026 the Model Context Protocol (MCP) publishes the 2026-07-28 specification, and one of its two official extensions, Tasks, changes how you build tools that run longer than a few seconds. MCP clients cap a single tool...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Manu Shukla",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP Protocol Deep-Dive: Anatomy of Dynamic Tool Discovery",
-      "link": "https://dev.to/hypernexus/mcp-protocol-deep-dive-anatomy-of-dynamic-tool-discovery-412n",
-      "published": "2026-07-28T06:32:37+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "MCP Protocol Deep-Dive: Anatomy of Dynamic Tool Discovery Go beyond the basics of the Model Context Protocol. This technical deep-dive deconstructs the JSON-RPC based tool discovery process, revealing how clients negotiate capabilities and achieve seamless, progressive tool injection for optimal AI...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "HyperNexus",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The Best MCP Servers and Plugins for Claude Code, Codex, and Cursor in 2026",
-      "link": "https://dev.to/momen_hq/the-best-mcp-servers-and-plugins-for-claude-code-codex-and-cursor-in-2026-2328",
-      "published": "2026-07-28T06:02:04+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "The Model Context Protocol (MCP) has had roughly two years to mature since Anthropic published the spec in late 2024. The server ecosystem is now large enough that the relevant question isn't \"does an MCP exist for X?\" — it almost certainly does. The real question is which ones are worth keeping...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Cici Yu",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How to Stop Claude Code From Slowing Down When You Add More Tools",
-      "link": "https://dev.to/momen_hq/how-to-stop-claude-code-from-slowing-down-when-you-add-more-tools-2pi6",
-      "published": "2026-07-28T06:01:19+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "The more tools you add to Claude Code, the slower and more expensive each session becomes — until it doesn't. Understanding why requires a brief look at how Claude Code handles its context window, and why the behavior changed in version 2.1.7. The Original Problem: Tools Consumed Context Before the...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Cici Yu",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP 协议实现指南:从零构建生产级 AI 工具生态",
-      "link": "https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-shi-xian-zhi-nan-cong-ling-gou-jian-sheng-chan-ji-ai-gong-ju-sheng-tai-1pl",
-      "published": "2026-07-28T05:38:23+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "MCP 协议实现指南:从零构建生产级 AI 工具生态 当 LLM 不再只是「聊天机器人」,而是要查数据库、发邮件、调内部 API 时,工具调用就成了 AI 应用的命脉。Anthropic 在 2024 年开源的 Model Context Protocol (MCP),正在成为 AI 工具生态的「USB-C 接口」。本文是 IHUI-AI 在生产环境落地 MCP 的完整工程总结。 一、MCP 协议是什么 Model Context Protocol(简称 MCP)是 Anthropic 于 2024 年 11 月开源的开放协议,目标是标准化 AI 应用与外部工具/数据源之间的连接方式。 在...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "李春川",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP 协议深度解析:从 Function Call 到通用工具调用标准",
-      "link": "https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-shen-du-jie-xi-cong-function-call-dao-tong-yong-gong-ju-diao-yong-biao-zhun-41pd",
-      "published": "2026-07-28T05:38:03+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "MCP 协议深度解析:从 Function Call 到通用工具调用标准 Model Context Protocol(简称 MCP)是 Anthropic 在 2024 年底开源的协议,目标是把「AI 调用外部工具」从各家自定义的接口,统一成一种像 USB-C 一样的标准。本文从协议原理出发,讲清 MCP 与 Function Call 的本质差异,以及 IHUI-AI 项目里 MCP 客户端 + 服务端的双向实现。 一、MCP 不是 Function Call 的「升级版」,而是「协议层」 很多人把 MCP 类比成「Function Call 的下一代」,这是误解。Function...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "李春川",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Day 18/30: Shared State in Agents",
-      "link": "https://dev.to/yashwanth_kasi/day-1830-shared-state-in-agents-cm5",
-      "published": "2026-07-28T05:37:53+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "I recently spent a frustrating afternoon debugging a conversation flow in our customer support bot, built using LangGraph and MCP. The issue was that two agents, designed to work together seamlessly, kept losing context and repeating the same questions to the user. It was as if they had no memory...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Kasi Yaswanth",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP 协议集成实战:让 AI Agent 调用任意工具",
-      "link": "https://dev.to/_fd4c731d8fc551b91150a/mcp-xie-yi-ji-cheng-shi-zhan-rang-ai-agent-diao-yong-ren-yi-gong-ju-4fjo",
-      "published": "2026-07-28T05:37:51+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "MCP 协议集成实战:让 AI Agent 调用任意工具 你让 AI 帮你订张机票。AI 说:\"我是语言模型,无法访问外部系统。\"你换个 Agent 产品,它说自己能订,但要你把密码给它,还得给它管理员权限。你犹豫了。 LLM 的下一个十年战争不是模型本身,而是工具调用。Anthropic 在 2024 年底开源了 Model Context Protocol (MCP),把「AI 调用外部工具」标准化了。本文讲 IHUI AI 如何在 8 端全栈 AI 操作系统里集成 MCP,让 Agent 真正能干活。 一、痛点:AI 只会聊天,不会干活 LLM...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "李春川",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "WordPress Abilities API + MCP: The Developer's Complete Guide",
-      "link": "https://dev.to/wpvibes/wordpress-abilities-api-mcp-the-developers-complete-guide-4kpb",
-      "published": "2026-07-28T05:34:11+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "AI tools like Claude, Cursor, and ChatGPT can now interact directly with your WordPress site, but only if your site knows how to describe what it can do. That's exactly what the WordPress Abilities API solves. It lets developers expose WordPress functionality as reusable, self-describing abilities...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "WPVibes",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Using Unreal MCP in UE 5.8 from Codex: Setup, Toolsets, and Safe Editor Automation",
-      "link": "https://dev.to/gamedevtoollab/using-unreal-mcp-in-ue-58-from-codex-setup-toolsets-and-safe-editor-automation-4pon",
-      "published": "2026-07-28T05:30:59+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "Introduction Unreal Engine 5.8 adds Unreal MCP, an experimental plugin that exposes Unreal Editor operations to AI agents through the Model Context Protocol. Once Codex is connected, it can inspect or edit actors, configure lighting, create material instances, run automation tests, and invoke...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "GameDevToolLab",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Turning Claude into an Orchestrator for Cursor Cloud Agents",
-      "link": "https://dev.to/renato_marinho/turning-claude-into-an-orchestrator-for-cursor-cloud-agents-1g8h",
-      "published": "2026-07-28T05:14:55+00:00",
-      "publishedDate": "2026-07-28",
-      "summary": "The problem with autonomous agents isn't their ability to write code—it's our inability to manage them at scale. If you've spent any time working with Cursor, you know the feeling of launching a task and then essentially 'hoping for the best.' You trigger an agent, walk away, and pray it doesn't...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Renato Marinho",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP's next release candidate drops sessions and the handshake, pushes state into handles",
-      "link": "https://dev.to/leobaniak/mcps-next-release-candidate-drops-sessions-and-the-handshake-pushes-state-into-handles-159a",
-      "published": "2026-07-27T16:27:41+00:00",
-      "publishedDate": "2026-07-27",
-      "summary": "The next Model Context Protocol release candidate drops sessions and the initialization handshake, and it pushes state into handles so remote servers behave more like stateless HTTP. The New Stack reports the rewrite is the biggest update to MCP since the protocol launched, and lead maintainers...",
-      "blog": "Dev.to AI Agents",
-      "blogId": "devto-ai-agents",
-      "author": "Leo",
-      "sourceUrl": "https://dev.to/feed/tag/aiagents"
     },
     {
       "title": "MCP Connect: Why Every AI Engineer and Developer Should Care About the Model Context Protocol",
@@ -380,6 +380,6 @@
       "sourceUrl": "https://blog.modelcontextprotocol.io/index.xml"
     }
   ],
-  "summary": "• Join us for our MCP Live! — A free livestream covering all things MCP: The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data.\n• What is an 'agent'? A class/instance definition, stress-tested against the 2026-07-28 MCP spec: Industry standards In the Gen AI / LLM space, two standards have emerged as the de facto choice in their domains: A2A (v1.\n• MCP Tasks in 2026: build long-running, resumable agent tools: MCP Tasks in 2026: build long-running, resumable agent tools Summary.\n• MCP Protocol Deep-Dive: Anatomy of Dynamic Tool Discovery: MCP Protocol Deep-Dive: Anatomy of Dynamic Tool Discovery Go beyond the basics of the Model Context Protocol.\n• The Best MCP Servers and Plugins for Claude Code, Codex, and Cursor in 2026: The Model Context Protocol (MCP) has had roughly two years to mature since Anthropic published the spec in late 2024.",
+  "summary": "• I built an MCP server so Claude can run my Google Ads accounts (and what broke along the way): I'm a growth marketing consultant, not a professional developer.\n• Building an MCP Server on 31 Million Rows of Financial Data: This is the architecture of Shibui Finance, an MCP server that gives Claude direct SQL access to 64 years of US stock market data.\n• How to build your first MCP server in 10 minutes: I built my first MCP server last week and it was way simpler than I expected.\n• One Repo Became Three — Quietly, Then Publicl: One Repo Became Three — Quietly, Then Publicly ai #docker #security #mcp Previously Back in February, I published AI Sandbox Environment + DockMCP — a...\n• The Anatomy of a Cold Email Engine: Building a Full-Stack AI Marketing Agent: The Anatomy of a Cold Email Engine: Building a Full-Stack AI Marketing Agent We architected an end-to-end AI system to automate developer outreach at...",
   "summarySource": "fallback"
 }
