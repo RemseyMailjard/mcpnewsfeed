@@ -2,9 +2,9 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-08-16T07:15:00.945043+00:00",
+  "lastUpdated": "2026-08-16T19:08:10.105680+00:00",
   "daysToKeep": 30,
-  "totalArticles": 22,
+  "totalArticles": 23,
   "keywords": [
     "model context protocol",
     "modelcontextprotocol",
@@ -127,36 +127,135 @@
   ],
   "articles": [
     {
-      "title": "63 Code Review Rules Your AI Assistant Should Enforce (Python, JS, Go, Java)",
-      "link": "https://dev.to/goodjobwilliam/63-code-review-rules-your-ai-assistant-should-enforce-python-js-go-java-idf",
-      "published": "2026-08-16T07:14:12+00:00",
+      "title": "MCP in 2026: The numbers behind the ecosystem explosion",
+      "link": "https://dev.to/grahamduescn/mcp-in-2026-the-numbers-behind-the-ecosystem-explosion-21k7",
+      "published": "2026-08-16T18:00:03+00:00",
       "publishedDate": "2026-08-16",
-      "summary": "AI review is only as good as the rules you give it An AI assistant in Claude Code, Cursor or Windsurf will happily review every diff — but by default it reviews with its own taste. One teammate's model flags style, another's flags security, and your CI stays silent. The fix is the same one human...",
+      "summary": "I spent an afternoon digging through the MCP ecosystem numbers. Here is what I found. The numbers 13,000+ MCP servers on npm and GitHub (as of May 2026) 97 million monthly SDK downloads — that is 3x from 6 months ago 400% YoY growth in new server registrations Anthropic official servers reach...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Will",
+      "author": "GrahamduesCN",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "Code Review From the Terminal and CI, No MCP Client Required",
-      "link": "https://dev.to/goodjobwilliam/code-review-from-the-terminal-and-ci-no-mcp-client-required-33jf",
-      "published": "2026-08-16T06:17:00+00:00",
+      "title": "Your Small Business Agent Does Not Need Every Tool",
+      "link": "https://dev.to/sphillips1337/your-small-business-agent-does-not-need-every-tool-5fc6",
+      "published": "2026-08-16T16:41:02+00:00",
       "publishedDate": "2026-08-16",
-      "summary": "A month ago I shipped aicraft-code-review, an MCP server that reviews code locally. This week I added a CLI mode — because not everyone wants to wire up an MCP client just to check a diff. Now the same reviewer runs three ways: MCP tools — review_code / review_diff / review_file inside Claude Code,...",
+      "summary": "A small business usually does not need a smarter agent first. It needs an agent with fewer ways to get lost. That sounds backwards when the default pitch is “connect everything”: email, CRM, database, website, accounting, calendars, search, social, and a dozen specialist services. MCP makes those...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Will",
+      "author": "Stephen Phillips",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "Seven Ways to Share What You Build: A Practical Taxonomy for AI-Era Teams",
-      "link": "https://dev.to/soytuber/seven-ways-to-share-what-you-build-a-practical-taxonomy-for-ai-era-teams-2jc9",
-      "published": "2026-08-16T05:54:00+00:00",
+      "title": "The Safest First MCP Workflow Is a Draft Queue, Not an Autonomous Agent",
+      "link": "https://dev.to/sphillips1337/the-safest-first-mcp-workflow-is-a-draft-queue-not-an-autonomous-agent-1jbf",
+      "published": "2026-08-16T16:40:58+00:00",
       "publishedDate": "2026-08-16",
-      "summary": "When you build a tool that works, the next question is always: how do I get it to someone else? This sounds simple. It is not. The answer depends on who the recipient is (developer or non-technical user), where the data lives (local or remote), and whether a human or an AI agent will be the one...",
+      "summary": "Most small businesses do not need an autonomous agent. They need the next customer reply drafted, the right product notes found, and a human who can still sleep knowing nothing weird went out overnight. That is how I would start the first useful MCP project. The tempting demo wires the agent to...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "soy",
+      "author": "Stephen Phillips",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "RBAC in Practice: Eliminating MCP Config Sprawl with HyperNexus",
+      "link": "https://dev.to/hypernexus/rbac-in-practice-eliminating-mcp-config-sprawl-with-hypernexus-35h6",
+      "published": "2026-08-16T16:20:54+00:00",
+      "publishedDate": "2026-08-16",
+      "summary": "RBAC in Practice: Eliminating MCP Config Sprawl with HyperNexus Discover how HyperNexus enables enterprise AI governance through centralized role-based access control (RBAC), eliminating the need to duplicate MCP configurations for each team while maintaining strict security and full auditability....",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "HyperNexus",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Cursor Learn Mode: teach a desktop workflow by demonstrating it",
+      "link": "https://dev.to/liad07/cursor-learn-mode-teach-a-desktop-workflow-by-demonstrating-it-hm3",
+      "published": "2026-08-16T14:24:48+00:00",
+      "publishedDate": "2026-08-16",
+      "summary": "I open-sourced Cursor Learn Mode, an MCP that watches you demonstrate a real Windows or macOS process and saves a Skill (intent + named inputs). Replay happens in a new chat with the desktop, browser, and terminal tools you already have — not a mouse-coordinate macro. Repo:...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "liadk07",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Your MCP Server Is \"Connected.\" Your Agent Still Can't Use It. Here's the Gap.",
+      "link": "https://dev.to/ramdai_bista/your-mcp-server-is-connected-your-agent-still-cant-use-it-heres-the-gap-32c3",
+      "published": "2026-08-16T13:20:11+00:00",
+      "publishedDate": "2026-08-16",
+      "summary": "The client shows a green dot. The tool icon is in the list. Your agent's config file has the server registered. Every signal says \"connected\" — and the agent still can't do the thing you added the tool for. It either ignores the tool entirely, or calls it and gets back something wrong. This isn't a...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Ramdai Bista",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "GeneTech 前沿速览（2026-08-16）：生物计算、privacy-computing、spatial-computing 等 10 条新增实体",
+      "link": "https://dev.to/lm203688/genetech-qian-yan-su-lan-2026-08-16sheng-wu-ji-suan-privacy-computing-spatial-computing-deng-10-tiao-xin-zeng-shi-ti-jlo",
+      "published": "2026-08-16T13:11:17+00:00",
+      "publishedDate": "2026-08-16",
+      "summary": "GeneTech 前沿速览（2026-08-16）：生物计算、privacy-computing、spatial-computing 等 10 条新增实体 本文由 GeneTech 自动化知识引擎生成。 （完整内容见站点：https://lm203688.github.io/genetech-14-sites/blog/geo-roundup-2026-08-16.html）",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "lm203688",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Build an MCP server in Rust with rmcp: a walk-through 🦀",
+      "link": "https://dev.to/gde/build-an-mcp-server-in-rust-with-rmcp-a-walk-through-4cif",
+      "published": "2026-08-16T12:32:56+00:00",
+      "publishedDate": "2026-08-16",
+      "summary": "This tutorial walks through building an MCP server in Rust with rmcp, the official Model Context Protocol Rust SDK. The example is a real one: a devops agent that manages AWS EC2 G5g instances — Graviton2 boxes with NVIDIA T4G GPUs — serving Gemma 4 under vLLM. It launches instances, drives them...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "xbill",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Build an MCP server in Rust with rmcp: a walk-through 🦀",
+      "link": "https://dev.to/aws-builders/build-an-mcp-server-in-rust-with-rmcp-a-walk-through-41o3",
+      "published": "2026-08-16T12:32:18+00:00",
+      "publishedDate": "2026-08-16",
+      "summary": "This tutorial walks through building an MCP server in Rust with rmcp, the official Model Context Protocol Rust SDK. The example is a real one: a devops agent that manages AWS EC2 G5g instances — Graviton2 boxes with NVIDIA T4G GPUs — serving Gemma 4 under vLLM. It launches instances, drives them...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "xbill",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "GPT-5.6 Sol Writes the Code. It Still Can't Populate Your Database.",
+      "link": "https://dev.to/mikh-shytsko/gpt-56-sol-writes-the-code-it-still-cant-populate-your-database-10mh",
+      "published": "2026-08-16T12:28:39+00:00",
+      "publishedDate": "2026-08-16",
+      "summary": "OpenAI moved GPT-5.6 Sol into general availability on July 9, 2026, and I don't intend to argue with the launch numbers. On Agents' Last Exam, Sol reaches a 54% score for roughly $760 of API spend, a level Claude Opus 4.8 never touches even after burning close to $4,000, and Sam Altman's line to...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Mikhail Shytsko",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Seed Postgres From the Codex CLI With One MCP Command",
+      "link": "https://dev.to/mikh-shytsko/seed-postgres-from-the-codex-cli-with-one-mcp-command-11pl",
+      "published": "2026-08-16T12:28:26+00:00",
+      "publishedDate": "2026-08-16",
+      "summary": "My Codex CLI session is open and the migrations have run, but the schema behind my branch is still empty. Codex CLI database seeding handles that from inside the same session, once Seedfast is registered as an MCP server the agent can call by name, and it spares me the usual fallback of...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Mikhail Shytsko",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Give GitHub Copilot's Coding Agent a Seeded Postgres",
+      "link": "https://dev.to/mikh-shytsko/give-github-copilots-coding-agent-a-seeded-postgres-4104",
+      "published": "2026-08-16T12:27:29+00:00",
+      "publishedDate": "2026-08-16",
+      "summary": "You assign an issue to Copilot, and a few minutes later a pull request is waiting for review with its checks already red. The migrations ran. What broke is everything downstream of them, the tests that expected a customer to exist, an order to join against, a row to assert on, all firing against a...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Mikhail Shytsko",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
@@ -165,98 +264,10 @@
       "published": "2026-08-16T05:38:16+00:00",
       "publishedDate": "2026-08-16",
       "summary": "If you're building MCP servers, you already know the drill. You write the code, you struggle with environment variables, you pray the local tunnel holds long enough for a decent test, and eventually, you push it to some cloud instance hoping the secrets didn't leak into your git history. It’s...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
+      "blog": "Dev.to AI Agents",
+      "blogId": "devto-ai-agents",
       "author": "Renato Marinho",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The $0 Distribution Playbook for MCP Servers: 12 Channels, 30 Days, Real Numbers",
-      "link": "https://dev.to/goodjobwilliam/the-0-distribution-playbook-for-mcp-servers-12-channels-30-days-real-numbers-b4o",
-      "published": "2026-08-16T05:34:13+00:00",
-      "publishedDate": "2026-08-16",
-      "summary": "A month ago I shipped aicraft-code-review — an open-source MCP server that reviews code locally (OWASP scanning, N+1 detection, style rules) for Claude Code, Cursor and Cline. I had $0 marketing budget and no audience. One month later: 650+ PyPI installs, 12 Product Hunt followers, and listings in...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Will",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP Transports: stdio vs HTTP, and What Just Changed",
-      "link": "https://dev.to/studiomeyer_io/mcp-transports-stdio-vs-http-and-what-just-changed-41fi",
-      "published": "2026-08-16T05:33:47+00:00",
-      "publishedDate": "2026-08-16",
-      "summary": "Our own search data has been telling me to write this for months and I ignored it. Thirty-one different spellings of the same question, things like \"stdio vs http mcp\" and \"mcp server stdio vs http\", nearly three hundred impressions, several of them sitting on page one. Zero clicks, because we rank...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Matthias | StudioMeyer",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Cross-Harness Tool Parity: The Single MCP Tool That Works Everywhere",
-      "link": "https://dev.to/hypernexus/cross-harness-tool-parity-the-single-mcp-tool-that-works-everywhere-2ai0",
-      "published": "2026-08-16T04:20:59+00:00",
-      "publishedDate": "2026-08-16",
-      "summary": "Cross-Harness Tool Parity: The Single MCP Tool That Works Everywhere Stop configuring your AI tools six times. Learn how to build one custom Model Context Protocol (MCP) tool and achieve instant, automatic parity across Claude Code, Cursor, Codex, Gemini CLI, Copilot, and Windsurf. The Developer's...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "HyperNexus",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "LangGraph API Failure",
-      "link": "https://dev.to/yashwanth_kasi/langgraph-api-failure-1i0c",
-      "published": "2026-08-16T03:39:39+00:00",
-      "publishedDate": "2026-08-16",
-      "summary": "We've all been there - you've built an agentic AI system using LangGraph and MCP, and it's been humming along just fine, until one day, a third-party API that one of your MCP Tool primitives relies on suddenly changes its response format. Your agent, which was previously adapting beautifully to...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Kasi Yaswanth",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The Permission Boundary My MCP Server Doesn't Actually Have",
-      "link": "https://dev.to/enjoy_kumawat/the-permission-boundary-my-mcp-server-doesnt-actually-have-3k98",
-      "published": "2026-08-16T03:36:23+00:00",
-      "publishedDate": "2026-08-16",
-      "summary": "There's a theme showing up a lot in agent-tooling posts this week: agents holding tools they can misuse, and builders wiring some kind of gate in front of the dangerous ones — a signed capability, a policy layer, a human-in-the-loop check before the write actually lands. I built something that...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Enjoy Kumawat",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Team-Shared Code Review Rules for Your MCP AI Assistant",
-      "link": "https://dev.to/goodjobwilliam/team-shared-code-review-rules-for-your-mcp-ai-assistant-542j",
-      "published": "2026-08-16T03:26:32+00:00",
-      "publishedDate": "2026-08-16",
-      "summary": "Last month I shipped an MCP server that reviews code locally — no SaaS, no uploads. Two pieces of feedback kept coming up on Product Hunt: \"Can my whole team sync the same review rules?\" \"Can each repo have its own rule set?\" So I built exactly that. aicraft-code-review now reads a config file from...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Will",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How I Cut MCP Token Usage by 91% (and Learned a Humbling Lesson About Tokenizers)",
-      "link": "https://dev.to/mcptokensaver/how-i-cut-mcp-token-usage-by-91-and-learned-a-humbling-lesson-about-tokenizers-5hl1",
-      "published": "2026-08-16T02:35:21+00:00",
-      "publishedDate": "2026-08-16",
-      "summary": "The Problem When you add MCP servers to your AI coding agent, each one dumps its full JSON schema into context. 255 tools across all servers = 39,964 tokens. On a 128K context window, that's 31% gone before you type a single character. I was literally paying for JSON syntax overhead. Every API call...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "MCP Token Saver",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "I shipped an MCP server that reported success without signing anything",
-      "link": "https://dev.to/edycutjong/i-shipped-an-mcp-server-that-reported-success-without-signing-anything-6oh",
-      "published": "2026-08-16T00:30:27+00:00",
-      "publishedDate": "2026-08-16",
-      "summary": "I built an MCP server that lets an AI assistant trade tokens and claim creator fees on Solana. Then I shipped a version where the two write tools built transactions, discarded them, and returned success. Nothing was ever signed. Nothing was ever submitted. It had 337 tests. All of them passed. I...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Edy Cu",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
+      "sourceUrl": "https://dev.to/feed/tag/aiagents"
     },
     {
       "title": "MCP Community Connect: Bringing the MCP ecosystem together",
@@ -369,6 +380,6 @@
       "sourceUrl": "https://developer.microsoft.com/blog/feed/"
     }
   ],
-  "summary": "• 63 Code Review Rules Your AI Assistant Should Enforce (Python, JS, Go, Java): AI review is only as good as the rules you give it An AI assistant in Claude Code, Cursor or Windsurf will happily review every diff — but by default...\n• Code Review From the Terminal and CI, No MCP Client Required: A month ago I shipped aicraft-code-review, an MCP server that reviews code locally.\n• Seven Ways to Share What You Build: A Practical Taxonomy for AI-Era Teams: When you build a tool that works, the next question is always: how do I get it to someone else?\n• Stop manually babysitting your MCP deployments: If you're building MCP servers, you already know the drill.\n• The $0 Distribution Playbook for MCP Servers: 12 Channels, 30 Days, Real Numbers: A month ago I shipped aicraft-code-review — an open-source MCP server that reviews code locally (OWASP scanning, N+1 detection, style rules) for Claud...",
+  "summary": "• MCP in 2026: The numbers behind the ecosystem explosion: I spent an afternoon digging through the MCP ecosystem numbers.\n• Your Small Business Agent Does Not Need Every Tool: A small business usually does not need a smarter agent first.\n• The Safest First MCP Workflow Is a Draft Queue, Not an Autonomous Agent: Most small businesses do not need an autonomous agent.\n• RBAC in Practice: Eliminating MCP Config Sprawl with HyperNexus: RBAC in Practice: Eliminating MCP Config Sprawl with HyperNexus Discover how HyperNexus enables enterprise AI governance through centralized role-base...\n• Cursor Learn Mode: teach a desktop workflow by demonstrating it: I open-sourced Cursor Learn Mode, an MCP that watches you demonstrate a real Windows or macOS process and saves a Skill (intent + named inputs).",
   "summarySource": "fallback"
 }
