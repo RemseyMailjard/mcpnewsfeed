@@ -2,7 +2,7 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-09-15T07:17:50.448569+00:00",
+  "lastUpdated": "2026-09-15T19:12:27.606132+00:00",
   "daysToKeep": 30,
   "totalArticles": 16,
   "keywords": [
@@ -127,36 +127,135 @@
   ],
   "articles": [
     {
-      "title": "Fixed Checksummed Datasets for Compliance, Recall Diligence, and Tender Ops",
-      "link": "https://dev.to/nimbliquestudio/fixed-checksummed-datasets-for-compliance-recall-diligence-and-tender-ops-1mb6",
-      "published": "2026-09-15T06:58:27+00:00",
+      "title": "Your Agent's Tool Descriptions Are Costing You 66% Accuracy",
+      "link": "https://dev.to/phantom-byte/your-agents-tool-descriptions-are-costing-you-66-accuracy-74f",
+      "published": "2026-09-15T18:56:49+00:00",
       "publishedDate": "2026-09-15",
-      "summary": "We've been shipping AgentOps under NimbliqueStudio (Zentra Foundry on Apify) for teams that need QA, cost control, and tool firewalls before agents go freestyle. Apify (run now) AgentOps Builders Bundle: https://apify.com/zentrafoundry/agentops-apify-builders-bundle Tool Firewall:...",
+      "summary": "A $4 experiment rewrote three strings per MCP tool and moved SQLite success from 34% to 100%. The model never changed. The failure was never the model. SQLite strict success rate: 34%. That is a failing grade on a benchmark nobody was running. Toolmetry, an open-source project that measures how...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Nimblique Studio",
+      "author": "Vinny Barreca",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "I gave Claude Code direct control over our SaaS in-app messaging (Without breaking production)",
-      "link": "https://dev.to/pavan_s_poojary/i-gave-claude-code-direct-control-over-our-saas-in-app-messaging-without-breaking-production-3fia",
-      "published": "2026-09-15T06:13:00+00:00",
+      "title": "MCP in 2026: The numbers behind the ecosystem explosion",
+      "link": "https://dev.to/grahamduescn/mcp-in-2026-the-numbers-behind-the-ecosystem-explosion-4oee",
+      "published": "2026-09-15T18:00:02+00:00",
       "publishedDate": "2026-09-15",
-      "summary": "Model Context Protocol (MCP) is usually framed as a way for LLMs to read local files or query SQL databases. But the highest-leverage application of MCP isn't reading data—it's runtime app orchestration. What if your AI coding agent could ship in-app announcements, contextual onboarding guides, and...",
+      "summary": "I spent an afternoon digging through the MCP ecosystem numbers. Here is what I found. The numbers 13,000+ MCP servers on npm and GitHub (as of May 2026) 97 million monthly SDK downloads — that is 3x from 6 months ago 400% YoY growth in new server registrations Anthropic official servers reach...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Pavan S Poojary",
+      "author": "GrahamduesCN",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "How can I prevent my AI coding assistant from repeating fixed mistakes across sessions?",
-      "link": "https://dev.to/izgorodin/how-can-i-prevent-my-ai-coding-assistant-from-repeating-fixed-mistakes-across-sessions-2kf7",
-      "published": "2026-09-15T05:48:00+00:00",
+      "title": "GeneTech 前沿速览（2026-09-15）：ai-safety、agritech、carbon-neutral 等 10 条新增实体",
+      "link": "https://dev.to/lm203688/genetech-qian-yan-su-lan-2026-09-15ai-safety-agritech-carbon-neutral-deng-10-tiao-xin-zeng-shi-ti-403p",
+      "published": "2026-09-15T17:15:34+00:00",
       "publishedDate": "2026-09-15",
-      "summary": "On Tuesday you told the assistant that the migration script must never touch the staging database. It agreed, rewrote the script, and the session ended. On Thursday, in a fresh session, it wrote the same migration against staging again, and the note where you explained why was sitting right there...",
+      "summary": "GeneTech 前沿速览（2026-09-15）：ai-safety、agritech、carbon-neutral 等 10 条新增实体 本文由 GeneTech 自动化知识引擎生成。 （完整内容见站点：https://lm203688.github.io/genetech-14-sites/blog/geo-roundup-2026-09-15.html）",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Edward Izgorodin",
+      "author": "lm203688",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "I built an MCP server that tells you why ChatGPT never mentions your product",
+      "link": "https://dev.to/rarora2026gif/i-built-an-mcp-server-that-tells-you-why-chatgpt-never-mentions-your-product-5chj",
+      "published": "2026-09-15T17:06:10+00:00",
+      "publishedDate": "2026-09-15",
+      "summary": "Your rank tracker measures Google. It says nothing about the moment a buyer asks ChatGPT \"what's the best X\" and gets three names back. If you're not one of them, you lost the deal before your site loaded, and nothing in the classic SEO stack sees it happen. So I built Cituna: it asks the same...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "rarora2026-gif",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "getqueryly: MCP Server and API for AI Data Analysis (CSV to Charts in Minute)",
+      "link": "https://dev.to/emmanuel_mirekumensah_96/getqueryly-mcp-server-and-api-for-ai-data-analysis-csv-to-charts-in-minute-2346",
+      "published": "2026-09-15T17:02:04+00:00",
+      "publishedDate": "2026-09-15",
+      "summary": "GetQueryly has an MCP server and API for AI data analysis. Upload a CSV, Excel, JSON, PDF, or Parquet file, ask in plain English, and get charts with short explanations plus a Quick Insight summary. Works out of the box with Claude, Cursor, and any MCP client, or via straight REST from your own...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Emmanuel Mireku Mensah",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Why Your MCP Server Breaks Silently When the SDK Renames Things Underneath You",
+      "link": "https://dev.to/justhsnn/why-your-mcp-server-breaks-silently-when-the-sdk-renames-things-underneath-you-5b8a",
+      "published": "2026-09-15T16:41:34+00:00",
+      "publishedDate": "2026-09-15",
+      "summary": "On July 28, 2026, the Model Context Protocol Python SDK shipped v2.0.0 and renamed its built-in FastMCP class to MCPServer. No deprecation warning window, no shim left behind for the old import path: mcp.server.fastmcp moved wholesale to mcp.server.mcpserver. For any project that pinned mcp loosely...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Hasnain Arif",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How to use AI for Test Automation: Building the MCP-Pytest Framework",
+      "link": "https://dev.to/robbertchampagne/how-to-use-ai-for-test-automation-building-the-mcp-pytest-framework-5ka",
+      "published": "2026-09-15T16:36:33+00:00",
+      "publishedDate": "2026-09-15",
+      "summary": "Introduction What if you could ask an AI assistant to run a test suite, explain a failing scenario, or summarize a complex error log in plain English without changing your existing test automation framework? Modern automation frameworks such as Pytest and Playwright are incredibly powerful, but...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Robbert Champagne",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Um plano de contingência que avisa sozinho: MCP, agent e WhatsApp no Amazon Quick",
+      "link": "https://dev.to/iago_elion/um-plano-de-contingencia-que-avisa-sozinho-mcp-agent-e-whatsapp-no-amazon-quick-lee",
+      "published": "2026-09-15T16:36:28+00:00",
+      "publishedDate": "2026-09-15",
+      "summary": "Blumenau fica nas margens do rio Itajaí-Açu, e \"cota de alagamento\" é vocabulário cotidiano aqui. A Dati mantém um Plano de Contingência para Enchentes que define, faixa de nível por faixa de nível, o que cada um faz. O plano sempre existiu. O que faltava era saber, a qualquer hora, qual faixa vale...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Iago Elion Pimentel",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Nano Banana 2 Lite in Kiro CLI 3: MCP 2.0, the New Interactions API, and Headless Permissions",
+      "link": "https://dev.to/aws-builders/nano-banana-2-lite-in-kiro-cli-3-mcp-20-the-new-interactions-api-and-headless-permissions-hhb",
+      "published": "2026-09-15T16:32:58+00:00",
+      "publishedDate": "2026-09-15",
+      "summary": "This article provides a step by step update guide for a Python MCP server that drives Google Nano Banana 2 Lite (gemini-3.1-flash-lite-image) through the Gemini Interactions API, running inside Kiro CLI 3. Two dependency lines moved underneath the server: the MCP Python SDK went to 2.x, and the...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "xbill",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Nano Banana 2 Lite in Kiro CLI 3: MCP 2.0, the New Interactions API, and Headless Permissions",
+      "link": "https://dev.to/gde/nano-banana-2-lite-in-kiro-cli-3-mcp-20-the-new-interactions-api-and-headless-permissions-3faj",
+      "published": "2026-09-15T16:32:21+00:00",
+      "publishedDate": "2026-09-15",
+      "summary": "This article provides a step by step update guide for a Python MCP server that drives Google Nano Banana 2 Lite (gemini-3.1-flash-lite-image) through the Gemini Interactions API, running inside Kiro CLI 3. Two dependency lines moved underneath the server: the MCP Python SDK went to 2.x, and the...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "xbill",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "x402 in production: what 267 probed servers taught us",
+      "link": "https://dev.to/rambozambo/x402-in-production-what-267-probed-servers-taught-us-1dkm",
+      "published": "2026-09-15T15:08:15+00:00",
+      "publishedDate": "2026-09-15",
+      "summary": "x402 in Production: What 267 Probed Servers Taught Us A field report on payment-header interop, non-deterministic 402 challenges, and what actually works. By rambo, director of ops for Zambo. Most x402 servers are deaf to payments. Not in theory — in production, right now, measured byte by byte....",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "rambo",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "PHP Meets AI: The Official MCP SDK Adds Support for the Stateless 2026-07-28 Spec",
+      "link": "https://dev.to/exakat/php-meets-ai-the-official-mcp-sdk-adds-support-for-the-stateless-2026-07-28-spec-4je5",
+      "published": "2026-09-15T15:06:41+00:00",
+      "publishedDate": "2026-09-15",
+      "summary": "Web development and AI keep moving closer together, and PHP is part of that. On July 28, 2026, the Model Context Protocol (MCP) shipped its latest specification, 2026-07-28. The official PHP SDK, available at github.com/modelcontextprotocol/php-sdk, has been adding support for it. PHP developers...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "exakat, static analysis for PHP",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
@@ -169,105 +268,6 @@
       "blogId": "devto-ai-agents",
       "author": "Chad Priest",
       "sourceUrl": "https://dev.to/feed/tag/aiagents"
-    },
-    {
-      "title": "Stop letting AI agents ship 'shell script' Python",
-      "link": "https://dev.to/renato_marinho/stop-letting-ai-agents-ship-shell-script-python-4pk9",
-      "published": "2026-09-15T04:54:22+00:00",
-      "publishedDate": "2026-09-15",
-      "summary": "If you have ever tasked an LLM with generating a Python utility, you have likely encountered a specific brand of technical debt. The code usually works—on the first run, in a vacuum. But look closer, and you will find a collection of anti-patterns that make maintaining it a nightmare. The agent...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Renato Marinho",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "What Is MCP Security? Common Attacks and How to Scan Your MCP Servers",
-      "link": "https://dev.to/kielltampubolon/what-is-mcp-security-common-attacks-and-how-to-scan-your-mcp-servers-3dlg",
-      "published": "2026-09-15T03:55:50+00:00",
-      "publishedDate": "2026-09-15",
-      "summary": "MCP security is the practice of treating every MCP (Model Context Protocol) server as untrusted code: scanning it for tool poisoning, command injection, path traversal, and planted prompts before an AI agent is allowed to call it. An MCP server is a program that reads instructions from outside your...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Kiell Tampubolon",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Context Engineering for AI Agents: Why the Build Is Easy and the Context Is Not (2026)",
-      "link": "https://dev.to/shaam_ai/context-engineering-for-ai-agents-why-the-build-is-easy-and-the-context-is-not-2026-m4o",
-      "published": "2026-09-15T03:44:10+00:00",
-      "publishedDate": "2026-09-15",
-      "summary": "Verdict: In 2026, building a working AI agent is close to a solved problem. Durable state, sandboxed execution, and observability are now platform primitives, not quarter-long engineering projects. What still breaks agents in production is not the model and not the scaffolding. It is missing...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Shaam",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How to Connect Claude to Real-Time Market Data with MCP",
-      "link": "https://dev.to/tank_wang/how-to-connect-claude-to-real-time-market-data-with-mcp-311a",
-      "published": "2026-09-15T03:23:53+00:00",
-      "publishedDate": "2026-09-15",
-      "summary": "Meta description: Configure TickDB MCP to give Claude access to live market data with millisecond timestamps. Step-by-step setup for Claude Desktop, real JSON output, and a timestamp verification method so you know exactly when the data is from. Claude gives you a price. How old is it? Ask Claude...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Walter",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "After UNLIMOS shipped OS-native MCP on February 1, 2026, Fresha announced marketplace MCP six months later — welcome to category",
-      "link": "https://dev.to/unlimos/after-unlimos-launched-os-mcp-on-february-1-2026-fresha-announced-mcp-too-six-months-later-the-18j4",
-      "published": "2026-09-15T02:55:35+00:00",
-      "publishedDate": "2026-09-15",
-      "summary": "UNLIMOS is the world’s leading AI operating system for beauty, wellness, and appointment businesses. World-first AI receptionist like a human. Built by UNLIMOS. 0% commission from UNLIMOS. Native MCP for ChatGPT, Claude, and autonomous agents. A welcome — and a clear map On February 1, 2026,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "UNLIMOS",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Google Cloud Developer Plugin: Fix Unsafe AI Coding-Agent Setup",
-      "link": "https://dev.to/adityahalderdev/google-cloud-developer-plugin-fix-unsafe-ai-coding-agent-setup-4fa8",
-      "published": "2026-09-15T01:47:25+00:00",
-      "publishedDate": "2026-09-15",
-      "summary": "Google Cloud’s new developer plugin packages Agent Skills and MCP configuration for Antigravity CLI, Claude Code, and Codex CLI. This guide covers installation, read-only setup, documentation grounding, IAM boundaries, and safe approval workflows. Read the full guide: Google Cloud Developer Plugin:...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "adityahalder",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Your router matched the right keyword in the wrong sentence",
-      "link": "https://dev.to/chad_priest/your-router-matched-the-right-keyword-in-the-wrong-sentence-5ege",
-      "published": "2026-09-15T01:25:28+00:00",
-      "publishedDate": "2026-09-15",
-      "summary": "If your agent runs a fast keyword or intent router in front of the model, it probably answers every prompt one of two ways. It fires a tool, or it passes the prompt to the LLM. That covers \"what's on my calendar today.\" It does not cover \"build me a workflow that checks my calendar and email.\" Your...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Chad Priest",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Building Cost-Effective Autonomous SDR Swarms with Real-Time MCP Lead Enrichment",
-      "link": "https://dev.to/diego_costa_9514116da8b5f/building-cost-effective-autonomous-sdr-swarms-with-real-time-mcp-lead-enrichment-2a42",
-      "published": "2026-09-15T00:00:12+00:00",
-      "publishedDate": "2026-09-15",
-      "summary": "Building Cost-Effective Autonomous SDR Swarms with Real-Time MCP Lead Enrichment Scaling autonomous SDR swarms requires giving LLMs native access to live B2B firmographics and intent data via a Model Context Protocol (MCP) server to ensure data accuracy and eliminate brittle custom scrapers. By...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Diego Costa",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Keeping One MCP Server Working Across SDK Renames and Three CLIs",
-      "link": "https://dev.to/infracore/keeping-one-mcp-server-working-across-sdk-renames-and-three-clis-2g7k",
-      "published": "2026-09-14T23:47:59+00:00",
-      "publishedDate": "2026-09-14",
-      "summary": "An MCP server breaks at three seams: the SDK class name, the upstream request shape, and each CLI's server config. Treating those as one upgrade is what makes a small rename expensive. Put a thin adapter between your tools and the vendor SDK. Keep all imports and request construction in one module,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "infracore",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
       "title": "Why MCP security is about permissions overhaul",
@@ -303,6 +303,6 @@
       "sourceUrl": "https://blog.modelcontextprotocol.io/index.xml"
     }
   ],
-  "summary": "• Fixed Checksummed Datasets for Compliance, Recall Diligence, and Tender Ops: We've been shipping AgentOps under NimbliqueStudio (Zentra Foundry on Apify) for teams that need QA, cost control, and tool firewalls before agents go...\n• I gave Claude Code direct control over our SaaS in-app messaging (Without breaking production): Model Context Protocol (MCP) is usually framed as a way for LLMs to read local files or query SQL databases.\n• How can I prevent my AI coding assistant from repeating fixed mistakes across sessions?: On Tuesday you told the assistant that the migration script must never touch the staging database.\n• Our memory inject into ChatGPT existed nowhere durable: If your system puts context into a model you don't run, like a browser extension filling ChatGPT's composer, a plugin writing into someone else's IDE,...\n• Stop letting AI agents ship 'shell script' Python: If you have ever tasked an LLM with generating a Python utility, you have likely encountered a specific brand of technical debt.",
+  "summary": "• Your Agent's Tool Descriptions Are Costing You 66% Accuracy: A $4 experiment rewrote three strings per MCP tool and moved SQLite success from 34% to 100%.\n• MCP in 2026: The numbers behind the ecosystem explosion: I spent an afternoon digging through the MCP ecosystem numbers.\n• GeneTech 前沿速览（2026-09-15）：ai-safety、agritech、carbon-neutral 等 10 条新增实体: GeneTech 前沿速览（2026-09-15）：ai-safety、agritech、carbon-neutral 等 10 条新增实体 本文由 GeneTech 自动化知识引擎生成。 （完整内容见站点：https://lm203688.\n• I built an MCP server that tells you why ChatGPT never mentions your product: Your rank tracker measures Google.\n• getqueryly: MCP Server and API for AI Data Analysis (CSV to Charts in Minute): GetQueryly has an MCP server and API for AI data analysis.",
   "summarySource": "fallback"
 }
