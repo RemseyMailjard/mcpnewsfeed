@@ -2,9 +2,9 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-09-18T19:12:25.212423+00:00",
+  "lastUpdated": "2026-09-19T07:14:55.286382+00:00",
   "daysToKeep": 30,
-  "totalArticles": 15,
+  "totalArticles": 16,
   "keywords": [
     "model context protocol",
     "modelcontextprotocol",
@@ -127,6 +127,116 @@
   ],
   "articles": [
     {
+      "title": "Does my AI agent memory graph change when it reads, or only when it writes?",
+      "link": "https://dev.to/izgorodin/does-my-ai-agent-memory-graph-change-when-it-reads-or-only-when-it-writes-20mj",
+      "published": "2026-09-19T06:15:00+00:00",
+      "publishedDate": "2026-09-19",
+      "summary": "You ask the agent about the payments retry table, and it comes back with the retry table plus the queue migration you argued about last month, because both mention the same service. Useful. Next week you ask about the queue and the retry table comes back with it again, and the week after that too....",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Edward Izgorodin",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "I gave Claude Code direct control over our SaaS in-app messaging (Without breaking production)",
+      "link": "https://dev.to/pavan_s_poojary/i-gave-claude-code-direct-control-over-our-saas-in-app-messaging-without-breaking-production-3g93",
+      "published": "2026-09-19T03:55:00+00:00",
+      "publishedDate": "2026-09-19",
+      "summary": "Model Context Protocol (MCP) is usually framed as a way for LLMs to read local files or query SQL databases. But the highest-leverage application of MCP isn't reading data—it's runtime app orchestration. What if your AI coding agent could ship in-app announcements, contextual onboarding guides, and...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Pavan S Poojary",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Giving Cursor and VS Code Real-Time B2B Firmographic Tools via MCP",
+      "link": "https://dev.to/diego_costa_9514116da8b5f/giving-cursor-and-vs-code-real-time-b2b-firmographic-tools-via-mcp-40fb",
+      "published": "2026-09-19T00:00:14+00:00",
+      "publishedDate": "2026-09-19",
+      "summary": "Giving Cursor and VS Code Real-Time B2B Firmographic Tools via MCP Integrating the B2B Lead Enrichment MCP server into your IDE allows LLMs like Claude-3.5-Sonnet or GPT-4o to fetch live firmographic and technographic data natively. By using the Model Context Protocol, developers can eliminate...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Diego Costa",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "I Connected My AI Agent to My Inbox with MCP - Here's How It Works",
+      "link": "https://dev.to/gurinderchauhan/i-connected-my-ai-agent-to-my-inbox-with-mcp-heres-how-it-works-2g28",
+      "published": "2026-09-18T21:47:20+00:00",
+      "publishedDate": "2026-09-18",
+      "summary": "Consider a concrete task: triaging a support inbox. An assistant with mailbox access can search the mailbox, summarize the threads, and leave drafts waiting for review. No integration code, no API glue. Just a server URL and a sign-in. That server is the new LetMeSend.Email MCP server, and this...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Gurinder Chauhan",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Expose Crypto KAT Runners as MCP Tools Instead of Pasting Hex",
+      "link": "https://dev.to/infracore/expose-crypto-kat-runners-as-mcp-tools-instead-of-pasting-hex-122l",
+      "published": "2026-09-18T21:27:45+00:00",
+      "publishedDate": "2026-09-18",
+      "summary": "When a Known Answer Test fails on a crypto primitive, the cause is often byte-ordering or padding. Pasting that raw hex plus the ACVP JSON into a chat window works once, but it does not scale to large vector files. A credible baseline stays manual: run the KAT binary locally, copy only the failing...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "infracore",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Lux Stay Agent — a hotel travel agent that only works because its content is structured",
+      "link": "https://dev.to/jeffreyturov/lux-stay-agent-a-hotel-travel-agent-that-only-works-because-its-content-is-structured-5ff6",
+      "published": "2026-09-18T21:24:36+00:00",
+      "publishedDate": "2026-09-18",
+      "summary": "I run a real 3-star hotel next to Luxembourg's central station. For the Sanity Challenge, instead of building a demo on fake data, I pointed a production AI agent at a Sanity Knowledge Base filled with the hotel's actual operational content — live room prices, the real 54-dish snack menu, transport...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Jeffrey Turov",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "New Library Out easy-mcp-kit 0.2.3",
+      "link": "https://dev.to/iambatttmannnn07/new-library-out-easy-mcp-kit-023-2a2",
+      "published": "2026-09-18T20:26:26+00:00",
+      "publishedDate": "2026-09-18",
+      "summary": "easy-mcp-kit 0.2.3 is out, and it now ships two ready-made MCP servers you can run with a single command: one for GitHub, one for Postgres. The video is one real terminal session, no cuts: pip install \"easy-mcp-kit[postgres]\" point it at your data with DATABASE_URL (a GitHub token is optional for...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Batman",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "High-Performance In-Memory Graph Processing in Node.js: Zero-Hallucination Neuro-Symbolic AI",
+      "link": "https://dev.to/programmingcentral/high-performance-in-memory-graph-processing-in-nodejs-zero-hallucination-neuro-symbolic-ai-3ioa",
+      "published": "2026-09-18T20:00:00+00:00",
+      "publishedDate": "2026-09-18",
+      "summary": "Building real-time, deterministic AI systems requires an uncompromising break from traditional probabilistic text generation. When enterprise architectures demand absolute accuracy—such as validating medical ontologies, checking complex financial compliance structures, or executing legal...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Programming Central",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Stop Being the Copy-Paste Bridge — MCP for Everyday CMS Work",
+      "link": "https://dev.to/maniruzzamanakash/stop-being-the-copy-paste-bridge-mcp-for-everyday-cms-work-ejm",
+      "published": "2026-09-18T19:25:20+00:00",
+      "publishedDate": "2026-09-18",
+      "summary": "You open the admin. Then chat. Then email. Then the form inbox. Then the CRM. By mid-morning you have ten tabs and three half-finished tasks. Nothing is hard. Everything is slow. You are the integration layer. That is the part most \"AI for CMS\" demos skip. They rewrite a paragraph in a chat window....",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Maniruzzaman Akash",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "MCP Servers for Performance Engineering",
+      "link": "https://dev.to/kavin_arvind_8a1adbd39efd/mcp-servers-for-performance-engineering-2d1i",
+      "published": "2026-09-18T18:54:40+00:00",
+      "publishedDate": "2026-09-18",
+      "summary": "![MCP servers, wrapped in Copilot agents Every performance-testing and observability platform your team already uses — LoadRunner, JMeter, Dynatrace, Splunk, Lighthouse — now has an MCP server sitting in front of it. That means you can stop opening five different consoles to answer one question...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "kavin arvind",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
       "title": "Building a Modern Crash Debugger",
       "link": "https://dev.to/loren_sl/building-a-modern-crash-debugger-1col",
       "published": "2026-09-18T18:51:48+00:00",
@@ -149,114 +259,15 @@
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "MCP in 2026: The numbers behind the ecosystem explosion",
-      "link": "https://dev.to/grahamduescn/mcp-in-2026-the-numbers-behind-the-ecosystem-explosion-1ckd",
-      "published": "2026-09-18T18:00:03+00:00",
+      "title": "WebMCP support now available in mcp-handler",
+      "link": "https://vercel.com/changelog/webmcp-mcp-handler",
+      "published": "2026-09-18T18:00:00+00:00",
       "publishedDate": "2026-09-18",
-      "summary": "I spent an afternoon digging through the MCP ecosystem numbers. Here is what I found. The numbers 13,000+ MCP servers on npm and GitHub (as of May 2026) 97 million monthly SDK downloads — that is 3x from 6 months ago 400% YoY growth in new server registrations Anthropic official servers reach...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "GrahamduesCN",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Verify-before-send for AI agents — MCP + email verification API",
-      "link": "https://dev.to/jamessib/verify-before-send-for-ai-agents-mcp-email-verification-api-2j2f",
-      "published": "2026-09-18T17:33:41+00:00",
-      "publishedDate": "2026-09-18",
-      "summary": "Autonomous agents that enrich leads or draft outreach need a deterministic email check before they act. Without it, they happily spam undeliverable guesses and burn domain reputation overnight. The agent loop Collect or enrich an email Verify (MCP tool or HTTP) If deliverable → draft/send or write...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "james-sib",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "BitBrowser MCP Server: Let ChatGPT Control 100 Browser Profiles Autonomously",
-      "link": "https://dev.to/digitalgrowthpro/bitbrowser-mcp-server-let-chatgpt-control-100-browser-profiles-autonomously-17p1",
-      "published": "2026-09-18T17:14:43+00:00",
-      "publishedDate": "2026-09-18",
-      "summary": "Ten months ago the only way to control 100 antidetect browser profiles was a Python script, a REST client, and a lot of coffee. Since BitBrowser shipped its local MCP server in version 7.1.5, that job now fits in a single ChatGPT prompt. This article walks through the exact setup: the port, the...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Digital Growth Pro",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Socket error 10013 on Windows: your port is reserved, not blocked",
-      "link": "https://dev.to/milkyway008/socket-error-10013-on-windows-your-port-is-reserved-not-blocked-1kja",
-      "published": "2026-09-18T17:08:26+00:00",
-      "publishedDate": "2026-09-18",
-      "summary": "If a dev tool on Windows has ever failed on you with this line: An attempt was made to access a socket in a way forbidden by its access permissions. (os error 10013) ...your first instinct is probably the firewall, or antivirus, or \"I need to run this as admin\". I've gone down that road. Turned...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "MilkyWay008",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "7 Transaction Types in Claude Desktop: Complete MCP Transaction Reference",
-      "link": "https://dev.to/walletguy/7-transaction-types-in-claude-desktop-complete-mcp-transaction-reference-2ng2",
-      "published": "2026-09-18T17:04:38+00:00",
-      "publishedDate": "2026-09-18",
-      "summary": "7 Transaction Types in Claude Desktop: Complete MCP Transaction Reference MCP developers who want to give Claude onchain capabilities have a surprisingly complete toolkit available today — WAIaaS is an MCP server that exposes 45 tools to Claude Desktop, covering every transaction type your agent...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Wallet Guy",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Let Your AI Assistant Track Packages: A Multi-Carrier Tracking MCP Server",
-      "link": "https://dev.to/support24htrack/let-your-ai-assistant-track-packages-a-multi-carrier-tracking-mcp-server-3e9g",
-      "published": "2026-09-18T16:50:04+00:00",
-      "publishedDate": "2026-09-18",
-      "summary": "Disclosure: I work on 24hTrack, the tracking service behind the MCP server in this post. If you run a store, a dropshipping business or a support desk, a surprising share of your day is spent answering one question: where is this parcel? The answer is spread across hundreds of carrier websites,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "24hTrack",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "OpenBot writes the audit row before an allowed computer action runs",
-      "link": "https://dev.to/renolu/openbot-writes-the-audit-row-before-an-allowed-computer-action-runs-cl7",
-      "published": "2026-09-18T16:49:02+00:00",
-      "publishedDate": "2026-09-18",
-      "summary": "A key line in the OpenBot README is about ordering. When a Bot acts on its computer, the gateway resolves the target from a server-held snapshot, evaluates the policy, writes the audit row, and only then calls the computer. In the README's words, there is no path that acts without the record...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Reno Lu",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Intellibooks: Why AI Systems Fail in Production — And How to Build Reliable Enterprise AI",
-      "link": "https://dev.to/intellibooks_ai/intellibooks-why-ai-systems-fail-in-production-and-how-to-build-reliable-enterprise-ai-3ogf",
-      "published": "2026-09-18T16:45:46+00:00",
-      "publishedDate": "2026-09-18",
-      "summary": "AI systems can perform impressively in demonstrations, yet moving them into production introduces a completely different set of challenges. The issue is often not the AI model itself. Production AI depends on the entire system surrounding the model—prompts, context, memory, retrieval, evaluation,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Intellibooks AI",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "GeneTech 前沿速览（2026-09-18）：ai-safety、agritech、carbon-neutral 等 10 条新增实体",
-      "link": "https://dev.to/lm203688/genetech-qian-yan-su-lan-2026-09-18ai-safety-agritech-carbon-neutral-deng-10-tiao-xin-zeng-shi-ti-633",
-      "published": "2026-09-18T16:41:51+00:00",
-      "publishedDate": "2026-09-18",
-      "summary": "GeneTech 前沿速览（2026-09-18）：ai-safety、agritech、carbon-neutral 等 10 条新增实体 本文由 GeneTech 自动化知识引擎生成。 （完整内容见站点：https://lm203688.github.io/genetech-14-sites/blog/geo-roundup-2026-09-18.html）",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "lm203688",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Inside the Somix Sovereign AI Stack",
-      "link": "https://dev.to/frank_li_7e8a3bdf6634b668/inside-the-somix-sovereign-ai-stack-5e0c",
-      "published": "2026-09-18T16:35:23+00:00",
-      "publishedDate": "2026-09-18",
-      "summary": "Inside the Somix Sovereign AI Stack How a neutral sovereign AI platform is actually wired — from gateway to settlement Somix Engineering · September 2026 \"Sovereign AI\" has become one of the most used and least specified terms in the industry. In practice it usually means one of two things: train a...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Frank Li",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
+      "summary": "mcp-handler now has experimental support for WebMCP, the proposed web standard for exposing tools to in-browser agents. Add a single script tag to your site, and your existing MCP tools become available there too.Opt tools in by adding them to the experimental_webMcp object:Then load the script...",
+      "blog": "Vercel Blog",
+      "blogId": "vercel-blog",
+      "author": "Boris Besemer",
+      "sourceUrl": "https://vercel.com/atom"
     },
     {
       "title": "Explore the latest in MCP: All recordings from MCP Live!",
@@ -292,6 +303,6 @@
       "sourceUrl": "https://blog.modelcontextprotocol.io/index.xml"
     }
   ],
-  "summary": "• Building a Modern Crash Debugger: I've spent countless hours over the years debugging Windows crashes with tools that were either friendly but limited (e.\n• Solving the Non-Deterministic Routing Problem in Multi-Tool AI Agents: When building autonomous agents, we often treat tool calling as a black box.\n• MCP in 2026: The numbers behind the ecosystem explosion: I spent an afternoon digging through the MCP ecosystem numbers.\n• Verify-before-send for AI agents — MCP + email verification API: Autonomous agents that enrich leads or draft outreach need a deterministic email check before they act.\n• BitBrowser MCP Server: Let ChatGPT Control 100 Browser Profiles Autonomously: Ten months ago the only way to control 100 antidetect browser profiles was a Python script, a REST client, and a lot of coffee.",
+  "summary": "• Does my AI agent memory graph change when it reads, or only when it writes?: You ask the agent about the payments retry table, and it comes back with the retry table plus the queue migration you argued about last month, because...\n• I gave Claude Code direct control over our SaaS in-app messaging (Without breaking production): Model Context Protocol (MCP) is usually framed as a way for LLMs to read local files or query SQL databases.\n• Giving Cursor and VS Code Real-Time B2B Firmographic Tools via MCP: Giving Cursor and VS Code Real-Time B2B Firmographic Tools via MCP Integrating the B2B Lead Enrichment MCP server into your IDE allows LLMs like Claud...",
   "summarySource": "fallback"
 }
