@@ -2,7 +2,7 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-10-12T19:12:28.820565+00:00",
+  "lastUpdated": "2026-10-13T07:28:13.258664+00:00",
   "daysToKeep": 30,
   "totalArticles": 17,
   "keywords": [
@@ -127,36 +127,135 @@
   ],
   "articles": [
     {
-      "title": "We checked 49 payment MCP servers. 37 can move money. Only 4 document a spending budget.",
-      "link": "https://dev.to/aidakh_e8124113e2a1bf1fc9/we-checked-49-payment-mcp-servers-37-can-move-money-only-4-document-a-spending-budget-1bd5",
-      "published": "2026-10-12T18:00:17+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "Disclosure: I work on Pink Agentic AI Payments at PinkWallet, which is one of the 49 servers in this census. Pink was scored from its public docs by the same criteria as every other row, and it currently runs as a public sandbox with test money only. The full dataset is open so you can check every...",
+      "title": "Your MCP servers need a bouncer",
+      "link": "https://dev.to/mangatrai/your-mcp-servers-need-a-bouncer-4f7e",
+      "published": "2026-10-13T05:55:14+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "\"Where do we enforce who can call which tool?\" A customer's security team asked me that recently, before approving a wider rollout of their agents. Several of their teams were building agents, each with its own rules for its agents, and those agents called the same internal MCP servers. They are...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Aidakh",
+      "author": "Mangat Rai",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "MCP Security Tools in 2026: What Two Scanners Missed and One Gateway Rule Caught",
-      "link": "https://dev.to/moksh/mcp-security-tools-in-2026-what-two-scanners-missed-and-one-gateway-rule-caught-130f",
-      "published": "2026-10-12T18:00:04+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "Connecting an MCP server to Claude Code or Cursor hands that server a slice of your model's prompt. The client forwards every tool description to the model, and the model reads that text as guidance, even though you will almost never open it yourself. Attackers have already used that. Koi Security...",
+      "title": "Bridging Clinical Logic and LLMs: Engineering Safety into Dry Needling Workflows",
+      "link": "https://dev.to/renato_marinho/bridging-clinical-logic-and-llms-engineering-safety-into-dry-needling-workflows-4gng",
+      "published": "2026-10-13T05:31:51+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "When we talk about AI agents interacting with the physical world—even indirectly through clinical guidance—we move quickly from 'interesting chatbot' to 'high-stakes liability.' In medical domains, a hallucination isn't just a wrong fact; it is a potentially dangerous instruction. I recently looked...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Moksh Gupta",
+      "author": "Renato Marinho",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "MCP in 2026: The numbers behind the ecosystem explosion",
-      "link": "https://dev.to/grahamduescn/mcp-in-2026-the-numbers-behind-the-ecosystem-explosion-23pe",
-      "published": "2026-10-12T18:00:03+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "I spent an afternoon digging through the MCP ecosystem numbers. Here is what I found. The numbers 13,000+ MCP servers on npm and GitHub (as of May 2026) 97 million monthly SDK downloads — that is 3x from 6 months ago 400% YoY growth in new server registrations Anthropic official servers reach...",
+      "title": "I built an MCP server so Claude stops telling me to do homework I already submitted",
+      "link": "https://dev.to/anonymousonyx22/i-built-an-mcp-server-so-claude-stops-telling-me-to-do-homework-i-already-submitted-47e7",
+      "published": "2026-10-13T05:26:34+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "My school runs on D2L Brightspace. I wanted to ask my AI one thing, \"what should I work on right now\", and get a real answer. The problem is that most tools only read due dates. They have no idea you already handed something in, so they keep nagging you about finished work. So I built...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "GrahamduesCN",
+      "author": "AnonymousOnyx22",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Let Claude Code draw your architecture diagram — and keep the box you moved",
+      "link": "https://dev.to/metataro/let-claude-code-draw-your-architecture-diagram-and-keep-the-box-you-moved-1n9b",
+      "published": "2026-10-13T05:14:27+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "Asking an AI to draw an architecture diagram works fine — the first time. The trouble starts with the second one. The architecture changes, you ask the AI to update the diagram, and the layout you spent ten minutes tidying is gone. So you stop asking. A month later the diagram is fiction. zumen is...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "metataro",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Your Agent Has a Lethal Trifecta Nobody Shipped a Fix For",
+      "link": "https://dev.to/max_quimby/your-agent-has-a-lethal-trifecta-nobody-shipped-a-fix-for-5233",
+      "published": "2026-10-13T05:11:07+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "📖 Read the full version with charts and embedded sources on AgentConn → Everyone shipped agents in 2026. Coding agents. Support agents. Research agents. Sales agents. The industry raced to give them tools, memory, and access to everything — then moved on to the next feature. What nobody shipped was...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Max Quimby",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Building a local MCP server inside a Rust desktop app",
+      "link": "https://dev.to/assethoard/building-a-local-mcp-server-inside-a-rust-desktop-app-14gj",
+      "published": "2026-10-13T04:54:53+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "Your AI assistant can write a state machine in eight seconds but has no idea what assets you own. AssetHoard is a local-first desktop asset manager for indie game devs, built in Rust and Tauri. It already knows every model, texture, sprite and sound in your library, what bundle it lives in, how it...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "AssetHoard",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "brick.blue: An Exchange Where AI Agents Trade Tokens for Money",
+      "link": "https://dev.to/imapphelp/brickblue-an-exchange-where-ai-agents-trade-tokens-for-money-1h3b",
+      "published": "2026-10-13T04:13:18+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "I run a paid API gateway (x402.freeq.one) — about 32 tools agents can call, settled in USDC on Base. The supply side was never my problem. The missing piece was the demand side: a place where agents actually hold money and spend it. Last week I found brick.blue, and it's the closest thing to that...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "InApp",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "What is a memory MCP?",
+      "link": "https://dev.to/magnemo/what-is-a-memory-mcp-55cn",
+      "published": "2026-10-13T04:08:14+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "A memory MCP is a server that gives your agent a record of what it learned across sessions; Magnemo is one, kept as plain files you own. Two things are called memory The word covers two different jobs. One is a code index of your repo: a search over files, symbols and history so the agent can find...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Magnemo",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How we exposed our docs as a grounded MCP server (Cloudflare AI Search + a stateless Worker)",
+      "link": "https://dev.to/martinliu/how-we-exposed-our-docs-as-a-grounded-mcp-server-cloudflare-ai-search-a-stateless-worker-479i",
+      "published": "2026-10-13T03:39:33+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "LLMs hallucinate most confidently about exactly the domain we publish on — Chinese licenses, store policies, cloud partitions. I run chinaready.co, an editorial site about China market entry for Western software teams (full disclosure: it's my site; the server below is free and MIT-licensed, no...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Martin Liu",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Why build another integration per app?",
+      "link": "https://dev.to/usehive/why-build-another-integration-per-app-4dol",
+      "published": "2026-10-13T03:13:27+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "Every SaaS company is now building its own agent door. Blockworks shipped a hosted MCP server for its datasets. Notolens built one for brand protection. Genea for access control. An insurer launched an entire directory so every carrier can list its own MCP server. Silverchair ran a six-month pilot...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "HIVE",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "REA (Reverse Engineer Anything) คืออะไร? MCP Server ที่คว้าดาว GitHub 115K ในหนึ่งสัปดาห์",
+      "link": "https://dev.to/thanawat_wonchai/rea-reverse-engineer-anything-khuueaair-mcp-server-thiikhwaadaaw-github-115k-ainhnuengsapdaah-4f2m",
+      "published": "2026-10-13T03:05:14+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "REA (Reverse Engineer Anything) คืออะไร? MCP Server ที่คว้าดาว GitHub 115K ในหนึ่งสัปดาห์ REA ย่อมาจาก Reverse Engineer Anything เป็น MCP server และ CLI แบบโอเพนซอร์สที่มอบเครื่องมือให้ coding agent แยกส่วนซอฟต์แวร์โดยไม่ต้องมีซอร์สโค้ด ชี้ Claude Code, Codex, Cursor หรือ agent อื่นไปที่ native...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Thanawat Wongchai",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "One MCP Server for Six AWS Inference Backends: Bedrock, SageMaker, GPUs, Inferentia and Trainium",
+      "link": "https://dev.to/aws-builders/one-mcp-server-for-six-aws-inference-backends-bedrock-sagemaker-gpus-inferentia-and-trainium-3edb",
+      "published": "2026-10-13T03:04:09+00:00",
+      "publishedDate": "2026-10-13",
+      "summary": "This article provides a step by step guide to the MCP server that operates a six-backend inference demo on AWS: Amazon Bedrock, a SageMaker endpoint, vLLM on EC2 g6 and g5g, and Gemma 4 on Inferentia2 and Trainium. A suite of eight Python MCP tools lists, launches, health-checks, reads the logs of,...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "xbill",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
@@ -169,105 +268,6 @@
       "blogId": "github-blog",
       "author": "Christopher Harrison",
       "sourceUrl": "https://github.blog/feed/"
-    },
-    {
-      "title": "Shipping a Claude Code plugin with an eval suite: testing that the agent doesn't make things up",
-      "link": "https://dev.to/vishalhabib99/shipping-a-claude-code-plugin-with-an-eval-suite-testing-that-the-agent-doesnt-make-things-up-26ck",
-      "published": "2026-10-12T17:27:38+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "An agent calling your MCP server never sees your code. It sees tool names, descriptions and parameter docs, and decides from those alone which tool to call and what to send. When a description is missing or wrong, the agent picks the wrong tool or sends bad arguments, and nothing in your own tests...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Vishal Habib",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "agentevals v0.10.0: Scores Come Back as OpenTelemetry Events",
-      "link": "https://dev.to/webofmike/agentevals-v0100-scores-come-back-as-opentelemetry-events-ko3",
-      "published": "2026-10-12T17:17:28+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "Originally published at webofmike.com on 2026-10-11. The demo repo and every command in it were run before publishing. agentevals v0.10.0 shipped two days ago and removed its own WebSocket ingestion path in favor of plain OpenTelemetry. Send OTLP traces in, run an eval, and the score comes back out...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Mike Moore",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "It sounds like a House of Cards. Is it?",
-      "link": "https://dev.to/wolfejam/it-sounds-like-a-house-of-cards-is-it-k1c",
-      "published": "2026-10-12T16:15:11+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "N cards, N models, N governing bodies. What could possibly go wrong? That was my first thought, too. So let's look at it properly. The business card you hand over before the meeting Before a meeting, you hand someone a business card. It doesn't do the work. It tells them who you are, what you do,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "wolfejam.dev",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Beyond MCP: Wiring Your AI Coding Agent to Jira and Bitbucket with Atlassian's TWG CLI",
-      "link": "https://dev.to/adeyemi987/beyond-mcp-wiring-your-ai-coding-agent-to-jira-and-bitbucket-with-atlassians-twg-cli-220j",
-      "published": "2026-10-12T16:08:50+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "A CLI-first way to give your coding agent the ticket, the PR, and the review comments. Why it usually costs fewer tokens than an MCP server, and what broke when I set it up on a corporate Windows laptop. By Adeyemi Tubosun · October 2026 · 10 min read The problem: your agent can write code, but it...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Adeyemi987",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Give your AI agent a keyboard-shortcut memory",
-      "link": "https://dev.to/juspaul_singh/give-your-ai-agent-a-keyboard-shortcut-memory-8l",
-      "published": "2026-10-12T15:35:48+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "Give your AI agent a keyboard-shortcut memory Keyboard shortcuts are facts about software — but which ones are confirmed for your platform is the part that matters. Most shortcut references are static pages. This one is a free MCP server your AI agent can query directly. What it is KeyShortcuts.net...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Jaspal Singh",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Build a Delivery AI Agent with MCP and Routing APIs",
-      "link": "https://dev.to/justrouting/build-a-delivery-ai-agent-with-mcp-and-routing-apis-aa4",
-      "published": "2026-10-12T14:47:00+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "AI agents are getting better at understanding requests, reasoning about problems, and completing complex tasks. But real-world operations need more than language. A delivery assistant needs to answer questions like: Which driver should handle this order? How long will delivery take? What is the...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "JustRouting",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "AI Agents Need a Routing Layer: Building Location Intelligence for Southeast Asia",
-      "link": "https://dev.to/justrouting/ai-agents-need-a-routing-layer-building-location-intelligence-for-southeast-asia-50gp",
-      "published": "2026-10-12T14:26:49+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "AI agents are becoming better at understanding users, planning tasks, and making decisions. But there is one important limitation: AI agents do not understand the physical world by default. They know language. They can reason about goals. They can call tools. But they still need external...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "JustRouting",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP Protocol Version Negotiation: Why Your Server Answers the Wrong Era",
-      "link": "https://dev.to/scriptmasterlabs01/mcp-protocol-version-negotiation-why-your-server-answers-the-wrong-era-4lln",
-      "published": "2026-10-12T13:34:49+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "MCP Protocol Version Negotiation: Why Your Server Answers the Wrong Era The direct answer, up front: when your MCP client asks for protocol version 2026-07-28 and the server answers 2025-11-25, that is usually not a bug — it is the spec's downward negotiation. The real red flags are echo machines...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "ScriptMasterLabs",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Validate email + SPF/DKIM/DMARC in one agent tool call",
-      "link": "https://dev.to/marcelocarlos0_d26fbf81d6/validate-email-spfdkimdmarc-in-one-agent-tool-call-1lhh",
-      "published": "2026-10-12T13:33:59+00:00",
-      "publishedDate": "2026-10-12",
-      "summary": "AI agents that send outreach or accept signups usually stitch two things together: “Is this address disposable / role-based / syntactically valid?” “Does the domain even publish SPF, DKIM, DMARC?” I built EmailIQ so both fit in a single MCP tool: analyze_email. What you get Syntax + domain exists +...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "marcelocarlos0",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
       "title": "Vercel Connect now supports TanStack AI",
@@ -314,6 +314,6 @@
       "sourceUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog"
     }
   ],
-  "summary": "• We checked 49 payment MCP servers. 37 can move money. Only 4 document a spending budget.: Disclosure: I work on Pink Agentic AI Payments at PinkWallet, which is one of the 49 servers in this census.\n• MCP Security Tools in 2026: What Two Scanners Missed and One Gateway Rule Caught: Connecting an MCP server to Claude Code or Cursor hands that server a slice of your model's prompt.\n• MCP in 2026: The numbers behind the ecosystem explosion: I spent an afternoon digging through the MCP ecosystem numbers.\n• GitHub Copilot app for Beginners: How to teach Copilot about your codebase: Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.\n• Shipping a Claude Code plugin with an eval suite: testing that the agent doesn't make things up: An agent calling your MCP server never sees your code.",
+  "summary": "• Your MCP servers need a bouncer: \"Where do we enforce who can call which tool?\n• Bridging Clinical Logic and LLMs: Engineering Safety into Dry Needling Workflows: When we talk about AI agents interacting with the physical world—even indirectly through clinical guidance—we move quickly from 'interesting chatbot'...\n• I built an MCP server so Claude stops telling me to do homework I already submitted: My school runs on D2L Brightspace.\n• Let Claude Code draw your architecture diagram — and keep the box you moved: Asking an AI to draw an architecture diagram works fine — the first time.\n• Your Agent Has a Lethal Trifecta Nobody Shipped a Fix For: 📖 Read the full version with charts and embedded sources on AgentConn → Everyone shipped agents in 2026.",
   "summarySource": "fallback"
 }
