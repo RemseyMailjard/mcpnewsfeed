@@ -2,7 +2,7 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-10-21T19:12:12.671422+00:00",
+  "lastUpdated": "2026-10-22T07:21:18.660714+00:00",
   "daysToKeep": 30,
   "totalArticles": 16,
   "keywords": [
@@ -127,135 +127,135 @@
   ],
   "articles": [
     {
-      "title": "Secure Tool Calling for AI Agents",
-      "link": "https://dev.to/neospeed83/secure-tool-calling-for-ai-agents-2275",
-      "published": "2026-10-21T18:45:10+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "Tool calling turns a model output into an action. That one transition is where an AI assistant becomes a security principal, but many systems protect it with only a JSON schema. The arguments are valid, therefore the action runs. Valid syntax is not valid authority. The agent should propose an...",
+      "title": "Before You Connect an MCP Server: A 5-Question Trust Check",
+      "link": "https://dev.to/promptmaster/before-you-connect-an-mcp-server-a-5-question-trust-check-kf",
+      "published": "2026-10-22T07:09:37+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "Adding an MCP server takes one line of config. That line decides what code runs on your machine, which of your accounts an AI model can reach, and what text gets fed back into its context. Most of us review a pull request more carefully than we review that line. MCP (the Model Context Protocol) is...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Akash Devdhar",
+      "author": "PromptMaster",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "How Does Stripe Treasury for Agents Work? 5 Tools, 4 That Move Money",
-      "link": "https://dev.to/scriptmasterlabs01/how-does-stripe-treasury-for-agents-work-5-tools-4-that-move-money-2hdg",
-      "published": "2026-10-21T18:23:42+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "How Does Stripe Treasury for Agents Work? 5 Tools, 4 That Move Money Stripe announced Stripe Treasury for agents on October 21, 2026: startups can run business finances through AI agents including ChatGPT and Claude, connected to a Stripe Treasury account through Stripe's Model Context Protocol...",
+      "title": "Claude Code shadcn Setup: MCP Server, Skill and CLAUDE.md",
+      "link": "https://dev.to/wingo-ui/claude-code-shadcn-setup-mcp-server-skill-and-claudemd-525o",
+      "published": "2026-10-22T07:00:00+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "TL;DR Run npx shadcn@latest mcp init --client claude to add the shadcn MCP server to .mcp.json, install the shadcn skill with npx skills add shadcn/ui, and list every extra registry in components.json. Then add a short block to CLAUDE.md that says which registry owns which folder and which CLI...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Serban Dan Rusu",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How to connect a Currency API to your AI Agent (using MCP)",
+      "link": "https://dev.to/alexcodebytes/how-to-connect-a-currency-api-to-your-ai-agent-using-mcp-1kg6",
+      "published": "2026-10-22T06:51:48+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "AI agents (like Claude and ChatGPT) are powerful, but they often lack access to real-time data. If you ask an AI \"What's the USD to UAH rate?\", it might hallucinate a number or give you outdated data. In this quick tutorial, I'll show you how to connect a real-time Currency Exchange API to your AI...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Oleksandr",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "I built an API for Polish tax rulings: 550k+ official interpretations for AI agents",
+      "link": "https://dev.to/krzysztof_filipiak_291b2c/i-built-an-api-for-polish-tax-rulings-550k-official-interpretations-for-ai-agents-2k26",
+      "published": "2026-10-22T06:40:17+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "I built an API for Polish tax rulings: 550,000+ official interpretations from the Ministry of Finance's EUREKA database as structured JSON – thesis, outcome, key sections and full Markdown. It works as an MCP tool for Claude and ChatGPT via Apify. Pay per result ($0.001). 👉...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Krzysztof Filipiak",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Intent-Sized vs Resource-Sized, Measured",
+      "link": "https://dev.to/steefjan_wiggers_34a415b/intent-sized-vs-resource-sized-measured-4ph1",
+      "published": "2026-10-22T06:16:38+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "Every MCP design discussion eventually reaches the granularity debate. Should a server expose intent-sized tools, one per thing a user wants done, or resource-sized tools, one per operation on each resource, the shape an OpenAPI-to-MCP generator produces from an existing REST API? The arguments are...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Steef-Jan Wiggers",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Browser MCP token cost: 68 runs of Playwright MCP vs Chrome DevTools MCP, and a proxy that cuts snapshots by up to 96%",
+      "link": "https://dev.to/jaehyun_cho_0dff271e0d2e5/browser-mcp-token-cost-68-runs-of-playwright-mcp-vs-chrome-devtools-mcp-and-a-proxy-that-cuts-1ee",
+      "published": "2026-10-22T06:06:30+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "You often hear that hooking a browser MCP server up to Claude Code burns tokens, and some posts put it at 10,000 to 50,000 tokens every time the agent looks at a page. I wanted to know whether that holds up, and whether it can be reduced, so I measured the two most popular servers: Microsoft's...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Johmisking",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How I Built 3 MCP Servers in a Weekend (and what I learned)",
+      "link": "https://dev.to/alexcodebytes/how-i-built-3-mcp-servers-in-a-weekend-and-what-i-learned-2gkc",
+      "published": "2026-10-22T04:29:17+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "I've been building B2B APIs for a while, but recently I got into MCP (Model Context Protocol). It's a game-changer for AI agents. In this post, I'll share how I built 3 MCP servers in a weekend — and what I learned. What is MCP? MCP is a protocol that allows AI agents (like Claude, ChatGPT) to call...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Oleksandr",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Design partners and MCP evaluation: two asks",
+      "link": "https://dev.to/usehive/design-partners-and-mcp-evaluation-two-asks-1dgd",
+      "published": "2026-10-22T04:01:03+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "Who is supposed to build agent access for software you do not own. That question keeps surfacing in the threads. The plainest version said it outright. Structured access is ideal, but you do not own the other side. Most vendors will never rebuild their products for your agent. That gap is the...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "HIVE",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "MCP Step-Up Authorization vs. OAuth Incremental Authorization: What Actually Changes?",
+      "link": "https://dev.to/tanahiro2010/mcp-step-up-authorization-vs-oauth-incremental-authorization-what-actually-changes-2a3j",
+      "published": "2026-10-22T03:58:00+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "MCP Step-Up Authorization vs. OAuth Incremental Authorization: What Actually Changes? “There are no zones.” There were three. TL;DR When Cloudflare announced step-up authorization for its API MCP Server, I wanted to know how it differed from Google OAuth's Incremental Authorization. I read the...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Hirohisa Tanaka",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How to Bring Memory-Efficient Structs and Data-Oriented Design to Godot 4 with an MCP Server in Python",
+      "link": "https://dev.to/johann_schiffer/how-to-bring-memory-efficient-structs-and-data-oriented-design-to-godot-4-with-an-mcp-server-in-905",
+      "published": "2026-10-22T01:38:31+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "Godot 4 and GDScript offer one of the most delightful rapid-prototyping workflows in modern game development. You can spin up a CharacterBody2D, write movement logic, and run scenes in seconds. However, as soon as you attempt to scale a game to 10,000+ active entities—such as a bullet-hell shmup,...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "johann",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "OKF v0.2 frontmatter: what the spec requires, and two ways to check a folder",
+      "link": "https://dev.to/oocm147/okf-v02-frontmatter-what-the-spec-requires-and-two-ways-to-check-a-folder-1b2o",
+      "published": "2026-10-22T01:24:23+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "I make JidoSeal. Free and local; the scan engine is proprietary; JidoSeal also sells optional certificates. If you keep notes, docs or a knowledge base as markdown with YAML frontmatter, and you point an AI tool at them (Claude Code, Cursor, Copilot, Codex, Gemini CLI, Zed, a local model), Google...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "David White",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How Does the Anrok MCP Server Work? 30+ Tools, 4 That Write Tax Records",
+      "link": "https://dev.to/scriptmasterlabs01/how-does-the-anrok-mcp-server-work-30-tools-4-that-write-tax-records-1ebk",
+      "published": "2026-10-22T01:15:44+00:00",
+      "publishedDate": "2026-10-22",
+      "summary": "How Does the Anrok MCP Server Work? 30+ Tools, 4 That Write Tax Records Anrok launched the Anrok MCP on October 21, 2026: a direct connection between an Anrok tax account and Claude, ChatGPT, Cursor and VS Code. Finance teams can read transactions, filings, exposure, customers, exemption...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
       "author": "ScriptMasterLabs",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How to Build Zero-Dependency Single-Binary CLI Tools with AI Agents: A Deterministic Go Scaffolder MCP Server",
-      "link": "https://dev.to/johann_schiffer/how-to-build-zero-dependency-single-binary-cli-tools-with-ai-agents-a-deterministic-go-scaffolder-539n",
-      "published": "2026-10-21T18:04:32+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "How to Build Zero-Dependency Single-Binary CLI Tools with AI Agents: A Deterministic Go Scaffolder MCP Server Autonomous coding swarms (Claude Desktop, Cursor, Devin, Roo-Code) are increasingly tasked with generating backend utilities, system micro-tools, and automation CLIs. However, when agents...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "johann",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Let Claude Desktop or Cursor run Apify actors: MCP setup with two real examples",
-      "link": "https://dev.to/jeezleweez_71e2a581f71298/let-claude-desktop-or-cursor-run-apify-actors-mcp-setup-with-two-real-examples-3lpg",
-      "published": "2026-10-21T18:02:00+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "SUPERSEDES effect 840. Disclosure: I publish the two Apify actors used below (pennydata/website-contact-extractor and pennydata/sitemap-extractor-plus) and earn a fee when they run. This post was written with AI assistance (Claude). It is a how-to for the MCP setup; the actors are just worked...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "PennyData",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP in 2026: The numbers behind the ecosystem explosion",
-      "link": "https://dev.to/grahamduescn/mcp-in-2026-the-numbers-behind-the-ecosystem-explosion-5662",
-      "published": "2026-10-21T18:00:02+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "I spent an afternoon digging through the MCP ecosystem numbers. Here is what I found. The numbers 13,000+ MCP servers on npm and GitHub (as of May 2026) 97 million monthly SDK downloads — that is 3x from 6 months ago 400% YoY growth in new server registrations Anthropic official servers reach...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "GrahamduesCN",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "🚀 Exploring Respan Gateway, an open-source LLM gateway with a plugin-first architecture for model routing, fallbacks, and MCP tools. An interesting project for AI developers to explore!",
-      "link": "https://dev.to/devstackhub/exploring-respan-gateway-an-open-source-llm-gateway-with-a-plugin-first-architecture-for-model-5ec8",
-      "published": "2026-10-21T17:58:49+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "I Explored Respan Gateway: A Plugin-First, Open-Source LLM Gateway Dev Stack Hub Dev Stack Hub Dev Stack Hub Follow Oct 21 I Explored Respan Gateway: A Plugin-First, Open-Source LLM Gateway #discuss #ai #llm #opensource 5 reactions 4 comments 8 min read",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Dev Stack Hub",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How to Automate Local Desktop Tasks with AI Agents Without Slow Vision Models: A Deterministic OS Conductor MCP Server",
-      "link": "https://dev.to/johann_schiffer/how-to-automate-local-desktop-tasks-with-ai-agents-without-slow-vision-models-a-deterministic-os-3d2d",
-      "published": "2026-10-21T17:45:32+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "How to Automate Local Desktop Tasks with AI Agents Without Slow Vision Models: A Deterministic OS Conductor MCP Server Autonomous coding agents like Claude Desktop, Cursor, Devin, and Roo-Code have revolutionized software development. However, whenever developers attempt to give agents control over...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "johann",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "REA: Giving My Coding Agent Real Reverse-Engineering Tools (and What I Had to Verify First)",
-      "link": "https://dev.to/henry_dan_81513dd35a2f540/rea-giving-my-coding-agent-real-reverse-engineering-tools-and-what-i-had-to-verify-first-4ff7",
-      "published": "2026-10-21T17:36:52+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "Ask an AI coding agent how a program works and it will usually tell you. Fluently, in detail, and mostly from memory: what programs like that tend to do, reconstructed from training data. The actual file on your disk never gets opened. REA changes that. This post covers what it is, what it's useful...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Ted",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Kafka MCP Server: How a Copilot Agent Safely Operates a Real Kafka Cluster",
-      "link": "https://dev.to/charanrachumalla/kafka-mcp-server-how-a-copilot-agent-safely-operates-a-real-kafka-cluster-58df",
-      "published": "2026-10-21T17:36:20+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "I built an MCP server for Kafka. It is a backend that connects to Kafka brokers and exposes Kafka operations as tools, defined through the Model Context Protocol, so a Copilot agent can call them. An operator asks a plain-English operational question — a consumer group falling behind, a topic that...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Charan Reddy Rachumalla",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP Transports Explained: stdio vs Streamable HTTP",
-      "link": "https://dev.to/mahendra_navale_0cd194502/mcp-transports-explained-stdio-vs-streamable-http-4dl1",
-      "published": "2026-10-21T16:59:14+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "MCP Transports Explained: stdio vs Streamable HTTP An MCP client and server need a path to talk. That path is called a transport. Two common choices are stdio and Streamable HTTP. They carry the same MCP messages, but they fit different jobs. The short rule is simple. Use stdio when one local app...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Mac",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "OmniMem 7: one app, no Docker",
-      "link": "https://dev.to/omnimem/omnimem-7-one-app-no-docker-55h1",
-      "published": "2026-10-21T16:47:47+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "OmniMem 7 is out, and it's a different kind of program. 6.x was four containers: Valkey with its search module, the Python MCP server, the web UI and the RSS worker, held together by a Docker Compose file. 7.0 is one Rust binary. It holds its own store, serves MCP, runs the RSS scheduler and the...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Richard Harvey",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Connect 16M+ Investment Bank Research Reports to Claude Code and Cursor in 5 Minutes (ReportGem MCP)",
-      "link": "https://dev.to/littlemosquito123/connect-16m-investment-bank-research-reports-to-claude-code-and-cursor-in-5-minutes-reportgem-mcp-11ei",
-      "published": "2026-10-21T16:03:56+00:00",
-      "publishedDate": "2026-10-21",
-      "summary": "Why Ask an AI assistant about markets and you usually get a confident answer with no source. \"Goldman thinks…\", \"analysts expect…\" — but which report, which page? For analysts and investors, a claim without a citation is not usable. ReportGem (报告驿站) turned its research library into a remote MCP...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "littlemosquito123",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
@@ -303,6 +303,6 @@
       "sourceUrl": "https://vercel.com/atom"
     }
   ],
-  "summary": "• Secure Tool Calling for AI Agents: Tool calling turns a model output into an action.\n• How Does Stripe Treasury for Agents Work? 5 Tools, 4 That Move Money: How Does Stripe Treasury for Agents Work?\n• How to Build Zero-Dependency Single-Binary CLI Tools with AI Agents: A Deterministic Go Scaffolder MCP Server: How to Build Zero-Dependency Single-Binary CLI Tools with AI Agents: A Deterministic Go Scaffolder MCP Server Autonomous coding swarms (Claude Desktop...\n• Let Claude Desktop or Cursor run Apify actors: MCP setup with two real examples: SUPERSEDES effect 840.\n• MCP in 2026: The numbers behind the ecosystem explosion: I spent an afternoon digging through the MCP ecosystem numbers.",
+  "summary": "• Before You Connect an MCP Server: A 5-Question Trust Check: Adding an MCP server takes one line of config.\n• Claude Code shadcn Setup: MCP Server, Skill and CLAUDE.md: TL;DR Run npx shadcn@latest mcp init --client claude to add the shadcn MCP server to .\n• How to connect a Currency API to your AI Agent (using MCP): AI agents (like Claude and ChatGPT) are powerful, but they often lack access to real-time data.\n• I built an API for Polish tax rulings: 550k+ official interpretations for AI agents: I built an API for Polish tax rulings: 550,000+ official interpretations from the Ministry of Finance's EUREKA database as structured JSON – thesis, o...\n• Intent-Sized vs Resource-Sized, Measured: Every MCP design discussion eventually reaches the granularity debate.",
   "summarySource": "fallback"
 }
