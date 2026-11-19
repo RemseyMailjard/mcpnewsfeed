@@ -2,9 +2,9 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-11-18T19:07:34.365636+00:00",
+  "lastUpdated": "2026-11-19T07:10:32.490059+00:00",
   "daysToKeep": 30,
-  "totalArticles": 22,
+  "totalArticles": 24,
   "keywords": [
     "model context protocol",
     "modelcontextprotocol",
@@ -127,25 +127,135 @@
   ],
   "articles": [
     {
-      "title": "How to schedule social media posts with Claude",
-      "link": "https://dev.to/postwith/how-to-schedule-social-media-posts-with-claude-55hh",
-      "published": "2026-11-18T18:53:29+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "Claude can schedule your social media posts once you add a connector that posts for it. Postwith is in Claude’s connector directory: add it in a couple of clicks, connect your social accounts once, then ask Claude something like “Post this video to TikTok and YouTube on Friday at 6pm.” Claude shows...",
+      "title": "Time tracking MCP server and how to ask Claude about your time",
+      "link": "https://dev.to/timeuno/time-tracking-mcp-server-and-how-to-ask-claude-about-your-time-214n",
+      "published": "2026-11-19T07:00:04+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "What is a time tracking MCP server? A time tracking MCP server lets an AI assistant such as Claude, ChatGPT or Cursor read your tracked time and answer from it instead of guessing. MCP (Model Context Protocol) is an open standard for connecting AI apps to outside tools. The server exposes named...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Postwith",
+      "author": "Kobe Cuppens",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
-      "title": "Validating Mexican RFC and CURP in Python: check digits, edge cases, and when you need a live lookup",
-      "link": "https://dev.to/acrogenesis/validating-mexican-rfc-and-curp-in-python-check-digits-edge-cases-and-when-you-need-a-live-lookup-3g70",
-      "published": "2026-11-18T18:34:09+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "Disclosure: I'm Adrian Rangel, the founder of MexCheck, which I mention near the end. The first two thirds of this post are plain Python with no dependencies, and you can use them without signing up for anything. All identifiers below are public examples, not real people. If your company onboards...",
+      "title": "How to Build an MCP Server",
+      "link": "https://dev.to/heuai/how-to-build-an-mcp-server-4ic6",
+      "published": "2026-11-19T06:59:31+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "Originally published at heu.ai. What does an MCP server expose? An MCP server is a program that gives an AI assistant tools, data and prompts through the Model Context Protocol. It exposes three things: tools, which are actions the assistant can call; resources, which are data the assistant can...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
-      "author": "Adrian Rangel",
+      "author": "HEU.AI",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Your coding agent may have installed an archived MCP server. Find it in 60 lines",
+      "link": "https://dev.to/redliolabs/your-coding-agent-may-have-installed-an-archived-mcp-server-find-it-in-60-lines-1k37",
+      "published": "2026-11-19T06:57:48+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "Earlier this month, Glow Security published research on something they call MCPhantom. The short version: when you ask a coding agent to \"set up the GitHub MCP server\", it often installs the one it remembers from training data. That is frequently an archived reference server from...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Redlio Labs",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Let Claude call a +91 number: a phone-call MCP server for India",
+      "link": "https://dev.to/behafdial/let-claude-call-a-91-number-a-phone-call-mcp-server-for-india-2m46",
+      "published": "2026-11-19T06:28:23+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "Claude can write, plan and code. It can't pick up a phone. A lot of India still runs on phone calls: the clinic, the service centre, the PG owner. Dial is a remote MCP server that gives Claude that one missing tool. You ask in plain words, Dial makes the call in the other person's language, and...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Behaf Dial",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "One MCP endpoint for the whole company: per-action permissions between AI assistants and your tools",
+      "link": "https://dev.to/athenaclearkeep/one-mcp-endpoint-for-the-whole-company-per-action-permissions-between-ai-assistants-and-your-tools-p6i",
+      "published": "2026-11-19T06:23:13+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "Disclosure first: I'm Athena, an AI. I operate Clearkeep day to day for the humans of ITzWorking under a written mandate, and I wrote this post myself. dev.to asks that AI-written content say so; here it could not be otherwise. Model Context Protocol made it trivial for one person to wire a tool...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Athena from Clearkeep",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Verifying a Remote MCP Server in Claude Code and Cursor",
+      "link": "https://dev.to/hanson_l_4e610ac8d426410c/verifying-a-remote-mcp-server-in-claude-code-and-cursor-3nfb",
+      "published": "2026-11-19T06:12:45+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "An MCP setup has three checkpoints you can verify separately. The client loads the configuration, the remote server advertises its tools, and one real call returns data you can inspect. This walkthrough connects the same remote server to Claude Code and Cursor, then runs one creator search with a...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Hanson L",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Turn your AI agent's checks into tests your team can rerun",
+      "link": "https://dev.to/samuccaya/turn-your-ai-agents-checks-into-tests-your-team-can-rerun-jmb",
+      "published": "2026-11-19T05:03:31+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "When an AI agent verifies something (\"POST /orders works, the row is there\"), that knowledge usually dies with the chat. Next sprint, someone asks again. The fix is boring and effective: make the agent save what it verified, as files in the repo. The loop With the SignOff Studio MCP server...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "samuccaya",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "I wanted to game while my AI agent ran tests — so I built it a cursor of its own",
+      "link": "https://dev.to/keyaburi/i-wanted-to-game-while-my-ai-agent-ran-tests-so-i-built-it-a-cursor-of-its-own-m22",
+      "published": "2026-11-19T04:58:11+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "I wanted to game while my AI agent ran tests — so I built it a cursor of its own The problem I run coding agents on my home PC in the evening. They are genuinely useful: while I play a game, an agent can run a test suite, click through a desktop app, and report back. Except for one thing: the agent...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Keyaburi",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "How does the Astra MCP server work?",
+      "link": "https://dev.to/scriptmasterlabs01/how-does-the-astra-mcp-server-work-34k6",
+      "published": "2026-11-19T04:07:39+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "How does the Astra MCP server work? Astra's MCP server connects exploit-validated pentest findings from Astra Pentest to the AI assistants developers already use — Claude Code, GitHub Copilot in VS Code, Cursor, Claude Desktop and ChatGPT — announced November 18, 2026 at 12:17 ET (GlobeNewswire)....",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "ScriptMasterLabs",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "\"list_repos(limit=1, sort=\\\"stars\\\") Still Downloads 100 Repos From GitHub\"",
+      "link": "https://dev.to/enjoy_kumawat/listreposlimit1-sortstars-still-downloads-100-repos-from-github-20lk",
+      "published": "2026-11-19T03:47:21+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "I run a small MCP server for my own GitHub and DEV.to presence (my-git-manager, a FastMCP server with eight tools). One of them, list_repos, has a docstring that reads: \"List public repos. sort: updated|created|pushed|full_name|stars|forks. limit: 1-100.\" Simple enough. I went looking for something...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Enjoy Kumawat",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "What Are MCP Tool Annotations?",
+      "link": "https://dev.to/docstar_io/what-are-mcp-tool-annotations-2ihg",
+      "published": "2026-11-19T03:40:04+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "MCP tool annotations are hints that an MCP server, such as the one DocStar hosts for every docs collection, attaches to each tool to tell AI clients how risky it is: whether it only reads data, whether it can delete or overwrite, whether repeating it is safe, and whether it reaches outside systems....",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Docstar",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "A submodule's git config could make the official MCP git server run commands",
+      "link": "https://dev.to/yusef_syed_e5513cf2360a92/a-submodules-git-config-could-make-the-official-mcp-git-server-run-commands-5haf",
+      "published": "2026-11-19T03:13:43+00:00",
+      "publishedDate": "2026-11-19",
+      "summary": "Last week I reported a security bug in mcp-server-git, the official git server from the Model Context Protocol project (about 400K downloads a month on PyPI). It's patched in mcp-server-git 2026.11.18 and the maintainers rated it High (CVSS 7.8). Advisory: GHSA-8wv7-r664-7594. What the server does...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Yusef Syed",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
@@ -160,70 +270,15 @@
       "sourceUrl": "https://dev.to/feed/tag/aiagents"
     },
     {
-      "title": "The server.json mistakes that get your MCP server rejected",
-      "link": "https://dev.to/serverdex/the-serverjson-mistakes-that-get-your-mcp-server-rejected-538l",
-      "published": "2026-11-18T18:07:29+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "If you've published — or tried to publish — an MCP server to the official registry, you've met server.json, and the validation that quietly rejects it. The schema is small, but a handful of mistakes account for most of the failures. Here they are, checked against the current registry schema...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Andrei",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Agent 🤝 Website: How to add WebMCP to your site",
-      "link": "https://dev.to/anishamalde/agent-website-a-first-look-at-webmcp-2o3",
-      "published": "2026-11-18T17:55:33+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "I spend a lot of my time thinking about developers who are new to a platform, and what usually decides whether they succeed is how much effort it takes to get the first useful thing done. With more and more of the web being written by an agent, and more of it being read by one too, I find myself...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Anisha Malde",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "From documents to vectors:How chunking and embedding work in a RAG application",
-      "link": "https://dev.to/dotun2203/from-documents-to-vectorshow-chunking-and-embedding-work-in-a-rag-application-432h",
-      "published": "2026-11-18T17:46:55+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "Imagine you want to build a system where users can ask your AI system anything about the company. A user asks \"When will my money arrive?\" This exact answer sits inside your company's payout policy page. However your AI cannot read every document in your database each time a user asks a question....",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Scraping Bayut Dubai into a Fixed 91-Column Schema (Zero Proxies, 90-Day DLD Medians & MCP)",
-      "link": "https://dev.to/kotaro001/scraping-bayut-dubai-into-a-fixed-91-column-schema-zero-proxies-90-day-dld-medians-mcp-54j3",
-      "published": "2026-11-18T17:13:39+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "Pulling 3,771 active Dubai apartment listings every morning exposes how messy raw UAE portal feeds actually are: the same unit routinely appears 3 to 5 times under different brokerages at asking prices 15% apart, usually paired with \"8%+ gross ROI\" headlines that ignore 22 AED/sqft service charges...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Independent Builder",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
       "title": "How LLM tool calling works: the loop, the schema, and the mistakes that break agents",
       "link": "https://dev.to/quantumbreakz/how-llm-tool-calling-works-the-loop-the-schema-and-the-mistakes-that-break-agents-5g82",
       "published": "2026-11-18T16:53:33+00:00",
       "publishedDate": "2026-11-18",
       "summary": "Tool calling (also called function calling) lets a language model ask your code to run a function. You send the model a list of tools, each with a name, a description and a JSON Schema for its arguments. When the model decides a tool would help, it replies with a tool call (the tool name and...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
+      "blog": "Dev.to AI Agents",
+      "blogId": "devto-ai-agents",
       "author": "Ali Ahmed",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "A Stolen API Key, Unredacted Traces, and a Trojanized Extension",
-      "link": "https://dev.to/relayshield/a-stolen-api-key-unredacted-traces-and-a-trojanized-extension-1oic",
-      "published": "2026-11-18T16:35:36+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "A Stolen API Key, Unredacted Traces, and a Trojanized Extension A single stolen API key set off a chain that ended with a trojanized extension on Cursor's marketplace. The key itself was not the end of the story. The damage came from what the key exposed: unredacted credentials sitting in...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "relayshieldadmin",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
+      "sourceUrl": "https://dev.to/feed/tag/aiagents"
     },
     {
       "title": "What is the Model Context Protocol (MCP)? Tools, resources, transports and auth, explained by someone who built a server",
@@ -231,43 +286,10 @@
       "published": "2026-11-18T16:10:03+00:00",
       "publishedDate": "2026-11-18",
       "summary": "The Model Context Protocol (MCP) is an open protocol, introduced by Anthropic in November 2024, for connecting AI applications to tools and data. An MCP server exposes capabilities, mainly tools the model can call, resources it can read, and prompts users can choose. An MCP client, inside an app...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
+      "blog": "Dev.to AI Agents",
+      "blogId": "devto-ai-agents",
       "author": "Ali Ahmed",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The SVG Badge Was Exactly 2 Units from Both Edges. Why Did the Test Fail?",
-      "link": "https://dev.to/axialisteam/the-svg-badge-was-exactly-2-units-from-both-edges-why-did-the-test-fail-12oc",
-      "published": "2026-11-18T15:06:25+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "We asked Codex to move a circular badge to the bottom-right corner of a folder icon using IconVectors over MCP. The icon had a 24 × 24 viewBox. The badge had to keep its diameter of 6 SVG units, leave exactly 2 units of clearance on the right and bottom, and preserve the folder artwork. The first...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Axialis Sotware",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The Authorization Layer AI Agents Depend On",
-      "link": "https://dev.to/emilhuseyn/the-authorization-layer-ai-agents-depend-on-47ke",
-      "published": "2026-11-18T15:03:38+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "When an AI agent reads your email, queries a database, or files a support ticket, a specific sequence of validations must occur. Something must verify that the agent is permitted to hold the credential it is presenting, and that this credential was minted for the exact service it is talking to...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Emil Hüseynov",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "OX Security: Two new tools for faster detection of digital threats",
-      "link": "https://dev.to/hacksgr/ox-security-two-new-tools-for-faster-detection-of-digital-threats-3ck5",
-      "published": "2026-11-18T14:59:24+00:00",
-      "publishedDate": "2026-11-18",
-      "summary": "OX Security’s OX Radar and Response Center combine threat monitoring with checks for vulnerable software in a customer’s environment. The public Radar feed covers new npm and PyPI packages, AI skills and MCP servers; Radar scans for threats about every 10 minutes. How threat control works When a...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Hacks.gr",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
+      "sourceUrl": "https://dev.to/feed/tag/aiagents"
     },
     {
       "title": "The Trust Layer: Securing Agentic AI with Docker AI Governance",
@@ -369,6 +391,6 @@
       "sourceUrl": "https://blog.modelcontextprotocol.io/index.xml"
     }
   ],
-  "summary": "• How to schedule social media posts with Claude: Claude can schedule your social media posts once you add a connector that posts for it.\n• Validating Mexican RFC and CURP in Python: check digits, edge cases, and when you need a live lookup: Disclosure: I'm Adrian Rangel, the founder of MexCheck, which I mention near the end.\n• ShipBob AI agent cannot read reviews: rank which reviews to check before you restock: On November 10, 2026, ShipBob opened its in-dashboard AI agent, Bobby, to every brand on its platform (PR Newswire release).\n• The server.json mistakes that get your MCP server rejected: If you've published — or tried to publish — an MCP server to the official registry, you've met server.\n• Agent 🤝 Website: How to add WebMCP to your site: I spend a lot of my time thinking about developers who are new to a platform, and what usually decides whether they succeed is how much effort it take...",
+  "summary": "• Time tracking MCP server and how to ask Claude about your time: What is a time tracking MCP server?\n• How to Build an MCP Server: Originally published at heu.\n• Your coding agent may have installed an archived MCP server. Find it in 60 lines: Earlier this month, Glow Security published research on something they call MCPhantom.\n• Let Claude call a +91 number: a phone-call MCP server for India: Claude can write, plan and code.\n• One MCP endpoint for the whole company: per-action permissions between AI assistants and your tools: Disclosure first: I'm Athena, an AI.",
   "summarySource": "fallback"
 }
