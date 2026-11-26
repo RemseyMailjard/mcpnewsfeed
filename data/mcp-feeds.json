@@ -2,9 +2,9 @@
   "name": "MCP News Feed",
   "topic": "Model Context Protocol",
   "description": "News about MCP, AI agents, MCP servers, tool integrations, security, developer tooling, and enterprise AI adoption.",
-  "lastUpdated": "2026-11-25T19:07:49.016177+00:00",
+  "lastUpdated": "2026-11-26T07:11:01.681320+00:00",
   "daysToKeep": 30,
-  "totalArticles": 26,
+  "totalArticles": 25,
   "keywords": [
     "model context protocol",
     "modelcontextprotocol",
@@ -127,135 +127,135 @@
   ],
   "articles": [
     {
-      "title": "I measured how well an AI assistant shops through MCP. Here is what broke.",
-      "link": "https://dev.to/pirotskiy/i-measured-how-well-an-ai-assistant-shops-through-mcp-here-is-what-broke-1hp",
-      "published": "2026-11-25T18:34:30+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "An assistant that shops for a buyer can fail in two ways: it finds the wrong part, or it finds the right part and then reasons badly about it. Most demos show neither. So I wrote a small open-source harness that measures both, against any store that speaks MCP over HTTP: mcp-commerce-evals (Rust,...",
+      "title": "I built a browser extension that turns any camera or tab into an AI sensor",
+      "link": "https://dev.to/smartcity_jaen/i-built-a-browser-extension-that-turns-any-camera-or-tab-into-an-ai-sensor-1f4n",
+      "published": "2026-11-26T07:04:32+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "Survany is a free, open-source extension (Chrome, Edge, Firefox) that watches a webcam or any browser tab and alerts you when something you care about happens. You write rules in plain words: • \"Dog in the kitchen, but not the cat?\" • \"3D print failed?\" • \"Grafana dashboard turned red?\" • \"Door...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "SmartCity Jaen",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Auditing 6 Meta Ads MCP servers: tool count, schema bloat, and write safety",
+      "link": "https://dev.to/bursteri/auditing-6-meta-ads-mcp-servers-tool-count-schema-bloat-and-write-safety-ll0",
+      "published": "2026-11-26T06:51:09+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "When you connect Claude Code, Cursor, or ChatGPT to a Meta Ads MCP server, three engineering questions matter immediately: How many tools does it dump into your agent's context window before you send a single prompt? What write and delete capabilities does it expose directly to the LLM (activate,...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "bursteri",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Agentic Factory: Giving AI Agents Superpowers Without Giving Them the Keys",
+      "link": "https://dev.to/ipt/agentic-factory-giving-ai-agents-superpowers-without-giving-them-the-keys-14n8",
+      "published": "2026-11-26T06:51:06+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "AI coding agents have become ridiculously capable. Give them access to a repository and they can navigate code, implement features, run tests, and debug issues with surprisingly little intervention. But as I started using agents more extensively, I ran into a problem: the more useful I wanted my...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Jakob Beckmann",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Same call, three files: 1249x925, 780x493, and 324 bytes",
+      "link": "https://dev.to/anclum/same-call-three-files-1249x925-780x493-and-324-bytes-1fpl",
+      "published": "2026-11-26T06:39:20+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "Same call, three files: 1249x925, 780x493, and 324 bytes The call is browser_take_screenshot with scale: \"css\" and nothing else. Three runs, two machines, three files: Run OS Viewport before the call Bytes Dimensions A Windows not set 51,691 1249×925 B Windows browser_resize 780 493 33,993 780×493...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Anclum",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Try Belcore's long-term memory from any MCP client (Claude Desktop, Cursor) in two minutes",
+      "link": "https://dev.to/belcore/try-belcores-long-term-memory-from-any-mcp-client-claude-desktop-cursor-in-two-minutes-2ind",
+      "published": "2026-11-26T06:35:25+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "If your tool speaks MCP, you can try Belcore's memory and emotion-state chat without writing any code. @belcore/mcp is a small MCP server that exposes it as a tool. Set up Get a free API key (5,000 calls, no card): https://belcore.xyz/developers/signup Add the server to your MCP client's config: {...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "belcore",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Lume em Mac sem interface gráfica: teste de VMs macOS para agentes de IA",
+      "link": "https://dev.to/guiadeti/lume-em-mac-sem-interface-grafica-teste-de-vms-macos-para-agentes-de-ia-38bh",
+      "published": "2026-11-26T06:34:41+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "Teste compara Lume e Tart para VMs de agentes Um teste realizado em 24 de novembro de 2026 em um host AWS mac-m4.metal, com macOS 27.2.1 e Lume 0.9.0, avaliou máquinas virtuais macOS descartáveis para tarefas de agentes de IA. O ensaio examinou criação, clonagem e inicialização em um Mac acessado...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "guiadeti",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Cheapest flights out of Berlin with one curl call",
+      "link": "https://dev.to/maviapi/cheapest-flights-out-of-berlin-with-one-curl-call-534m",
+      "published": "2026-11-26T06:32:22+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "Kiwi.com has no public API for its flight search. If you want its prices in your app, the usual route is a scraper: a headless browser, a parser for the result cards, proxies once the bot wall notices you, and a fix every time the page changes. Here is the same data as one request: curl...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "maviapi",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "MCP Ships Skills and Tasks. The 3-Second Problem Remains.",
+      "link": "https://dev.to/max_quimby/mcp-ships-skills-and-tasks-the-3-second-problem-remains-5f9n",
+      "published": "2026-11-26T06:10:48+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "On November 24, 2026 — two years to the week after open-sourcing the Model Context Protocol — Anthropic shipped the biggest upgrade to MCP since launch. Skills over MCP entered public beta. Tasks and Elicitation went generally available. File Uploads are coming. As Anthropic engineer Boris Cherny...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Max Quimby",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "SRT vs WebVTT for YouTube Subtitles: Byte-Level Diff & Hosting a Stateless MCP Server on Cloudflare Workers",
+      "link": "https://dev.to/linnan_zhao_341fdab384c18/srt-vs-webvtt-for-youtube-subtitles-byte-level-diff-hosting-a-stateless-mcp-server-on-cloudflare-3k98",
+      "published": "2026-11-26T06:06:15+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "When developers pull captions from YouTube for video editing, HTML5 <video> players, or LLM RAG pipelines, two recurring bugs show up immediately: Renaming a YouTube .vtt file to .srt breaks desktop NLEs (Premiere Pro, DaVinci Resolve, CapCut) because of subtle delimiter and header rules. Local...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "linnan zhao",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Classpath MCP without a workspace: let an AI agent read Java jars in jdx v1.8.0",
+      "link": "https://dev.to/mohammadmd1383/classpath-mcp-without-a-workspace-let-an-ai-agent-read-java-jars-in-jdx-v180-3bjb",
+      "published": "2026-11-26T06:05:38+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "When I first shipped the jdx MCP server, an AI coding agent could already ask IDE questions about a JVM jar — members, one method body, usages, implementors — but only after I had created a stored workspace. That is a good setup for a long-lived project. It is the wrong setup when you just want...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Mohammad Mostafa Dastjerdi",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Your agent uses Gmail REST APIs. Google just put it on a timer.",
+      "link": "https://dev.to/dhrubojyoti/your-agent-uses-gmail-rest-apis-google-just-put-it-on-a-timer-34ff",
+      "published": "2026-11-26T05:59:10+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "Your agent uses Gmail REST APIs. Google just put it on a timer. Most AI teams integrated Google Workspace the conventional way: create one OAuth 2.0 client ID, call Gmail/Drive/Calendar REST endpoints directly, and store message embeddings in a vector database for long-term agent memory. On 24–25...",
+      "blog": "Dev.to MCP",
+      "blogId": "devto-mcp",
+      "author": "Dhrubojyoti Gangopadhyay",
+      "sourceUrl": "https://dev.to/feed/tag/mcp"
+    },
+    {
+      "title": "Parts search starts from the bike, not the part number",
+      "link": "https://dev.to/pirotskiy/parts-search-starts-from-the-bike-not-the-part-number-1d1k",
+      "published": "2026-11-26T05:45:33+00:00",
+      "publishedDate": "2026-11-26",
+      "summary": "A buyer who needs a spare part rarely knows its number. They know their machine: a road bike, 11-speed, disc brakes, a 12x142 rear axle. So parts search has to start there, and the hard part is not matching words but deciding what fits. I built search that starts from the machine on a commercial...",
       "blog": "Dev.to MCP",
       "blogId": "devto-mcp",
       "author": "Vladimir Pirotskiy",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How to install Claude Code plugins (marketplaces, scopes & fixes)",
-      "link": "https://dev.to/pluginstackai/how-to-install-claude-code-plugins-marketplaces-scopes-fixes-1d8o",
-      "published": "2026-11-25T18:26:31+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "How to install Claude Code plugins Checked against the official docs: Oct 21, 2026 Claude Code plugins bundle skills, subagents, hooks and MCP servers so you can add a whole workflow or integration in one step. This guide covers installing from Anthropic's official marketplace and from other...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "PluginStack",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How to set up Context7 MCP (Claude Code, Cursor, VS Code, Codex)",
-      "link": "https://dev.to/pluginstackai/how-to-set-up-context7-mcp-claude-code-cursor-vs-code-codex-ii0",
-      "published": "2026-11-25T18:26:22+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "How to set up Context7 MCP in Claude Code, Cursor, VS Code and Codex Checked against the official docs: Nov 2, 2026 Context7 gives a coding agent current, version-specific documentation and code examples for the libraries you use, so it stops guessing at APIs that changed after the model was...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "PluginStack",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How to set up the Playwright MCP server (Claude Code, Cursor, VS Code, Codex)",
-      "link": "https://dev.to/pluginstackai/how-to-set-up-the-playwright-mcp-server-claude-code-cursor-vs-code-codex-5aan",
-      "published": "2026-11-25T18:25:41+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "How to set up the Playwright MCP server in Claude Code, Cursor, VS Code and Codex Checked against the official docs: Nov 20, 2026 Microsoft's Playwright MCP server gives an AI assistant a real browser. It works from the page's accessibility tree rather than screenshots, so no vision model is...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "PluginStack",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "How to set up the GitHub MCP server (Claude Code, Cursor, VS Code, Codex)",
-      "link": "https://dev.to/pluginstackai/how-to-set-up-the-github-mcp-server-claude-code-cursor-vs-code-codex-1l51",
-      "published": "2026-11-25T18:25:29+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "How to set up the GitHub MCP server in Claude Code, Cursor, VS Code and Codex Checked against the official docs: Nov 20, 2026 The official GitHub MCP server lets an AI assistant read repositories and code, work with issues and pull requests, check GitHub Actions runs and review security findings,...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "PluginStack",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP Gives You Access. Mastery Takes Practice.",
-      "link": "https://dev.to/yousef_remli_127f1997b71b/mcp-gives-you-access-mastery-takes-practice-3lmi",
-      "published": "2026-11-25T18:09:39+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "When I started using the Model Context Protocol (MCP) in web development, I already knew how to investigate a UI bug. I could tell an agent what to reproduce, which part of the page to inspect, and what would prove the fix worked. MCP gave the agent a way to operate tools in a workflow I already...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Yousef REMLI",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "MCP vs Agent Skills: the same foundation owns both now, and your MCP server can ship its own skill (public beta this week)",
-      "link": "https://dev.to/serverdex/mcp-vs-agent-skills-the-same-foundation-owns-both-now-and-your-mcp-server-can-ship-its-own-skill-35gk",
-      "published": "2026-11-25T17:25:32+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "Bottom line: MCP and Agent Skills are two layers, not two camps. Missing an ability (reach a database, a SaaS API, a browser)? That is an MCP server. Missing a procedure (how to do the thing well, every time)? That is a skill. And as of this week the two meet on the wire: an MCP server can ship its...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Andrei",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Zero Data Retention Is a Promise. Canary Tokens Are the Proof",
-      "link": "https://dev.to/webofmike/zero-data-retention-is-a-promise-canary-tokens-are-the-proof-1l1f",
-      "published": "2026-11-25T17:23:09+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "Originally published at webofmike.com on 2026-11-24T16:07:00Z. The demo repo and every command in it were run before publishing. Dragos sent nearly 2 million prompts to AI inference providers over five months, each one carrying a secret nobody was supposed to see. Three providers saw it anyway, and...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Mike Moore",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "kgateway v2.5.1 Rejects Bad Config at kubectl apply",
-      "link": "https://dev.to/webofmike/kgateway-v251-rejects-bad-config-at-kubectl-apply-3njo",
-      "published": "2026-11-25T17:22:37+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "Originally published at webofmike.com on 2026-11-17T16:07:00Z. The demo repo and every command in it were run before publishing. kgateway v2.5.1 shipped on 2026-11-06 with a change that is easy to miss in a changelog and annoying to find out about the hard way: PR #14992 adds explicit minimum and...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Mike Moore",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "The Claude Code Extension Backdoor Was a Marketplace Problem",
-      "link": "https://dev.to/webofmike/the-claude-code-extension-backdoor-was-a-marketplace-problem-1792",
-      "published": "2026-11-25T17:22:06+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "Originally published at webofmike.com on 2026-11-15. The demo repo and every command in it were run before publishing. On 2026-10-30, security firm Phorion disclosed that the official Claude Code extension for VS Code, version 2.1.313, had been backdoored. Not on Anthropic's own registry, on the...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Mike Moore",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Connecting Claude & Cursor to Wall Street Sell-Side Equity Research via Remote MCP (Streamable HTTP + OAuth 2.0)",
-      "link": "https://dev.to/lijiumixin/connecting-claude-cursor-to-wall-street-sell-side-equity-research-via-remote-mcp-streamable-http-cn",
-      "published": "2026-11-25T16:49:18+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "Most financial Model Context Protocol (MCP) servers today focus on raw market data: stock quotes, OHLCV candles, or raw SEC filings. Those are useful primitives, but when you are building an AI research assistant for equity analysis, the hardest missing layer is structured institutional sell-side...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "lijiumixin",
-      "sourceUrl": "https://dev.to/feed/tag/mcp"
-    },
-    {
-      "title": "Build or Connect? Adding Social Media Publishing to an AI Product",
-      "link": "https://dev.to/melanietamble/build-or-connect-adding-social-media-publishing-to-an-ai-product-2laf",
-      "published": "2026-11-25T16:41:16+00:00",
-      "publishedDate": "2026-11-25",
-      "summary": "Adding social publishing to an AI product can look like a simple feature request: connect a network, authenticate a user, and send a post. The architecture becomes more consequential when the product needs to support several networks, different authorization flows, and a controlled path from...",
-      "blog": "Dev.to MCP",
-      "blogId": "devto-mcp",
-      "author": "Melanie Tamble",
       "sourceUrl": "https://dev.to/feed/tag/mcp"
     },
     {
@@ -279,17 +279,6 @@
       "blogId": "thenewstack",
       "author": "Frederic Lardinois",
       "sourceUrl": "https://thenewstack.io/feed/"
-    },
-    {
-      "title": "Designing approval gates for an AI agent with Meta Ads write access (MCP architecture notes)",
-      "link": "https://dev.to/bursteri/designing-approval-gates-for-an-ai-agent-with-meta-ads-write-access-mcp-architecture-notes-2k9l",
-      "published": "2026-11-24T18:00:42+00:00",
-      "publishedDate": "2026-11-24",
-      "summary": "Connecting an AI agent to Meta Ads for read-only reporting is straightforward. You wire up OAuth, expose a handful of Insights endpoints over Model Context Protocol (MCP), and let Claude or Cursor summarize spend, CPA, and creative fatigue. The hard engineering problem starts the moment someone...",
-      "blog": "Dev.to AI Agents",
-      "blogId": "devto-ai-agents",
-      "author": "bursteri",
-      "sourceUrl": "https://dev.to/feed/tag/aiagents"
     },
     {
       "title": "Two Years of MCP Builders",
@@ -413,6 +402,6 @@
       "sourceUrl": "https://blog.modelcontextprotocol.io/index.xml"
     }
   ],
-  "summary": "• I measured how well an AI assistant shops through MCP. Here is what broke.: An assistant that shops for a buyer can fail in two ways: it finds the wrong part, or it finds the right part and then reasons badly about it.\n• How to install Claude Code plugins (marketplaces, scopes & fixes): How to install Claude Code plugins Checked against the official docs: Oct 21, 2026 Claude Code plugins bundle skills, subagents, hooks and MCP servers...\n• How to set up Context7 MCP (Claude Code, Cursor, VS Code, Codex): How to set up Context7 MCP in Claude Code, Cursor, VS Code and Codex Checked against the official docs: Nov 2, 2026 Context7 gives a coding agent curr...\n• How to set up the Playwright MCP server (Claude Code, Cursor, VS Code, Codex): How to set up the Playwright MCP server in Claude Code, Cursor, VS Code and Codex Checked against the official docs: Nov 20, 2026 Microsoft's Playwrig...\n• How to set up the GitHub MCP server (Claude Code, Cursor, VS Code, Codex): How to set up the GitHub MCP server in Claude Code, Cursor, VS Code and Codex Checked against the official docs: Nov 20, 2026 The official GitHub MCP...",
+  "summary": "• I built a browser extension that turns any camera or tab into an AI sensor: Survany is a free, open-source extension (Chrome, Edge, Firefox) that watches a webcam or any browser tab and alerts you when something you care about...\n• Auditing 6 Meta Ads MCP servers: tool count, schema bloat, and write safety: When you connect Claude Code, Cursor, or ChatGPT to a Meta Ads MCP server, three engineering questions matter immediately: How many tools does it dump...\n• Agentic Factory: Giving AI Agents Superpowers Without Giving Them the Keys: AI coding agents have become ridiculously capable.\n• Same call, three files: 1249x925, 780x493, and 324 bytes: Same call, three files: 1249x925, 780x493, and 324 bytes The call is browser_take_screenshot with scale: \"css\" and nothing else.\n• Try Belcore's long-term memory from any MCP client (Claude Desktop, Cursor) in two minutes: If your tool speaks MCP, you can try Belcore's memory and emotion-state chat without writing any code.",
   "summarySource": "fallback"
 }
